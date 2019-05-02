@@ -9,7 +9,7 @@ const download = require('download')
 const pAll = require('p-all')
 const fs = require('fs-extra')
 
-const ENDPOINT = 'https://meta.microlink.io'
+const ENDPOINT = 'https://microlink-meta-git-master.microlink.now.sh'
 
 const TEXT = {
   sdk: 'Microlink SDK',
