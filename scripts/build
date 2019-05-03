@@ -17,7 +17,8 @@ const TEXT = {
   api: 'Microlink API',
   mql: 'Microlink Query Language',
   chat: 'Microlink Chat',
-  docs: 'Microlink Docs'
+  docs: 'Microlink Docs',
+  cli: 'Microlink CLI'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
