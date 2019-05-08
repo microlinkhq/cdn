@@ -18,7 +18,8 @@ const TEXT = {
   mql: 'Microlink Query Language',
   chat: 'Microlink Chat',
   docs: 'Microlink Docs',
-  cli: 'Microlink CLI'
+  cli: 'Microlink CLI',
+  html: 'Microlink HTML'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
