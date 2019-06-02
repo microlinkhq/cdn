@@ -23,6 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@microlink/demo-links": "latest",
     "calc-percent": "latest",
     "conventional-github-releaser": "latest",
     "debug-logfmt": "latest",
