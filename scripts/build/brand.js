@@ -30,7 +30,7 @@ module.exports = async ({ task, endpoint, concurrency }) => {
         })
 
         const metaUrl = `${endpoint}/.${fileType}?${queryParams}`
-        const dist = `dist/meta/${name.toLocaleLowerCase()}.${fileType}`
+        const dist = `dist/brand/${name.toLocaleLowerCase()}.${fileType}`
 
         return () => {
           const increment = ++index / concurrency

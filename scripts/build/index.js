@@ -3,7 +3,7 @@
 const Listr = require('listr')
 
 const buildBanner = require('./banner')
-const buildMeta = require('./meta')
+const buildBrand = require('./brand')
 
 const OPTIONS = { endpoint: 'https://meta.microlink.io', concurrency: 2 }
 
@@ -14,8 +14,8 @@ const tasks = new Listr(
       task: (ctx, task) => buildBanner({ ...OPTIONS, task })
     },
     {
-      title: 'Build Meta',
-      task: (ctx, task) => buildMeta({ ...OPTIONS, task })
+      title: 'Build Brands',
+      task: (ctx, task) => buildBrand({ ...OPTIONS, task })
     }
   ],
   {
