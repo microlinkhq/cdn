@@ -10,7 +10,15 @@ const { writeFile } = require('./util')
 
 const PAGES = {
   home: 'https://microlink.io',
-  docs: 'https://microlink.io/docs',
+  'docs/sdk': 'https://microlink.io/docs/sdk/getting-started/overview',
+  'docs/mql': 'https://microlink.io/docs/mql/getting-started/overview',
+  'docs/api': 'https://microlink.io/docs/api/getting-started/overview',
+  embed: 'https://microlink.io/embed',
+  chat: 'https://microlink.io/chat',
+  privacy: 'https://microlink.io/privacy',
+  tos: 'https://microlink.io/tos',
+  design: 'https://microlink.io/design',
+  styleguide: 'https://microlink.io/styleguide',
   pricing: 'https://microlink.io/#pricing',
   blog: 'https://microlink.io/blog'
 }
