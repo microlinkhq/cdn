@@ -20,10 +20,16 @@
     "cdn",
     "microlink"
   ],
+  "dependencies": {
+    "capture-website": "~0.4.0",
+    "sharp": "~0.22.1",
+    "unique-random-array": "~2.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@microlink/demo-links": "latest",
+    "browserless": "latest",
     "calc-percent": "latest",
     "conventional-github-releaser": "latest",
     "debug-logfmt": "latest",
@@ -38,6 +44,7 @@
     "lodash": "latest",
     "p-all": "latest",
     "prettier-standard": "latest",
+    "puppeteer": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
     "standard-version": "latest"
