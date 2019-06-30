@@ -1,12 +1,12 @@
 'use strict'
 
 const uniqueRandomArray = require('unique-random-array')
-const browserless = require('browserless')()
 const calcPercent = require('calc-percent')
+const mql = require('@microlink/mql')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
-const { writeFile } = require('./util')
+const { downloadFile } = require('./util')
 
 const PAGES = {
   home: 'https://microlink.io',
@@ -42,12 +42,16 @@ module.exports = async ({ task, endpoint, concurrency }) => {
           const increment = ++index / concurrency
           const percent = calcPercent(increment, total, { suffix: '%' })
           task.output = `(${percent}) ${increment} of ${total} ${name}`
-          const buffer = await browserless.screenshot(url, {
-            removeElements: ['.crisp-client', '#cookies-policy'],
-            overlay: { color },
-            type: fileType
+
+          const { data } = await mql(url, {
+            hide: ['.crisp-client', '#cookies-policy'],
+            endpoint: 'http://localhost:3000',
+            screenshot: true,
+            type: fileType,
+            background: color
           })
-          return writeFile(dist, buffer)
+
+          return downloadFile(data.screenshot.url, dist)
         }
       })
 
