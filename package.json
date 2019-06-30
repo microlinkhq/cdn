@@ -3,6 +3,9 @@
   "description": "Static Content Delivery Network for Microlink folks assets",
   "homepage": "https://nicedoc.io/microlinkhq/microlink-cdn",
   "version": "0.0.0",
+  "bin": {
+    "microlink-cdn": "bin/index.js"
+  },
   "author": {
     "email": "hello@microlink.io",
     "name": "microlink.io",
@@ -22,6 +25,7 @@
   ],
   "dependencies": {
     "@microlink/mql": "~0.3.13",
+    "meow": "~5.0.0",
     "unique-random-array": "~2.0.0"
   },
   "devDependencies": {
@@ -39,7 +43,7 @@
     "husky": "latest",
     "lint-staged": "latest",
     "listr": "latest",
-    "lodash": "latest",
+    "lodash": "~4.17.11",
     "p-all": "latest",
     "prettier-standard": "latest",
     "puppeteer": "latest",

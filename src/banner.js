@@ -20,7 +20,7 @@ const TEXT = {
 
 const FILE_TYPES = ['png', 'jpeg']
 
-module.exports = async ({ task, endpoint, concurrency }) => {
+module.exports = async ({ task, concurrency }) => {
   const total = Object.keys(TEXT).length
   let index = 0
   const downloadFiles = reduce(
@@ -34,7 +34,7 @@ module.exports = async ({ task, endpoint, concurrency }) => {
           images: 'https://cdn.microlink.io/logo/logo.svg'
         })
 
-        const url = `${endpoint}/${text}.${fileType}?${queryParams}`
+        const url = `https://meta.microlink.io/${text}.${fileType}?${queryParams}`
         const dist = `dist/banner/${name}.${fileType}`
 
         return () => {
