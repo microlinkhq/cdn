@@ -29,7 +29,7 @@ const randColor = uniqueRandomArray(COLORS)
 
 const FILE_TYPES = ['png', 'jpeg']
 
-module.exports = async ({ task, endpoint, concurrency }) => {
+module.exports = async ({ task, concurrency }) => {
   const total = Object.keys(PAGES).length
   let index = 0
   const takeScreenshots = reduce(

@@ -11,7 +11,7 @@ const { downloadFile } = require('./util')
 
 const FILE_TYPES = ['png', 'jpeg']
 
-module.exports = async ({ task, endpoint, concurrency }) => {
+module.exports = async ({ task, concurrency }) => {
   const total = Object.keys(demoLinks).length
   let index = 0
   const downloadFiles = reduce(
@@ -29,7 +29,7 @@ module.exports = async ({ task, endpoint, concurrency }) => {
           ]
         })
 
-        const metaUrl = `${endpoint}/.${fileType}?${queryParams}`
+        const metaUrl = `https://meta.microlink.io/.${fileType}?${queryParams}`
         const dist = `dist/brand/${name.toLocaleLowerCase()}.${fileType}`
 
         return () => {
