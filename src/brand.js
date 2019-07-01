@@ -1,7 +1,6 @@
 'use strict'
 
 const demoLinks = require('@microlink/demo-links')
-const calcPercent = require('calc-percent')
 const querystring = require('querystring')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
@@ -33,9 +32,7 @@ module.exports = async ({ task, concurrency }) => {
         const dist = `dist/brand/${name.toLocaleLowerCase()}.${fileType}`
 
         return () => {
-          const increment = ++index / concurrency
-          const percent = calcPercent(increment, total, { suffix: '%' })
-          task.output = `(${percent}) ${increment} of ${total} ${name}`
+          task.setProgress(name, ++index, total)
           return downloadFile(metaUrl, dist)
         }
       })
@@ -45,5 +42,5 @@ module.exports = async ({ task, concurrency }) => {
     []
   )
 
-  await pAll(downloadFiles, { concurrency: 2 })
+  await pAll(downloadFiles, { concurrency })
 }

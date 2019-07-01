@@ -24,9 +24,9 @@
     "microlink"
   ],
   "dependencies": {
-    "@microlink/mql": "~0.3.13",
-    "meow": "~5.0.0",
-    "unique-random-array": "~2.0.0"
+    "browserless": "~5.8.1",
+    "cartesian": "~1.0.1",
+    "meow": "~5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",

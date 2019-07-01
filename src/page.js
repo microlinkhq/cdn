@@ -1,12 +1,11 @@
 'use strict'
 
 const uniqueRandomArray = require('unique-random-array')
-const calcPercent = require('calc-percent')
-const mql = require('@microlink/mql')
+const browserless = require('browserless')()
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
-const { downloadFile } = require('./util')
+const { writeFile } = require('./util')
 
 const PAGES = {
   home: 'https://microlink.io',
@@ -23,8 +22,25 @@ const PAGES = {
   blog: 'https://microlink.io/blog'
 }
 
-const COLORS = ['#F76698', '#EA407B', '#654EA3']
-
+const COLORS = [
+  'linear-gradient(225deg, #FF057C 0%, #8D0B93 50%, #321575 100%)',
+  'linear-gradient(225deg, #A445B2 0%, #D41872 52%, #FF0066 100%)',
+  'linear-gradient(225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)',
+  'linear-gradient(225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%)',
+  'linear-gradient(225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%)',
+  'linear-gradient(90deg, #495AFF 0%, #0ACFFE 100%)',
+  'linear-gradient(0deg, #6713D2 0%, #CC208E 100%)',
+  'linear-gradient(270deg, #EC8C69 0%, #ED6EA0 100%)',
+  'linear-gradient(0deg, #FE5196 0%, #F77062 100%)',
+  'linear-gradient(270deg, #F9D423 0%, #F83600 100%)',
+  'linear-gradient(270deg, #FE9A8B 0%, #FD868C 41%, #F9748F 73%, #F78CA0 100%)',
+  'linear-gradient(0deg, #6F86D6 0%, #48C6EF 100%)',
+  'linear-gradient(0deg, #FA71CD 0%, #C471F5 100%)',
+  'linear-gradient(270deg, #6A11CB 0%, #2575FC 100%)',
+  'linear-gradient(270deg, #B465DA 0%, #CF6CC9 28%, #EE609C 68%, #EE609C 100%)',
+  'linear-gradient(0deg, #330867 0%, #30CFD0 100%)',
+  'linear-gradient(270deg, #FEE140 0%, #FA709A 100%)'
+]
 const randColor = uniqueRandomArray(COLORS)
 
 const FILE_TYPES = ['png', 'jpeg']
@@ -39,19 +55,17 @@ module.exports = async ({ task, concurrency }) => {
       const files = FILE_TYPES.map(fileType => {
         const dist = `dist/page/${name}.${fileType}`
         return async () => {
-          const increment = ++index / concurrency
-          const percent = calcPercent(increment, total, { suffix: '%' })
-          task.output = `(${percent}) ${increment} of ${total} ${name}`
+          task.setProgress(name, ++index, total)
 
-          const { data } = await mql(url, {
+          const buffer = await browserless.screenshot(url, {
             hide: ['.crisp-client', '#cookies-policy'],
-            endpoint: 'http://localhost:3000',
-            screenshot: true,
             type: fileType,
-            background: color
+            overlay: {
+              background: color
+            }
           })
 
-          return downloadFile(data.screenshot.url, dist)
+          return writeFile(buffer, dist)
         }
       })
 
