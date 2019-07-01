@@ -1,14 +1,18 @@
+#!/usr/bin/env node
+
 'use strict'
 
-const Listr = require('listr')
+const calcPercent = require('calc-percent')
 const { reduce } = require('lodash')
+const Listr = require('listr')
 
 const pkg = require('../package.json')
 
 const TASKS = {
-  banners: require('../src/banner'),
-  brands: require('../src/brand'),
-  pages: require('../src/page')
+  banner: require('../src/banner'),
+  brand: require('../src/brand'),
+  page: require('../src/page'),
+  screenshot: require('../src/screenshot')
 }
 
 const cli = require('meow')({
@@ -16,35 +20,35 @@ const cli = require('meow')({
   flags: {
     concurrency: {
       default: 2
-    },
-    pages: {
-      type: 'boolean',
-      default: true
-    },
-    banners: {
-      type: 'boolean',
-      default: true
-    },
-    brands: {
-      type: 'boolean',
-      default: true
     }
   }
 })
 
-const tasks = reduce(
-  TASKS,
-  (acc, fn, key) => {
-    if (cli.flags[key]) {
-      acc.push({
-        title: key,
-        task: (ctx, task) => fn({ ...cli.flags, task })
-      })
-    }
-    return acc
-  },
-  []
-)
+const setProgress = (task, { concurrency }) => (name, index, total) => {
+  const increment = ++index / concurrency
+  const percent = calcPercent(increment, total, { suffix: '%' })
+  task.output = `(${percent}) ${increment} of ${total} ${name}`
+}
+
+const createTasks = flags =>
+  reduce(
+    TASKS,
+    (acc, fn, key) => {
+      if (flags[key] || flags.all) {
+        acc.push({
+          title: key,
+          task: (ctx, task) => {
+            task.setProgress = setProgress(task, flags)
+            return fn({ ...flags, task })
+          }
+        })
+      }
+      return acc
+    },
+    []
+  )
+
+const tasks = createTasks(cli.flags)
 
 const build = new Listr(tasks, {
   concurrent: true

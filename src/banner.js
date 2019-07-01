@@ -1,6 +1,5 @@
 'use strict'
 
-const calcPercent = require('calc-percent')
 const querystring = require('querystring')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
@@ -38,9 +37,7 @@ module.exports = async ({ task, concurrency }) => {
         const dist = `dist/banner/${name}.${fileType}`
 
         return () => {
-          const increment = ++index / concurrency
-          const percent = calcPercent(increment, total, { suffix: '%' })
-          task.output = `(${percent}) ${increment} of ${total} ${text}`
+          task.setProgress(name, ++index, total)
           return downloadFile(url, dist)
         }
       })
