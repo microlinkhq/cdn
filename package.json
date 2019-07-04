@@ -24,7 +24,7 @@
     "microlink"
   ],
   "dependencies": {
-    "browserless": "~5.8.1",
+    "browserless": "~5.8.3",
     "cartesian": "~1.0.1",
     "meow": "~5.0.0"
   },
