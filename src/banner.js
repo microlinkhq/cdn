@@ -14,6 +14,7 @@ const TEXT = {
   chat: 'Microlink Chat',
   docs: 'Microlink Docs',
   cli: 'Microlink CLI',
+  'mql-cli': 'MQL CLI',
   html: 'Microlink HTML'
 }
 
