@@ -13,6 +13,7 @@ const PAGES = {
   'docs/mql': 'https://microlink.io/docs/mql/getting-started/overview',
   'docs/api': 'https://microlink.io/docs/api/getting-started/overview',
   embed: 'https://microlink.io/embed',
+  screenshot: 'https://microlink.io/screenshot',
   chat: 'https://microlink.io/chat',
   privacy: 'https://microlink.io/privacy',
   tos: 'https://microlink.io/tos',
