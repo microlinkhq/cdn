@@ -24,15 +24,15 @@
     "microlink"
   ],
   "dependencies": {
-    "@microlink/demo-links": "~1.0.3",
-    "browserless": "~5.8.3",
+    "@microlink/demo-links": "~1.0.4",
+    "browserless": "~5.8.7",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "debug-logfmt": "~1.0.2",
     "download": "~7.1.0",
     "fs-extra": "~8.1.0",
     "listr": "~0.14.3",
-    "lodash": "~4.17.11",
+    "lodash": "~4.17.14",
     "meow": "~5.0.0",
     "p-all": "~2.1.0",
     "puppeteer": "~1.18.1",
