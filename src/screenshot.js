@@ -37,13 +37,16 @@ module.exports = async ({ task, concurrency }) => {
 
         return async () => {
           task.setProgress(name, ++index, total)
-          const buffer = await browserless.screenshot(url, {
-            waitFor: 3000,
-            disableAnimations: true,
-            type,
-            overlay: { browser },
-            ...demoLinkOpts
-          })
+          const buffer = await browserless.screenshot(
+            `https://microlink.io/screenshot?url=${url}`,
+            {
+              waitFor: 3000,
+              disableAnimations: true,
+              type,
+              overlay: { browser },
+              ...demoLinkOpts
+            }
+          )
           return writeFile(buffer, dist)
         }
       })
