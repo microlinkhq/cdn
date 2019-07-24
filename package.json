@@ -35,7 +35,7 @@
     "lodash": "~4.17.14",
     "meow": "~5.0.0",
     "p-all": "~2.1.0",
-    "puppeteer": "~1.18.1",
+    "puppeteer": "~1.19.0",
     "unique-random-array": "~2.0.0"
   },
   "devDependencies": {
