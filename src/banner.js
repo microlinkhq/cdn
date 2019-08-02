@@ -7,15 +7,16 @@ const pAll = require('p-all')
 const { downloadFile } = require('./util')
 
 const TEXT = {
-  sdk: 'Microlink SDK',
-  cdn: 'Microlink CDN',
   api: 'Microlink API',
-  mql: 'Microlink Query Language',
+  cdn: 'Microlink CDN',
   chat: 'Microlink Chat',
-  docs: 'Microlink Docs',
   cli: 'Microlink CLI',
+  docs: 'Microlink Docs',
+  html: 'Microlink HTML',
+  mql: 'Microlink Query Language',
   'mql-cli': 'MQL CLI',
-  html: 'Microlink HTML'
+  proxy: 'Microlink Proxy',
+  sdk: 'Microlink SDK'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
