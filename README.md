@@ -1,6 +1,6 @@
 ![](https://microlink-cdn.netlify.com/banner/cdn.png)
 
-Just a bit of automation for generating all the assets involved with [microlink.io](https://microlink.io).
+> Automation tool for generating all the assets involved in [microlink.io](https://microlink.io).
 
 ## License
 
