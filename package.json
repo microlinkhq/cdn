@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "@microlink/demo-links": "~1.0.4",
-    "browserless": "~5.9.0",
+    "browserless": "~5.10.2",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "debug-logfmt": "~1.0.2",
