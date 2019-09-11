@@ -32,23 +32,18 @@ module.exports = async ({ task, concurrency }) => {
     ]),
     (acc, { url, ...demoLinkOpts }, name) => {
       const files = fileOpts.map(({ type, browser }) => {
-        const dist = `dist/screenshot/${
+        const dist = `dist/embed/${
           browser ? `browser/${browser.split('-')[1]}/` : ''
         }${name.toLocaleLowerCase()}.${type}`
 
-        const opts = { waitFor: 3000 }
         const background = randomGradient()
 
         return async () => {
           task.setProgress(name, ++index, total)
           const buffer = await browserless.screenshot(
-            `https://microlink.io/screenshot?${stringify({
-              url,
-              ...opts,
-              ...browser
-            })}`,
+            `https://microlink.io/embed?${stringify({ url })}`,
             {
-              ...opts,
+              waitFor: 3000,
               disableAnimations: true,
               type,
               overlay: { browser, background },

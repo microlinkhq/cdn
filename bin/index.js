@@ -12,7 +12,8 @@ const TASKS = {
   banner: require('../src/banner'),
   brand: require('../src/brand'),
   page: require('../src/page'),
-  screenshot: require('../src/screenshot')
+  screenshot: require('../src/screenshot'),
+  embed: require('../src/embed')
 }
 
 const cli = require('meow')({
