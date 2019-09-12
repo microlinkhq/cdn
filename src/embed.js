@@ -3,8 +3,9 @@
 const demoLinks = require('@microlink/demo-links')
 const browserless = require('browserless')()
 const { stringify } = require('querystring')
-const { reduce, omit } = require('lodash')
+const beautyError = require('beauty-error')
 const cartesian = require('cartesian')
+const { reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
@@ -20,17 +21,7 @@ module.exports = async ({ task, concurrency }) => {
   let index = 0
 
   const downloadFiles = reduce(
-    omit(demoLinks, [
-      'Ars',
-      'Engadget',
-      'TheWashingtonPost',
-      'CNN',
-      'TED',
-      'Twitch',
-      'Vimeo',
-      'Twitter',
-      'Vimeo'
-    ]),
+    demoLinks,
     (acc, { url, ...demoLinkOpts }, name) => {
       const files = fileOpts.map(({ type, browser }) => {
         const dist = `dist/embed/${
@@ -38,20 +29,27 @@ module.exports = async ({ task, concurrency }) => {
         }${name.toLocaleLowerCase()}.${type}`
 
         const background = randomGradient()
+        let screenshotUrl
 
         return async () => {
-          task.setProgress(name, ++index, total)
-          const buffer = await browserless.screenshot(
-            `${websiteUrl}/embed?${stringify({ url })}`,
-            {
+          try {
+            task.setProgress(name, ++index, total)
+
+            screenshotUrl = `${websiteUrl}/embed?${stringify({ url })}`
+
+            const buffer = await browserless.screenshot(screenshotUrl, {
               waitFor: 3000,
               disableAnimations: true,
               type,
               overlay: { browser, background },
               ...demoLinkOpts
-            }
-          )
-          return writeFile(buffer, dist)
+            })
+            return writeFile(buffer, dist)
+          } catch (err) {
+            console.error(url)
+            console.log(screenshotUrl)
+            console.error(beautyError(err))
+          }
         }
       })
       return acc.concat(files)
