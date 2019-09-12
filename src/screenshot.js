@@ -2,8 +2,9 @@
 
 const demoLinks = require('@microlink/demo-links')
 const browserless = require('browserless')()
+const beautyError = require('beauty-error')
 const { stringify } = require('querystring')
-const { reduce, omit } = require('lodash')
+const { reduce } = require('lodash')
 const cartesian = require('cartesian')
 const pAll = require('p-all')
 
@@ -20,43 +21,43 @@ module.exports = async ({ task, concurrency }) => {
   let index = 0
 
   const downloadFiles = reduce(
-    omit(demoLinks, [
-      'Ars',
-      'Engadget',
-      'TheWashingtonPost',
-      'CNN',
-      'TED',
-      'Twitch',
-      'Vimeo',
-      'Twitter',
-      'Vimeo'
-    ]),
+    demoLinks,
     (acc, { url, ...demoLinkOpts }, name) => {
       const files = fileOpts.map(({ type, browser }) => {
+        const browserSkin =
+          typeof browser === 'string' ? browser.split('-')[1] : undefined
+
         const dist = `dist/screenshot/${
-          browser ? `browser/${browser.split('-')[1]}/` : ''
+          browserSkin ? `browser/${browserSkin}/` : ''
         }${name.toLocaleLowerCase()}.${type}`
 
-        const opts = { waitFor: 3000 }
+        const opts = { waitFor: 5000 }
         const background = randomGradient()
+        let screenshotUrl
 
         return async () => {
-          task.setProgress(name, ++index, total)
-          const buffer = await browserless.screenshot(
-            `${websiteUrl}/screenshot?${stringify({
+          try {
+            task.setProgress(name, ++index, total)
+
+            screenshotUrl = `${websiteUrl}/screenshot?${stringify({
               url,
-              ...opts,
-              ...browser
-            })}`,
-            {
+              browser: browserSkin
+            })}`
+
+            const buffer = await browserless.screenshot(screenshotUrl, {
               ...opts,
               disableAnimations: true,
               type,
+              waitUntil: ['load'],
               overlay: { browser, background },
               ...demoLinkOpts
-            }
-          )
-          return writeFile(buffer, dist)
+            })
+            return writeFile(buffer, dist)
+          } catch (err) {
+            console.error(url)
+            console.log(screenshotUrl)
+            console.error(beautyError(err))
+          }
         }
       })
       return acc.concat(files)
