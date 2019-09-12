@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "@microlink/demo-links": "~1.0.4",
+    "beauty-error": "~1.2.2",
     "browserless": "~5.11.2",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
@@ -63,7 +64,6 @@
     "clean": "rm -rf node_modules",
     "lint": "standard-markdown README.md && standard",
     "postrelease": "npm run release:tags && npm run release:github",
-    "precommit": "lint-staged",
     "prerelease": "git-dirty && npm run update:check && npm test && git-authors-cli",
     "pretest": "npm run lint",
     "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
@@ -86,19 +86,17 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "package.json": [
-        "finepack",
-        "git add"
-      ],
-      "*.js": [
-        "prettier-standard",
-        "git add"
-      ],
-      "*.md": [
-        "standard-markdown",
-        "git add"
-      ]
-    }
+    "package.json": [
+      "finepack",
+      "git add"
+    ],
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ],
+    "*.md": [
+      "standard-markdown",
+      "git add"
+    ]
   }
 }
