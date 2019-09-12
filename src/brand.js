@@ -7,6 +7,7 @@ const pAll = require('p-all')
 const { URL } = require('url')
 
 const { downloadFile } = require('./util')
+const { metaUrl, cdnUrl } = require('./constant')
 
 const FILE_TYPES = ['png', 'jpeg']
 
@@ -23,17 +24,17 @@ module.exports = async ({ task, concurrency }) => {
           md: '1',
           fontSize: '100px',
           images: [
-            'https://cdn.microlink.io/logo/logo.svg',
+            `${cdnUrl}/logo/logo.svg`,
             `https://logo.clearbit.com/${hostname}`
           ]
         })
 
-        const metaUrl = `https://meta.microlink.io/.${fileType}?${queryParams}`
+        const assetUrl = `${metaUrl}/.${fileType}?${queryParams}`
         const dist = `dist/brand/${name.toLocaleLowerCase()}.${fileType}`
 
         return () => {
           task.setProgress(name, ++index, total)
-          return downloadFile(metaUrl, dist)
+          return downloadFile(assetUrl, dist)
         }
       })
 

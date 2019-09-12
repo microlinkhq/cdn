@@ -5,21 +5,22 @@ const { reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
+const { websiteUrl } = require('./constant')
 
 const PAGES = {
-  home: 'https://microlink.io',
-  'docs/sdk': 'https://microlink.io/docs/sdk/getting-started/overview',
-  'docs/mql': 'https://microlink.io/docs/mql/getting-started/overview',
-  'docs/api': 'https://microlink.io/docs/api/getting-started/overview',
-  embed: 'https://microlink.io/embed',
-  screenshot: 'https://microlink.io/screenshot',
-  chat: 'https://microlink.io/chat',
-  privacy: 'https://microlink.io/privacy',
-  tos: 'https://microlink.io/tos',
-  design: 'https://microlink.io/design',
-  styleguide: 'https://microlink.io/styleguide',
-  pricing: 'https://microlink.io/#pricing',
-  blog: 'https://microlink.io/blog'
+  home: `${websiteUrl}`,
+  'docs/sdk': `${websiteUrl}/docs/sdk/getting-started/overview`,
+  'docs/mql': `${websiteUrl}/docs/mql/getting-started/overview`,
+  'docs/api': `${websiteUrl}/docs/api/getting-started/overview`,
+  embed: `${websiteUrl}/embed`,
+  screenshot: `${websiteUrl}/screenshot`,
+  chat: `${websiteUrl}/chat`,
+  privacy: `${websiteUrl}/privacy`,
+  tos: `${websiteUrl}/tos`,
+  design: `${websiteUrl}/design`,
+  styleguide: `${websiteUrl}/styleguide`,
+  pricing: `${websiteUrl}/#pricing'`,
+  blog: `${websiteUrl}/blog`
 }
 
 const FILE_TYPES = ['png', 'jpeg']

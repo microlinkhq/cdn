@@ -8,6 +8,7 @@ const cartesian = require('cartesian')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
+const { websiteUrl } = require('./constant')
 
 const fileOpts = cartesian({
   type: ['png'],
@@ -42,7 +43,7 @@ module.exports = async ({ task, concurrency }) => {
         return async () => {
           task.setProgress(name, ++index, total)
           const buffer = await browserless.screenshot(
-            `https://microlink.io/screenshot?${stringify({
+            `${websiteUrl}/screenshot?${stringify({
               url,
               ...opts,
               ...browser
