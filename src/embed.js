@@ -40,6 +40,7 @@ module.exports = async ({ task, concurrency }) => {
             const buffer = await browserless.screenshot(screenshotUrl, {
               waitFor: 3000,
               disableAnimations: true,
+              waitUntil: ['load'],
               type,
               overlay: { browser, background },
               ...demoLinkOpts
