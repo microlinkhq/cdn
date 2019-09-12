@@ -3,6 +3,7 @@
 'use strict'
 
 const calcPercent = require('calc-percent')
+const beautyError = require('beauty-error')
 const { reduce } = require('lodash')
 const Listr = require('listr')
 
@@ -57,10 +58,10 @@ const build = new Listr(tasks, {
 
 build
   .run()
-  .catch(err => {
-    console.error(err)
-    process.exit(1)
-  })
   .then(() => {
     process.exit()
+  })
+  .catch(err => {
+    console.error(beautyError(err))
+    process.exit(1)
   })
