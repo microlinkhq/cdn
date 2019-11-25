@@ -24,7 +24,7 @@
     "microlink"
   ],
   "dependencies": {
-    "@microlink/demo-links": "~1.0.6",
+    "@microlink/demo-links": "~1.0.8",
     "beauty-error": "~1.2.2",
     "browserless": "~5.18.1",
     "calc-percent": "~1.0.1",
