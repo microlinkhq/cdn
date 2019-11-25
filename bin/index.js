@@ -11,15 +11,16 @@ const pkg = require('../package.json')
 
 const TASKS = {
   banner: require('../src/banner'),
-  brand: require('../src/brand'),
+  embed: require('../src/embed'),
   page: require('../src/page'),
   screenshot: require('../src/screenshot'),
-  embed: require('../src/embed'),
   website: require('../src/website')
 }
 
 const cli = require('meow')({
   pkg,
+  description: false,
+  help: require('./help'),
   flags: {
     concurrency: {
       default: 2

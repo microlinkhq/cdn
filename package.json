@@ -29,6 +29,7 @@
     "browserless": "~5.18.1",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
+    "chalk": "~3.0.0",
     "debug-logfmt": "~1.0.4",
     "download": "~7.1.0",
     "fs-extra": "~8.1.0",
