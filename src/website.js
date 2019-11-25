@@ -11,7 +11,7 @@ const { writeFile } = require('./util')
 
 const fileOpts = cartesian({
   type: ['png'],
-  browser: [undefined, 'safari-dark', 'safari-light']
+  browser: [undefined, 'dark', 'light']
 })
 
 module.exports = async ({ task, concurrency }) => {
