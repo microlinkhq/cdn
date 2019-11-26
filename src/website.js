@@ -21,18 +21,19 @@ module.exports = async ({ task, concurrency }) => {
     demoLinks,
     (acc, { url, ...demoLinkOpts }, name) => {
       const files = fileOpts.map(({ type, browser }) => {
-        const browserSkin =
-          typeof browser === 'string' ? browser.split('-')[1] : undefined
-
+        const browserSkin = typeof browser === 'string' ? browser : undefined
+        const id = name.toLowerCase()
         const dist = `dist/website/${
           browserSkin ? `browser/${browserSkin}/` : ''
-        }${name.toLocaleLowerCase()}.${type}`
+        }${id}.${type}`
 
         return async () => {
           try {
             task.setProgress(name, ++index, total)
             const buffer = await browserless.screenshot(url, {
+              disableAnimations: true,
               type,
+              waitUntil: ['load', 'networkidle0'],
               overlay: { browser },
               ...demoLinkOpts
             })

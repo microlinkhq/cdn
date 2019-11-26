@@ -26,7 +26,7 @@ module.exports = async ({ task, concurrency }) => {
           task.setProgress(name, ++index, total)
           const buffer = await browserless.screenshot(screenshotUrl, {
             type,
-            waitUntil: ['networkidle0'],
+            waitUntil: ['load', 'networkidle0'],
             overlay: { background },
             ...demoLinkOpts
           })
