@@ -36,17 +36,21 @@ module.exports = async ({ task, concurrency }) => {
       const files = FILE_TYPES.map(fileType => {
         const dist = `dist/page/${name}.${fileType}`
         return async () => {
-          task.setProgress(name, ++index, total)
+          try {
+            task.setProgress(name, ++index, total)
 
-          const buffer = await browserless.screenshot(url, {
-            hide: ['.crisp-client', '#cookies-policy'],
-            waitFor: 5000,
-            type: fileType,
-            overlay: { background },
-            ...opts
-          })
+            const buffer = await browserless.screenshot(url, {
+              hide: ['.crisp-client', '#cookies-policy'],
+              waitFor: 8000,
+              type: fileType,
+              overlay: { background },
+              ...opts
+            })
 
-          return writeFile(buffer, dist)
+            return writeFile(buffer, dist)
+          } catch (err) {
+            console.log('URL Failed', url)
+          }
         }
       })
 
