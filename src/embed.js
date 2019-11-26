@@ -27,7 +27,7 @@ module.exports = async ({ task, concurrency }) => {
           const buffer = await browserless.screenshot(screenshotUrl, {
             type,
             waitFor: '#sdk',
-            waitUntil: ['networkidle0'],
+            waitUntil: ['load', 'networkidle0'],
             overlay: { background },
             ...demoLinkOpts
           })
