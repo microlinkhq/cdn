@@ -2,7 +2,6 @@
 
 const demoLinks = require('@microlink/demo-links')
 const browserless = require('browserless')()
-const beautyError = require('beauty-error')
 const cartesian = require('cartesian')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
@@ -33,15 +32,13 @@ module.exports = async ({ task, concurrency }) => {
           try {
             task.setProgress(name, ++index, total)
             const buffer = await browserless.screenshot(url, {
-              disableAnimations: true,
               type,
               overlay: { browser },
               ...demoLinkOpts
             })
             return writeFile(buffer, dist)
           } catch (err) {
-            console.error(url)
-            console.error(beautyError(err))
+            console.log('URL Failed', url)
           }
         }
       })
