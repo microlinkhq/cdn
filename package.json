@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "@microlink/demo-links": "~1.0.8",
+    "@microlink/mql": "~0.5.13",
     "beauty-error": "~1.2.3",
     "browserless": "~5.18.12",
     "calc-percent": "~1.0.1",
@@ -32,11 +33,13 @@
     "chalk": "~3.0.0",
     "debug-logfmt": "~1.0.4",
     "download": "~7.1.0",
+    "filenamify-url": "~2.1.0",
     "fs-extra": "~8.1.0",
     "listr": "~0.14.3",
     "lodash": "~4.17.15",
     "meow": "~6.0.0",
     "p-all": "~2.1.0",
+    "p-reflect": "~2.1.0",
     "puppeteer": "~2.0.0",
     "unique-random-array": "~2.0.0"
   },

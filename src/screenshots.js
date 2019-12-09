@@ -28,20 +28,16 @@ module.exports = async ({ task, concurrency }) => {
         }${id}.${type}`
 
         return async () => {
-          try {
-            task.setProgress(name, ++index, total)
-            const buffer = await browserless.screenshot(url, {
-              disableAnimations: true,
-              type,
-              waitUntil: ['load', 'networkidle0'],
-              omitBackground: false,
-              overlay: { browser },
-              ...demoLinkOpts
-            })
-            return writeFile(buffer, dist)
-          } catch (err) {
-            console.log('URL Failed', url)
-          }
+          task.setProgress(id, ++index, total)
+          const buffer = await browserless.screenshot(url, {
+            disableAnimations: true,
+            type,
+            waitUntil: ['load', 'networkidle0'],
+            omitBackground: false,
+            overlay: { browser },
+            ...demoLinkOpts
+          })
+          return writeFile(buffer, dist)
         }
       })
       return acc.concat(files)
