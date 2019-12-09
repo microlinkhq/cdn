@@ -1,0 +1,35 @@
+{
+  "title": "Meditative Snow Monkeys",
+  "description": "Enjoy a moment of Zen with Japanese macaques (or snow monkeys) as they soak in natural hot springs.",
+  "lang": "en",
+  "author": "Meditative Snow Monkeys",
+  "publisher": "Facebook Watch",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/scontent-lga3-1.xx.fbcdn.net!v!t15.5256-10!p200x200!14694173_10154032640148951_491265175429578752_n.",
+    "type": "jpg",
+    "size": 9664,
+    "size_pretty": "9.66 kB"
+  },
+  "audio": {
+    "url": "https://video-lga3-1.xx.fbcdn.net/v/t42.1790-2/14845217_10154032640598951_4467150078175346688_n.mp4?_nc_cat=107&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfdjNfMjU2X2NyZl8yM19tYWluXzMuMF9mcmFnXzJfYXVkaW8ifQ==&_nc_ohc=JwnjOkJplToAQlLgPlZRR3bfPlA-PBqtYFZI4Z0yzskDDkMEvF50SxjVw&_nc_ht=video-lga3-1.xx&oh=28ce10076f2809f7ee4b01046eaa00ea&oe=5DEEB598",
+    "type": "mp4",
+    "size": 367340,
+    "size_pretty": "367 kB"
+  },
+  "url": "https://www.facebook.com/natgeo/videos/10156364216738951/",
+  "date": "2019-12-09T16:18:55.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/logo.clearbit.com!facebook.com.png",
+    "type": "png",
+    "size": 1379,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "1.38 kB"
+  },
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/video-lga3-1.xx.fbcdn.net!v!t42.1790-2!14854183_175888539534834_2965041070909423616_n.mp4!_nc_cat=10",
+    "type": "mp4",
+    "size": 1195571,
+    "size_pretty": "1.2 MB"
+  }
+}

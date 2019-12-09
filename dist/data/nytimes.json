@@ -1,0 +1,25 @@
+{
+  "title": "Ada Lovelace, Mathematician Who Wrote the First Computer Program",
+  "description": "Lovelace thought of math and logic as creative and imaginative, and her writings about computing in the mid-1800s earned her recognition as the first computer programmer.",
+  "lang": "en",
+  "author": "Claire Cain Miller",
+  "publisher": "nytimes.com",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/static01.nyt.com!images!2018!03!19!obituaries!19lovelace-obit!00overlooked-images-slide-FRJU-faceboo",
+    "type": "jpg",
+    "size": 151721,
+    "height": 549,
+    "width": 1050,
+    "size_pretty": "152 kB"
+  },
+  "url": "https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html",
+  "date": "2019-12-09T16:19:25.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/logo.clearbit.com!nytimes.com.png",
+    "type": "png",
+    "size": 3110,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "3.11 kB"
+  }
+}

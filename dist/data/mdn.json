@@ -1,0 +1,25 @@
+{
+  "title": "Array.prototype.some()",
+  "description": "The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.",
+  "lang": "en",
+  "author": null,
+  "publisher": "MDN Web Docs",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/developer.mozilla.org!en-US!docs!Web!JavaScript!Reference!Global_Objects!Array!some/developer.mozilla.org!static!img!opengraph-logo.72382e605ce3.png.png",
+    "type": "png",
+    "size": 3806,
+    "height": 600,
+    "width": 600,
+    "size_pretty": "3.81 kB"
+  },
+  "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
+  "date": "2019-12-09T16:19:20.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/developer.mozilla.org!en-US!docs!Web!JavaScript!Reference!Global_Objects!Array!some/logo.clearbit.com!mozilla.org.png",
+    "type": "png",
+    "size": 1834,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "1.83 kB"
+  }
+}

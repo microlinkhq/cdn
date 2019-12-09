@@ -1,0 +1,35 @@
+{
+  "title": "Wind turbines powered by passing traffic.",
+  "description": "Join the fun convo with 9GAG community",
+  "lang": "en",
+  "author": null,
+  "publisher": "9GAG",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/9gag.com!gag!aMZ1WbW/images-cdn.9gag.com!photo!aMZ1WbW_700b.jpg.jpg",
+    "type": "jpg",
+    "size": 55211,
+    "height": 640,
+    "width": 640,
+    "size_pretty": "55.2 kB"
+  },
+  "url": "https://9gag.com/gag/aMZ1WbW",
+  "date": "2018-10-18T06:39:17.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/9gag.com!gag!aMZ1WbW/logo.clearbit.com!9gag.com.png",
+    "type": "png",
+    "size": 2180,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "2.18 kB"
+  },
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/9gag.com!gag!aMZ1WbW/img-9gag-fun.9cache.com!photo!aMZ1WbW_460sv.mp4.mp4",
+    "type": "mp4",
+    "duration": 28.434,
+    "size": 2010229,
+    "height": 460,
+    "width": 460,
+    "duration_pretty": "28s",
+    "size_pretty": "2.01 MB"
+  }
+}

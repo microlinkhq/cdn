@@ -1,0 +1,35 @@
+{
+  "title": "jesus fuck - Streamable",
+  "description": "Check out this video on Streamable using your phone, tablet or desktop.",
+  "lang": "en",
+  "author": null,
+  "publisher": "Streamable",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!image!46ont.jpg!expires=1575912180.jpg&token=uax870zsf6yCheMaJvfenw",
+    "type": "jpg",
+    "size": 183575,
+    "height": 1080,
+    "width": 1920,
+    "size_pretty": "184 kB"
+  },
+  "url": "https://streamable.com/46ont",
+  "date": "2019-12-09T16:19:06.874Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/statics.streamable.com!static!favicon.ico.ico",
+    "type": "ico",
+    "size": 5430,
+    "height": 16,
+    "width": 16,
+    "size_pretty": "5.43 kB"
+  },
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!video!mp4!46ont.mp4!expires=1575915540.mp4&token=ZmsDsC-PCuS_JdB0-w6JTg",
+    "type": "mp4",
+    "duration": 44.562,
+    "size": 40659092,
+    "height": 720,
+    "width": 1280,
+    "duration_pretty": "45s",
+    "size_pretty": "40.7 MB"
+  }
+}

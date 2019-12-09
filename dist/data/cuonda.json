@@ -1,0 +1,33 @@
+{
+  "title": "Satélites góticos — mixx.io",
+  "description": "Starlink añade modo oscuro a sus satélites / El lanzamiento de Stadia va a ser un jaleo / El Mate 30 llega vacío / El Pixel 4 sorprende para bien y para mal",
+  "lang": "en",
+  "author": null,
+  "publisher": "Cuonda",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/cuonda.com!mixxio!satelites-goticos/cuonda.com!storage!podcasts!1!1179741!image.png.png",
+    "type": "png",
+    "size": 154790,
+    "height": 409,
+    "width": 409,
+    "size_pretty": "155 kB"
+  },
+  "audio": {
+    "url": "https://storage.cuonda.com/storage/podcasts/1/1179741/episode.mp3",
+    "type": "mp3",
+    "duration": 724.37551,
+    "size": 10169824,
+    "duration_pretty": "12m",
+    "size_pretty": "10.2 MB"
+  },
+  "url": "https://cuonda.com/mixxio/satelites-goticos",
+  "date": "2019-12-09T16:20:20.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/cuonda.com!mixxio!satelites-goticos/logo.clearbit.com!cuonda.com.png",
+    "type": "png",
+    "size": 6617,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "6.62 kB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Bob Dylan - Wikipedia",
+  "description": "This article is about the musician. For his debut album, see Bob Dylan (album).",
+  "lang": "en",
+  "author": "Contributors to Wikimedia projects",
+  "publisher": "Wikimedia Foundation, Inc.",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!thumb!0!02!Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg!1200px",
+    "type": "jpg",
+    "size": 268195,
+    "height": 1600,
+    "width": 1200,
+    "size_pretty": "268 kB"
+  },
+  "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
+  "date": "2019-12-08T14:20:23.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/wikimedia.org!static!images!wmf-hor-googpub.png.png",
+    "type": "png",
+    "size": 4012,
+    "height": 60,
+    "width": 260,
+    "size_pretty": "4.01 kB"
+  },
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!transcoded!4!4e!Sara_Danius_announces_the_Nobel_Prize_in_Lite",
+    "type": "matroska,webm",
+    "size": 16671232,
+    "height": 480,
+    "width": 854,
+    "size_pretty": "16.7 MB"
+  }
+}

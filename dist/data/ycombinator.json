@@ -1,0 +1,27 @@
+{
+  "title": "Announcing the first SHA-1 collision | Hacker News",
+  "description": "The visual description of the colliding files, at http://shattered.io/static/pdf_format.png, is not very helpful in understanding how they produced the PDFs, so I took apart the PDFs and worked it out.Basically, each PDF contains a single large (421,385-byte) JPG image, followed by a few PDF command…",
+  "lang": "en",
+  "author": null,
+  "publisher": "ycombinator.com",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/news.ycombinator.com!item!id=13713480/news.ycombinator.com!y18.gif.gif",
+    "type": "gif",
+    "duration": 0.1,
+    "size": 100,
+    "height": 18,
+    "width": 18,
+    "duration_pretty": "100ms",
+    "size_pretty": "100 B"
+  },
+  "url": "https://news.ycombinator.com/item?id=13713480",
+  "date": "2019-12-09T16:18:43.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/news.ycombinator.com!item!id=13713480/logo.clearbit.com!ycombinator.com.png",
+    "type": "png",
+    "size": 3909,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "3.91 kB"
+  }
+}

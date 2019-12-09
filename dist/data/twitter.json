@@ -1,0 +1,35 @@
+{
+  "title": "Futurism on Twitter",
+  "description": "“These tires can even climb stairs https://t.co/ymr4KK15oI”",
+  "lang": "en",
+  "author": "futurism",
+  "publisher": "Twitter",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/twitter.com!futurism!status!882987478541533189/pbs.twimg.com!amplify_video_thumb!882986340605939712!img!k-NlEfo7z0Xvo9ab.jpg.jpg",
+    "type": "jpg",
+    "size": 65648,
+    "height": 720,
+    "width": 720,
+    "size_pretty": "65.6 kB"
+  },
+  "url": "https://twitter.com/futurism/status/882987478541533189",
+  "date": "2019-12-09T16:19:55.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/twitter.com!futurism!status!882987478541533189/logo.clearbit.com!twitter.com.png",
+    "type": "png",
+    "size": 2089,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "2.09 kB"
+  },
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/twitter.com!futurism!status!882987478541533189/video.twimg.com!amplify_video!882986340605939712!vid!720x720!1Vn9i-z2JFABEmiN.mp4.mp4",
+    "type": "mp4",
+    "duration": 83.264,
+    "size": 13319166,
+    "height": 720,
+    "width": 720,
+    "duration_pretty": "1m",
+    "size_pretty": "13.3 MB"
+  }
+}
