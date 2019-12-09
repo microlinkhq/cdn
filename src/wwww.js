@@ -34,7 +34,7 @@ module.exports = async ({ task, concurrency }) => {
     (acc, { url, ...opts }, name) => {
       const background = randomGradient()
       const files = FILE_TYPES.map(fileType => {
-        const dist = `dist/page/${name}.${fileType}`
+        const dist = `dist/www/${name}.${fileType}`
         return async () => {
           try {
             task.setProgress(name, ++index, total)
