@@ -22,19 +22,15 @@ module.exports = async ({ task, concurrency }) => {
       const screenshotUrl = `${websiteUrl}/www/embed/${id}`
 
       const fn = async () => {
-        try {
-          task.setProgress(name, ++index, total)
-          const buffer = await browserless.screenshot(screenshotUrl, {
-            type,
-            waitFor: '#sdk',
-            waitUntil: ['load', 'networkidle0'],
-            overlay: { background },
-            ...demoLinkOpts
-          })
-          return writeFile(buffer, dist)
-        } catch (err) {
-          console.log('URL Failed', url, screenshotUrl)
-        }
+        task.setProgress(id, ++index, total)
+        const buffer = await browserless.screenshot(screenshotUrl, {
+          type,
+          waitFor: '#sdk',
+          waitUntil: ['load', 'networkidle0'],
+          overlay: { background },
+          ...demoLinkOpts
+        })
+        return writeFile(buffer, dist)
       }
       return [...acc, fn]
     },
