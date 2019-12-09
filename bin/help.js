@@ -9,15 +9,16 @@ Usage
   ${gray('$ microlink-cdn [flags]')}
 
 Flags
-  ${gray('--all           Regenerate all assets.')}
-  ${gray('--banner        Create banner assets used on READMEs')}
+  ${gray('--all             Regenerate all assets.')}
+  ${gray("--banner          Create banner assets used on README's.")}
+  ${gray('--screenshots     Create demo links screenshots.')}
+  ${gray('--www             Create specific page screenshots.')}
   ${gray(
-    '--embed         Create `microlink.io/embed` previews for demo links.'
+    '--www-embed       Create `microlink.io/embed` previews for demo links.'
   )}
   ${gray(
-    '--screenshot    Create `microlink.io/screenshot` previews for demo links.'
+    '--www-screenshot  Create `microlink.io/screenshot` previews for demo links.'
   )}
-  ${gray('--page          Create specific page screenshots.')}
-  ${gray('--website       Create demo links screenshots.')}
-  ${gray('--concurrency   Adjust concurrency level [default=2].')}
+
+  ${gray('--concurrency     Adjust concurrency level [default=2].')}
 `

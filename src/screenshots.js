@@ -23,7 +23,7 @@ module.exports = async ({ task, concurrency }) => {
       const files = fileOpts.map(({ type, browser }) => {
         const browserSkin = typeof browser === 'string' ? browser : undefined
         const id = name.toLowerCase()
-        const dist = `dist/website/${
+        const dist = `dist/screenshot/${
           browserSkin ? `browser/${browserSkin}/` : ''
         }${id}.${type}`
 
@@ -34,6 +34,7 @@ module.exports = async ({ task, concurrency }) => {
               disableAnimations: true,
               type,
               waitUntil: ['load', 'networkidle0'],
+              omitBackground: false,
               overlay: { browser },
               ...demoLinkOpts
             })

@@ -2,7 +2,7 @@
 
 const demoLinks = require('@microlink/demo-links')
 const browserless = require('browserless')()
-const { reduce, size } = require('lodash')
+const { size, reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
@@ -17,16 +17,15 @@ module.exports = async ({ task, concurrency }) => {
     (acc, { url, ...demoLinkOpts }, name) => {
       const type = 'png'
       const id = name.toLowerCase()
-      const dist = `dist/embed/${id}.${type}`
+      const dist = `dist/screenshot/${id}.${type}`
       const background = randomGradient()
-      const screenshotUrl = `${websiteUrl}/embed/${id}`
+      const screenshotUrl = `${websiteUrl}/www/screenshot/${id}`
 
       const fn = async () => {
         try {
           task.setProgress(name, ++index, total)
           const buffer = await browserless.screenshot(screenshotUrl, {
             type,
-            waitFor: '#sdk',
             waitUntil: ['load', 'networkidle0'],
             overlay: { background },
             ...demoLinkOpts

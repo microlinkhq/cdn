@@ -26,7 +26,7 @@
   "dependencies": {
     "@microlink/demo-links": "~1.0.8",
     "beauty-error": "~1.2.3",
-    "browserless": "~5.18.1",
+    "browserless": "~5.18.12",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "chalk": "~3.0.0",

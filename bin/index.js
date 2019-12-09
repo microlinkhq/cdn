@@ -11,10 +11,10 @@ const pkg = require('../package.json')
 
 const TASKS = {
   banner: require('../src/banner'),
-  embed: require('../src/embed'),
-  page: require('../src/page'),
-  screenshot: require('../src/screenshot'),
-  website: require('../src/website')
+  page: require('../src/wwww'),
+  screenshots: require('../src/screenshots'),
+  'www-screenshots': require('../src/www-screenshots'),
+  'www-embed': require('../src/www-embed')
 }
 
 const cli = require('meow')({
@@ -23,7 +23,7 @@ const cli = require('meow')({
   help: require('./help'),
   flags: {
     concurrency: {
-      default: 2
+      default: 3
     }
   }
 })
