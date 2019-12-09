@@ -1,0 +1,33 @@
+{
+  "title": "Format",
+  "description": "Format, a song by _91nova on Spotify",
+  "lang": "en",
+  "author": "_91nova",
+  "publisher": "Spotify",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/open.spotify.com!track!1W2919zs8SBCLTrOB1ftQT/i.scdn.co!image!ab67616d0000b27351b9595d03c3a8fb3ffe9f1a.jpg",
+    "type": "jpg",
+    "size": 88064,
+    "height": 640,
+    "width": 640,
+    "size_pretty": "88.1 kB"
+  },
+  "audio": {
+    "url": "https://p.scdn.co/mp3-preview/f36438afe87418f2dc0b7497eb5e7e5fa89e6bf8?cid=6313d40896f64a2ead4f67035049a647",
+    "type": "mp3",
+    "duration": 30.040816,
+    "size": 362861,
+    "duration_pretty": "30s",
+    "size_pretty": "363 kB"
+  },
+  "url": "https://open.spotify.com/track/1W2919zs8SBCLTrOB1ftQT",
+  "date": "2019-12-09T16:19:37.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/open.spotify.com!track!1W2919zs8SBCLTrOB1ftQT/logo.clearbit.com!spotify.com.png",
+    "type": "png",
+    "size": 12871,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "12.9 kB"
+  }
+}

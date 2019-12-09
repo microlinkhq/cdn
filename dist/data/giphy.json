@@ -1,0 +1,23 @@
+{
+  "title": "giphy.gif",
+  "description": null,
+  "lang": "en",
+  "author": null,
+  "publisher": "giphy.com",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif.gif",
+    "type": "gif",
+    "size": 1811764,
+    "size_pretty": "1.81 MB"
+  },
+  "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif",
+  "date": "2019-12-09T16:18:35.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/logo.clearbit.com!giphy.com.png",
+    "type": "png",
+    "size": 15379,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "15.4 kB"
+  }
+}

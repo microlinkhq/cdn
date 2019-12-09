@@ -1,0 +1,25 @@
+{
+  "title": "Music",
+  "description": "Stream 60 million songs, ad-free on Apple Music. Shop HomePod, AirPods, and headphones. And build your entertainment collection with iPod and iTunes.",
+  "lang": "en",
+  "author": null,
+  "publisher": "Apple",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/apple.com!music/apple.com!v!music!k!images!meta!og__cqehjfdvsy2q_image.png!201912021927.png=",
+    "type": "png",
+    "size": 551014,
+    "height": 630,
+    "width": 1200,
+    "size_pretty": "551 kB"
+  },
+  "url": "https://www.apple.com/music/",
+  "date": "2019-12-09T16:18:33.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/apple.com!music/logo.clearbit.com!apple.com.png",
+    "type": "png",
+    "size": 2799,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "2.8 kB"
+  }
+}

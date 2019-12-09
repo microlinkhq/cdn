@@ -1,0 +1,25 @@
+{
+  "title": "substack/stream-handbook",
+  "description": "how to write node programs with streams. Contribute to substack/stream-handbook development by creating an account on GitHub.",
+  "lang": "en",
+  "author": "substack",
+  "publisher": "GitHub",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/github.com!substack!stream-handbook/avatars3.githubusercontent.com!u!12631!s=400&v=4.jpg",
+    "type": "jpg",
+    "size": 35450,
+    "height": 400,
+    "width": 400,
+    "size_pretty": "35.5 kB"
+  },
+  "url": "https://github.com/substack/stream-handbook",
+  "date": "2019-12-09T16:19:13.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/github.com!substack!stream-handbook/logo.clearbit.com!github.com.png",
+    "type": "png",
+    "size": 6313,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "6.31 kB"
+  }
+}

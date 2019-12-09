@@ -1,0 +1,33 @@
+{
+  "title": "Episodio 9 “Los mandamientos” (?)",
+  "description": "Links:<br /><br />The Mother Of All Demos: <br />https://www.youtube.com/watch?v=yJDv-zdhzMY<br /><br />The Future Of Programming (Bret Victor):<br />https://www.youtube.com/watch?v=8pTEmbeENF4<br /><br />Bret Victor:<br />https://twitter.com/worrydream<br /><br />Java Concurrency In Practice:<br />…",
+  "lang": "en",
+  "author": "Sin Humo",
+  "publisher": "castbox.fm",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo!782427!782427-1531334842268-19e527dff2",
+    "type": "jpg",
+    "size": 687971,
+    "height": 3000,
+    "width": 3000,
+    "size_pretty": "688 kB"
+  },
+  "audio": {
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-7-21/4189766-44100-2-5ee445a4d241.mp3",
+    "type": "mp3",
+    "duration": 2871.170667,
+    "size": 68912192,
+    "duration_pretty": "48m",
+    "size_pretty": "68.9 MB"
+  },
+  "url": "https://castbox.fm/episode/Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408",
+  "date": "2019-12-09T16:20:30.000Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/logo.clearbit.com!castbox.fm.png",
+    "type": "png",
+    "size": 5990,
+    "height": 47,
+    "width": 128,
+    "size_pretty": "5.99 kB"
+  }
+}
