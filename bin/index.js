@@ -12,7 +12,6 @@ const pkg = require('../package.json')
 
 const TASKS = {
   banner: require('../src/banner'),
-  page: require('../src/'),
   screenshots: require('../src/screenshots'),
   data: require('../src/data'),
   'www-screenshots': require('../src/www-screenshots'),
