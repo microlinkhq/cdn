@@ -5,23 +5,23 @@ const { reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
-const { websiteUrl } = require('./constant')
+const { WWW_URL } = require('./env')
 
 const PAGES = {
-  home: { url: websiteUrl },
-  'docs/sdk': { url: `${websiteUrl}/docs/sdk/getting-started/overview` },
-  'docs/mql': { url: `${websiteUrl}/docs/mql/getting-started/overview` },
-  'docs/api': { url: `${websiteUrl}/docs/api/getting-started/overview` },
-  embed: { url: `${websiteUrl}/embed` },
-  screenshot: { url: `${websiteUrl}/screenshot` },
-  chat: { url: `${websiteUrl}/chat` },
-  privacy: { url: `${websiteUrl}/privacy` },
-  tos: { url: `${websiteUrl}/tos` },
-  design: { url: `${websiteUrl}/design` },
-  status: { url: `${websiteUrl}/status` },
-  styleguide: { url: `${websiteUrl}/styleguide` },
-  pricing: { url: websiteUrl, scrollTo: '#pricing' },
-  blog: { url: `${websiteUrl}/blog` }
+  home: { url: WWW_URL },
+  'docs/sdk': { url: `${WWW_URL}/docs/sdk/getting-started/overview` },
+  'docs/mql': { url: `${WWW_URL}/docs/mql/getting-started/overview` },
+  'docs/api': { url: `${WWW_URL}/docs/api/getting-started/overview` },
+  embed: { url: `${WWW_URL}/embed` },
+  screenshot: { url: `${WWW_URL}/screenshot` },
+  chat: { url: `${WWW_URL}/chat` },
+  privacy: { url: `${WWW_URL}/privacy` },
+  tos: { url: `${WWW_URL}/tos` },
+  design: { url: `${WWW_URL}/design` },
+  status: { url: `${WWW_URL}/status` },
+  styleguide: { url: `${WWW_URL}/styleguide` },
+  pricing: { url: WWW_URL, scrollTo: '#pricing' },
+  blog: { url: `${WWW_URL}/blog` }
 }
 
 const FILE_TYPES = ['png', 'jpeg']

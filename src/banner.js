@@ -4,7 +4,7 @@ const querystring = require('querystring')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
-const { metaUrl, cdnUrl } = require('./constant')
+const { META_URL, CDN_URL } = require('./env')
 const { downloadFile } = require('./util')
 
 const TEXT = {
@@ -33,10 +33,10 @@ module.exports = async ({ task, concurrency }) => {
           theme: 'light',
           md: '1',
           fontSize: '100px',
-          images: `${cdnUrl}/logo/logo.svg`
+          images: `${CDN_URL}/logo/logo.svg`
         })
 
-        const url = `${metaUrl}/${text}.${fileType}?${queryParams}`
+        const url = `${META_URL}/${text}.${fileType}?${queryParams}`
         const dist = `dist/banner/${name}.${fileType}`
 
         return () => {

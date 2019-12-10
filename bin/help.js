@@ -11,6 +11,7 @@ Usage
 Flags
   ${gray('--all             Regenerate all assets.')}
   ${gray("--banner          Create banner assets used on README's.")}
+  ${gray('--data            data files from demo links.')}
   ${gray('--screenshots     Create demo links screenshots.')}
   ${gray('--www             Create specific page screenshots.')}
   ${gray(

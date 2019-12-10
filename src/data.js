@@ -8,9 +8,8 @@ const download = require('download')
 const pAll = require('p-all')
 const path = require('path')
 
+const { CDN_URL, MICROLINK_API_KEY } = require('./env')
 const { writeFile } = require('./util')
-
-const { SITE_URL = 'https://cdn.microlink.io', MICROLINK_API_KEY } = process.env
 
 const API_MEDIA_PROPS = ['logo', 'screenshot', 'video', 'image']
 
@@ -30,7 +29,7 @@ const toMapLocalAsset = data => {
       const propValue = get(data, propName)
       if (propValue) {
         const { filepath } = getMediaAssetPath(data, propName)
-        const url = `${SITE_URL}${filepath}`
+        const url = `${CDN_URL}${filepath}`
         acc[propName] = { ...propValue, url }
       }
       return acc
@@ -61,6 +60,7 @@ const toDownload = async data => {
 
 module.exports = async ({ task, concurrency }) => {
   const total = Object.keys(demoLinks).length
+  const buffer = []
   let index = 0
 
   const downloadLink = ({ url, ...props }, name) => {
@@ -73,11 +73,14 @@ module.exports = async ({ task, concurrency }) => {
         apiKey: MICROLINK_API_KEY,
         retry: 2,
         force: true,
+        palette: true,
+        iframe: true,
         ...props
       })
       if (!rawData.lang) rawData.lang = 'en'
       await toDownload(rawData)
       const data = toMapLocalAsset(rawData)
+      buffer.push({ id, data })
       return writeFile(JSON.stringify(data, null, 2), dist)
     }
   }
@@ -85,4 +88,5 @@ module.exports = async ({ task, concurrency }) => {
   const links = map(demoLinks, downloadLink)
 
   await pAll(links, { concurrency })
+  await writeFile(JSON.stringify(buffer, null, 2), 'dist/data/all.json')
 }

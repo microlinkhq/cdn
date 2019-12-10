@@ -6,7 +6,7 @@ const { size, reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
-const { websiteUrl } = require('./constant')
+const { WWW_URL } = require('./env')
 
 module.exports = async ({ task, concurrency }) => {
   const total = size(demoLinks)
@@ -19,7 +19,7 @@ module.exports = async ({ task, concurrency }) => {
       const id = name.toLowerCase()
       const dist = `dist/screenshot/${id}.${type}`
       const background = randomGradient()
-      const screenshotUrl = `${websiteUrl}/www/screenshot/${id}`
+      const screenshotUrl = `${WWW_URL}/www/screenshot/${id}`
 
       const fn = async () => {
         task.setProgress(id, ++index, total)
