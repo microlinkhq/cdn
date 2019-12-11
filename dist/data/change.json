@@ -5,21 +5,44 @@
   "author": "Thaddeus Sharpe started this petition to The Walt Disney Company",
   "publisher": "Change.org",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/change.org!p!disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert/assets.change.org!photos!2!an!bx!eoANbXtPSTzsvGD-800x450-noPad.jpg!1530523154.jpg=",
+    "url": "https://cdn.microlink.io/data/assets/change.org!p!disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert/assets.change.org!photos!2!an!bx!eoANbXtPSTzsvGD-800x450-noPad.jpg!1530523154=.jpg",
     "type": "jpg",
     "size": 35994,
     "height": 360,
     "width": 640,
-    "size_pretty": "36 kB"
+    "size_pretty": "36 kB",
+    "palette": [
+      "#3453AC",
+      "#7372E6",
+      "#162C68",
+      "#A05BB0",
+      "#99AEBC",
+      "#5C3360"
+    ],
+    "background_color": "#3453AC",
+    "color": "#FBFBFE",
+    "alternative_color": "#EDDFF0"
   },
   "url": "https://www.change.org/p/disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert",
-  "date": "2019-12-09T16:18:43.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:00:58.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/change.org!p!disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert/logo.clearbit.com!change.org.png",
     "type": "png",
     "size": 5930,
     "height": 128,
     "width": 128,
-    "size_pretty": "5.93 kB"
+    "size_pretty": "5.93 kB",
+    "palette": [
+      "#EC2C24",
+      "#F0948C",
+      "#7A0F0A",
+      "#8C110C",
+      "#871B11",
+      "#8C110C"
+    ],
+    "background_color": "#EC2C24",
+    "color": "#250503",
+    "alternative_color": "#200604"
   }
 }

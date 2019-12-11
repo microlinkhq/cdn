@@ -10,16 +10,39 @@
     "size": 111600,
     "height": 619,
     "width": 1100,
-    "size_pretty": "112 kB"
+    "size_pretty": "112 kB",
+    "palette": [
+      "#5176AD",
+      "#A5B7D4",
+      "#24344C",
+      "#697EA8",
+      "#9C938C",
+      "#2C3C4E"
+    ],
+    "background_color": "#5176AD",
+    "color": "#FEFEFF",
+    "alternative_color": "#FFFFFF"
   },
   "url": "https://www.cnn.com/2019/02/13/africa/kenya-rare-black-leopard-black-panther/index.html",
-  "date": "2019-12-09T16:18:46.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:01:00.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/cnn.com!2019!02!13!africa!kenya-rare-black-leopard-black-panther!index.html/logo.clearbit.com!cnn.com.png",
     "type": "png",
     "size": 4470,
     "height": 128,
     "width": 128,
-    "size_pretty": "4.47 kB"
+    "size_pretty": "4.47 kB",
+    "palette": [
+      "#CC1414",
+      "#EC9E9F",
+      "#CC141C",
+      "#8B0D0D",
+      "#7F191A",
+      "#8B0D13"
+    ],
+    "background_color": "#CC1414",
+    "color": "#FEF7F8",
+    "alternative_color": "#030000"
   }
 }

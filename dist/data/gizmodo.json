@@ -5,23 +5,44 @@
   "author": null,
   "publisher": "Gizmodo",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/i.kinja-img.com!gawker-media!image!upload!c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_12",
+    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/i.kinja-img.com!gawker-media!image!upload!c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_12.gif",
     "type": "gif",
     "duration": 0.13,
     "size": 601018,
     "height": 675,
     "width": 1200,
     "duration_pretty": "130ms",
-    "size_pretty": "601 kB"
+    "size_pretty": "601 kB",
+    "palette": [
+      "#9B8363",
+      "#CBBEAE",
+      "#504433",
+      "#8B7E68",
+      "#CDC1B1",
+      "#514742"
+    ],
+    "background_color": "#9B8363",
+    "color": "#1F1C17",
+    "alternative_color": "#241F17"
   },
   "url": "https://gizmodo.com/drone-video-of-border-wall-prototypes-accidentally-show-1819710328",
+  "iframe": null,
   "date": "2017-10-20T19:16:10.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/x.kinja-static.com!assets!images!logos!newsletter!gizmodo-500px.png.png",
     "type": "png",
-    "size": 8904,
-    "height": 72,
-    "width": 500,
-    "size_pretty": "8.9 kB"
+    "size": 1371,
+    "size_pretty": "1.37 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#4C4C4C",
+      "#4C4C4C",
+      "#040404"
+    ],
+    "background_color": "#BCBCBC",
+    "color": "#040404",
+    "alternative_color": "#424242"
   }
 }

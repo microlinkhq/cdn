@@ -5,25 +5,48 @@
   "author": "Contributors to Wikimedia projects",
   "publisher": "Wikimedia Foundation, Inc.",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!thumb!0!02!Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg!1200px",
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!thumb!0!02!Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg!1200px.jpg",
     "type": "jpg",
     "size": 268195,
     "height": 1600,
     "width": 1200,
-    "size_pretty": "268 kB"
+    "size_pretty": "268 kB",
+    "palette": [
+      "#4C2C94",
+      "#ECCC9C",
+      "#571D0B",
+      "#986161",
+      "#CBB5AA",
+      "#53312A"
+    ],
+    "background_color": "#ECCC9C",
+    "color": "#4C2C94",
+    "alternative_color": "#571D0B"
   },
   "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
-  "date": "2019-12-08T14:20:23.000Z",
+  "iframe": null,
+  "date": "2019-12-10T15:38:09.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/wikimedia.org!static!images!wmf-hor-googpub.png.png",
     "type": "png",
     "size": 4012,
     "height": 60,
     "width": 260,
-    "size_pretty": "4.01 kB"
+    "size_pretty": "4.01 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#4C4C4C",
+      "#4C4C4C",
+      "#040404"
+    ],
+    "background_color": "#BCBCBC",
+    "color": "#040404",
+    "alternative_color": "#424242"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!transcoded!4!4e!Sara_Danius_announces_the_Nobel_Prize_in_Lite",
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!transcoded!4!4e!Sara_Danius_announces_the_Nobel_Prize_in_Lite.matroska,webm",
     "type": "matroska,webm",
     "size": 16671232,
     "height": 480,

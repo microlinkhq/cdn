@@ -5,21 +5,42 @@
   "author": null,
   "publisher": "Lifehacker",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/lifehacker.com!how-to-cancel-your-gym-membership-1832629564/i.kinja-img.com!gawker-media!image!upload!c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_12",
+    "url": "https://cdn.microlink.io/data/assets/lifehacker.com!how-to-cancel-your-gym-membership-1832629564/i.kinja-img.com!gawker-media!image!upload!c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_12.jpg",
     "type": "jpg",
     "size": 138919,
     "height": 675,
     "width": 1200,
-    "size_pretty": "139 kB"
+    "size_pretty": "139 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#7C7C7C",
+      "#B9B9B9",
+      "#444444"
+    ],
+    "background_color": "#7F7F7F",
+    "color": "#141414",
+    "alternative_color": "#151515"
   },
   "url": "https://lifehacker.com/how-to-cancel-your-gym-membership-1832629564",
+  "iframe": null,
   "date": "2019-02-14T22:00:02.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/lifehacker.com!how-to-cancel-your-gym-membership-1832629564/x.kinja-static.com!assets!images!logos!newsletter!lifehacker-500px.png.png",
     "type": "png",
-    "size": 14060,
-    "height": 124,
-    "width": 500,
-    "size_pretty": "14.1 kB"
+    "size": 2149,
+    "size_pretty": "2.15 kB",
+    "palette": [
+      "#94B334",
+      "#CFE198",
+      "#84B424",
+      "#627622",
+      "#627622",
+      "#5D7F19"
+    ],
+    "background_color": "#94B334",
+    "color": "#2A390B",
+    "alternative_color": "#2F400D"
   }
 }

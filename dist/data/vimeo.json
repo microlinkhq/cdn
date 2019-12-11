@@ -1,33 +1,49 @@
 {
-  "title": "186386161",
-  "description": "Past meets present is the main concept of the new Converse collection.\nInspired by a particular environment each sneaker get transformed from the original retro version to a totally brand new one.\nCREDITS\nClient: Converse USA\nAgency: Anomaly NYC\nDirection: Serial Cut\nArt Direction: Serial Cut\nAnimat…",
+  "title": "Converse All Star Modern - Director’s Cut",
+  "description": "Past meets present is the main concept of the new Converse collection. Inspired by a particular environment each sneaker get transformed from the original retro…",
   "lang": "en",
   "author": "pleid",
-  "publisher": "vimeo.com",
+  "publisher": "Vimeo",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/i.vimeocdn.com!filter!overlay!src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F596415462_1280x720.jpg&src",
-    "type": "overlay",
+    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/i.vimeocdn.com!filter!overlay!src0=https!i.vimeocdn.com!video!596415462_1280x720.jpg&src1=https!f.vi.jpg",
+    "type": "jpg",
     "size": 39169,
-    "size_pretty": "39.2 kB"
+    "height": 720,
+    "width": 1280,
+    "size_pretty": "39.2 kB",
+    "palette": [
+      "#9E6039",
+      "#EBD6B9",
+      "#4E220E",
+      "#A3724F",
+      "#CCBCA9",
+      "#554029"
+    ],
+    "background_color": "#EBD6B9",
+    "color": "#4E220E",
+    "alternative_color": "#824F2F"
   },
   "url": "https://vimeo.com/186386161",
-  "date": "2016-10-11T04:53:31.000Z",
+  "iframe": "<iframe src=\"https://player.vimeo.com/video/186386161?app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Converse All Star Modern - Director&amp;#039;s Cut\"></iframe>",
+  "date": "2019-12-11T04:05:56.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/logo.clearbit.com!vimeo.com.png",
     "type": "png",
     "size": 4308,
     "height": 128,
     "width": 128,
-    "size_pretty": "4.31 kB"
+    "size_pretty": "4.31 kB",
+    "palette": [
+      "#04ACEC",
+      "#76D4F4",
+      "#025F82",
+      "#026D96",
+      "#0B6C8D",
+      "#026D96"
+    ],
+    "background_color": "#04ACEC",
+    "color": "#013C52",
+    "alternative_color": "#063C4F"
   },
-  "video": {
-    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/gcs-vimeo.akamaized.net!exp=1575912301~acl=!%2F874172450.mp4!~hmac=2117b262bf385802ea326a4a6157c0cec",
-    "type": "mp4",
-    "duration": 15.04,
-    "size": 6976278,
-    "height": 1080,
-    "width": 1920,
-    "duration_pretty": "15s",
-    "size_pretty": "6.98 MB"
-  }
+  "video": null
 }

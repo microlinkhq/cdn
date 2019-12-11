@@ -10,16 +10,39 @@
     "size": 247635,
     "height": 1024,
     "width": 768,
-    "size_pretty": "248 kB"
+    "size_pretty": "248 kB",
+    "palette": [
+      "#C4C045",
+      "#89B2F4",
+      "#999722",
+      "#A37B57",
+      "#94ADC2",
+      "#564439"
+    ],
+    "background_color": "#C4C045",
+    "color": "#464510",
+    "alternative_color": "#0D3D8A"
   },
   "url": "https://www.flickr.com/photos/68166820@N08/46358385844/",
-  "date": "2019-12-09T16:18:56.611Z",
+  "iframe": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/68166820@N08/46358385844/\" title=\"Egyptian Museum, Cario, Egypt by cattan2011, on Flickr\"><img src=\"https://live.staticflickr.com/7922/46358385844_288223a7e3_b.jpg\" width=\"768\" height=\"1024\" alt=\"Egyptian Museum, Cario, Egypt\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+  "date": "2019-12-11T14:01:12.590Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/flickr.com!photos!68166820@N08!46358385844/logo.clearbit.com!flickr.com.png",
     "type": "png",
     "size": 6296,
     "height": 128,
     "width": 128,
-    "size_pretty": "6.3 kB"
+    "size_pretty": "6.3 kB",
+    "palette": [
+      "#FC178D",
+      "#F17CB9",
+      "#820144",
+      "#97014E",
+      "#C0CEE0",
+      "#97014E"
+    ],
+    "background_color": "#FC178D",
+    "color": "#3B001F",
+    "alternative_color": "#3F0021"
   }
 }

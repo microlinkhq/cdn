@@ -10,16 +10,39 @@
     "size": 946928,
     "height": 1993,
     "width": 3000,
-    "size_pretty": "947 kB"
+    "size_pretty": "947 kB",
+    "palette": [
+      "#4C84BC",
+      "#D7BDA1",
+      "#844C0C",
+      "#907760",
+      "#DCCABE",
+      "#364857"
+    ],
+    "background_color": "#4C84BC",
+    "color": "#231403",
+    "alternative_color": "#FFFFFF"
   },
   "url": "https://www.nasa.gov/feature/goddard/2018/update-on-the-hubble-space-telescope-safe-mode/",
-  "date": "2019-12-09T16:19:27.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:01:36.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/nasa.gov!feature!goddard!2018!update-on-the-hubble-space-telescope-safe-mode/logo.clearbit.com!nasa.gov.png",
     "type": "png",
     "size": 9477,
     "height": 128,
     "width": 128,
-    "size_pretty": "9.48 kB"
+    "size_pretty": "9.48 kB",
+    "palette": [
+      "#245CA4",
+      "#EC848C",
+      "#2B62AC",
+      "#545894",
+      "#CCACBC",
+      "#644C84"
+    ],
+    "background_color": "#245CA4",
+    "color": "#E0EAF7",
+    "alternative_color": "#FBE6E8"
   }
 }

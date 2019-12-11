@@ -10,7 +10,18 @@
     "size": 154790,
     "height": 409,
     "width": 409,
-    "size_pretty": "155 kB"
+    "size_pretty": "155 kB",
+    "palette": [
+      "#FC6C64",
+      "#FC847C",
+      "#820902",
+      "#960A02",
+      "#FCFCF9",
+      "#960A02"
+    ],
+    "background_color": "#FC6C64",
+    "color": "#6B0701",
+    "alternative_color": "#670902"
   },
   "audio": {
     "url": "https://storage.cuonda.com/storage/podcasts/1/1179741/episode.mp3",
@@ -21,13 +32,25 @@
     "size_pretty": "10.2 MB"
   },
   "url": "https://cuonda.com/mixxio/satelites-goticos",
-  "date": "2019-12-09T16:20:20.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:02:27.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/cuonda.com!mixxio!satelites-goticos/logo.clearbit.com!cuonda.com.png",
     "type": "png",
     "size": 6617,
     "height": 128,
     "width": 128,
-    "size_pretty": "6.62 kB"
+    "size_pretty": "6.62 kB",
+    "palette": [
+      "#EC443C",
+      "#EC9494",
+      "#78100B",
+      "#8B130D",
+      "#811717",
+      "#8B130D"
+    ],
+    "background_color": "#EC443C",
+    "color": "#350705",
+    "alternative_color": "#390805"
   }
 }

@@ -5,14 +5,26 @@
   "author": null,
   "publisher": "netflix.com",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/netflix.com!title!80057281/occ-0-448-2705.1.nflxso.net!dnm!api!v6!E8vDc_W8CLv7-yMQu8KMEC7Rrr8!AAAABVQ3r-RD5ggW7SMOGIC0ATHOhcyr_",
+    "url": "https://cdn.microlink.io/data/assets/netflix.com!title!80057281/occ-0-1001-999.1.nflxso.net!dnm!api!v6!E8vDc_W8CLv7-yMQu8KMEC7Rrr8!AAAABVQ3r-RD5ggW7SMOGIC0ATHOhcyr_.jpg",
     "type": "jpg",
     "size": 298000,
     "height": 720,
     "width": 1280,
-    "size_pretty": "298 kB"
+    "size_pretty": "298 kB",
+    "palette": [
+      "#AC1426",
+      "#F18894",
+      "#715F07",
+      "#649BAB",
+      "#B69691",
+      "#684C41"
+    ],
+    "background_color": "#AC1426",
+    "color": "#FBD9DD",
+    "alternative_color": "#F0CB13"
   },
   "url": "https://www.netflix.com/title/80057281",
+  "iframe": null,
   "date": "2016-07-15T00:00:00.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/netflix.com!title!80057281/logo.clearbit.com!netflix.com.png",
@@ -20,6 +32,17 @@
     "size": 3598,
     "height": 128,
     "width": 128,
-    "size_pretty": "3.6 kB"
+    "size_pretty": "3.6 kB",
+    "palette": [
+      "#E30C14",
+      "#F88185",
+      "#88040C",
+      "#91070C",
+      "#91070C",
+      "#040404"
+    ],
+    "background_color": "#F88185",
+    "color": "#73060A",
+    "alternative_color": "#79060A"
   }
 }

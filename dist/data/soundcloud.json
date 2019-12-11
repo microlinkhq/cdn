@@ -8,17 +8,40 @@
     "url": "https://cdn.microlink.io/data/assets/soundcloud.com!beautybrainsp!beauty-brain-swag-bandicoot/i1.sndcdn.com!artworks-000069142357-nwttc6-t500x500.jpg.jpg",
     "type": "jpg",
     "size": 160051,
-    "size_pretty": "160 kB"
+    "height": 500,
+    "width": 500,
+    "size_pretty": "160 kB",
+    "palette": [
+      "#E20404",
+      "#F4DB7A",
+      "#802515",
+      "#AD8F74",
+      "#ACC4BD",
+      "#373E52"
+    ],
+    "background_color": "#F4DB7A",
+    "color": "#C40303",
+    "alternative_color": "#802515"
   },
   "audio": null,
   "url": "https://soundcloud.com/beautybrainsp/beauty-brain-swag-bandicoot",
-  "date": "2019-12-09T16:19:32.000Z",
+  "iframe": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F131653594&show_artwork=true\"></iframe>",
+  "date": "2019-12-11T14:01:40.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/soundcloud.com!beautybrainsp!beauty-brain-swag-bandicoot/logo.clearbit.com!soundcloud.com.png",
     "type": "png",
-    "size": 4952,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "4.95 kB"
+    "size": 4338,
+    "size_pretty": "4.34 kB",
+    "palette": [
+      "#FC5404",
+      "#FCA47C",
+      "#832B01",
+      "#973101",
+      "#953103",
+      "#973101"
+    ],
+    "background_color": "#FC5404",
+    "color": "#431600",
+    "alternative_color": "#431601"
   }
 }

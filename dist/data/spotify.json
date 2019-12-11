@@ -10,10 +10,21 @@
     "size": 88064,
     "height": 640,
     "width": 640,
-    "size_pretty": "88.1 kB"
+    "size_pretty": "88.1 kB",
+    "palette": [
+      "#BB437F",
+      "#DB9DBC",
+      "#642444",
+      "#816694",
+      "#B8B6B8",
+      "#4C2F2C"
+    ],
+    "background_color": "#BB437F",
+    "color": "#FFFFFF",
+    "alternative_color": "#060204"
   },
   "audio": {
-    "url": "https://p.scdn.co/mp3-preview/f36438afe87418f2dc0b7497eb5e7e5fa89e6bf8?cid=6313d40896f64a2ead4f67035049a647",
+    "url": "https://p.scdn.co/mp3-preview/f36438afe87418f2dc0b7497eb5e7e5fa89e6bf8?cid=162b7dc01f3a4a2ca32ed3cec83d1e02",
     "type": "mp3",
     "duration": 30.040816,
     "size": 362861,
@@ -21,13 +32,25 @@
     "size_pretty": "363 kB"
   },
   "url": "https://open.spotify.com/track/1W2919zs8SBCLTrOB1ftQT",
-  "date": "2019-12-09T16:19:37.000Z",
+  "iframe": "<iframe width=\"300\" height=\"380\" allowtransparency=\"true\" frameborder=\"0\" allow=\"encrypted-media\" title=\"Spotify Embed: Format\" src=\"https://open.spotify.com/embed/track/1W2919zs8SBCLTrOB1ftQT?si=4PcqgjH5RlWCvB5q4ukdnw\"></iframe>",
+  "date": "2019-12-11T14:01:41.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/open.spotify.com!track!1W2919zs8SBCLTrOB1ftQT/logo.clearbit.com!spotify.com.png",
     "type": "png",
     "size": 12871,
     "height": 128,
     "width": 128,
-    "size_pretty": "12.9 kB"
+    "size_pretty": "12.9 kB",
+    "palette": [
+      "#1CD464",
+      "#8CECAC",
+      "#0F7537",
+      "#11873F",
+      "#F9FCFA",
+      "#11873F"
+    ],
+    "background_color": "#8CECAC",
+    "color": "#0E6C33",
+    "alternative_color": "#0D6830"
   }
 }

@@ -10,17 +10,40 @@
     "size": 65648,
     "height": 720,
     "width": 720,
-    "size_pretty": "65.6 kB"
+    "size_pretty": "65.6 kB",
+    "palette": [
+      "#4CACFC",
+      "#44ACFA",
+      "#040D14",
+      "#6E91B8",
+      "#BFC2C6",
+      "#3D3D48"
+    ],
+    "background_color": "#040D14",
+    "color": "#44ACFA",
+    "alternative_color": "#4CACFC"
   },
   "url": "https://twitter.com/futurism/status/882987478541533189",
-  "date": "2019-12-09T16:19:55.000Z",
+  "iframe": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">These tires can even climb stairs <a href=\"https://t.co/ymr4KK15oI\">pic.twitter.com/ymr4KK15oI</a></p>&mdash; Futurism (@futurism) <a href=\"https://twitter.com/futurism/status/882987478541533189?ref_src=twsrc%5Etfw\">July 6, 2017</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+  "date": "2019-12-11T14:02:04.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/twitter.com!futurism!status!882987478541533189/logo.clearbit.com!twitter.com.png",
     "type": "png",
     "size": 2089,
     "height": 128,
     "width": 128,
-    "size_pretty": "2.09 kB"
+    "size_pretty": "2.09 kB",
+    "palette": [
+      "#1CA4F4",
+      "#8CD4FC",
+      "#06517E",
+      "#075E91",
+      "#036195",
+      "#075E91"
+    ],
+    "background_color": "#1CA4F4",
+    "color": "#02324D",
+    "alternative_color": "#04334E"
   },
   "video": {
     "url": "https://cdn.microlink.io/data/assets/twitter.com!futurism!status!882987478541533189/video.twimg.com!amplify_video!882986340605939712!vid!720x720!1Vn9i-z2JFABEmiN.mp4.mp4",

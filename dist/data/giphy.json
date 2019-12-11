@@ -7,17 +7,44 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif.gif",
     "type": "gif",
+    "duration": 3.99,
     "size": 1811764,
-    "size_pretty": "1.81 MB"
+    "height": 270,
+    "width": 480,
+    "duration_pretty": "4s",
+    "size_pretty": "1.81 MB",
+    "palette": [
+      "#7E7C82",
+      "#BCBBBE",
+      "#414043",
+      "#807C84",
+      "#B3B2B5",
+      "#48484A"
+    ],
+    "background_color": "#7E7C82",
+    "color": "#FFFFFF",
+    "alternative_color": "#121213"
   },
   "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif",
-  "date": "2019-12-09T16:18:35.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:00:52.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/logo.clearbit.com!giphy.com.png",
     "type": "png",
     "size": 15379,
     "height": 128,
     "width": 128,
-    "size_pretty": "15.4 kB"
+    "size_pretty": "15.4 kB",
+    "palette": [
+      "#04CCFC",
+      "#FCF484",
+      "#0C8654",
+      "#9F6D4A",
+      "#D49C9C",
+      "#614430"
+    ],
+    "background_color": "#FCF484",
+    "color": "#026F89",
+    "alternative_color": "#0B7D4E"
   }
 }

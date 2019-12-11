@@ -5,14 +5,26 @@
   "author": "Daniel Oberhaus",
   "publisher": "Vice",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/vice.com!en_us!article!ywxjvg!steel-ball-control-dreams-dormio-mit-hypnagogia/video-images.vice.com!articles!5ada59e9b1e922000633eb19!lede!1524491359677-2.jpeg!crop=1xw%3A1xh%3Bc",
+    "url": "https://cdn.microlink.io/data/assets/vice.com!en_us!article!ywxjvg!steel-ball-control-dreams-dormio-mit-hypnagogia/video-images.vice.com!articles!5ada59e9b1e922000633eb19!lede!1524491359677-2.jpeg!crop=1xw!1xh;cente.jpg",
     "type": "jpg",
     "size": 75057,
     "height": 675,
     "width": 1200,
-    "size_pretty": "75.1 kB"
+    "size_pretty": "75.1 kB",
+    "palette": [
+      "#3C54F4",
+      "#8AB8F4",
+      "#0C2089",
+      "#081990",
+      "#0D448B",
+      "#0C208C"
+    ],
+    "background_color": "#3C54F4",
+    "color": "#000107",
+    "alternative_color": "#000105"
   },
   "url": "https://www.vice.com/en_us/article/ywxjvg/steel-ball-control-dreams-dormio-mit-hypnagogia",
+  "iframe": null,
   "date": "2018-04-23T13:30:00.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/vice.com!en_us!article!ywxjvg!steel-ball-control-dreams-dormio-mit-hypnagogia/logo.clearbit.com!vice.com.png",
@@ -20,6 +32,17 @@
     "size": 3620,
     "height": 41,
     "width": 128,
-    "size_pretty": "3.62 kB"
+    "size_pretty": "3.62 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#848484",
+      "#BCBCBC",
+      "#444444"
+    ],
+    "background_color": "#7F7F7F",
+    "color": "#141414",
+    "alternative_color": "#151515"
   }
 }

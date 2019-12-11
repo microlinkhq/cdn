@@ -12,16 +12,39 @@
     "height": 18,
     "width": 18,
     "duration_pretty": "100ms",
-    "size_pretty": "100 B"
+    "size_pretty": "100 B",
+    "palette": [
+      "#FC6404",
+      "#FCA46C",
+      "#833301",
+      "#973B01",
+      "#953C03",
+      "#973B01"
+    ],
+    "background_color": "#FC6404",
+    "color": "#4D1E01",
+    "alternative_color": "#4C1F02"
   },
   "url": "https://news.ycombinator.com/item?id=13713480",
-  "date": "2019-12-09T16:18:43.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:00:56.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/news.ycombinator.com!item!id=13713480/logo.clearbit.com!ycombinator.com.png",
     "type": "png",
     "size": 3909,
     "height": 128,
     "width": 128,
-    "size_pretty": "3.91 kB"
+    "size_pretty": "3.91 kB",
+    "palette": [
+      "#F46424",
+      "#F4B48C",
+      "#7E2B06",
+      "#913107",
+      "#8B3D0D",
+      "#913107"
+    ],
+    "background_color": "#F46424",
+    "color": "#4E1A04",
+    "alternative_color": "#482007"
   }
 }

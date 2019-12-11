@@ -5,29 +5,38 @@
   "author": "Meditative Snow Monkeys",
   "publisher": "Facebook Watch",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/scontent-lga3-1.xx.fbcdn.net!v!t15.5256-10!p200x200!14694173_10154032640148951_491265175429578752_n.",
-    "type": "jpg",
-    "size": 9664,
-    "size_pretty": "9.66 kB"
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/scontent-lga3-1.xx.fbcdn.net!v!t15.5256-10!p200x200!14694173_10154032640148951_491265175429578752_n."
   },
   "audio": {
-    "url": "https://video-lga3-1.xx.fbcdn.net/v/t42.1790-2/14845217_10154032640598951_4467150078175346688_n.mp4?_nc_cat=107&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfdjNfMjU2X2NyZl8yM19tYWluXzMuMF9mcmFnXzJfYXVkaW8ifQ==&_nc_ohc=JwnjOkJplToAQlLgPlZRR3bfPlA-PBqtYFZI4Z0yzskDDkMEvF50SxjVw&_nc_ht=video-lga3-1.xx&oh=28ce10076f2809f7ee4b01046eaa00ea&oe=5DEEB598",
+    "url": "https://video-lga3-1.xx.fbcdn.net/v/t42.1790-2/14848314_10154032640858951_3482997269060386816_n.mp4?_nc_cat=101&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfdjNfNDI2X2NyZl8yM19tYWluXzMuMF9mcmFnXzJfYXVkaW8ifQ==&_nc_ohc=-WiB8y-pKY8AQn0XT99eKI7ld9rnGsZ_KNM6q003U3wPnS1prS0InXFrw&_nc_ht=video-lga3-1.xx&oh=e433631c6d67b2d2a71db60a8b9617ee&oe=5DF126C0",
     "type": "mp4",
     "size": 367340,
     "size_pretty": "367 kB"
   },
   "url": "https://www.facebook.com/natgeo/videos/10156364216738951/",
-  "date": "2019-12-09T16:18:55.000Z",
+  "iframe": "<div id=\"fb-root\"></div>\n<script async=\"1\" defer=\"1\" crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0\"></script><div class=\"fb-post\" data-href=\"https://www.facebook.com/natgeo/videos/10156364216738951/\" data-width=\"552\"><blockquote cite=\"https://www.facebook.com/natgeo/videos/10156364216738951/\" class=\"fb-xfbml-parse-ignore\"><p>Enjoy a moment of Zen with Japanese macaques (or snow monkeys) as they soak in natural hot springs.</p>Posted by <a href=\"https://www.facebook.com/natgeo/\">National Geographic</a> on&nbsp;<a href=\"https://www.facebook.com/natgeo/videos/10156364216738951/\">Sunday, April 14, 2019</a></blockquote></div>",
+  "date": "2019-12-11T14:01:11.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/logo.clearbit.com!facebook.com.png",
     "type": "png",
     "size": 1379,
     "height": 128,
     "width": 128,
-    "size_pretty": "1.38 kB"
+    "size_pretty": "1.38 kB",
+    "palette": [
+      "#4464B4",
+      "#9CB4DC",
+      "#3C5C9C",
+      "#293D6F",
+      "#96A9D1",
+      "#2A416E"
+    ],
+    "background_color": "#4464B4",
+    "color": "#010203",
+    "alternative_color": "#EFF3F9"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/video-lga3-1.xx.fbcdn.net!v!t42.1790-2!14854183_175888539534834_2965041070909423616_n.mp4!_nc_cat=10",
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/video-lga3-1.xx.fbcdn.net!v!t42.1790-2!14854183_175888539534834_2965041070909423616_n.mp4!_nc_cat=10.mp4",
     "type": "mp4",
     "size": 1195571,
     "size_pretty": "1.2 MB"

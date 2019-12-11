@@ -5,21 +5,42 @@
   "author": "Claire Cain Miller",
   "publisher": "nytimes.com",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/static01.nyt.com!images!2018!03!19!obituaries!19lovelace-obit!00overlooked-images-slide-FRJU-faceboo",
+    "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/static01.nyt.com!images!2018!03!19!obituaries!19lovelace-obit!00overlooked-images-slide-FRJU-faceboo.jpg",
     "type": "jpg",
     "size": 151721,
     "height": 549,
     "width": 1050,
-    "size_pretty": "152 kB"
+    "size_pretty": "152 kB",
+    "palette": [
+      "#CCAA83",
+      "#E4D4AD",
+      "#5D4426",
+      "#847C7C",
+      "#A9ACB4",
+      "#403B3F"
+    ],
+    "background_color": "#E4D4AD",
+    "color": "#694C2B",
+    "alternative_color": "#5D4426"
   },
   "url": "https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html",
-  "date": "2019-12-09T16:19:25.000Z",
+  "iframe": "<iframe src=\"https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2018%2Fobituaries%2Foverlooked-ada-lovelace.html\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" title=\"Ada Lovelace, Mathematician Who Wrote the First Computer Program\" style=\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\"></iframe>",
+  "date": "2019-12-11T14:01:35.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/logo.clearbit.com!nytimes.com.png",
     "type": "png",
-    "size": 3110,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "3.11 kB"
+    "size": 2891,
+    "size_pretty": "2.89 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#7C7C7C",
+      "#BCBCBC",
+      "#444444"
+    ],
+    "background_color": "#7F7F7F",
+    "color": "#141414",
+    "alternative_color": "#151515"
   }
 }

@@ -10,16 +10,39 @@
     "size": 80205,
     "height": 512,
     "width": 1024,
-    "size_pretty": "80.2 kB"
+    "size_pretty": "80.2 kB",
+    "palette": [
+      "#3AACC6",
+      "#FAE4C2",
+      "#A06C24",
+      "#5E86B1",
+      "#D1AB9D",
+      "#334054"
+    ],
+    "background_color": "#FAE4C2",
+    "color": "#236878",
+    "alternative_color": "#8C5F20"
   },
   "url": "https://www.producthunt.com/posts/macos-mojave",
-  "date": "2019-12-09T10:04:20.245Z",
+  "iframe": "<iframe style=\"border: none;\" src=\"https://cards.producthunt.com/cards/posts/128194?v=1\" width=\"500\" height=\"405\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe>",
+  "date": "2019-12-10T10:09:34.476Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/producthunt.com!posts!macos-mojave/logo.clearbit.com!producthunt.com.png",
     "type": "png",
     "size": 2733,
     "height": 128,
     "width": 128,
-    "size_pretty": "2.73 kB"
+    "size_pretty": "2.73 kB",
+    "palette": [
+      "#DC542C",
+      "#ECA494",
+      "#712812",
+      "#832E15",
+      "#812A17",
+      "#832E15"
+    ],
+    "background_color": "#DC542C",
+    "color": "#2C1007",
+    "alternative_color": "#2E0F08"
   }
 }

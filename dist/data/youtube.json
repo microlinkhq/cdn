@@ -2,18 +2,29 @@
   "title": "Wormholes Explained – Breaking Spacetime - YouTube",
   "description": "To support Kurzgesagt and learn more about Brilliant, go to https://www.brilliant.org/nutshell and sign up for free. The first 688 people that go to that link will get 20% off the annual Premium subscription. Are wormholes real or are they just magic disguised as physics and maths? And if they are …",
   "lang": "en",
-  "author": "Kurzgesagt – In a Nutshell",
+  "author": "Science ABC • 3.4M views",
   "publisher": "YouTube",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/img.youtube.com!vi!9P6rdqiybaw!maxresdefault.jpg.jpg",
     "type": "jpg",
-    "size": 120116,
+    "size": 118944,
     "height": 720,
     "width": 1280,
-    "size_pretty": "120 kB"
+    "size_pretty": "119 kB",
+    "palette": [
+      "#C004F9",
+      "#EEEEA7",
+      "#25047C",
+      "#740296",
+      "#808018",
+      "#2C0494"
+    ],
+    "background_color": "#EEEEA7",
+    "color": "#AC04DF",
+    "alternative_color": "#2C0494"
   },
   "audio": {
-    "url": "https://r3---sn-ab5l6nzl.googlevideo.com/videoplayback?expire=1575930023&ei=R3TuXfW4N4bU8gSX35-gDA&ip=209.97.147.89&id=o-AB16UDPie-C-w_je8lGZcN3pIm5WVkOXirbVDB_B-7eE&itag=140&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-ab5l6nzl%2Csn-5uaeznr6&ms=au%2Conr&mv=m&mvi=2&pl=23&pcm2=no&initcwndbps=180000&mime=audio%2Fmp4&gir=yes&clen=8935291&dur=552.054&lmt=1574718738750331&mt=1575908329&fvip=3&keepalive=yes&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRgIhAL3Z4gixPHBw5c4NrDneImTJSDmfR7Ot9r2ESyIRAyJrAiEAwBumYvKwvENga1oGPQWiBECWm_TcTBN13y26BEnt4rc%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIgX48gzCUbNRl-kZpIbJ4SoKFIq0vFzBGABvm6MwCUVPoCIQCfHR7yE8g3uXF6bJOSroy87Ky_NGuDFenv1rWJU7uI5A%3D%3D&ratebypass=yes",
+    "url": "https://r3---sn-ab5l6nzl.googlevideo.com/videoplayback?expire=1576094553&ei=-fbwXa7LFq2Khwaf6JnoDg&ip=167.172.21.109&id=o-AHS5fiLkKTakOilAP7MUIvwVm45NxIG-z9n2yRAlJbUH&itag=140&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-ab5l6nzl%2Csn-ab5sznly&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=595000&mime=audio%2Fmp4&gir=yes&clen=8935291&dur=552.054&lmt=1574718738750331&mt=1576072847&fvip=3&keepalive=yes&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRQIhAKTYQL3gjCPEgGZSglQduBvL_44BI_m5Dtxx3jUjon81AiAULxKVTQ9NaIhU6Fxm7LzYQRFsl9ALCOiTZ6Jrjqt6lg%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRgIhAKg09C1i4rEEg0iWVf7NakhsSxISHfvXrzr2MACuJXiGAiEAybk4CSif2qQYmFxiBGtPGQ8KuyxVSOBPllOgLCyZCBQ%3D&ratebypass=yes",
     "type": "mp4",
     "duration": 552.054422,
     "size": 8935291,
@@ -21,17 +32,27 @@
     "size_pretty": "8.94 MB"
   },
   "url": "https://www.youtube.com/watch?v=9P6rdqiybaw",
-  "date": "2019-12-09T16:20:19.000Z",
+  "iframe": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/9P6rdqiybaw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+  "date": "2019-12-11T14:02:27.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/logo.clearbit.com!youtube.com.png",
     "type": "png",
-    "size": 2421,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "2.42 kB"
+    "size": 1443,
+    "size_pretty": "1.44 kB",
+    "palette": [
+      "#FC0404",
+      "#FC8484",
+      "#830101",
+      "#970101",
+      "#950303",
+      "#970101"
+    ],
+    "background_color": "#FC0404",
+    "color": "#320000",
+    "alternative_color": "#320101"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5l6nzl.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=R3TuXfW4N4bU8gSX35-gDA&expire=15",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5l6nzl.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=-fbwXa7LFq2Khwaf6JnoDg&expire=15.mp4",
     "type": "mp4",
     "duration": 552.007943,
     "size": 54633895,
