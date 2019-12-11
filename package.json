@@ -39,7 +39,6 @@
     "lodash": "~4.17.15",
     "meow": "~6.0.0",
     "p-all": "~2.1.0",
-    "p-reflect": "~2.1.0",
     "puppeteer": "~2.0.0",
     "unique-random-array": "~2.0.0"
   },

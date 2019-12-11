@@ -45,7 +45,7 @@ module.exports = async ({ task, concurrency }) => {
         }
       })
 
-      return acc.concat(files)
+      return [...acc, ...files]
     },
     []
   )

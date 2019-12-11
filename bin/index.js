@@ -4,7 +4,6 @@
 
 const calcPercent = require('calc-percent')
 const beautyError = require('beauty-error')
-const pReflect = require('p-reflect')
 const { reduce } = require('lodash')
 const Listr = require('listr')
 
@@ -14,8 +13,8 @@ const TASKS = {
   banner: require('../src/banner'),
   screenshots: require('../src/screenshots'),
   data: require('../src/data'),
-  'www-screenshots': require('../src/www-screenshots'),
-  'www-embed': require('../src/www-embed'),
+  wwwScreenshots: require('../src/www-screenshots'),
+  wwwEmbed: require('../src/www-embed'),
   www: require('../src/www')
 }
 
@@ -25,7 +24,7 @@ const cli = require('meow')({
   help: require('./help'),
   flags: {
     concurrency: {
-      default: 3
+      default: 1
     }
   }
 })
@@ -45,8 +44,7 @@ const createTasks = flags =>
           title: key,
           task: async (ctx, task) => {
             task.setProgress = setProgress(task, flags)
-            const { isRejected } = await pReflect(fn({ ...flags, task }))
-            if (isRejected) console.log('URL Failed', task)
+            await fn({ ...flags, task })
           }
         })
       }
