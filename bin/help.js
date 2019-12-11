@@ -13,13 +13,6 @@ Flags
   ${gray("--banner          Create banner assets used on README's.")}
   ${gray('--data            data files from demo links.')}
   ${gray('--screenshots     Create demo links screenshots.')}
-  ${gray('--www             Create specific page screenshots.')}
-  ${gray(
-    '--www-embed       Create `microlink.io/embed` previews for demo links.'
-  )}
-  ${gray(
-    '--www-screenshot  Create `microlink.io/screenshot` previews for demo links.'
-  )}
 
   ${gray('--concurrency     Adjust concurrency level [default=2].')}
 `
