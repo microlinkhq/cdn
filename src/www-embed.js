@@ -2,7 +2,7 @@
 
 const demoLinks = require('@microlink/demo-links')
 const browserless = require('browserless')()
-const { reduce, size } = require('lodash')
+const { size, reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
@@ -14,21 +14,21 @@ module.exports = async ({ task, concurrency }) => {
 
   const downloadFiles = reduce(
     demoLinks,
-    (acc, { url, ...demoLinkOpts }, name) => {
+    (acc, demolink, name) => {
       const type = 'png'
       const id = name.toLowerCase()
       const dist = `dist/www/embed/${id}.${type}`
       const background = randomGradient()
-      const screenshotUrl = `${WWW_URL}/www/embed/${id}`
+      const screenshotUrl = `${WWW_URL}/embed/${id}`
 
       const fn = async () => {
         task.setProgress(id, ++index, total)
         const buffer = await browserless.screenshot(screenshotUrl, {
           type,
-          waitFor: '#sdk',
-          waitUntil: ['load', 'networkidle0'],
-          overlay: { background },
-          ...demoLinkOpts
+          hide: ['.crisp-client', '#cookies-policy'],
+          waitUntil: ['load', 'networkidle2'],
+          waitFor: 3000,
+          overlay: { background }
         })
         return writeFile(buffer, dist)
       }

@@ -32,7 +32,7 @@ module.exports = async ({ task, concurrency }) => {
           const buffer = await browserless.screenshot(url, {
             disableAnimations: true,
             type,
-            waitUntil: ['load', 'networkidle0'],
+            waitUntil: ['load', 'networkidle2'],
             omitBackground: false,
             overlay: { browser },
             ...demoLinkOpts
@@ -40,7 +40,7 @@ module.exports = async ({ task, concurrency }) => {
           return writeFile(buffer, dist)
         }
       })
-      return acc.concat(files)
+      return [...acc, ...files]
     },
     []
   )

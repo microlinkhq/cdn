@@ -27,14 +27,12 @@ const COLORS = [
   'linear-gradient(0deg, #6713D2 0%, #CC208E 100%)',
   'linear-gradient(270deg, #EC8C69 0%, #ED6EA0 100%)',
   'linear-gradient(0deg, #FE5196 0%, #F77062 100%)',
-  'linear-gradient(270deg, #F9D423 0%, #F83600 100%)',
   'linear-gradient(270deg, #FE9A8B 0%, #FD868C 41%, #F9748F 73%, #F78CA0 100%)',
   'linear-gradient(0deg, #6F86D6 0%, #48C6EF 100%)',
   'linear-gradient(0deg, #FA71CD 0%, #C471F5 100%)',
   'linear-gradient(270deg, #6A11CB 0%, #2575FC 100%)',
   'linear-gradient(270deg, #B465DA 0%, #CF6CC9 28%, #EE609C 68%, #EE609C 100%)',
-  'linear-gradient(0deg, #330867 0%, #30CFD0 100%)',
-  'linear-gradient(270deg, #FEE140 0%, #FA709A 100%)'
+  'linear-gradient(0deg, #330867 0%, #30CFD0 100%)'
 ]
 
 const randomGradient = uniqueRandomArray(COLORS)
