@@ -13,8 +13,6 @@ const TASKS = {
   banner: require('../src/banner'),
   screenshots: require('../src/screenshots'),
   data: require('../src/data'),
-  wwwScreenshots: require('../src/www-screenshots'),
-  wwwEmbed: require('../src/www-embed'),
   www: require('../src/www')
 }
 
