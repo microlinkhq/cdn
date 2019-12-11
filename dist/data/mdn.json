@@ -7,19 +7,40 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/developer.mozilla.org!en-US!docs!Web!JavaScript!Reference!Global_Objects!Array!some/developer.mozilla.org!static!img!opengraph-logo.72382e605ce3.png.png",
     "type": "png",
-    "size": 3806,
-    "height": 600,
-    "width": 600,
-    "size_pretty": "3.81 kB"
+    "size": 2896,
+    "size_pretty": "2.9 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#7C7C7C",
+      "#BCBCBC",
+      "#444444"
+    ],
+    "background_color": "#7F7F7F",
+    "color": "#141414",
+    "alternative_color": "#151515"
   },
   "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
-  "date": "2019-12-09T16:19:20.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:01:31.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/developer.mozilla.org!en-US!docs!Web!JavaScript!Reference!Global_Objects!Array!some/logo.clearbit.com!mozilla.org.png",
     "type": "png",
     "size": 1834,
     "height": 128,
     "width": 128,
-    "size_pretty": "1.83 kB"
+    "size_pretty": "1.83 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#7C7C7C",
+      "#B4B4B4",
+      "#3C3C3C"
+    ],
+    "background_color": "#7F7F7F",
+    "color": "#151515",
+    "alternative_color": "#161616"
   }
 }

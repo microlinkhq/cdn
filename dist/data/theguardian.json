@@ -5,14 +5,26 @@
   "author": "Katharine Viner",
   "publisher": "the Guardian",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/theguardian.com!membership!2018!nov!12!katharine-viner-guardian-million-reader-funding/i.guim.co.uk!img!media!cb2d27886a1c1f2e04a91a7f6da2d772971bec3b!0_110_6000_3599!master!6000.jpg!auto",
+    "url": "https://cdn.microlink.io/data/assets/theguardian.com!membership!2018!nov!12!katharine-viner-guardian-million-reader-funding/i.guim.co.uk!img!media!cb2d27886a1c1f2e04a91a7f6da2d772971bec3b!0_110_6000_3599!master!6000.jpg!auto.jpg",
     "type": "jpg",
     "size": 108466,
     "height": 630,
     "width": 1200,
-    "size_pretty": "108 kB"
+    "size_pretty": "108 kB",
+    "palette": [
+      "#AC7E26",
+      "#BCD4E4",
+      "#123363",
+      "#928868",
+      "#B8C2C4",
+      "#5D4A32"
+    ],
+    "background_color": "#BCD4E4",
+    "color": "#6E5018",
+    "alternative_color": "#123363"
   },
   "url": "https://www.theguardian.com/membership/2018/nov/12/katharine-viner-guardian-million-reader-funding",
+  "iframe": null,
   "date": "2018-11-13T12:15:35.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/theguardian.com!membership!2018!nov!12!katharine-viner-guardian-million-reader-funding/logo.clearbit.com!theguardian.com.png",
@@ -20,6 +32,17 @@
     "size": 4246,
     "height": 128,
     "width": 128,
-    "size_pretty": "4.25 kB"
+    "size_pretty": "4.25 kB",
+    "palette": [
+      "#365482",
+      "#A1B6D8",
+      "#042C64",
+      "#597196",
+      "#B2BECE",
+      "#054093"
+    ],
+    "background_color": "#365482",
+    "color": "#000204",
+    "alternative_color": "#000205"
   }
 }

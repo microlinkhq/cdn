@@ -10,9 +10,21 @@
     "size": 55211,
     "height": 640,
     "width": 640,
-    "size_pretty": "55.2 kB"
+    "size_pretty": "55.2 kB",
+    "palette": [
+      "#E4C052",
+      "#E6C26E",
+      "#114775",
+      "#917170",
+      "#C2A9A2",
+      "#374F65"
+    ],
+    "background_color": "#E4C052",
+    "color": "#5C4510",
+    "alternative_color": "#114775"
   },
   "url": "https://9gag.com/gag/aMZ1WbW",
+  "iframe": null,
   "date": "2018-10-18T06:39:17.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/9gag.com!gag!aMZ1WbW/logo.clearbit.com!9gag.com.png",
@@ -20,7 +32,18 @@
     "size": 2180,
     "height": 128,
     "width": 128,
-    "size_pretty": "2.18 kB"
+    "size_pretty": "2.18 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#848484",
+      "#A4A4A4",
+      "#3C3C3C"
+    ],
+    "background_color": "#BCBCBC",
+    "color": "#3C3C3C",
+    "alternative_color": "#424242"
   },
   "video": {
     "url": "https://cdn.microlink.io/data/assets/9gag.com!gag!aMZ1WbW/img-9gag-fun.9cache.com!photo!aMZ1WbW_460sv.mp4.mp4",

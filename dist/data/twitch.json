@@ -10,16 +10,39 @@
     "size": 10264,
     "height": 200,
     "width": 262,
-    "size_pretty": "10.3 kB"
+    "size_pretty": "10.3 kB",
+    "palette": [
+      "#9344FC",
+      "#BC8CF7",
+      "#390282",
+      "#420296",
+      "#45098F",
+      "#420296"
+    ],
+    "background_color": "#9344FC",
+    "color": "#030007",
+    "alternative_color": "#030006"
   },
   "url": "https://www.twitch.tv/shroud/clip/AuspiciousTubularBunnyFUNgineer",
-  "date": "2019-12-09T16:19:49.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:01:55.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/twitch.tv!shroud!clip!AuspiciousTubularBunnyFUNgineer/logo.clearbit.com!twitch.tv.png",
     "type": "png",
     "size": 2866,
-    "height": 97,
+    "height": 128,
     "width": 128,
-    "size_pretty": "2.87 kB"
+    "size_pretty": "2.87 kB",
+    "palette": [
+      "#9444FC",
+      "#B47CFC",
+      "#1B1229",
+      "#949494",
+      "#C4C4C6",
+      "#575757"
+    ],
+    "background_color": "#1B1229",
+    "color": "#A059FC",
+    "alternative_color": "#B47CFC"
   }
 }

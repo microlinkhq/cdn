@@ -5,21 +5,44 @@
   "author": "Team Commerce",
   "publisher": "Mashable",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/mashable.com!2017!10!19!cybersecurity-hacker-online-course/mondrian.mashable.com!2017%2F10%2F19%2F78%2F5bead593f7094806969291a9236f0b7a.343ec.jpg%2F1200x630.jp",
+    "url": "https://cdn.microlink.io/data/assets/mashable.com!2017!10!19!cybersecurity-hacker-online-course/mondrian.mashable.com!2017!10!19!78!5bead593f7094806969291a9236f0b7a.343ec.jpg!1200x630.jpg!signatur.jpg",
     "type": "jpg",
     "size": 97772,
     "height": 630,
     "width": 1200,
-    "size_pretty": "97.8 kB"
+    "size_pretty": "97.8 kB",
+    "palette": [
+      "#B03D1A",
+      "#CCA393",
+      "#5E2712",
+      "#A9725F",
+      "#C4AC93",
+      "#604C3B"
+    ],
+    "background_color": "#CCA393",
+    "color": "#6B2510",
+    "alternative_color": "#5E2712"
   },
   "url": "https://mashable.com/2017/10/19/cybersecurity-hacker-online-course/",
+  "iframe": null,
   "date": "2017-10-19T19:44:52.152Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/mashable.com!2017!10!19!cybersecurity-hacker-online-course/a.amz.mshcdn.com!assets!mashable-publisher-logo-d1800cc5b71606b40182307b4f7158b5dbb17dee6b9c4b612a40",
+    "url": "https://cdn.microlink.io/data/assets/mashable.com!2017!10!19!cybersecurity-hacker-online-course/a.amz.mshcdn.com!assets!mashable-publisher-logo-d1800cc5b71606b40182307b4f7158b5dbb17dee6b9c4b612a40.png",
     "type": "png",
     "size": 19741,
     "height": 60,
     "width": 357,
-    "size_pretty": "19.7 kB"
+    "size_pretty": "19.7 kB",
+    "palette": [
+      "#04ACF4",
+      "#7CD6FC",
+      "#049CD4",
+      "#026A96",
+      "#026A96",
+      "#026E96"
+    ],
+    "background_color": "#04ACF4",
+    "color": "#013548",
+    "alternative_color": "#013C55"
   }
 }

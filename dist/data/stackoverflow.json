@@ -7,19 +7,40 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/stackoverflow.com!questions!245062!whats-the-difference-between-javascript-and-java!245068/cdn.sstatic.net!Sites!stackoverflow!img!apple-touch-icon@2.png!v=73d79a89bded.png",
     "type": "png",
-    "size": 6562,
-    "height": 316,
-    "width": 316,
-    "size_pretty": "6.56 kB"
+    "size": 2384,
+    "size_pretty": "2.38 kB",
+    "palette": [
+      "#F48424",
+      "#F8B880",
+      "#7E3D06",
+      "#914707",
+      "#BCBCBC",
+      "#914707"
+    ],
+    "background_color": "#F8B880",
+    "color": "#763A06",
+    "alternative_color": "#813F06"
   },
   "url": "https://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java/245068",
-  "date": "2019-12-09T16:19:41.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:01:46.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/stackoverflow.com!questions!245062!whats-the-difference-between-javascript-and-java!245068/logo.clearbit.com!stackoverflow.com.png",
     "type": "png",
     "size": 3573,
     "height": 128,
     "width": 128,
-    "size_pretty": "3.57 kB"
+    "size_pretty": "3.57 kB",
+    "palette": [
+      "#F48830",
+      "#F6A666",
+      "#7D3C06",
+      "#914507",
+      "#BCBCBC",
+      "#914507"
+    ],
+    "background_color": "#F48830",
+    "color": "#5C2C04",
+    "alternative_color": "#FFFFFF"
   }
 }

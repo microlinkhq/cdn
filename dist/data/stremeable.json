@@ -5,25 +5,41 @@
   "author": null,
   "publisher": "Streamable",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!image!46ont.jpg!expires=1575912180.jpg&token=uax870zsf6yCheMaJvfenw",
+    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!image!46ont.jpg!expires=1576078200&token=hjVJMHaLw0Lp1X5LlORZoQ.jpg",
     "type": "jpg",
     "size": 183575,
     "height": 1080,
     "width": 1920,
-    "size_pretty": "184 kB"
+    "size_pretty": "184 kB",
+    "palette": [
+      "#1470DC",
+      "#DFC4A5",
+      "#0B3D79",
+      "#A3886A",
+      "#BCA284",
+      "#59413A"
+    ],
+    "background_color": "#DFC4A5",
+    "color": "#0E509D",
+    "alternative_color": "#0B3D79"
   },
   "url": "https://streamable.com/46ont",
-  "date": "2019-12-09T16:19:06.874Z",
+  "iframe": "<iframe class=\"streamable-embed\" src=\"https://streamable.com/o/46ont\" frameborder=\"0\" scrolling=\"no\" width=\"1280\" height=\"720\" allowfullscreen></iframe>",
+  "date": "2019-12-11T14:01:20.408Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/statics.streamable.com!static!favicon.ico.ico",
     "type": "ico",
     "size": 5430,
     "height": 16,
     "width": 16,
-    "size_pretty": "5.43 kB"
+    "size_pretty": "5.43 kB",
+    "palette": [],
+    "background_color": null,
+    "color": null,
+    "alternative_color": null
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!video!mp4!46ont.mp4!expires=1575915540.mp4&token=ZmsDsC-PCuS_JdB0-w6JTg",
+    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!video!mp4!46ont.mp4!expires=1576080060&token=qwyY2rLNRztn8WnkqJKOpg.mp4",
     "type": "mp4",
     "duration": 44.562,
     "size": 40659092,

@@ -5,21 +5,42 @@
   "author": "Shannon Liao",
   "publisher": "The Verge",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/theverge.com!2017!10!27!16145498!insecure-broad-city-high-maintenance-web-series-hbo-comedy-central/cdn.vox-cdn.com!thumbor!c8jSMxZ9GvtfEYd5Jxu0z5nX8wA=!0x292!2040x1360!fit-in!1200x630!cdn2.vox-cdn.co",
+    "url": "https://cdn.microlink.io/data/assets/theverge.com!2017!10!27!16145498!insecure-broad-city-high-maintenance-web-series-hbo-comedy-central/cdn.vox-cdn.com!thumbor!c8jSMxZ9GvtfEYd5Jxu0z5nX8wA=!0x292!2040x1360!fit-in!1200x630!cdn2.vox-cdn.co.jpg",
     "type": "jpg",
-    "size": 110658,
+    "size": 110014,
     "height": 628,
     "width": 1200,
-    "size_pretty": "111 kB"
+    "size_pretty": "110 kB",
+    "palette": [
+      "#FC08FB",
+      "#5E54FA",
+      "#532453",
+      "#9A4AA1",
+      "#E1C8DD",
+      "#6F4289"
+    ],
+    "background_color": "#FC08FB",
+    "color": "#0D0491",
+    "alternative_color": "#3D1D40"
   },
   "url": "https://www.theverge.com/2017/10/27/16145498/insecure-broad-city-high-maintenance-web-series-hbo-comedy-central",
+  "iframe": null,
   "date": "2017-10-27T15:53:11.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/theverge.com!2017!10!27!16145498!insecure-broad-city-high-maintenance-web-series-hbo-comedy-central/cdn.vox-cdn.com!uploads!chorus_asset!file!13668586!google_amp.0.png.png",
     "type": "png",
-    "size": 3618,
-    "height": 60,
-    "width": 600,
-    "size_pretty": "3.62 kB"
+    "size": 2130,
+    "size_pretty": "2.13 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#4C4C4C",
+      "#4C4C4C",
+      "#040404"
+    ],
+    "background_color": "#BCBCBC",
+    "color": "#040404",
+    "alternative_color": "#424242"
   }
 }

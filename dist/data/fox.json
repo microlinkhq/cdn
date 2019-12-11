@@ -10,9 +10,21 @@
     "size": 165603,
     "height": 720,
     "width": 1280,
-    "size_pretty": "166 kB"
+    "size_pretty": "166 kB",
+    "palette": [
+      "#7EAFCD",
+      "#A9BEDE",
+      "#25495F",
+      "#87804E",
+      "#C2D1DE",
+      "#464E3B"
+    ],
+    "background_color": "#7EAFCD",
+    "color": "#403C25",
+    "alternative_color": "#214155"
   },
   "url": "https://www.foxnews.com/auto/literally-like-new-1987-buick-gnx-muscle-car-up-for-auction-with-8-5-miles-on-it",
+  "iframe": null,
   "date": "2019-02-16T14:02:30.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/foxnews.com!auto!literally-like-new-1987-buick-gnx-muscle-car-up-for-auction-with-8-5-miles-on-it/static.foxnews.com!static!orion!styles!img!fox-news!amp!fox-news-logo.png.png",
@@ -20,6 +32,17 @@
     "size": 5208,
     "height": 60,
     "width": 360,
-    "size_pretty": "5.21 kB"
+    "size_pretty": "5.21 kB",
+    "palette": [
+      "#3F88BF",
+      "#9BC1DD",
+      "#1C3C54",
+      "#265172",
+      "#265172",
+      "#265172"
+    ],
+    "background_color": "#9BC1DD",
+    "color": "#204662",
+    "alternative_color": "#265172"
   }
 }

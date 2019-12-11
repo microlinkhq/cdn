@@ -10,10 +10,21 @@
     "size": 292850,
     "height": 675,
     "width": 1200,
-    "size_pretty": "293 kB"
+    "size_pretty": "293 kB",
+    "palette": [
+      "#F0C05C",
+      "#D4AA52",
+      "#584424",
+      "#827551",
+      "#7A5C1E",
+      "#695938"
+    ],
+    "background_color": "#F0C05C",
+    "color": "#624A18",
+    "alternative_color": "#674E19"
   },
   "audio": {
-    "url": "https://hwcdn.libsyn.com/p/6/7/a/67a6096ea4360aed/Syntax180.mp3?c_id=52091426&cs_id=52091426&expiration=1575913153&hwt=572ea802bda6248600279e8c9cab9247",
+    "url": "https://hwcdn.libsyn.com/p/6/7/a/67a6096ea4360aed/Syntax180.mp3?c_id=52091426&cs_id=52091426&expiration=1576077685&hwt=f2961cc7cb570a0ece1caf1360831633",
     "type": "mp3",
     "duration": 3558.868438,
     "size": 60761415,
@@ -23,13 +34,25 @@
     "size_pretty": "60.8 MB"
   },
   "url": "https://syntax.fm/show/180/potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-components",
-  "date": "2019-12-09T16:20:12.000Z",
+  "iframe": null,
+  "date": "2019-12-11T14:02:25.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/syntax.fm!show!180!potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-componen/syntax.fm!static!favicon.png.png",
     "type": "png",
     "size": 18255,
     "height": 200,
     "width": 200,
-    "size_pretty": "18.3 kB"
+    "size_pretty": "18.3 kB",
+    "palette": [
+      "#E8B95A",
+      "#F4C45C",
+      "#947C44",
+      "#AB8D4C",
+      "#8F6509",
+      "#514836"
+    ],
+    "background_color": "#E8B95A",
+    "color": "#654806",
+    "alternative_color": "#FFFFFF"
   }
 }

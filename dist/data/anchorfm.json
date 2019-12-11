@@ -5,12 +5,23 @@
   "author": "• By Sin Humo",
   "publisher": "Anchor",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/anchor.fm!sin-humo!episodes!Episodio-9-Los-mandamientos-e22pro/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo400!782427!782427-1531334828409-da6e80d",
+    "url": "https://cdn.microlink.io/data/assets/anchor.fm!sin-humo!episodes!Episodio-9-Los-mandamientos-e22pro/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo400!782427!782427-1531334828409-da6e80d.jpg",
     "type": "jpg",
     "size": 45604,
     "height": 400,
     "width": 400,
-    "size_pretty": "45.6 kB"
+    "size_pretty": "45.6 kB",
+    "palette": [
+      "#F4B42E",
+      "#E7E955",
+      "#886B15",
+      "#919965",
+      "#858711",
+      "#605033"
+    ],
+    "background_color": "#F4B42E",
+    "color": "#FFFFFF",
+    "alternative_color": "#50510A"
   },
   "audio": {
     "url": "https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-7-21/4189766-44100-2-a3c30bed15af9.m4a",
@@ -21,13 +32,25 @@
     "size_pretty": "46.4 MB"
   },
   "url": "https://anchor.fm/sin-humo/episodes/Episodio-9-Los-mandamientos-e22pro",
-  "date": "2019-12-09T16:20:22.000Z",
+  "iframe": "<iframe src=\"https://anchor.fm/sin-humo/embed/episodes/Episodio-9-Los-mandamientos-e22pro\" height=\"102px\" width=\"400px\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+  "date": "2019-12-11T14:02:34.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/anchor.fm!sin-humo!episodes!Episodio-9-Los-mandamientos-e22pro/logo.clearbit.com!anchor.fm.png",
     "type": "png",
     "size": 7775,
     "height": 128,
     "width": 128,
-    "size_pretty": "7.78 kB"
+    "size_pretty": "7.78 kB",
+    "palette": [
+      "#8C44FC",
+      "#A14CFB",
+      "#340282",
+      "#3C0296",
+      "#4A0395",
+      "#3C0296"
+    ],
+    "background_color": "#8C44FC",
+    "color": "#FFFFFF",
+    "alternative_color": "#030007"
   }
 }

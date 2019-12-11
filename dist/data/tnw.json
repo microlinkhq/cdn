@@ -5,14 +5,26 @@
   "author": "Már Másson Maack",
   "publisher": "The Next Web",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/thenextweb.com!microsoft!2018!11!15!report-microsofts-enterprise-products-covertly-gather-personal-d/img-cdn.tnwcdn.com!image!tnw!filter_last=1&fit=1280%2C640&signature=6c594c5c82560b728ad5697b7a894ea1",
+    "url": "https://cdn.microlink.io/data/assets/thenextweb.com!microsoft!2018!11!15!report-microsofts-enterprise-products-covertly-gather-personal-d/img-cdn.tnwcdn.com!image!tnw!filter_last=1&fit=1280,640&signature=6c594c5c82560b728ad5697b7a894ea1&u.jpg",
     "type": "jpg",
     "size": 193924,
     "height": 640,
     "width": 1280,
-    "size_pretty": "194 kB"
+    "size_pretty": "194 kB",
+    "palette": [
+      "#E5470E",
+      "#E45459",
+      "#043C6F",
+      "#7A7F82",
+      "#BFB8B4",
+      "#2F4861"
+    ],
+    "background_color": "#E5470E",
+    "color": "#FFFFFF",
+    "alternative_color": "#011629"
   },
   "url": "https://thenextweb.com/microsoft/2018/11/15/report-microsofts-enterprise-products-covertly-gather-personal-data-on-users/",
+  "iframe": null,
   "date": "2018-11-15T12:11:52.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/thenextweb.com!microsoft!2018!11!15!report-microsofts-enterprise-products-covertly-gather-personal-d/logo.clearbit.com!thenextweb.com.png",
@@ -20,6 +32,17 @@
     "size": 5246,
     "height": 128,
     "width": 128,
-    "size_pretty": "5.25 kB"
+    "size_pretty": "5.25 kB",
+    "palette": [
+      "#FC4C19",
+      "#FC3F38",
+      "#821E01",
+      "#972301",
+      "#960702",
+      "#972301"
+    ],
+    "background_color": "#FC4C19",
+    "color": "#FFFFFF",
+    "alternative_color": "#451000"
   }
 }

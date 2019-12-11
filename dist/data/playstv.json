@@ -10,7 +10,18 @@
     "size": 40297,
     "height": 480,
     "width": 854,
-    "size_pretty": "40.3 kB"
+    "size_pretty": "40.3 kB",
+    "palette": [
+      "#CCB390",
+      "#E8F7FA",
+      "#4D3A23",
+      "#9C7E5B",
+      "#D2C2A3",
+      "#5A4B3A"
+    ],
+    "background_color": "#E8F7FA",
+    "color": "#4D3A23",
+    "alternative_color": "#856B4D"
   },
   "audio": {
     "url": "https://d1playscdntv-a.akamaihd.net/video/Ha35bprkDYG/processed/720_track2_dashinit.mp4",
@@ -21,14 +32,26 @@
     "size_pretty": "408 kB"
   },
   "url": "https://plays.tv/video/5a6f64b1bef69a7fa9/holy-shit",
-  "date": "2019-12-09T16:19:08.000Z",
+  "iframe": "<iframe width=\"854\" height=\"480\" src=\"https://plays.tv/embed/5a6f64b1bef69a7fa9?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+  "date": "2019-12-11T14:01:19.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/plays.tv!video!5a6f64b1bef69a7fa9!holy-shit/logo.clearbit.com!plays.tv.png",
     "type": "png",
     "size": 8854,
     "height": 128,
     "width": 128,
-    "size_pretty": "8.85 kB"
+    "size_pretty": "8.85 kB",
+    "palette": [
+      "#15B2B1",
+      "#8CD4D6",
+      "#1C9C9C",
+      "#7D808A",
+      "#B8B8C0",
+      "#2C4D57"
+    ],
+    "background_color": "#8CD4D6",
+    "color": "#095050",
+    "alternative_color": "#105B5B"
   },
   "video": {
     "url": "https://cdn.microlink.io/data/assets/plays.tv!video!5a6f64b1bef69a7fa9!holy-shit/d1playscdntv-a.akamaihd.net!video!Ha35bprkDYG!processed!480.mp4.mp4",
