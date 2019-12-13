@@ -11,7 +11,7 @@ const path = require('path')
 const { CDN_URL, MICROLINK_API_KEY } = require('./env')
 const { writeFile } = require('./util')
 
-const API_MEDIA_PROPS = ['logo', 'screenshot', 'video', 'image']
+const API_MEDIA_PROPS = ['logo', 'screenshot', 'video', 'audio', 'image']
 
 const getMediaAssetPath = (data, propName) => {
   const propValue = get(data, `${propName}.url`)
