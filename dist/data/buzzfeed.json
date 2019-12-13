@@ -5,7 +5,7 @@
   "author": "Ryan Mac",
   "publisher": "BuzzFeed News",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/buzzfeednews.com!article!ryanmac!cambridge-analytica-chris-wylie-eunoia-trump-campaign/img.buzzfeed.com!buzzfeed-static!static!2018-03!28!18!campaign_images!buzzfeed-prod-web-07!the-cambr.jpg",
+    "url": "https://cdn.microlink.io/data/assets/buzzfeednews.com!article!ryanmac!cambridge-analytica-chris-wylie-eunoia-trump-campaign/img.buzzfeed.com!buzzfeed-static!static!2018-03!28!18!campaign_images!buzzfeed-prod-web-07!the-cambr",
     "type": "jpg",
     "size": 183776,
     "height": 415,
@@ -25,14 +25,12 @@
   },
   "url": "https://www.buzzfeednews.com/article/ryanmac/cambridge-analytica-chris-wylie-eunoia-trump-campaign",
   "iframe": null,
-  "date": "2019-12-11T14:00:57.000Z",
+  "date": "2019-12-13T09:46:36.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/buzzfeednews.com!article!ryanmac!cambridge-analytica-chris-wylie-eunoia-trump-campaign/logo.clearbit.com!buzzfeednews.com.png",
     "type": "png",
-    "size": 4997,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "5 kB",
+    "size": 4338,
+    "size_pretty": "4.34 kB",
     "palette": [
       "#C42C24",
       "#EA938E",

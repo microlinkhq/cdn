@@ -5,7 +5,7 @@
   "author": "Sin Humo",
   "publisher": "castbox.fm",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-“Los-mandamientos”-(-)-id1368872-id89380408/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo!782427!782427-1531334842268-19e527dff2.jpg",
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo!782427!782427-1531334842268-19e527dff2",
     "type": "jpg",
     "size": 687971,
     "height": 3000,
@@ -24,7 +24,7 @@
     "alternative_color": "#464503"
   },
   "audio": {
-    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-7-21/4189766-44100-2-5ee445a4d241.mp3",
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/d3ctxlq1ktw2nl.cloudfront.net!production!2018-7-21!4189766-44100-2-5ee445a4d241.mp3.mp3",
     "type": "mp3",
     "duration": 2871.170667,
     "size": 68912192,
@@ -33,9 +33,9 @@
   },
   "url": "https://castbox.fm/episode/Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408",
   "iframe": null,
-  "date": "2019-12-11T14:02:37.000Z",
+  "date": "2019-12-13T09:56:04.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-“Los-mandamientos”-(-)-id1368872-id89380408/logo.clearbit.com!castbox.fm.png",
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/logo.clearbit.com!castbox.fm.png",
     "type": "png",
     "size": 5990,
     "height": 47,
