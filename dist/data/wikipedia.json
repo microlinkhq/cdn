@@ -5,7 +5,7 @@
   "author": "Contributors to Wikimedia projects",
   "publisher": "Wikimedia Foundation, Inc.",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!thumb!0!02!Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg!1200px.jpg",
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!thumb!0!02!Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg!1200px",
     "type": "jpg",
     "size": 268195,
     "height": 1600,
@@ -25,7 +25,7 @@
   },
   "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
   "iframe": null,
-  "date": "2019-12-10T15:38:09.000Z",
+  "date": "2019-12-13T09:36:05.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/wikimedia.org!static!images!wmf-hor-googpub.png.png",
     "type": "png",
@@ -46,7 +46,7 @@
     "alternative_color": "#424242"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!transcoded!4!4e!Sara_Danius_announces_the_Nobel_Prize_in_Lite.matroska,webm",
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!transcoded!4!4e!Sara_Danius_announces_the_Nobel_Prize_in_Lite",
     "type": "matroska,webm",
     "size": 16671232,
     "height": 480,

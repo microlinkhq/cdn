@@ -5,7 +5,7 @@
   "author": "Tony Romm",
   "publisher": "The Washington Post",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/washingtonpost.com!resizer!4kzKQy56WcSRd1sxbjfv6JoHt3A=!1440x0!smart!arc-anglerfish-washpost-prod-wa.jpg",
+    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/washingtonpost.com!resizer!4kzKQy56WcSRd1sxbjfv6JoHt3A=!1440x0!smart!arc-anglerfish-washpost-prod-wa",
     "type": "jpg",
     "size": 90747,
     "height": 960,
@@ -29,10 +29,8 @@
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/washingtonpost.com!wp-stat!img!wplogo_344x60_blk.png.png",
     "type": "png",
-    "size": 4357,
-    "height": 60,
-    "width": 344,
-    "size_pretty": "4.36 kB",
+    "size": 1235,
+    "size_pretty": "1.24 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",

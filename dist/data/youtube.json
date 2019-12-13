@@ -2,15 +2,15 @@
   "title": "Wormholes Explained – Breaking Spacetime - YouTube",
   "description": "To support Kurzgesagt and learn more about Brilliant, go to https://www.brilliant.org/nutshell and sign up for free. The first 688 people that go to that link will get 20% off the annual Premium subscription. Are wormholes real or are they just magic disguised as physics and maths? And if they are …",
   "lang": "en",
-  "author": "Science ABC • 3.4M views",
+  "author": "Kurzgesagt – In a Nutshell",
   "publisher": "YouTube",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/img.youtube.com!vi!9P6rdqiybaw!maxresdefault.jpg.jpg",
     "type": "jpg",
-    "size": 118944,
+    "size": 120116,
     "height": 720,
     "width": 1280,
-    "size_pretty": "119 kB",
+    "size_pretty": "120 kB",
     "palette": [
       "#C004F9",
       "#EEEEA7",
@@ -24,7 +24,7 @@
     "alternative_color": "#2C0494"
   },
   "audio": {
-    "url": "https://r3---sn-ab5l6nzl.googlevideo.com/videoplayback?expire=1576094553&ei=-fbwXa7LFq2Khwaf6JnoDg&ip=167.172.21.109&id=o-AHS5fiLkKTakOilAP7MUIvwVm45NxIG-z9n2yRAlJbUH&itag=140&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-ab5l6nzl%2Csn-ab5sznly&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=595000&mime=audio%2Fmp4&gir=yes&clen=8935291&dur=552.054&lmt=1574718738750331&mt=1576072847&fvip=3&keepalive=yes&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRQIhAKTYQL3gjCPEgGZSglQduBvL_44BI_m5Dtxx3jUjon81AiAULxKVTQ9NaIhU6Fxm7LzYQRFsl9ALCOiTZ6Jrjqt6lg%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRgIhAKg09C1i4rEEg0iWVf7NakhsSxISHfvXrzr2MACuJXiGAiEAybk4CSif2qQYmFxiBGtPGQ8KuyxVSOBPllOgLCyZCBQ%3D&ratebypass=yes",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&clen=8935291&dur=552.054&ei=E1_zXaulEpOFhwbNgZT",
     "type": "mp4",
     "duration": 552.054422,
     "size": 8935291,
@@ -33,12 +33,14 @@
   },
   "url": "https://www.youtube.com/watch?v=9P6rdqiybaw",
   "iframe": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/9P6rdqiybaw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-  "date": "2019-12-11T14:02:27.000Z",
+  "date": "2019-12-13T09:51:09.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/logo.clearbit.com!youtube.com.png",
     "type": "png",
-    "size": 1443,
-    "size_pretty": "1.44 kB",
+    "size": 2421,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "2.42 kB",
     "palette": [
       "#FC0404",
       "#FC8484",
@@ -52,7 +54,7 @@
     "alternative_color": "#320101"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5l6nzl.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=-fbwXa7LFq2Khwaf6JnoDg&expire=15.mp4",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=E1_zXaulEpOFhwbNgZTgCA&expire=15",
     "type": "mp4",
     "duration": 552.007943,
     "size": 54633895,

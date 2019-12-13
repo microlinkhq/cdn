@@ -24,7 +24,7 @@
     "alternative_color": "#674E19"
   },
   "audio": {
-    "url": "https://hwcdn.libsyn.com/p/6/7/a/67a6096ea4360aed/Syntax180.mp3?c_id=52091426&cs_id=52091426&expiration=1576077685&hwt=f2961cc7cb570a0ece1caf1360831633",
+    "url": "https://cdn.microlink.io/data/assets/syntax.fm!show!180!potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-componen/hwcdn.libsyn.com!p!6!7!a!67a6096ea4360aed!Syntax180.mp3!c_id=52091426&cs_id=52091426&expiration=1576",
     "type": "mp3",
     "duration": 3558.868438,
     "size": 60761415,
@@ -35,7 +35,7 @@
   },
   "url": "https://syntax.fm/show/180/potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-components",
   "iframe": null,
-  "date": "2019-12-11T14:02:25.000Z",
+  "date": "2019-12-13T09:50:46.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/syntax.fm!show!180!potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-componen/syntax.fm!static!favicon.png.png",
     "type": "png",

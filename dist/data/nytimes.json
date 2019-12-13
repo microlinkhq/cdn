@@ -5,7 +5,7 @@
   "author": "Claire Cain Miller",
   "publisher": "nytimes.com",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/static01.nyt.com!images!2018!03!19!obituaries!19lovelace-obit!00overlooked-images-slide-FRJU-faceboo.jpg",
+    "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/static01.nyt.com!images!2018!03!19!obituaries!19lovelace-obit!00overlooked-images-slide-FRJU-faceboo",
     "type": "jpg",
     "size": 151721,
     "height": 549,
@@ -25,12 +25,14 @@
   },
   "url": "https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html",
   "iframe": "<iframe src=\"https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2018%2Fobituaries%2Foverlooked-ada-lovelace.html\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" title=\"Ada Lovelace, Mathematician Who Wrote the First Computer Program\" style=\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\"></iframe>",
-  "date": "2019-12-11T14:01:35.000Z",
+  "date": "2019-12-13T09:48:26.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/logo.clearbit.com!nytimes.com.png",
     "type": "png",
-    "size": 2891,
-    "size_pretty": "2.89 kB",
+    "size": 3110,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "3.11 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",

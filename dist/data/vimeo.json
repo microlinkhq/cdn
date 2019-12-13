@@ -5,7 +5,7 @@
   "author": "pleid",
   "publisher": "Vimeo",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/i.vimeocdn.com!filter!overlay!src0=https!i.vimeocdn.com!video!596415462_1280x720.jpg&src1=https!f.vi.jpg",
+    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/i.vimeocdn.com!filter!overlay!src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F596415462_1280x720.jpg&src",
     "type": "jpg",
     "size": 39169,
     "height": 720,
@@ -25,7 +25,7 @@
   },
   "url": "https://vimeo.com/186386161",
   "iframe": "<iframe src=\"https://player.vimeo.com/video/186386161?app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Converse All Star Modern - Director&amp;#039;s Cut\"></iframe>",
-  "date": "2019-12-11T04:05:56.000Z",
+  "date": "2019-12-12T12:04:30.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/logo.clearbit.com!vimeo.com.png",
     "type": "png",
@@ -45,5 +45,14 @@
     "color": "#013C52",
     "alternative_color": "#063C4F"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/gcs-vimeo.akamaized.net!exp=1576234510~acl=!%2F874172450.mp4!~hmac=1d59e7a1229618457b64252cfc164b754",
+    "type": "mp4",
+    "duration": 15.04,
+    "size": 6976278,
+    "height": 1080,
+    "width": 1920,
+    "duration_pretty": "15s",
+    "size_pretty": "6.98 MB"
+  }
 }
