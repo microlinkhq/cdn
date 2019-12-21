@@ -7,8 +7,10 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/stackoverflow.com!questions!245062!whats-the-difference-between-javascript-and-java!245068/cdn.sstatic.net!Sites!stackoverflow!img!apple-touch-icon@2.png!v=73d79a89bded.png",
     "type": "png",
-    "size": 1371,
-    "size_pretty": "1.37 kB",
+    "size": 6562,
+    "height": 316,
+    "width": 316,
+    "size_pretty": "6.56 kB",
     "palette": [
       "#F48424",
       "#F8B880",
@@ -23,7 +25,7 @@
   },
   "url": "https://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java/245068",
   "iframe": null,
-  "date": "2019-12-13T09:48:59.000Z",
+  "date": "2019-12-21T18:54:14.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/stackoverflow.com!questions!245062!whats-the-difference-between-javascript-and-java!245068/logo.clearbit.com!stackoverflow.com.png",
     "type": "png",

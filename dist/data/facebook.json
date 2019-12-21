@@ -2,8 +2,8 @@
   "title": "Meditative Snow Monkeys",
   "description": "Enjoy a moment of Zen with Japanese macaques (or snow monkeys) as they soak in natural hot springs.",
   "lang": "en",
-  "author": "Meditative Snow Monkeys",
-  "publisher": "Facebook Watch",
+  "author": "National Geographic",
+  "publisher": "National Geographic",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/scontent-lga3-1.xx.fbcdn.net!v!t15.5256-10!p200x200!14694173_10154032640148951_491265175429578752_n.",
     "type": "jpg",
@@ -31,25 +31,25 @@
   },
   "url": "https://www.facebook.com/natgeo/videos/10156364216738951/",
   "iframe": "<div id=\"fb-root\"></div>\n<script async=\"1\" defer=\"1\" crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0\"></script><div class=\"fb-post\" data-href=\"https://www.facebook.com/natgeo/videos/10156364216738951/\" data-width=\"552\"><blockquote cite=\"https://www.facebook.com/natgeo/videos/10156364216738951/\" class=\"fb-xfbml-parse-ignore\"><p>Enjoy a moment of Zen with Japanese macaques (or snow monkeys) as they soak in natural hot springs.</p>Posted by <a href=\"https://www.facebook.com/natgeo/\">National Geographic</a> on&nbsp;<a href=\"https://www.facebook.com/natgeo/videos/10156364216738951/\">Sunday, April 14, 2019</a></blockquote></div>",
-  "date": "2019-12-13T09:46:51.000Z",
+  "date": "2019-12-21T18:51:25.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/logo.clearbit.com!facebook.com.png",
-    "type": "png",
-    "size": 1379,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "1.38 kB",
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/scontent-lga3-1.xx.fbcdn.net!v!t1.0-1!p200x200!46151680_10156035001403951_3944974607232008192_o.jpg!",
+    "type": "jpg",
+    "size": 3440,
+    "height": 200,
+    "width": 200,
+    "size_pretty": "3.44 kB",
     "palette": [
-      "#4464B4",
-      "#9CB4DC",
-      "#3C5C9C",
-      "#293D6F",
-      "#96A9D1",
-      "#2A416E"
+      "#FCD404",
+      "#FDE87B",
+      "#746414",
+      "#977F01",
+      "#977F01",
+      "#040404"
     ],
-    "background_color": "#4464B4",
-    "color": "#010203",
-    "alternative_color": "#EFF3F9"
+    "background_color": "#FDE87B",
+    "color": "#7A6701",
+    "alternative_color": "#736101"
   },
   "video": {
     "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/video-lga3-1.xx.fbcdn.net!v!t42.1790-2!14854183_175888539534834_2965041070909423616_n.mp4!_nc_cat=10",

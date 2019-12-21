@@ -1,46 +1,30 @@
 {
-  "title": "Facebook says a new bug allowed apps to access private photos of up to 6.8 million users",
-  "description": "Facebook on Friday revealed that a major software bug may have allowed third-party apps to wrongly access 6.8 million users’ photos, including images that people began uploading to the site but ultimately chose not to post publicly.",
+  "title": "facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users",
+  "description": null,
   "lang": "en",
-  "author": "Tony Romm",
-  "publisher": "The Washington Post",
-  "image": {
-    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/washingtonpost.com!resizer!4kzKQy56WcSRd1sxbjfv6JoHt3A=!1440x0!smart!arc-anglerfish-washpost-prod-wa",
-    "type": "jpg",
-    "size": 90747,
-    "height": 960,
-    "width": 1440,
-    "size_pretty": "90.7 kB",
-    "palette": [
-      "#2D84D6",
-      "#4194DD",
-      "#244C7F",
-      "#84846C",
-      "#CAD1DD",
-      "#463424"
-    ],
-    "background_color": "#2D84D6",
-    "color": "#FFFFFF",
-    "alternative_color": "#0C192A"
-  },
-  "url": "https://www.washingtonpost.com/technology/2018/12/14/facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users/",
+  "author": null,
+  "publisher": "washingtonpost.com",
+  "image": null,
+  "url": "https://www.washingtonpost.com/technology/2018/12/14/facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users",
   "iframe": null,
-  "date": "2018-12-14T23:09:15.351Z",
+  "date": null,
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/washingtonpost.com!wp-stat!img!wplogo_344x60_blk.png.png",
+    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/logo.clearbit.com!washingtonpost.com.png",
     "type": "png",
-    "size": 1235,
-    "size_pretty": "1.24 kB",
+    "size": 4745,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "4.75 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",
       "#424242",
-      "#4C4C4C",
-      "#4C4C4C",
-      "#040404"
+      "#848484",
+      "#BCBCBC",
+      "#444444"
     ],
-    "background_color": "#BCBCBC",
-    "color": "#040404",
-    "alternative_color": "#424242"
+    "background_color": "#7F7F7F",
+    "color": "#141414",
+    "alternative_color": "#151515"
   }
 }

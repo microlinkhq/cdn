@@ -31,8 +31,10 @@
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/x.kinja-static.com!assets!images!logos!newsletter!gizmodo-500px.png.png",
     "type": "png",
-    "size": 2150,
-    "size_pretty": "2.15 kB",
+    "size": 8904,
+    "height": 72,
+    "width": 500,
+    "size_pretty": "8.9 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",

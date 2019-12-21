@@ -1,39 +1,14 @@
 {
-  "title": "Holy Shit - Youtube version: https://www.youtube.com/watch?v=cJ2ToX2yS7E",
-  "description": "Holy Shit - Youtube version: https://www.youtube.com/watch?v=cJ2ToX2yS7E",
+  "title": "holy-shit",
+  "description": null,
   "lang": "en",
-  "author": "chineseouchie",
-  "publisher": "Plays.tv",
-  "image": {
-    "url": "https://cdn.microlink.io/data/assets/plays.tv!video!5a6f64b1bef69a7fa9!holy-shit/d1playscdntv-a.akamaihd.net!video!Ha35bprkDYG!processed!480.jpg.jpg",
-    "type": "jpg",
-    "size": 40297,
-    "height": 480,
-    "width": 854,
-    "size_pretty": "40.3 kB",
-    "palette": [
-      "#CCB390",
-      "#E8F7FA",
-      "#4D3A23",
-      "#9C7E5B",
-      "#D2C2A3",
-      "#5A4B3A"
-    ],
-    "background_color": "#E8F7FA",
-    "color": "#4D3A23",
-    "alternative_color": "#856B4D"
-  },
-  "audio": {
-    "url": "https://d1playscdntv-a.akamaihd.net/video/Ha35bprkDYG/processed/720_track2_dashinit.mp4",
-    "type": "mp4",
-    "duration": 16.64425,
-    "size": 408160,
-    "duration_pretty": "17s",
-    "size_pretty": "408 kB"
-  },
+  "author": null,
+  "publisher": "plays.tv",
+  "image": null,
+  "audio": null,
   "url": "https://plays.tv/video/5a6f64b1bef69a7fa9/holy-shit",
-  "iframe": "<iframe width=\"854\" height=\"480\" src=\"https://plays.tv/embed/5a6f64b1bef69a7fa9?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
-  "date": "2019-12-11T14:01:19.000Z",
+  "iframe": null,
+  "date": null,
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/plays.tv!video!5a6f64b1bef69a7fa9!holy-shit/logo.clearbit.com!plays.tv.png",
     "type": "png",
@@ -53,14 +28,5 @@
     "color": "#095050",
     "alternative_color": "#105B5B"
   },
-  "video": {
-    "url": "https://cdn.microlink.io/data/assets/plays.tv!video!5a6f64b1bef69a7fa9!holy-shit/d1playscdntv-a.akamaihd.net!video!Ha35bprkDYG!processed!480.mp4.mp4",
-    "type": "mp4",
-    "duration": 16.7,
-    "size": 1916426,
-    "height": 480,
-    "width": 852,
-    "duration_pretty": "17s",
-    "size_pretty": "1.92 MB"
-  }
+  "video": null
 }

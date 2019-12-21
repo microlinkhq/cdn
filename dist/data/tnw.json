@@ -29,8 +29,10 @@
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/thenextweb.com!microsoft!2018!11!15!report-microsofts-enterprise-products-covertly-gather-personal-d/logo.clearbit.com!thenextweb.com.png",
     "type": "png",
-    "size": 4338,
-    "size_pretty": "4.34 kB",
+    "size": 5246,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "5.25 kB",
     "palette": [
       "#FC4C19",
       "#FC3F38",
