@@ -29,8 +29,10 @@
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/nasa.gov!feature!goddard!2018!update-on-the-hubble-space-telescope-safe-mode/logo.clearbit.com!nasa.gov.png",
     "type": "png",
-    "size": 8682,
-    "size_pretty": "8.68 kB",
+    "size": 9477,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "9.48 kB",
     "palette": [
       "#245CA4",
       "#EC848C",

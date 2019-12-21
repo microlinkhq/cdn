@@ -24,7 +24,7 @@
     "alternative_color": "#2C0494"
   },
   "audio": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&clen=8935291&dur=552.054&ei=E1_zXaulEpOFhwbNgZT",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&clen=8935291&dur=552.054&ei=4mr-Xf_wEc_V8gTyyq7",
     "type": "mp4",
     "duration": 552.054422,
     "size": 8935291,
@@ -33,7 +33,7 @@
   },
   "url": "https://www.youtube.com/watch?v=9P6rdqiybaw",
   "iframe": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/9P6rdqiybaw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-  "date": "2019-12-13T09:51:09.000Z",
+  "date": "2019-12-21T18:56:30.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/logo.clearbit.com!youtube.com.png",
     "type": "png",
@@ -54,7 +54,7 @@
     "alternative_color": "#320101"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=E1_zXaulEpOFhwbNgZTgCA&expire=15",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=4mr-Xf_wEc_V8gTyyq7ABw&expire=15",
     "type": "mp4",
     "duration": 552.007943,
     "size": 54633895,

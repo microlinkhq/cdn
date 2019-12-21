@@ -29,20 +29,20 @@
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/vice.com!en_us!article!ywxjvg!steel-ball-control-dreams-dormio-mit-hypnagogia/logo.clearbit.com!vice.com.png",
     "type": "png",
-    "size": 3620,
-    "height": 41,
+    "size": 6880,
+    "height": 128,
     "width": 128,
-    "size_pretty": "3.62 kB",
+    "size_pretty": "6.88 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",
       "#424242",
-      "#848484",
+      "#7C7C7C",
       "#BCBCBC",
-      "#444444"
+      "#484848"
     ],
     "background_color": "#7F7F7F",
-    "color": "#141414",
-    "alternative_color": "#151515"
+    "color": "#151515",
+    "alternative_color": "#161616"
   }
 }

@@ -25,12 +25,14 @@
   },
   "url": "https://www.eventbrite.es/e/entradas-theantievent18-49664776684?aff=efbneb",
   "iframe": null,
-  "date": "2019-12-13T09:46:49.000Z",
+  "date": "2019-12-21T18:51:19.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/eventbrite.es!e!entradas-theantievent18-49664776684!aff=efbneb/cdn.evbstatic.com!s3-build!perm_001!477279!django!images!favicons!favicon-194x194.png.png",
     "type": "png",
-    "size": 2099,
-    "size_pretty": "2.1 kB",
+    "size": 7874,
+    "height": 194,
+    "width": 194,
+    "size_pretty": "7.87 kB",
     "palette": [
       "#F45434",
       "#F46C54",
