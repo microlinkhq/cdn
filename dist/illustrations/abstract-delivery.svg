@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1410px" height="767px" viewBox="0 0 1410 767" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
     <title>abstract-delivery</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="abstract-delivery">
-            <rect id="Rectangle" fill="#7FD6C2" fill-rule="nonzero" x="0" y="0" width="1920" height="1080"></rect>
+        <g id="abstract-delivery" transform="translate(-255.000000, -154.000000)">
             <g id="Group" transform="translate(255.000000, 154.000000)">
                 <path d="M376.4,27.2 C375.8,25 373.8,23.5 371.6,23.5 L5.7,23.5 C2.9,23.5 0.7,25.7 0.7,28.5 L0.7,326.6 C0.7,328 1.3,329.4 2.3,330.3 C3.2,331.1 4.4,331.6 5.7,331.6 C5.9,331.6 6,331.6 6.2,331.6 C81.5,324 136,304.5 178,270.3 C215,240 237.2,201.7 258.7,164.5 C286,117.2 314.3,68.2 374.2,32.7 C376.1,31.6 377,29.3 376.4,27.2 Z" id="Path" fill="#F3F6E6" fill-rule="nonzero"></path>
                 <path d="M1409.20359,29.5 L1409.20359,490.5 C1409.20359,564.2 1380.4,633.6 1328.3,685.7 C1276.2,737.9 1206.8,766.6 1133.1,766.6 L5.6,766.6 C3.2,766.6 1.1,764.8 0.7,762.4 C0.3,760 1.7,757.6 4,756.8 C42.2,743.4 97.4,714.6 161.2,681.3 C247.6,636.2 355.1,580.1 461.2,541.6 C585.7,496.3 684.8,483.4 764,502.1 C815.4,514.3 863.5,498.5 915.5,452.5 C929.5,440.1 943.2,426 956.8,410.7 C957.9,409.5 959,408.2 960.1,407 C961.2,405.8 962.3,404.5 963.3,403.2 C992.8,368.9 1021.6,329 1051.5,287.6 C1055.5,282.1 1059.4,276.6 1063.4,271.1 C1064.4,269.8 1065.4,268.4 1066.3,267.1 C1067.3,265.7 1068.3,264.3 1069.3,262.9 C1111.8,204.5 1156.1,146.2 1205.8,101.8 C1270.6,44.1 1335.6,18.8 1404.6,24.6 C1407.3,24.9 1409.3,27 1409.20359,29.5 Z" id="Path" fill="#F3F6E6" fill-rule="nonzero"></path>
