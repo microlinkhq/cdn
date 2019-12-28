@@ -5,27 +5,27 @@
   "author": "Amazon",
   "publisher": "Amazon",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/amazon.com!gp!product!B0792KTHKJ/images-na.ssl-images-amazon.com!images!I!619HkSq0-mL._SL1000_.jpg.jpg",
+    "url": "https://cdn.microlink.io/data/assets/amazon.com!gp!product!B0792KTHKJ/images-na.ssl-images-amazon.com!images!I!619HkSq0-mL._AC_SL1000_.jpg.jpg",
     "type": "jpg",
-    "size": 92638,
+    "size": 92177,
     "height": 1000,
     "width": 1000,
-    "size_pretty": "92.6 kB",
+    "size_pretty": "92.2 kB",
     "palette": [
       "#EF9D31",
-      "#ECB56C",
+      "#EBB66F",
       "#875C24",
       "#B1816A",
       "#D6BAA8",
       "#2E3D41"
     ],
     "background_color": "#EF9D31",
-    "color": "#FFFFFF",
-    "alternative_color": "#533916"
+    "color": "#533916",
+    "alternative_color": "#FFFFFF"
   },
   "url": "https://www.amazon.com/gp/product/B0792KTHKJ",
   "iframe": null,
-  "date": "2019-12-21T18:50:27.000Z",
+  "date": "2019-12-28T09:22:21.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/amazon.com!gp!product!B0792KTHKJ/logo.clearbit.com!amazon.com.png",
     "type": "png",
@@ -44,5 +44,6 @@
     "background_color": "#FCE1B4",
     "color": "#8B5602",
     "alternative_color": "#825102"
-  }
+  },
+  "video": null
 }

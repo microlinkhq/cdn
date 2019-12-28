@@ -1,48 +1,31 @@
 {
-  "title": "It’s Time for Action on Privacy, Says Apple’s CEO Tim Cook",
-  "description": "We all deserve control over our digital lives",
+  "title": "tim-cook-data-privacy",
+  "description": null,
   "lang": "en",
   "author": null,
-  "publisher": "Time",
-  "image": {
-    "url": "https://cdn.microlink.io/data/assets/time.com!collection!davos-2019!5502591!tim-cook-data-privacy/api.time.com!wp-content!uploads!2019!01!tim-cook-apple-ceo-privacy-online.jpg!w=720.jpg",
-    "type": "jpg",
-    "size": 25508,
-    "height": 516,
-    "width": 720,
-    "size_pretty": "25.5 kB",
-    "palette": [
-      "#BF5F3F",
-      "#D8A59D",
-      "#0C0604",
-      "#8C6464",
-      "#BDB4B2",
-      "#34455D"
-    ],
-    "background_color": "#D8A59D",
-    "color": "#623120",
-    "alternative_color": "#0C0604"
-  },
+  "publisher": "time.com",
+  "image": null,
   "url": "https://time.com/collection/davos-2019/5502591/tim-cook-data-privacy/",
   "iframe": null,
-  "date": "2019-08-14T23:08:12.000Z",
+  "date": null,
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/time.com!collection!davos-2019!5502591!tim-cook-data-privacy/assets.time.com!brandlogos!time.png.png",
+    "url": "https://cdn.microlink.io/data/assets/time.com!collection!davos-2019!5502591!tim-cook-data-privacy/logo.clearbit.com!time.com.png",
     "type": "png",
-    "size": 1596,
-    "height": 42,
+    "size": 4335,
+    "height": 128,
     "width": 128,
-    "size_pretty": "1.6 kB",
+    "size_pretty": "4.33 kB",
     "palette": [
-      "#7F7F7F",
-      "#BCBCBC",
-      "#424242",
-      "#4C4C4C",
-      "#4C4C4C",
-      "#040404"
+      "#E41404",
+      "#F48C84",
+      "#820B02",
+      "#960D02",
+      "#8C150C",
+      "#960D02"
     ],
-    "background_color": "#BCBCBC",
-    "color": "#040404",
-    "alternative_color": "#424242"
-  }
+    "background_color": "#E41404",
+    "color": "#040000",
+    "alternative_color": "#050000"
+  },
+  "video": null
 }

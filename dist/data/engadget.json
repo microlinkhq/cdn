@@ -5,7 +5,7 @@
   "author": null,
   "publisher": "Engadget",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/engadget.com!2018!04!30!engadget-closing-germany-spain/o.aolcdn.com!images!dims!client=amp-blogside-v2&image_uri=https%3A%2F%2Fs.aolcdn.com%2Fhss%2Fstorage",
+    "url": "https://cdn.microlink.io/data/assets/engadget.com!2018!04!30!engadget-closing-germany-spain/o.aolcdn.com!images!dims!client=amp-blogside-v2&image_uri=https!s.aolcdn.com!hss!storage!midas!56d1b",
     "type": "gif",
     "duration": 3.99,
     "size": 170532,
@@ -46,5 +46,6 @@
     "background_color": "#7F7F7F",
     "color": "#141616",
     "alternative_color": "#151515"
-  }
+  },
+  "video": null
 }

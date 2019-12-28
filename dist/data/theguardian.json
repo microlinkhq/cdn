@@ -29,20 +29,21 @@
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/theguardian.com!membership!2018!nov!12!katharine-viner-guardian-million-reader-funding/logo.clearbit.com!theguardian.com.png",
     "type": "png",
-    "size": 4246,
+    "size": 5486,
     "height": 128,
     "width": 128,
-    "size_pretty": "4.25 kB",
+    "size_pretty": "5.49 kB",
     "palette": [
-      "#365482",
-      "#A1B6D8",
-      "#042C64",
-      "#597196",
-      "#B2BECE",
-      "#054093"
+      "#34446F",
+      "#A4B1D4",
+      "#1C2C63",
+      "#677092",
+      "#B4B4C4",
+      "#445079"
     ],
-    "background_color": "#365482",
-    "color": "#000204",
-    "alternative_color": "#000205"
-  }
+    "background_color": "#34446F",
+    "color": "#BBC2D9",
+    "alternative_color": "#C0C4D2"
+  },
+  "video": null
 }

@@ -5,7 +5,7 @@
   "author": "Daniel Oberhaus",
   "publisher": "Vice",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/vice.com!en_us!article!ywxjvg!steel-ball-control-dreams-dormio-mit-hypnagogia/video-images.vice.com!articles!5ada59e9b1e922000633eb19!lede!1524491359677-2.jpeg!crop=1xw%3A1xh%3Bc",
+    "url": "https://cdn.microlink.io/data/assets/vice.com!en_us!article!ywxjvg!steel-ball-control-dreams-dormio-mit-hypnagogia/video-images.vice.com!articles!5ada59e9b1e922000633eb19!lede!1524491359677-2.jpeg!crop=1xw!1xh;cente",
     "type": "jpg",
     "size": 75057,
     "height": 675,
@@ -44,5 +44,6 @@
     "background_color": "#7F7F7F",
     "color": "#151515",
     "alternative_color": "#161616"
-  }
+  },
+  "video": null
 }

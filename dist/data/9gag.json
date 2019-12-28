@@ -45,14 +45,5 @@
     "color": "#3C3C3C",
     "alternative_color": "#424242"
   },
-  "video": {
-    "url": "https://cdn.microlink.io/data/assets/9gag.com!gag!aMZ1WbW/img-9gag-fun.9cache.com!photo!aMZ1WbW_460sv.mp4.mp4",
-    "type": "mp4",
-    "duration": 28.434,
-    "size": 2010229,
-    "height": 460,
-    "width": 460,
-    "duration_pretty": "28s",
-    "size_pretty": "2.01 MB"
-  }
+  "video": null
 }

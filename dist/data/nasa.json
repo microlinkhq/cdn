@@ -25,7 +25,7 @@
   },
   "url": "https://www.nasa.gov/feature/goddard/2018/update-on-the-hubble-space-telescope-safe-mode/",
   "iframe": null,
-  "date": "2019-12-12T15:05:37.000Z",
+  "date": "2019-12-28T09:24:13.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/nasa.gov!feature!goddard!2018!update-on-the-hubble-space-telescope-safe-mode/logo.clearbit.com!nasa.gov.png",
     "type": "png",
@@ -44,5 +44,6 @@
     "background_color": "#245CA4",
     "color": "#E0EAF7",
     "alternative_color": "#FBE6E8"
-  }
+  },
+  "video": null
 }

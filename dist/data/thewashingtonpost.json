@@ -1,30 +1,49 @@
 {
-  "title": "facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users",
-  "description": null,
+  "title": "- The Washington Post",
+  "description": "Please enable cookies on your web browser in order to continue.",
   "lang": "en",
   "author": null,
-  "publisher": "washingtonpost.com",
-  "image": null,
-  "url": "https://www.washingtonpost.com/technology/2018/12/14/facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users",
+  "publisher": "The Washington Post",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!gdpr-consent/washingtonpost.com!pbox.php!filter=antialias&op=resize&opt=1&t=20170517.jpg&url=https!www.washington",
+    "type": "jpg",
+    "size": 35093,
+    "height": 779,
+    "width": 1484,
+    "size_pretty": "35.1 kB",
+    "palette": [
+      "#AD9651",
+      "#D4C8A4",
+      "#3C341C",
+      "#7C7C74",
+      "#BCBCBA",
+      "#463F34"
+    ],
+    "background_color": "#D4C8A4",
+    "color": "#5F532D",
+    "alternative_color": "#3C341C"
+  },
+  "url": "https://www.washingtonpost.com/gdpr-consent/",
   "iframe": null,
-  "date": null,
+  "date": "2019-12-28T09:25:31.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!technology!2018!12!14!facebook-says-new-bug-allowed-apps-access-private-photos-up/logo.clearbit.com!washingtonpost.com.png",
+    "url": "https://cdn.microlink.io/data/assets/washingtonpost.com!gdpr-consent/washingtonpost.com!pb!resources!img!thewashingtonpost-black-400x60.png.png",
     "type": "png",
-    "size": 4745,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "4.75 kB",
+    "size": 6332,
+    "height": 60,
+    "width": 400,
+    "size_pretty": "6.33 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",
       "#424242",
-      "#848484",
-      "#BCBCBC",
-      "#444444"
+      "#4C4C4C",
+      "#4C4C4C",
+      "#040404"
     ],
-    "background_color": "#7F7F7F",
-    "color": "#141414",
-    "alternative_color": "#151515"
-  }
+    "background_color": "#BCBCBC",
+    "color": "#040404",
+    "alternative_color": "#424242"
+  },
+  "video": null
 }
