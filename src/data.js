@@ -71,10 +71,11 @@ module.exports = async ({ task, concurrency }) => {
       task.setProgress(id, ++index, total)
       const { data: rawData } = await mql(url, {
         apiKey: MICROLINK_API_KEY,
-        retry: 2,
         force: true,
         palette: true,
         iframe: true,
+        video: true,
+        audio: true,
         ...props
       })
       if (!rawData.lang) rawData.lang = 'en'

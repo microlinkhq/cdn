@@ -43,7 +43,7 @@
       }
     ]
   },
-  "date": "2019-12-28T09:23:30.000Z",
+  "date": "2019-12-28T10:04:34.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/scontent-mad1-1.xx.fbcdn.net!v!t1.0-1!p200x200!46151680_10156035001403951_3944974607232008192_o.jpg!",
     "type": "jpg",
@@ -63,5 +63,14 @@
     "color": "#7A6701",
     "alternative_color": "#736101"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/facebook.com!natgeo!videos!10156364216738951/video-mad1-1.xx.fbcdn.net!v!t42.1790-2!14854183_175888539534834_2965041070909423616_n.mp4!_nc_cat=10",
+    "type": "mp4",
+    "duration": 59.766,
+    "size": 1195571,
+    "height": 224,
+    "width": 400,
+    "duration_pretty": "60s",
+    "size_pretty": "1.2 MB"
+  }
 }

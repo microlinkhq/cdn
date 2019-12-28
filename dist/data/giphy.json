@@ -2,7 +2,7 @@
   "title": "giphy.gif",
   "description": null,
   "lang": "en",
-  "author": null,
+  "author": "media.giphy.com",
   "publisher": "giphy.com",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif.gif",
@@ -25,9 +25,10 @@
     "color": "#FFFFFF",
     "alternative_color": "#121213"
   },
+  "audio": null,
   "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif",
   "iframe": null,
-  "date": "2019-12-28T09:23:47.000Z",
+  "date": "2019-12-28T10:04:38.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/logo.clearbit.com!giphy.com.png",
     "type": "png",

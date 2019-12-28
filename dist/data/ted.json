@@ -23,12 +23,13 @@
     "color": "#140F02",
     "alternative_color": "#FFFFFF"
   },
+  "audio": null,
   "url": "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection",
   "iframe": {
     "html": "<iframe src=\"https://embed.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection\" width=\"560\" height=\"316\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
     "scripts": []
   },
-  "date": "2019-12-28T09:25:16.000Z",
+  "date": "2019-12-28T10:05:14.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/ted.com!talks!jia_jiang_what_i_learned_from_100_days_of_rejection/logo.clearbit.com!ted.com.png",
     "type": "png",
@@ -48,5 +49,14 @@
     "color": "#100302",
     "alternative_color": "#100302"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/ted.com!talks!jia_jiang_what_i_learned_from_100_days_of_rejection/video-subtitle.tedcdn.com!talk!podcast!2015X!None!JiaJiang_2015X-480p-zh-tw.mp4.mp4",
+    "type": "mp4",
+    "duration": 935.856667,
+    "size": 109142888,
+    "height": 480,
+    "width": 854,
+    "duration_pretty": "16m",
+    "size_pretty": "109 MB"
+  }
 }

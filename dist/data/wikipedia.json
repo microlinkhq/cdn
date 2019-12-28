@@ -23,6 +23,7 @@
     "color": "#4C2C94",
     "alternative_color": "#571D0B"
   },
+  "audio": null,
   "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
   "iframe": null,
   "date": "2019-12-24T21:36:10.000Z",
@@ -45,5 +46,14 @@
     "color": "#040404",
     "alternative_color": "#424242"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!transcoded!4!4e!Sara_Danius_announces_the_Nobel_Prize_in_Lite",
+    "type": "webm",
+    "duration": 157.712,
+    "size": 16671232,
+    "height": 480,
+    "width": 854,
+    "duration_pretty": "3m",
+    "size_pretty": "16.7 MB"
+  }
 }

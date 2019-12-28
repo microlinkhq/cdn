@@ -1,8 +1,8 @@
 {
   "title": "r/news - Lebron James takes $154 million, 4-year deal with the Lakers.",
-  "description": "31,937 votes and 2,920 comments so far on Reddit",
+  "description": "31,940 votes and 2,920 comments so far on Reddit",
   "lang": "en",
-  "author": null,
+  "author": "GenericExcuseActivat",
   "publisher": "reddit",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/reddit.com!r!news!comments!8vebjp!lebron_james_takes_154_million_4year_deal_with/external-preview.redd.it!a58Gnm70LVaSdOJ1ioZ5gVw7LkHLYEYwgH69LnvPsUA.jpg!auto=webp&s=4d35dbe9999fb3f",
@@ -23,6 +23,7 @@
     "color": "#FBF1E1",
     "alternative_color": "#060100"
   },
+  "audio": null,
   "url": "https://www.reddit.com/r/news/comments/8vebjp/lebron_james_takes_154_million_4year_deal_with/",
   "iframe": {
     "html": "\n    <blockquote class=\"reddit-card\" >\n      <a href=\"https://www.reddit.com/r/news/comments/8vebjp/lebron_james_takes_154_million_4year_deal_with/?ref_source=embed&amp;ref=share\">Lebron James takes $154 million, 4-year deal with the Lakers.</a> from\n      <a href=\"https://www.reddit.com/r/news/\">news</a>\n    </blockquote>\n    <script async src=\"https://embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script>\n",
@@ -34,7 +35,7 @@
       }
     ]
   },
-  "date": "2019-12-28T09:24:44.000Z",
+  "date": "2019-12-28T10:05:04.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/reddit.com!r!news!comments!8vebjp!lebron_james_takes_154_million_4year_deal_with/logo.clearbit.com!reddit.com.png",
     "type": "png",
@@ -54,5 +55,14 @@
     "color": "#411100",
     "alternative_color": "#421101"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/reddit.com!r!news!comments!8vebjp!lebron_james_takes_154_million_4year_deal_with/media.video-origin.espn.com!espnvideo!2018!0701!dm_180701_nba_mcmenamin_on_lebron_deal!dm_180701_nba",
+    "type": "mp4",
+    "duration": 127.552,
+    "size": 162819545,
+    "height": 720,
+    "width": 1280,
+    "duration_pretty": "2m",
+    "size_pretty": "163 MB"
+  }
 }

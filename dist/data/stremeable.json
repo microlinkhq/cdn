@@ -23,12 +23,13 @@
     "color": "#0E509D",
     "alternative_color": "#0B3D79"
   },
+  "audio": null,
   "url": "https://streamable.com/46ont",
   "iframe": {
     "html": "<iframe class=\"streamable-embed\" src=\"https://streamable.com/o/46ont\" frameborder=\"0\" scrolling=\"no\" width=\"1280\" height=\"720\" allowfullscreen></iframe>",
     "scripts": []
   },
-  "date": "2019-12-28T09:24:58.218Z",
+  "date": "2019-12-28T09:59:46.715Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/statics.streamable.com!static!favicon.ico.ico",
     "type": "ico",
@@ -41,5 +42,14 @@
     "color": null,
     "alternative_color": null
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/streamable.com!46ont/cdn-b-east.streamable.com!video!mp4!46ont.mp4!expires=1577534340.mp4&token=PDrd7-Ub9TaV5cfF0QUyHw",
+    "type": "mp4",
+    "duration": 44.562,
+    "size": 40659092,
+    "height": 720,
+    "width": 1280,
+    "duration_pretty": "45s",
+    "size_pretty": "40.7 MB"
+  }
 }
