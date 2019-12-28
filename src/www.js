@@ -14,7 +14,7 @@ const PAGES = {
   blog: { url: `${WWW_URL}/blog` },
   chat: { url: `${WWW_URL}/chat`, waitFor: 3000 },
   design: { url: `${WWW_URL}/design`, waitFor: 3000 },
-  embed: { url: `${WWW_URL}/embed` },
+  meta: { url: `${WWW_URL}/meta` },
   home: { url: WWW_URL },
   pricing: { url: WWW_URL, scrollTo: '#pricing' },
   privacy: { url: `${WWW_URL}/privacy` },
