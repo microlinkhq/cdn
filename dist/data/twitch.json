@@ -2,7 +2,7 @@
   "title": "Twitch",
   "description": "Twitch is the world’s leading video platform and community for gamers.",
   "lang": "en",
-  "author": null,
+  "author": "shroud",
   "publisher": "Twitch",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/twitch.tv!shroud!clip!AuspiciousTubularBunnyFUNgineer/static-cdn.jtvnw.net!ttv-static-metadata!twitch_logo3.jpg.jpg",
@@ -23,9 +23,10 @@
     "color": "#030007",
     "alternative_color": "#030006"
   },
+  "audio": null,
   "url": "https://www.twitch.tv/shroud/clip/AuspiciousTubularBunnyFUNgineer",
   "iframe": null,
-  "date": "2019-12-28T09:25:57.000Z",
+  "date": "2019-12-28T10:05:31.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/twitch.tv!shroud!clip!AuspiciousTubularBunnyFUNgineer/logo.clearbit.com!twitch.tv.png",
     "type": "png",
@@ -45,5 +46,14 @@
     "color": "#A059FC",
     "alternative_color": "#B47CFC"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/twitch.tv!shroud!clip!AuspiciousTubularBunnyFUNgineer/clips-media-assets2.twitch.tv!AT-cm!399451391.mp4.mp4",
+    "type": "mp4",
+    "duration": 59.968,
+    "size": 60611235,
+    "height": 1080,
+    "width": 1920,
+    "duration_pretty": "60s",
+    "size_pretty": "60.6 MB"
+  }
 }
