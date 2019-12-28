@@ -7,10 +7,10 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/theverge.com!2017!10!27!16145498!insecure-broad-city-high-maintenance-web-series-hbo-comedy-central/cdn.vox-cdn.com!thumbor!c8jSMxZ9GvtfEYd5Jxu0z5nX8wA=!0x292!2040x1360!fit-in!1200x630!cdn2.vox-cdn.co",
     "type": "jpg",
-    "size": 110014,
+    "size": 110658,
     "height": 628,
     "width": 1200,
-    "size_pretty": "110 kB",
+    "size_pretty": "111 kB",
     "palette": [
       "#FC08FB",
       "#5E54FA",
@@ -44,5 +44,6 @@
     "background_color": "#BCBCBC",
     "color": "#040404",
     "alternative_color": "#424242"
-  }
+  },
+  "video": null
 }

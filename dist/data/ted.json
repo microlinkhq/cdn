@@ -24,8 +24,11 @@
     "alternative_color": "#FFFFFF"
   },
   "url": "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection",
-  "iframe": "<iframe src=\"https://embed.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection\" width=\"560\" height=\"316\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
-  "date": "2019-12-21T18:54:16.000Z",
+  "iframe": {
+    "html": "<iframe src=\"https://embed.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection\" width=\"560\" height=\"316\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
+    "scripts": []
+  },
+  "date": "2019-12-28T09:25:16.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/ted.com!talks!jia_jiang_what_i_learned_from_100_days_of_rejection/logo.clearbit.com!ted.com.png",
     "type": "png",
@@ -44,5 +47,6 @@
     "background_color": "#E42C1C",
     "color": "#100302",
     "alternative_color": "#100302"
-  }
+  },
+  "video": null
 }

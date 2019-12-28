@@ -5,7 +5,7 @@
   "author": "Sin Humo",
   "publisher": "castbox.fm",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo!782427!782427-1531334842268-19e527dff2",
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-“Los-mandamientos”-(-)-id1368872-id89380408/d3t3ozftmdmh3i.cloudfront.net!staging!podcast_uploaded_nologo!782427!782427-1531334842268-19e527dff2",
     "type": "jpg",
     "size": 687971,
     "height": 3000,
@@ -24,7 +24,7 @@
     "alternative_color": "#464503"
   },
   "audio": {
-    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/d3ctxlq1ktw2nl.cloudfront.net!production!2018-7-21!4189766-44100-2-5ee445a4d241.mp3.mp3",
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-“Los-mandamientos”-(-)-id1368872-id89380408/d3ctxlq1ktw2nl.cloudfront.net!production!2018-7-21!4189766-44100-2-5ee445a4d241.mp3.mp3",
     "type": "mp3",
     "duration": 2871.170667,
     "size": 68912192,
@@ -33,24 +33,25 @@
   },
   "url": "https://castbox.fm/episode/Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408",
   "iframe": null,
-  "date": "2019-12-21T19:01:26.000Z",
+  "date": "2019-12-28T09:22:55.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-%E2%80%9CLos-mandamientos%E2%80%9D-(-)-id1368872-id89380408/logo.clearbit.com!castbox.fm.png",
+    "url": "https://cdn.microlink.io/data/assets/castbox.fm!episode!Episodio-9-“Los-mandamientos”-(-)-id1368872-id89380408/logo.clearbit.com!castbox.fm.png",
     "type": "png",
-    "size": 5990,
-    "height": 47,
-    "width": 128,
-    "size_pretty": "5.99 kB",
+    "size": 4794,
+    "height": 120,
+    "width": 120,
+    "size_pretty": "4.79 kB",
     "palette": [
-      "#FC6424",
-      "#FCA474",
-      "#822801",
-      "#962E02",
-      "#953603",
-      "#962E02"
+      "#F45C24",
+      "#FC926D",
+      "#7E2606",
+      "#912C07",
+      "#952903",
+      "#912C07"
     ],
-    "background_color": "#FC6424",
-    "color": "#521901",
-    "alternative_color": "#4F1D02"
-  }
+    "background_color": "#F45C24",
+    "color": "#461301",
+    "alternative_color": "#451503"
+  },
+  "video": null
 }

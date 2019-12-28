@@ -25,7 +25,7 @@
   },
   "url": "https://www.twitch.tv/shroud/clip/AuspiciousTubularBunnyFUNgineer",
   "iframe": null,
-  "date": "2019-12-21T18:55:02.000Z",
+  "date": "2019-12-28T09:25:57.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/twitch.tv!shroud!clip!AuspiciousTubularBunnyFUNgineer/logo.clearbit.com!twitch.tv.png",
     "type": "png",
@@ -44,5 +44,6 @@
     "background_color": "#1B1229",
     "color": "#A059FC",
     "alternative_color": "#B47CFC"
-  }
+  },
+  "video": null
 }

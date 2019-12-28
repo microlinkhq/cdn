@@ -5,7 +5,7 @@
   "author": null,
   "publisher": "Eventbrite",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/eventbrite.es!e!entradas-theantievent18-49664776684!aff=efbneb/img.evbuc.com!https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49069694%2F38128798264%2F1%2Foriginal.jpg!auto=",
+    "url": "https://cdn.microlink.io/data/assets/eventbrite.es!e!entradas-theantievent18-49664776684!aff=efbneb/img.evbuc.com!https!cdn.evbuc.com!images!49069694!38128798264!1!original.jpg!auto=format,compress&q=",
     "type": "jpg",
     "size": 74128,
     "height": 500,
@@ -25,7 +25,7 @@
   },
   "url": "https://www.eventbrite.es/e/entradas-theantievent18-49664776684?aff=efbneb",
   "iframe": null,
-  "date": "2019-12-21T18:51:19.000Z",
+  "date": "2019-12-28T09:23:26.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/eventbrite.es!e!entradas-theantievent18-49664776684!aff=efbneb/cdn.evbstatic.com!s3-build!perm_001!477279!django!images!favicons!favicon-194x194.png.png",
     "type": "png",
@@ -44,5 +44,6 @@
     "background_color": "#F45434",
     "color": "#450E04",
     "alternative_color": "#470F03"
-  }
+  },
+  "video": null
 }

@@ -5,7 +5,7 @@
   "author": "Már Másson Maack",
   "publisher": "The Next Web",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/thenextweb.com!microsoft!2018!11!15!report-microsofts-enterprise-products-covertly-gather-personal-d/img-cdn.tnwcdn.com!image!tnw!filter_last=1&fit=1280%2C640&signature=6c594c5c82560b728ad5697b7a894ea1",
+    "url": "https://cdn.microlink.io/data/assets/thenextweb.com!microsoft!2018!11!15!report-microsofts-enterprise-products-covertly-gather-personal-d/img-cdn.tnwcdn.com!image!tnw!filter_last=1&fit=1280,640&signature=6c594c5c82560b728ad5697b7a894ea1.j",
     "type": "jpg",
     "size": 193924,
     "height": 640,
@@ -44,5 +44,6 @@
     "background_color": "#FC4C19",
     "color": "#FFFFFF",
     "alternative_color": "#451000"
-  }
+  },
+  "video": null
 }

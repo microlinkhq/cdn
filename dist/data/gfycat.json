@@ -26,7 +26,10 @@
     "alternative_color": "#0A161B"
   },
   "url": "https://thumbs.gfycat.com/TimelyHealthyArmadillo-size_restricted.gif",
-  "iframe": "<div style='position:relative;padding-bottom: calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/TimelyHealthyArmadillo' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>",
+  "iframe": {
+    "html": "<div style='position:relative;padding-bottom: calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/TimelyHealthyArmadillo' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>",
+    "scripts": []
+  },
   "date": "2017-11-20T16:03:20.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/thumbs.gfycat.com!TimelyHealthyArmadillo-size_restricted.gif/logo.clearbit.com!gfycat.com.png",
@@ -47,14 +50,5 @@
     "color": "#031223",
     "alternative_color": "#041322"
   },
-  "video": {
-    "url": "https://cdn.microlink.io/data/assets/thumbs.gfycat.com!TimelyHealthyArmadillo-size_restricted.gif/thumbs.gfycat.com!TimelyHealthyArmadillo-mobile.mp4.mp4",
-    "type": "mp4",
-    "duration": 10.067,
-    "size": 3173657,
-    "height": 360,
-    "width": 640,
-    "duration_pretty": "10s",
-    "size_pretty": "3.17 MB"
-  }
+  "video": null
 }

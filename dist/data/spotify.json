@@ -32,8 +32,11 @@
     "size_pretty": "363 kB"
   },
   "url": "https://open.spotify.com/track/1W2919zs8SBCLTrOB1ftQT",
-  "iframe": "<iframe width=\"300\" height=\"380\" allowtransparency=\"true\" frameborder=\"0\" allow=\"encrypted-media\" title=\"Spotify Embed: Format\" src=\"https://open.spotify.com/embed/track/1W2919zs8SBCLTrOB1ftQT?si=4PcqgjH5RlWCvB5q4ukdnw\"></iframe>",
-  "date": "2019-12-21T18:54:10.000Z",
+  "iframe": {
+    "html": "<iframe width=\"300\" height=\"380\" allowtransparency=\"true\" frameborder=\"0\" allow=\"encrypted-media\" title=\"Spotify Embed: Format\" src=\"https://open.spotify.com/embed/track/1W2919zs8SBCLTrOB1ftQT?si=4PcqgjH5RlWCvB5q4ukdnw\"></iframe>",
+    "scripts": []
+  },
+  "date": "2019-12-28T09:24:53.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/open.spotify.com!track!1W2919zs8SBCLTrOB1ftQT/logo.clearbit.com!spotify.com.png",
     "type": "png",
@@ -52,5 +55,6 @@
     "background_color": "#8CECAC",
     "color": "#0E6C33",
     "alternative_color": "#0D6830"
-  }
+  },
+  "video": null
 }

@@ -25,7 +25,7 @@
   },
   "url": "https://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java/245068",
   "iframe": null,
-  "date": "2019-12-21T18:54:14.000Z",
+  "date": "2019-12-28T09:24:56.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/stackoverflow.com!questions!245062!whats-the-difference-between-javascript-and-java!245068/logo.clearbit.com!stackoverflow.com.png",
     "type": "png",
@@ -44,5 +44,6 @@
     "background_color": "#F48830",
     "color": "#5C2C04",
     "alternative_color": "#FFFFFF"
-  }
+  },
+  "video": null
 }

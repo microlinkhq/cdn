@@ -5,7 +5,7 @@
   "author": "Faith Karimi, CNN",
   "publisher": "CNN",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/cnn.com!2019!02!13!africa!kenya-rare-black-leopard-black-panther!index.html/cdn.cnn.com!cnnnext!dam!assets!190212232845-rare-black-leopard-super-tease.jpg.jpg",
+    "url": "https://cdn.microlink.io/data/assets/edition.cnn.com!2019!02!13!africa!kenya-rare-black-leopard-black-panther!index.html/cdn.cnn.com!cnnnext!dam!assets!190212232845-rare-black-leopard-super-tease.jpg.jpg",
     "type": "jpg",
     "size": 111600,
     "height": 619,
@@ -23,11 +23,11 @@
     "color": "#FEFEFF",
     "alternative_color": "#FFFFFF"
   },
-  "url": "https://www.cnn.com/2019/02/13/africa/kenya-rare-black-leopard-black-panther/index.html",
+  "url": "https://edition.cnn.com/2019/02/13/africa/kenya-rare-black-leopard-black-panther/index.html",
   "iframe": null,
-  "date": "2019-12-21T18:51:08.000Z",
+  "date": "2019-12-28T09:22:50.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/cnn.com!2019!02!13!africa!kenya-rare-black-leopard-black-panther!index.html/logo.clearbit.com!cnn.com.png",
+    "url": "https://cdn.microlink.io/data/assets/edition.cnn.com!2019!02!13!africa!kenya-rare-black-leopard-black-panther!index.html/logo.clearbit.com!cnn.com.png",
     "type": "png",
     "size": 4470,
     "height": 128,
@@ -44,5 +44,6 @@
     "background_color": "#CC1414",
     "color": "#FEF7F8",
     "alternative_color": "#030000"
-  }
+  },
+  "video": null
 }
