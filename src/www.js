@@ -12,14 +12,15 @@ const PAGES = {
   'docs/mql': { url: `${WWW_URL}/docs/mql/getting-started/overview` },
   'docs/sdk': { url: `${WWW_URL}/docs/sdk/getting-started/overview` },
   blog: { url: `${WWW_URL}/blog` },
-  chat: { url: `${WWW_URL}/chat`, waitFor: 3000 },
-  design: { url: `${WWW_URL}/design`, waitFor: 3000 },
+  chat: { url: `${WWW_URL}/chat` },
+  design: { url: `${WWW_URL}/design` },
   meta: { url: `${WWW_URL}/meta` },
   home: { url: WWW_URL },
   pricing: { url: WWW_URL, scrollTo: '#pricing' },
   privacy: { url: `${WWW_URL}/privacy` },
   screenshot: { url: `${WWW_URL}/screenshot` },
-  status: { url: `${WWW_URL}/status`, waitFor: 3000 },
+  pdf: { url: `${WWW_URL}/pdf` },
+  status: { url: `${WWW_URL}/status` },
   styleguide: { url: `${WWW_URL}/styleguide` },
   tos: { url: `${WWW_URL}/tos` }
 }
@@ -44,6 +45,7 @@ module.exports = async ({ task, concurrency }) => {
             waitUntil: ['load', 'networkidle2'],
             type: fileType,
             overlay: { background },
+            waitFor: 3000,
             ...opts
           })
 
