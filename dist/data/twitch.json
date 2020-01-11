@@ -25,8 +25,11 @@
   },
   "audio": null,
   "url": "https://www.twitch.tv/shroud/clip/AuspiciousTubularBunnyFUNgineer",
-  "iframe": null,
-  "date": "2019-12-28T10:05:31.000Z",
+  "iframe": {
+    "html": "<iframe src=\"https://clips.twitch.tv/embed?clip=AuspiciousTubularBunnyFUNgineer&autoplay=false\" width=\"620\" height=\"351\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe>",
+    "scripts": []
+  },
+  "date": "2020-01-11T10:44:34.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/twitch.tv!shroud!clip!AuspiciousTubularBunnyFUNgineer/logo.clearbit.com!twitch.tv.png",
     "type": "png",

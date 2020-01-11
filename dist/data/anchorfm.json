@@ -36,25 +36,25 @@
     "html": "<iframe src=\"https://anchor.fm/sin-humo/embed/episodes/Episodio-9-Los-mandamientos-e22pro\" height=\"102px\" width=\"400px\" frameborder=\"0\" scrolling=\"no\"></iframe>",
     "scripts": []
   },
-  "date": "2019-12-28T10:04:07.000Z",
+  "date": "2020-01-11T10:41:57.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/anchor.fm!sin-humo!episodes!Episodio-9-Los-mandamientos-e22pro/logo.clearbit.com!anchor.fm.png",
     "type": "png",
-    "size": 11061,
+    "size": 7775,
     "height": 128,
     "width": 128,
-    "size_pretty": "11.1 kB",
+    "size_pretty": "7.78 kB",
     "palette": [
       "#8C44FC",
-      "#B480FC",
-      "#6830AC",
+      "#A14CFB",
+      "#340282",
       "#3C0296",
-      "#400395",
-      "#482177"
+      "#4A0395",
+      "#3C0296"
     ],
     "background_color": "#8C44FC",
-    "color": "#030007",
-    "alternative_color": "#020005"
+    "color": "#FFFFFF",
+    "alternative_color": "#030007"
   },
   "video": null
 }

@@ -26,25 +26,7 @@
   "audio": null,
   "url": "https://github.com/substack/stream-handbook",
   "iframe": null,
-  "date": "2019-12-28T10:04:42.000Z",
-  "logo": {
-    "url": "https://cdn.microlink.io/data/assets/github.com!substack!stream-handbook/logo.clearbit.com!github.com.png",
-    "type": "png",
-    "size": 3124,
-    "height": 67,
-    "width": 128,
-    "size_pretty": "3.12 kB",
-    "palette": [
-      "#DE6720",
-      "#F4CCB4",
-      "#733510",
-      "#5C7C8C",
-      "#D4AE9E",
-      "#444444"
-    ],
-    "background_color": "#F4CCB4",
-    "color": "#8C4114",
-    "alternative_color": "#733510"
-  },
+  "date": "2020-01-11T10:43:08.000Z",
+  "logo": null,
   "video": null
 }
