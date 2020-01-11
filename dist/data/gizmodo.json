@@ -26,7 +26,7 @@
     "alternative_color": "#241F17"
   },
   "audio": {
-    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/r4---sn-h5q7knel.googlevideo.com!videoplayback!c=WEB&clen=2466399&dur=155.248&ei=xSgHXuGuGoaEhAfcyIu",
+    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/r4---sn-h5q7knel.googlevideo.com!videoplayback!c=WEB&clen=2466399&dur=155.248&ei=yaYZXr3FBsvNxwLMsY-",
     "type": "mp4",
     "duration": 155.248617,
     "size": 2466399,
@@ -37,16 +37,32 @@
   "iframe": null,
   "date": "2017-10-20T19:16:10.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/x.kinja-static.com!assets!images!logos!newsletter!gizmodo-500px.png"
+    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/x.kinja-static.com!assets!images!logos!newsletter!gizmodo-500px.png.png",
+    "type": "png",
+    "size": 8904,
+    "height": 72,
+    "width": 500,
+    "size_pretty": "8.9 kB",
+    "palette": [
+      "#7F7F7F",
+      "#BCBCBC",
+      "#424242",
+      "#4C4C4C",
+      "#4C4C4C",
+      "#040404"
+    ],
+    "background_color": "#BCBCBC",
+    "color": "#040404",
+    "alternative_color": "#424242"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/i.kinja-img.com!gawker-media!image!upload!c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470!d3c",
+    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/r4---sn-4g5ednly.googlevideo.com!videoplayback!c=WEB&cm2rm=sn-h5qzd7z&cms_redirect=yes&dur=155.248&e",
     "type": "mp4",
-    "duration": 4.48,
-    "size": 113250,
-    "height": 264,
-    "width": 470,
-    "duration_pretty": "4s",
-    "size_pretty": "113 kB"
+    "duration": 155.202167,
+    "size": 26491093,
+    "height": 720,
+    "width": 1280,
+    "duration_pretty": "3m",
+    "size_pretty": "26.5 MB"
   }
 }

@@ -25,8 +25,11 @@
   },
   "audio": null,
   "url": "https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html",
-  "iframe": null,
-  "date": "2019-12-28T10:04:54.000Z",
+  "iframe": {
+    "html": "<iframe src=\"https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2018%2Fobituaries%2Foverlooked-ada-lovelace.html\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" title=\"Ada Lovelace, Mathematician Who Wrote the First Computer Program\" style=\"border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;\"></iframe>",
+    "scripts": []
+  },
+  "date": "2020-01-11T10:43:28.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/nytimes.com!interactive!2018!obituaries!overlooked-ada-lovelace.html/logo.clearbit.com!nytimes.com.png",
     "type": "png",
