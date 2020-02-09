@@ -5,7 +5,7 @@
   "author": null,
   "publisher": "netflix.com",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/netflix.com!es-en!title!80057281/occ-0-3281-358.1.nflxso.net!dnm!api!v6!E8vDc_W8CLv7-yMQu8KMEC7Rrr8!AAAABVQ3r-RD5ggW7SMOGIC0ATHOhcyr_",
+    "url": "https://cdn.microlink.io/data/assets/netflix.com!title!80057281/occ-0-2705-2706.1.nflxso.net!dnm!api!v6!E8vDc_W8CLv7-yMQu8KMEC7Rrr8!AAAABVQ3r-RD5ggW7SMOGIC0ATHOhcyr",
     "type": "jpg",
     "size": 298000,
     "height": 720,
@@ -24,11 +24,11 @@
     "alternative_color": "#F0CB13"
   },
   "audio": null,
-  "url": "https://www.netflix.com/es-en/title/80057281",
+  "url": "https://www.netflix.com/title/80057281",
   "iframe": null,
   "date": "2016-07-15T12:00:00.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/netflix.com!es-en!title!80057281/logo.clearbit.com!netflix.com.png",
+    "url": "https://cdn.microlink.io/data/assets/netflix.com!title!80057281/logo.clearbit.com!netflix.com.png",
     "type": "png",
     "size": 3598,
     "height": 128,
@@ -47,7 +47,7 @@
     "alternative_color": "#79060A"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/netflix.com!es-en!title!80057281/occ-0-3281-358.1.nflxso.net!so!soa6!954!227086954.mp4!v=1.mp4",
+    "url": "https://cdn.microlink.io/data/assets/netflix.com!title!80057281/occ-0-2705-2706.1.nflxso.net!so!soa6!954!227086954.mp4!v=1.mp4",
     "type": "mp4",
     "duration": 169.94,
     "size": 21143351,

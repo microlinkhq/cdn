@@ -1,8 +1,8 @@
 {
-  "title": "Wormholes Explained – Breaking Spacetime - YouTube",
-  "description": "To support Kurzgesagt and learn more about Brilliant, go to https://www.brilliant.org/nutshell and sign up for free. The first 688 people that go to that link will get 20% off the annual Premium subscription. Are wormholes real or are they just magic disguised as physics and maths? And if they are …",
+  "title": "Wormholes Explained – Breaking Spacetime",
+  "description": "To support Kurzgesagt and learn more about Brilliant, go to https://www.brilliant.org/nutshell and sign up for free. The first 688 people that go to that lin...",
   "lang": "en",
-  "author": "RealLifeLore • 17M views",
+  "author": "Kurzgesagt – In a Nutshell",
   "publisher": "YouTube",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/img.youtube.com!vi!9P6rdqiybaw!maxresdefault.jpg.jpg",
@@ -24,7 +24,7 @@
     "alternative_color": "#2C0494"
   },
   "audio": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-h5q7dnld.googlevideo.com!videoplayback!c=WEB&clen=8935291&cms_redirect=yes&dur=552.054&ei=Pa",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&clen=8935291&dur=552.054&ei=6gpAXv-3POHM8gTqtrm",
     "type": "mp4",
     "duration": 552.054422,
     "size": 8935291,
@@ -36,17 +36,17 @@
     "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/9P6rdqiybaw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "scripts": []
   },
-  "date": "2020-01-11T10:45:09.000Z",
+  "date": "2020-02-09T13:36:39.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/s.ytimg.com!yts!img!favicon_144-vfliLAfaB.png.png",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/logo.clearbit.com!youtube.com.png",
     "type": "png",
-    "size": 16275,
-    "height": 144,
-    "width": 144,
-    "size_pretty": "16.3 kB",
+    "size": 2421,
+    "height": 128,
+    "width": 128,
+    "size_pretty": "2.42 kB",
     "palette": [
       "#FC0404",
-      "#FC7474",
+      "#FC8484",
       "#830101",
       "#970101",
       "#950303",
@@ -57,7 +57,7 @@
     "alternative_color": "#320101"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-h5q7dnld.googlevideo.com!videoplayback!c=WEB&cms_redirect=yes&dur=552.054&ei=PacZXpC4BqKDhAf",
+    "url": "https://cdn.microlink.io/data/assets/youtube.com!watch!v=9P6rdqiybaw/r3---sn-ab5sznly.googlevideo.com!videoplayback!c=WEB&dur=552.054&ei=6gpAXv-3POHM8gTqtrmwBA&expire=15",
     "type": "mp4",
     "duration": 552.007943,
     "size": 54633895,

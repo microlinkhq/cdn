@@ -7,19 +7,19 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/soundcloud.com!beautybrainsp!beauty-brain-swag-bandicoot/i1.sndcdn.com!artworks-000069142357-nwttc6-t500x500.jpg.jpg",
     "type": "jpg",
-    "size": 159956,
+    "size": 160478,
     "height": 500,
     "width": 500,
     "size_pretty": "160 kB",
     "palette": [
       "#E20404",
-      "#F4DB79",
+      "#F4DB7A",
       "#802514",
-      "#AD8F74",
-      "#ACC4BC",
+      "#AD8F73",
+      "#ACC4BD",
       "#373E52"
     ],
-    "background_color": "#F4DB79",
+    "background_color": "#F4DB7A",
     "color": "#C40303",
     "alternative_color": "#802514"
   },
@@ -36,7 +36,7 @@
     "html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F131653594&show_artwork=true\"></iframe>",
     "scripts": []
   },
-  "date": "2020-01-11T10:43:42.000Z",
+  "date": "2020-02-09T13:30:03.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/soundcloud.com!beautybrainsp!beauty-brain-swag-bandicoot/logo.clearbit.com!soundcloud.com.png",
     "type": "png",

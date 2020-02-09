@@ -1,9 +1,9 @@
 {
-  "title": "Converse All Star Modern - Director’s Cut",
-  "description": "Past meets present is the main concept of the new Converse collection. Inspired by a particular environment each sneaker get transformed from the original retro…",
+  "title": "186386161",
+  "description": "Past meets present is the main concept of the new Converse collection.\nInspired by a particular environment each sneaker get transformed from the original retro version to a totally brand new one.\nCREDITS\nClient: Converse USA\nAgency: Anomaly NYC\nDirection: Serial Cut\nArt Direction: Serial Cut\nAnimat…",
   "lang": "en",
   "author": "pleid",
-  "publisher": "Vimeo",
+  "publisher": "vimeo.com",
   "image": {
     "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/i.vimeocdn.com!filter!overlay!src0=https!i.vimeocdn.com!video!596415462_1280x720.jpg&src1=https!f.vi",
     "type": "jpg",
@@ -23,13 +23,20 @@
     "color": "#4E220E",
     "alternative_color": "#824F2F"
   },
-  "audio": null,
+  "audio": {
+    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/skyfire.vimeocdn.com!1581259262-0x170d15859cd73e3cd806526494868067f43edd89!186386161!sep!video!87417",
+    "type": "dash",
+    "size": 4400,
+    "height": 720,
+    "width": 1280,
+    "size_pretty": "4.4 kB"
+  },
   "url": "https://vimeo.com/186386161",
   "iframe": {
     "html": "<iframe src=\"https://player.vimeo.com/video/186386161?app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Converse All Star Modern - Director&amp;#039;s Cut\"></iframe>",
     "scripts": []
   },
-  "date": "2019-12-24T05:49:48.000Z",
+  "date": "2016-10-11T04:53:31.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/logo.clearbit.com!vimeo.com.png",
     "type": "png",
@@ -49,5 +56,14 @@
     "color": "#0F0D0D",
     "alternative_color": "#0F0D0D"
   },
-  "video": null
+  "video": {
+    "url": "https://cdn.microlink.io/data/assets/vimeo.com!186386161/vod-progressive.akamaized.net!exp=1581259262~acl=!874172450.mp4!~hmac=007312fb0e02eebd3d3ea22c811a74",
+    "type": "mp4",
+    "duration": 15.04,
+    "size": 6976278,
+    "height": 1080,
+    "width": 1920,
+    "duration_pretty": "15s",
+    "size_pretty": "6.98 MB"
+  }
 }

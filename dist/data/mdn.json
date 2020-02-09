@@ -26,25 +26,25 @@
   "audio": null,
   "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
   "iframe": null,
-  "date": "2020-01-11T10:43:17.000Z",
+  "date": "2020-02-09T13:26:41.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/developer.mozilla.org!en-US!docs!Web!JavaScript!Reference!Global_Objects!Array!some/logo.clearbit.com!mozilla.org.png",
     "type": "png",
-    "size": 2392,
-    "height": 36,
+    "size": 1834,
+    "height": 128,
     "width": 128,
-    "size_pretty": "2.39 kB",
+    "size_pretty": "1.83 kB",
     "palette": [
       "#7F7F7F",
       "#BCBCBC",
       "#424242",
       "#7C7C7C",
-      "#D1D1D1",
-      "#444444"
+      "#B4B4B4",
+      "#3C3C3C"
     ],
     "background_color": "#7F7F7F",
-    "color": "#141414",
-    "alternative_color": "#151515"
+    "color": "#151515",
+    "alternative_color": "#161616"
   },
   "video": null
 }

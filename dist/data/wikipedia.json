@@ -7,26 +7,26 @@
   "image": {
     "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/upload.wikimedia.org!wikipedia!commons!thumb!0!02!Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg!1200px",
     "type": "jpg",
-    "size": 268195,
+    "size": 288555,
     "height": 1600,
     "width": 1200,
-    "size_pretty": "268 kB",
+    "size_pretty": "289 kB",
     "palette": [
-      "#4C2C94",
-      "#ECCC9C",
-      "#571D0B",
-      "#986161",
-      "#CBB5AA",
-      "#53312A"
+      "#B4643C",
+      "#F4D49C",
+      "#632513",
+      "#B26954",
+      "#A6D1C4",
+      "#2D3A53"
     ],
-    "background_color": "#ECCC9C",
-    "color": "#4C2C94",
-    "alternative_color": "#571D0B"
+    "background_color": "#B4643C",
+    "color": "#FFFFFF",
+    "alternative_color": "#FFFFFF"
   },
   "audio": null,
   "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
   "iframe": null,
-  "date": "2020-01-10T07:19:52.000Z",
+  "date": "2020-02-09T10:06:53.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/en.wikipedia.org!wiki!Bob_Dylan/wikimedia.org!static!images!wmf-hor-googpub.png.png",
     "type": "png",

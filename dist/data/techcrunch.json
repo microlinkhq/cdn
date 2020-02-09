@@ -1,50 +1,57 @@
 {
-  "title": "TechCrunch ahora forma parte de Verizon Media",
-  "description": "TechCrunch ahora forma parte de Verizon Media Family. Tanto Verizon Media como sus socios necesitan tu consentimiento para acceder a tu dispositivo, establecer las cookies y usar tus datos —incluida la ubicación— con el fin de conocer tus intereses, mo…",
+  "title": "Super Mario Odyssey is a masterpiece of twists and turns – TechCrunch",
+  "description": "It’s almost unnerving how good Nintendo is at its job — at least, when the wizards there choose to apply themselves. Super Mario Odyssey is a embarrassment of riches, never failing to surprise for hours and hours and maintaining an unflaggingly positive feeling the entire time. It’s an essential for…",
   "lang": "en",
-  "author": null,
-  "publisher": "yahoo.com",
+  "author": "Devin Coldewey",
+  "publisher": "TechCrunch",
   "image": {
-    "url": "https://cdn.microlink.io/data/assets/consent.yahoo.com!collectConsent!inline=false&lang=&sessionId=3_cc-session_1c4d3f2c-5f05-48d4-a96c-f/s.yimg.com!wm!assets!images!ns!techcrunch-logov0.0.2.png.png",
-    "type": "png",
-    "size": 9688,
-    "height": 73,
-    "width": 145,
-    "size_pretty": "9.69 kB",
+    "url": "https://cdn.microlink.io/data/assets/techcrunch.com!2017!10!26!super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/techcrunch.com!wp-content!uploads!2017!10!mario1.jpg!w=710.jpg",
+    "type": "jpg",
+    "size": 91881,
+    "height": 399,
+    "width": 710,
+    "size_pretty": "91.9 kB",
     "palette": [
-      "#11D41B",
-      "#61CF8D",
-      "#0AAC66",
-      "#0B8D12",
-      "#237544",
-      "#089055"
+      "#50B257",
+      "#8CD6C9",
+      "#228A49",
+      "#529A6D",
+      "#BCD4DB",
+      "#3F3B42"
     ],
-    "background_color": "#11D41B",
-    "color": "#044C2D",
-    "alternative_color": "#044B2C"
+    "background_color": "#50B257",
+    "color": "#0D371D",
+    "alternative_color": "#1C3526"
   },
   "audio": null,
-  "url": "https://consent.yahoo.com/collectConsent?sessionId=3_cc-session_1c4d3f2c-5f05-48d4-a96c-f240d0c14f05&lang=&inline=false",
-  "iframe": null,
-  "date": "2020-01-11T10:44:28.000Z",
+  "url": "https://techcrunch.com/2017/10/26/super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/",
+  "iframe": {
+    "html": "<blockquote class=\"wp-embedded-content\"><a href=\"https://techcrunch.com/2017/10/26/super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/\">Super Mario Odyssey is a masterpiece of twists and turns</a></blockquote>\n<script type='text/javascript'>\n<!--//--><![CDATA[//><!--\n\t\t!function(d,l){\"use strict\";var e=!1,o=!1;if(l.querySelector)if(d.addEventListener)e=!0;if(d.wp=d.wp||{},!d.wp.receiveEmbedMessage)if(d.wp.receiveEmbedMessage=function(e){var t=e.data;if(t)if(t.secret||t.message||t.value)if(!/[^a-zA-Z0-9]/.test(t.secret)){var r,a,i,s,n,o=l.querySelectorAll('iframe[data-secret=\"'+t.secret+'\"]'),c=l.querySelectorAll('blockquote[data-secret=\"'+t.secret+'\"]');for(r=0;r<c.length;r++)c[r].style.display=\"none\";for(r=0;r<o.length;r++)if(a=o[r],e.source===a.contentWindow){if(a.removeAttribute(\"style\"),\"height\"===t.message){if(1e3<(i=parseInt(t.value,10)))i=1e3;else if(~~i<200)i=200;a.height=i}if(\"link\"===t.message)if(s=l.createElement(\"a\"),n=l.createElement(\"a\"),s.href=a.getAttribute(\"src\"),n.href=t.value,n.host===s.host)if(l.activeElement===a)d.top.location.href=t.value}}},e)d.addEventListener(\"message\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\"DOMContentLoaded\",t,!1),d.addEventListener(\"load\",t,!1);function t(){if(!o){o=!0;var e,t,r,a,i=-1!==navigator.appVersion.indexOf(\"MSIE 10\"),s=!!navigator.userAgent.match(/Trident.*rv:11\\./),n=l.querySelectorAll(\"iframe.wp-embedded-content\");for(t=0;t<n.length;t++){if(!(r=n[t]).getAttribute(\"data-secret\"))a=Math.random().toString(36).substr(2,10),r.src+=\"#?secret=\"+a,r.setAttribute(\"data-secret\",a);if(i||s)(e=r.cloneNode(!0)).removeAttribute(\"security\"),r.parentNode.replaceChild(e,r)}}}}(window,document);\n//--><!]]>\n</script><iframe sandbox=\"allow-scripts\" security=\"restricted\" src=\"https://techcrunch.com/2017/10/26/super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/embed/\" width=\"600\" height=\"338\" title=\"&#8220;Super Mario Odyssey is a masterpiece of twists and turns&#8221; &#8212; TechCrunch\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" class=\"wp-embedded-content\"></iframe>",
+    "scripts": [
+      {
+        "type": "text/javascript"
+      }
+    ]
+  },
+  "date": "2017-11-11T00:59:59.000Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/consent.yahoo.com!collectConsent!inline=false&lang=&sessionId=3_cc-session_1c4d3f2c-5f05-48d4-a96c-f/logo.clearbit.com!techcrunch.com.png",
+    "url": "https://cdn.microlink.io/data/assets/techcrunch.com!2017!10!26!super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/techcrunch.com!wp-content!themes!techcrunch-2017!images!logo-json-ld.png.png",
     "type": "png",
-    "size": 2170,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "2.17 kB",
+    "size": 4366,
+    "height": 60,
+    "width": 600,
+    "size_pretty": "4.37 kB",
     "palette": [
-      "#1DCC2C",
-      "#A8EAB4",
-      "#0CA45D",
-      "#13851C",
-      "#1D7B2E",
-      "#0A8E50"
+      "#04AC5C",
+      "#7DFBBF",
+      "#04A45C",
+      "#03954F",
+      "#03954F",
+      "#039553"
     ],
-    "background_color": "#1DCC2C",
-    "color": "#054929",
-    "alternative_color": "#054828"
+    "background_color": "#04AC5C",
+    "color": "#01331B",
+    "alternative_color": "#01331C"
   },
   "video": null
 }

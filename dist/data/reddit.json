@@ -1,6 +1,6 @@
 {
   "title": "r/news - Lebron James takes $154 million, 4-year deal with the Lakers.",
-  "description": "31,942 votes and 2,919 comments so far on Reddit",
+  "description": "31,940 votes and 2,919 comments so far on Reddit",
   "lang": "en",
   "author": "GenericExcuseActivat",
   "publisher": "reddit",
@@ -35,34 +35,34 @@
       }
     ]
   },
-  "date": "2020-01-11T10:43:42.000Z",
+  "date": "2020-02-09T13:29:38.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/reddit.com!r!news!comments!8vebjp!lebron_james_takes_154_million_4year_deal_with/logo.clearbit.com!reddit.com.png",
     "type": "png",
-    "size": 8225,
+    "size": 7439,
     "height": 128,
     "width": 128,
-    "size_pretty": "8.22 kB",
+    "size_pretty": "7.44 kB",
     "palette": [
       "#FC4404",
-      "#FC9C7C",
+      "#FC9C77",
       "#832201",
       "#972801",
-      "#952703",
+      "#952C03",
       "#972801"
     ],
     "background_color": "#FC4404",
     "color": "#411100",
-    "alternative_color": "#421101"
+    "alternative_color": "#401301"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/reddit.com!r!news!comments!8vebjp!lebron_james_takes_154_million_4year_deal_with/media.video-origin.espn.com!espnvideo!2018!0701!dm_180701_nba_mcmenamin_on_lebron_deal!dm_180701_nba",
+    "url": "https://cdn.microlink.io/data/assets/reddit.com!r!news!comments!8vebjp!lebron_james_takes_154_million_4year_deal_with/media.video-origin.espn.com!espnvideo!2018!0706!dm_180706_nba_amin_on_parker!dm_180706_nba_amin_on_p",
     "type": "mp4",
-    "duration": 127.552,
-    "size": 162819545,
+    "duration": 58.892167,
+    "size": 75608524,
     "height": 720,
     "width": 1280,
-    "duration_pretty": "2m",
-    "size_pretty": "163 MB"
+    "duration_pretty": "59s",
+    "size_pretty": "75.6 MB"
   }
 }

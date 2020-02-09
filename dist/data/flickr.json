@@ -35,25 +35,25 @@
       }
     ]
   },
-  "date": "2020-01-11T10:42:56.787Z",
+  "date": "2020-02-09T13:25:15.360Z",
   "logo": {
-    "url": "https://cdn.microlink.io/data/assets/flickr.com!photos!68166820@N08!46358385844/logo.clearbit.com!flickr.com.png",
+    "url": "https://cdn.microlink.io/data/assets/flickr.com!photos!68166820@N08!46358385844/combo.staticflickr.com!pw!apple-touch-icon.png.png",
     "type": "png",
-    "size": 2185,
-    "height": 128,
-    "width": 128,
-    "size_pretty": "2.19 kB",
+    "size": 12504,
+    "height": 175,
+    "width": 175,
+    "size_pretty": "12.5 kB",
     "palette": [
-      "#FC0986",
-      "#FC8FC6",
-      "#0C64D4",
-      "#97014E",
-      "#95034D",
-      "#084490"
+      "#FB1A8E",
+      "#EF84BB",
+      "#820244",
+      "#96024E",
+      "#B6C7DD",
+      "#96024E"
     ],
-    "background_color": "#FC0986",
-    "color": "#031A37",
-    "alternative_color": "#3A001E"
+    "background_color": "#FB1A8E",
+    "color": "#3B011F",
+    "alternative_color": "#3E0121"
   },
   "video": null
 }

@@ -26,7 +26,7 @@
     "alternative_color": "#241F17"
   },
   "audio": {
-    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/r4---sn-h5q7knel.googlevideo.com!videoplayback!c=WEB&clen=2466399&dur=155.248&ei=yaYZXr3FBsvNxwLMsY-",
+    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/r4---sn-ab5szn7e.googlevideo.com!videoplayback!c=WEB&clen=2466399&dur=155.248&ei=XghAXuqHIojTgwPhhZ7",
     "type": "mp4",
     "duration": 155.248617,
     "size": 2466399,
@@ -56,13 +56,13 @@
     "alternative_color": "#424242"
   },
   "video": {
-    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/r4---sn-4g5ednly.googlevideo.com!videoplayback!c=WEB&cm2rm=sn-h5qzd7z&cms_redirect=yes&dur=155.248&e",
+    "url": "https://cdn.microlink.io/data/assets/gizmodo.com!drone-video-of-border-wall-prototypes-accidentally-show-1819710328/i.kinja-img.com!gawker-media!image!upload!c_scale,fl_progressive,q_80,w_800!xeistbufswc2recscat1.mp4",
     "type": "mp4",
-    "duration": 155.202167,
-    "size": 26491093,
-    "height": 720,
-    "width": 1280,
-    "duration_pretty": "3m",
-    "size_pretty": "26.5 MB"
+    "duration": 4.03,
+    "size": 510305,
+    "height": 450,
+    "width": 800,
+    "duration_pretty": "4s",
+    "size_pretty": "510 kB"
   }
 }

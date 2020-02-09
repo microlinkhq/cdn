@@ -28,25 +28,25 @@
   "audio": null,
   "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif",
   "iframe": null,
-  "date": "2020-01-11T10:43:04.000Z",
+  "date": "2020-02-09T13:25:34.000Z",
   "logo": {
     "url": "https://cdn.microlink.io/data/assets/media.giphy.com!media!LqTSLCsIIkCTvQ8X9g!giphy.gif/logo.clearbit.com!giphy.com.png",
     "type": "png",
-    "size": 1014,
+    "size": 15379,
     "height": 128,
     "width": 128,
-    "size_pretty": "1.01 kB",
+    "size_pretty": "15.4 kB",
     "palette": [
       "#04CCFC",
-      "#FCF45C",
-      "#0C5F72",
-      "#984444",
-      "#968E02",
-      "#412822"
+      "#FCF484",
+      "#0C8654",
+      "#9F6D4A",
+      "#D49C9C",
+      "#614430"
     ],
-    "background_color": "#FCF45C",
+    "background_color": "#FCF484",
     "color": "#026F89",
-    "alternative_color": "#6D6701"
+    "alternative_color": "#0B7D4E"
   },
   "video": null
 }
