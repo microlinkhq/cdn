@@ -38,7 +38,7 @@
     "listr": "~0.14.3",
     "lodash": "~4.17.15",
     "meow": "~6.1.0",
-    "p-all": "~2.1.0",
+    "p-all": "~3.0.0",
     "puppeteer": "~2.1.1",
     "unique-random-array": "~2.0.0"
   },
