@@ -17,7 +17,8 @@ const TEXT = {
   mql: 'Microlink Query Language',
   'mql-cli': 'MQL CLI',
   proxy: 'Microlink Proxy',
-  sdk: 'Microlink SDK'
+  sdk: 'Microlink SDK',
+  cards: 'Microlink Cards'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
