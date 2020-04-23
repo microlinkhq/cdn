@@ -1,10 +1,9 @@
 'use strict'
 
-const querystring = require('querystring')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
-const { META_URL, CDN_URL } = require('./env')
+const { CARDS_URL } = require('./env')
 const { downloadFile } = require('./util')
 
 const TEXT = {
@@ -30,14 +29,11 @@ module.exports = async ({ task, concurrency }) => {
     TEXT,
     (acc, text, name) => {
       const files = FILE_TYPES.map(fileType => {
-        const queryParams = querystring.stringify({
-          theme: 'light',
-          md: '1',
-          fontSize: '100px',
-          images: `${CDN_URL}/logo/logo.svg`
-        })
+        const query = encodeURIComponent(
+          `title=${encodeURIComponent(text)}&screenshot.type=${fileType}`
+        )
+        const url = `${CARDS_URL}${query}`
 
-        const url = `${META_URL}/${text}.${fileType}?${queryParams}`
         const dist = `dist/banner/${name}.${fileType}`
 
         return () => {
