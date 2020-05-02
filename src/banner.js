@@ -3,21 +3,30 @@
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
-const { CARDS_URL } = require('./env')
 const { downloadFile } = require('./util')
+const { CARDS_URL } = require('./env')
 
 const TEXT = {
   api: 'Microlink API',
+  blog: 'Microlink Blog',
+  cards: 'Microlink Cards',
   cdn: 'Microlink CDN',
   chat: 'Microlink Chat',
   cli: 'Microlink CLI',
+  design: 'Microlink Design',
   docs: 'Microlink Docs',
   html: 'Microlink HTML',
+  stats: 'Microlink Stats',
+  integrations: 'Microlink Integrations',
+  meta: 'Microlink Meta',
+  status: 'Microlink Status',
+  insights: 'Microlink Insights',
   mql: 'Microlink Query Language',
   'mql-cli': 'MQL CLI',
+  pdf: 'Microlink PDF',
   proxy: 'Microlink Proxy',
-  sdk: 'Microlink SDK',
-  cards: 'Microlink Cards'
+  screenshot: 'Microlink Screenshot',
+  sdk: 'Microlink SDK'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
