@@ -1,0 +1,50 @@
+{
+  "title": "Browser as API",
+  "description": "Turns websites into data: Enter a URL, receive information. Make any URL embeddable. Capture any website as a snapshot. Generate PDF from any website. Automate web performance.",
+  "lang": "en",
+  "author": null,
+  "publisher": "Microlink",
+  "image": {
+    "url": "https://cdn.microlink.io/data/assets/microlink.io/cdn.microlink.io!www!home.png.png",
+    "type": "png",
+    "size": 97629,
+    "height": 882,
+    "width": 1686,
+    "size_pretty": "97.6 kB",
+    "palette": [
+      "#FCBE3D",
+      "#FCDC94",
+      "#825802",
+      "#6D58A7",
+      "#B4A9D4",
+      "#444444"
+    ],
+    "background_color": "#FCDC94",
+    "color": "#7F5702",
+    "alternative_color": "#825802"
+  },
+  "audio": null,
+  "url": "https://microlink.io",
+  "iframe": null,
+  "date": "2020-05-13T09:40:03.217Z",
+  "logo": {
+    "url": "https://cdn.microlink.io/data/assets/microlink.io/cdn.microlink.io!logo!trim.png.png",
+    "type": "png",
+    "size": 5050,
+    "height": 500,
+    "width": 500,
+    "size_pretty": "5.05 kB",
+    "palette": [
+      "#EC447C",
+      "#F286AA",
+      "#780C30",
+      "#644CA4",
+      "#8A0E37",
+      "#8A0E37"
+    ],
+    "background_color": "#EC447C",
+    "color": "#3D0618",
+    "alternative_color": "#40061A"
+  },
+  "video": null
+}
