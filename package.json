@@ -24,10 +24,10 @@
     "microlink"
   ],
   "dependencies": {
-    "@microlink/demo-links": "~1.0.13",
-    "@microlink/mql": "~0.6.13",
+    "@microlink/demo-links": "~1.0.14",
+    "@microlink/mql": "~0.6.15",
     "beauty-error": "~1.2.4",
-    "browserless": "~7.4.2",
+    "browserless": "~7.4.3",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "chalk": "~4.0.0",
