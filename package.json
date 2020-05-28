@@ -27,7 +27,7 @@
     "@microlink/demo-links": "~1.0.14",
     "@microlink/mql": "~0.7.0",
     "beauty-error": "~1.2.4",
-    "browserless": "~7.4.3",
+    "browserless": "~7.5.1",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "chalk": "~4.0.0",
