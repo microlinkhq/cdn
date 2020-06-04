@@ -26,7 +26,8 @@ const TEXT = {
   pdf: 'Microlink PDF',
   proxy: 'Microlink Proxy',
   screenshot: 'Microlink Screenshot',
-  sdk: 'Microlink SDK'
+  sdk: 'Microlink SDK',
+  oss: 'Microlink OSS'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
