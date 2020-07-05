@@ -7,27 +7,28 @@ const { downloadFile } = require('./util')
 const { CARDS_URL } = require('./env')
 
 const TEXT = {
+  'mql-cli': 'MQL CLI',
   api: 'Microlink API',
   blog: 'Microlink Blog',
   cards: 'Microlink Cards',
   cdn: 'Microlink CDN',
+  changelog: 'Microlink Changelog',
   chat: 'Microlink Chat',
   cli: 'Microlink CLI',
   design: 'Microlink Design',
   docs: 'Microlink Docs',
   html: 'Microlink HTML',
-  stats: 'Microlink Stats',
+  insights: 'Microlink Insights',
   integrations: 'Microlink Integrations',
   meta: 'Microlink Meta',
-  status: 'Microlink Status',
-  insights: 'Microlink Insights',
   mql: 'Microlink Query Language',
-  'mql-cli': 'MQL CLI',
+  oss: 'Microlink OSS',
   pdf: 'Microlink PDF',
   proxy: 'Microlink Proxy',
   screenshot: 'Microlink Screenshot',
   sdk: 'Microlink SDK',
-  oss: 'Microlink OSS'
+  stats: 'Microlink Stats',
+  status: 'Microlink Status'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
