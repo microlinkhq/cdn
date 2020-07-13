@@ -25,6 +25,7 @@ const TEXT = {
   oss: 'Microlink OSS',
   pdf: 'Microlink PDF',
   proxy: 'Microlink Proxy',
+  recipes: 'Microlink Recipes',
   screenshot: 'Microlink Screenshot',
   sdk: 'Microlink SDK',
   stats: 'Microlink Stats',
