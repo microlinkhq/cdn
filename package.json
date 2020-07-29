@@ -25,9 +25,9 @@
   ],
   "dependencies": {
     "@microlink/demo-links": "~1.0.14",
-    "@microlink/mql": "~0.7.3",
+    "@microlink/mql": "~0.7.4",
     "beauty-error": "~1.2.5",
-    "browserless": "~8.0.5",
+    "browserless": "~8.0.8",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "chalk": "~4.1.0",
@@ -39,7 +39,7 @@
     "lodash": "~4.17.19",
     "meow": "~7.0.1",
     "p-all": "~3.0.0",
-    "puppeteer": "~5.2.0",
+    "puppeteer": "~5.2.1",
     "unique-random-array": "~2.0.0"
   },
   "devDependencies": {
