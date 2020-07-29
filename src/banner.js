@@ -19,7 +19,6 @@ const TEXT = {
   docs: 'Microlink Docs',
   html: 'Microlink HTML',
   insights: 'Microlink Insights',
-  integrations: 'Microlink Integrations',
   meta: 'Microlink Meta',
   mql: 'Microlink Query Language',
   oss: 'Microlink OSS',
