@@ -37,7 +37,7 @@
     "fs-extra": "~9.0.1",
     "listr": "~0.14.3",
     "lodash": "~4.17.19",
-    "meow": "~7.1.0",
+    "meow": "~8.0.0",
     "p-all": "~3.0.0",
     "puppeteer": "~5.4.0",
     "unique-random-array": "~2.0.0"
