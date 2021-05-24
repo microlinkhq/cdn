@@ -1,6 +1,6 @@
 'use strict'
 
-const browserless = require('browserless')()
+const browserlessFactory = require('browserless')()
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
@@ -13,10 +13,10 @@ const PAGES = {
   'docs/sdk': { url: `${WWW_URL}/docs/sdk/getting-started/overview` },
   blog: { url: `${WWW_URL}/blog` },
   chat: { url: `${WWW_URL}/chat` },
-  design: { url: `${WWW_URL}/design` },
+  design: { url: `${WWW_URL}/design`, waitForTimeout: 8000 },
   meta: { url: `${WWW_URL}/meta` },
   home: { url: WWW_URL },
-  pricing: { url: WWW_URL, scrollTo: '#pricing' },
+  pricing: { url: `${WWW_URL}/#pricing` },
   privacy: { url: `${WWW_URL}/privacy` },
   screenshot: { url: `${WWW_URL}/screenshot` },
   pdf: { url: `${WWW_URL}/pdf` },
@@ -40,15 +40,15 @@ module.exports = async ({ task, concurrency }) => {
 
         return async () => {
           task.setProgress(id, ++index, total)
+          const browserless = await browserlessFactory.createContext()
           const buffer = await browserless.screenshot(url, {
             hide: ['.crisp-client', '#cookies-policy'],
-            waitUntil: ['load', 'networkidle2'],
             type: fileType,
             overlay: { background },
-            waitFor: 3000,
+            waitForTimeout: 3000,
             ...opts
           })
-
+          await browserless.destroyContext()
           return writeFile(buffer, dist)
         }
       })
@@ -59,4 +59,5 @@ module.exports = async ({ task, concurrency }) => {
   )
 
   await pAll(takeScreenshots, { concurrency })
+  await browserlessFactory.close()
 }

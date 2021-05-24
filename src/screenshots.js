@@ -1,7 +1,7 @@
 'use strict'
 
 const demoLinks = require('@microlink/demo-links')
-const browserless = require('browserless')()
+const browserlessFactory = require('browserless')()
 const cartesian = require('cartesian')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
@@ -29,14 +29,16 @@ module.exports = async ({ task, concurrency }) => {
 
         return async () => {
           task.setProgress(id, ++index, total)
+          const browserless = await browserlessFactory.createContext()
           const buffer = await browserless.screenshot(url, {
             disableAnimations: true,
             type,
-            waitUntil: ['load', 'networkidle2'],
             omitBackground: false,
             overlay: { browser },
+            waitFor: 5000,
             ...demoLinkOpts
           })
+          await browserless.destroyContext()
           return writeFile(buffer, dist)
         }
       })
@@ -45,4 +47,5 @@ module.exports = async ({ task, concurrency }) => {
     []
   )
   await pAll(downloadFiles, { concurrency })
+  await browserlessFactory.close()
 }
