@@ -13,7 +13,7 @@ const TEXT = {
   cards: 'Microlink Cards',
   cdn: 'Microlink CDN',
   changelog: 'Microlink Changelog',
-  chat: 'Microlink Chat',
+  community: 'Microlink Community',
   cli: 'Microlink CLI',
   design: 'Microlink Design',
   docs: 'Microlink Docs',
