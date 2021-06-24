@@ -28,7 +28,8 @@ const TEXT = {
   screenshot: 'Microlink Screenshot',
   sdk: 'Microlink SDK',
   stats: 'Microlink Stats',
-  status: 'Microlink Status'
+  status: 'Microlink Status',
+  enterprise: 'Microlink Enterprise'
 }
 
 const FILE_TYPES = ['png', 'jpeg']
