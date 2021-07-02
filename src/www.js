@@ -5,26 +5,32 @@ const { reduce } = require('lodash')
 const pAll = require('p-all')
 
 const { writeFile, randomGradient } = require('./util')
-const { WWW_URL, SCREENSHOT_VIEWPORT } = require('./env')
+const { WWW_URL } = require('./env')
 
 const PAGES = {
   'docs/api': { url: `${WWW_URL}/docs/api/getting-started/overview` },
   'docs/mql': { url: `${WWW_URL}/docs/mql/getting-started/overview` },
   'docs/sdk': { url: `${WWW_URL}/docs/sdk/getting-started/overview` },
   blog: { url: `${WWW_URL}/blog` },
-  chat: { url: `${WWW_URL}/chat` },
-  design: { url: `${WWW_URL}/design`, waitForTimeout: 8000 },
+  community: { url: `${WWW_URL}/community` },
+  design: { url: `${WWW_URL}/design` },
   meta: { url: `${WWW_URL}/meta` },
   home: {
     url: WWW_URL,
     styles: ['#analytics { visibility: hidden; }']
   },
   enterprise: { url: `${WWW_URL}/enterprise` },
-  pricing: { url: `${WWW_URL}/#pricing` },
+  pricing: {
+    url: WWW_URL,
+    scroll: '#pricing'
+  },
   privacy: { url: `${WWW_URL}/privacy` },
   screenshot: { url: `${WWW_URL}/screenshot` },
   pdf: { url: `${WWW_URL}/pdf` },
-  status: { url: `${WWW_URL}/status` },
+  status: {
+    url: `${WWW_URL}/status`,
+    waitForTimeout: 3000
+  },
   styleguide: { url: `${WWW_URL}/styleguide` },
   tos: { url: `${WWW_URL}/tos` }
 }
@@ -48,18 +54,20 @@ module.exports = async ({ task, concurrency }) => {
           const buffer = await browserless.screenshot(url, {
             hide: ['.crisp-client', '#cookies-policy'],
             type: fileType,
-            overlay: { background },
+            overlay: { background, margin: '30%' },
             viewport: {
               width: 2400,
               height: 1260,
               deviceScaleFactor: 1
             },
-            waitForTimeout: 3000,
             styles: ['html { zoom: 1.5; }', ...styles],
             ...opts
           })
-          await browserless.destroyContext()
-          return writeFile(buffer, dist)
+
+          return await Promise.all([
+            browserless.destroyContext(),
+            writeFile(buffer, dist)
+          ])
         }
       })
 
