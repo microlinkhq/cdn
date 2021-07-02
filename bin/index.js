@@ -28,7 +28,7 @@ const cli = require('meow')({
 })
 
 const setProgress = (task, { concurrency }) => (name, index, total) => {
-  const increment = ++index / concurrency
+  const increment = index / concurrency
   const percent = calcPercent(increment, total, { suffix: '%' })
   task.output = `(${percent}) ${Math.round(increment)} of ${total} ${name}`
 }

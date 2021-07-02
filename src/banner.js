@@ -35,7 +35,7 @@ const TEXT = {
 const FILE_TYPES = ['png', 'jpeg']
 
 module.exports = async ({ task, concurrency }) => {
-  const total = Object.keys(TEXT).length
+  const total = Object.keys(TEXT).length * FILE_TYPES.length
   let index = 0
   const downloadFiles = reduce(
     TEXT,
@@ -49,7 +49,7 @@ module.exports = async ({ task, concurrency }) => {
         const dist = `dist/banner/${name}.${fileType}`
 
         return () => {
-          task.setProgress(name, ++index, total)
+          task.setProgress(name, index++, total)
           return downloadFile(url, dist)
         }
       })

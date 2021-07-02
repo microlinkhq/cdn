@@ -28,7 +28,7 @@ module.exports = async ({ task, concurrency }) => {
         }${id}.${type}`
 
         return async () => {
-          task.setProgress(id, ++index, total)
+          task.setProgress(id, index++, total)
           const browserless = await browserlessFactory.createContext()
           const buffer = await browserless.screenshot(url, {
             disableAnimations: true,
