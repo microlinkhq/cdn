@@ -1,6 +1,6 @@
 'use strict'
 
-const { gray } = require('chalk')
+const { gray } = require('picocolors')
 const { description } = require('../package')
 
 module.exports = `${description}.
