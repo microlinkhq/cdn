@@ -24,10 +24,10 @@
     "microlink"
   ],
   "dependencies": {
-    "@microlink/demo-links": "~1.0.15",
-    "@microlink/mql": "~0.10.0",
+    "@microlink/demo-links": "~1.0.17",
+    "@microlink/mql": "~0.10.1",
     "beauty-error": "~1.2.8",
-    "browserless": "9.2.15",
+    "browserless": "9.2.17",
     "calc-percent": "~1.0.1",
     "cartesian": "~1.0.1",
     "debug-logfmt": "~1.0.4",
@@ -38,7 +38,7 @@
     "lodash": "~4.17.21",
     "meow": "~9.0.0",
     "p-all": "~3.0.0",
-    "picocolors": "~0.2.1",
+    "picocolors": "~1.0.0",
     "puppeteer": "~10.4.0",
     "unique-random-array": "~2.0.0"
   },
