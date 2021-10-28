@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/BH - Bahrain</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="background" fill="#E31D1C" x="0" y="0" width="32" height="24"></rect>
+                <polygon id="middle" fill="#F7FCFF" points="0 0 6.79998779 0 12 2 6.79998779 4 12 6 6.79998779 8 12 10 6.79998779 12 12 14 6.79998779 16 12 18 6.79998779 20 12 22 6.79998779 24 0 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

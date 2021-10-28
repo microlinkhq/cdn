@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/PR - Puerto Rico</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+        <polygon id="path-5" points="0 0 0 15 11.25 7.5"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#EF0000" xlink:href="#path-3"></use>
+                <rect id="bottom" stroke="#F7FCFF" stroke-width="2.5" fill="#EF0000" mask="url(#mask-4)" x="-1.25" y="5" width="22.5" height="5"></rect>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="triangle" fill="#3D58DB" xlink:href="#path-5"></use>
+                <g id="mark" mask="url(#mask-6)" fill="#F7FCFF">
+                    <g transform="translate(1.250000, 3.750000)" id="Star-5">
+                        <polygon points="2.92986663 5.13552809 0.63491063 6.34677617 1.75220004 3.91306583 0.328458159 2.61298142 2.08626131 2.54810923 2.92986663 0.347681718 3.57364567 2.54810923 5.32845816 2.54810923 4.15883849 3.91306583 5.08917889 6.34677617"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

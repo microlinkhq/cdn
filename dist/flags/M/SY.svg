@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/SY - Syria</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="middle" fill="#F7FCFF" points="0 0 20 0 20 15 0 15"></polygon>
+                <polygon id="Star-5" fill="#409100" points="5.6261215 8.66917399 4.45695189 9.375 4.72363208 7.99765105 3.75 6.9668408 5.06835236 6.91110409 5.6261215 5.625 6.18389064 6.91110409 7.5 6.91110409 6.52861092 7.99765105 6.8210566 9.375"></polygon>
+                <polygon id="Star-5" fill="#409100" points="14.3761215 8.66917399 13.2069519 9.375 13.4736321 7.99765105 12.5 6.9668408 13.8183524 6.91110409 14.3761215 5.625 14.9338906 6.91110409 16.25 6.91110409 15.2786109 7.99765105 15.5710566 9.375"></polygon>
+                <rect id="top" fill="#E31D1C" x="0" y="0" width="20" height="5"></rect>
+                <rect id="bottom" fill="#272727" x="0" y="10" width="20" height="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

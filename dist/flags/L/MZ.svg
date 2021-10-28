@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/MZ - Mozambique</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+        <polygon id="path-5" points="0 0 0 24 18 12"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="top" fill="#FECA00" mask="url(#mask-4)" x="0" y="0" width="32" height="8"></rect>
+                <rect id="bottom" fill="#009933" mask="url(#mask-4)" x="0" y="16" width="32" height="8"></rect>
+                <rect id="middle" stroke="#FFFFFF" stroke-width="2" fill="#272727" mask="url(#mask-4)" x="-1" y="7" width="34" height="10"></rect>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="triangle" fill="#F50100" xlink:href="#path-5"></use>
+                <polygon id="Star-5" fill="#FECA00" mask="url(#mask-6)" points="8.0687795 14.3532212 4.28984527 17.403675 6.02321826 13.3270695 3.04480046 10.4588431 6.56040677 10.4588431 8.00299067 7 9.53517549 10.4588431 13.0448005 10.4588431 9.90905034 13.3270695 11.4784045 17.403675"></polygon>
+                <g id="mark" mask="url(#mask-6)">
+                    <g transform="translate(4.000000, 8.000000)">
+                        <path d="M2.15599742,3.98421452 L1.51509637,6.12466192 C2.95752115,6.110391 3.7653573,6.17612597 3.93860482,6.32186684 C4.46059978,5.99637151 5.25891582,5.93063653 6.33355295,6.12466192 L5.47618421,3.83392619 C4.75148329,3.50554709 4.23895683,3.43138266 3.93860482,3.61143289 C3.20241236,3.44513598 2.6082099,3.56939653 2.15599742,3.98421452 Z" id="Path-178" stroke="none" fill="#F7FCFF" fill-rule="evenodd"></path>
+                        <path d="M7.5638018,7.21627762 C7.72991058,7.43687337 7.68574017,7.75035933 7.46514442,7.91646811 C7.24454868,8.08257689 6.93106272,8.03840648 6.76495393,7.81781074 L2.58486486,2.26656987 C2.41875608,2.04597412 2.46292649,1.73248816 2.68352224,1.56637938 C2.90411798,1.40027059 3.21760394,1.444441 3.38371273,1.66503675 L7.5638018,7.21627762 Z" id="Path-176" stroke="none" fill="#000000" fill-rule="nonzero"></path>
+                        <line x1="2.97403239" y1="1.8397427" x2="2.57403239" y2="1.3597427" id="Path-176" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polygon id="Path-177" stroke="none" fill="#000000" fill-rule="evenodd" points="1.60469047 1.36254259 0.396181112 3.29787929 1.00043579 4.3445738 2.382615 2.29033739 2.63122425 1.65513346 2.382615 1.36254259"></polygon>
+                        <polygon id="Path-179" stroke="none" fill="#000000" fill-rule="evenodd" points="0.0389871517 7.10854827 0.621609355 7.93030938 5.11722288 2.61121131 5.30370328 2.81961854 6.33999748 1.84468533 7.99617242 0.0429998764 6.33999748 1.39659316 5.80439424 1.24807944 5.30370328 2.03468084 4.80141687 2.03468084 1.12933908 6.12230184"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

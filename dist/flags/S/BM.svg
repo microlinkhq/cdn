@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/BM - Bermuda</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-5" x="0" y="0" width="9" height="7"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#AF0100" xlink:href="#path-3"></use>
+                <g id="mark-2" mask="url(#mask-4)">
+                    <g transform="translate(11.000000, 5.000000)">
+                        <path d="M0.00376141786,1 C0.00376141786,3.94339039 0.282330863,4.96564879 1.95990489,4.96564879 C3.63747891,4.96564879 4.0964347,3.48282439 3.95481039,1 L0.00376141786,1 Z" id="Path-2" fill="#F7FCFF" fill-rule="evenodd"></path>
+                        <ellipse id="Oval-6" fill="#AF0100" fill-rule="evenodd" cx="2.05001223" cy="1.69999695" rx="1" ry="1"></ellipse>
+                        <path d="M0.396649221,4.15694925 C0.695496975,4.82361591 1.21829836,5.15694925 1.96505338,5.15694925 C2.70680273,5.15694925 3.23128782,4.82806976 3.53850865,4.17031078 L0.396649221,4.15694925 Z" id="Path-2" fill="#5EAA22" fill-rule="evenodd"></path>
+                        <path d="M0.809596946,2.51532404 L0.530501296,1.81918783 C1.04273695,1.61382178 1.53660035,1.50980502 2.01110378,1.50980502 C2.48560721,1.50980502 2.97947061,1.61382178 3.49170626,1.81918783 L3.21261061,2.51532404 C2.78550611,2.34408886 2.38533307,2.25980502 2.01110378,2.25980502 C1.63687449,2.25980502 1.23670144,2.34408886 0.809596946,2.51532404 Z" id="Path-7" fill="#82B2CB" fill-rule="nonzero"></path>
+                        <circle id="Oval-7" fill="#FECA00" fill-rule="evenodd" cx="1.5" cy="2.5" r="1"></circle>
+                        <circle id="Oval-7" fill="#8A4E22" fill-rule="evenodd" cx="1.79998779" cy="3.30000305" r="1"></circle>
+                        <circle id="Oval-7" fill="#AF0100" fill-rule="evenodd" cx="1" cy="2.8999939" r="1"></circle>
+                        <circle id="Oval-7" fill="#AF0100" fill-rule="evenodd" cx="2.70001221" cy="2.8999939" r="1"></circle>
+                        <ellipse id="Oval-7" fill="#AF0100" fill-rule="evenodd" cx="2.34999999" cy="4" rx="1" ry="1"></ellipse>
+                        <ellipse id="Oval-7" fill="#AF0100" fill-rule="evenodd" cx="1.14998779" cy="4" rx="1" ry="1"></ellipse>
+                    </g>
+                </g>
+                <g id="mark-1" mask="url(#mask-4)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="mask" fill="#2E42A5" xlink:href="#path-5"></use>
+                    <g id="contents" mask="url(#mask-6)">
+                        <g transform="translate(-2.000000, -1.000000)">
+                            <g id="stripe">
+                                <polygon id="white" fill="#FFFFFF" fill-rule="nonzero" transform="translate(6.543731, 4.365902) scale(1, -1) translate(-6.543731, -4.365902) " points="0.997866872 1.23189449 2.97834209 0.363294267 11.0449402 6.78743314 12.0895956 8.07819892 9.9717623 8.36851072 6.68158973 5.60016547 4.033339 3.73494762"></polygon>
+                                <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(6.491732, 4.573107) scale(1, -1) translate(-6.491732, -4.573107) " points="1.26899691 1.0377417 2.27795758 0.533678352 11.7144671 8.61253609 10.2977689 8.61253609"></polygon>
+                            </g>
+                            <g id="stripe" transform="translate(6.500000, 4.500000) scale(-1, 1) translate(-6.500000, -4.500000) ">
+                                <polygon id="white" fill="#FFFFFF" fill-rule="nonzero" transform="translate(6.543731, 4.365902) scale(1, -1) translate(-6.543731, -4.365902) " points="0.997866872 1.23189449 2.97834209 0.363294267 11.0449402 6.78743314 12.0895956 8.07819892 9.9717623 8.36851072 6.68158973 5.60016547 4.033339 3.73494762"></polygon>
+                                <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(6.627779, 4.549380) scale(1, -1) translate(-6.627779, -4.549380) " points="1.06544306 1.16208955 2.07440374 0.658026209 6.09256727 4.11700491 7.28386651 4.5034683 12.1901144 8.44073422 10.7734162 8.44073422 5.86992481 4.59692228 4.567449 4.13351128"></polygon>
+                            </g>
+                            <g id="cross" transform="translate(2.000000, 1.000000)">
+                                <path d="M5,0 L4.99974424,2.532 L9.00774424,2.53237154 L9.00774424,4.53237154 L4.99974424,4.532 L5,7 L4,7 L3.99974424,4.532 L0.00774424025,4.53237154 L0.00774424025,2.53237154 L3.99974424,2.532 L4,0 L5,0 Z" id="white" stroke="#FFFFFF"></path>
+                                <path d="M5,0 L4.99974424,2.532 L9.00774424,2.53237154 L9.00774424,4.53237154 L4.99974424,4.532 L5,7 L4,7 L3.99974424,4.532 L0.00774424025,4.53237154 L0.00774424025,2.53237154 L3.99974424,2.532 L4,0 L5,0 Z" id="red" fill="#F50100"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/HK - Hong Kong</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+        <path d="M12.928765,12.31476 C12.928765,12.31476 11.204185,11.59152 11.39884,9.78375 C11.5858528,8.048334 11.9263258,7.61996338 11.4612406,7.41627865 L11.39884,7.39191 C11.39884,7.39191 16.043785,8.782485 12.928765,12.31476 Z M10.17796,8.476065 C10.17796,8.476065 11.01067,13.252515 6.458545,12.045435 C6.458545,12.045435 6.334615,10.17957 8.03866,9.54552 C9.74281,8.91132 10.2526,9.06057 10.17796,8.476065 Z M7.348825,5.951445 C8.318695,7.489365 8.277085,8.01912 8.83378,7.826295 C8.83378,7.826295 8.79655409,7.84112083 8.72905734,7.86454342 L8.63397635,7.89637833 C7.7642104,8.1776906 4.36107482,9.02165318 4.577965,4.917195 C4.577965,4.917195 6.378865,4.413345 7.348825,5.951445 Z M15.924175,6.42207 C15.924175,6.42207 14.87461,7.969605 13.140895,7.42167 C11.4764422,6.8956524 11.1239423,6.47690904 10.8323609,6.89267964 L10.798,6.946 L10.8044901,6.93377986 C10.9568972,6.65870102 13.1768961,2.80233184 15.924175,6.42207 Z M10.617925,2.126955 C10.617925,2.126955 11.87368,3.51234 10.93162,5.06763 C10.0285825,6.55803 9.53874359,6.80337891 9.87048198,7.18373876 L9.915,7.231 L9.90557923,7.22250869 C9.67428243,7.00942917 6.4514,3.94121684 10.617925,2.126955 Z" id="path-5"></path>
+        <filter x="-6.2%" y="-6.8%" width="117.2%" height="109.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0   0 0 0 0 0  0 0 0 0.36 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#EA1A1A" xlink:href="#path-3"></use>
+                <g id="Combined-shape-1061" mask="url(#mask-4)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <path d="M6.35077657,6.38004903 C6.95736318,7.33469782 7.75734209,7.81202222 8.7507133,7.81202222" id="Path-76" stroke="#EA1A1A" stroke-width="0.625" mask="url(#mask-4)"></path>
+                <path d="M8.63576499,5.10332172 C9.26691623,6.0554411 10.0791775,6.53150079 11.0725487,6.53150079" id="Path-76" stroke="#EA1A1A" stroke-width="0.625" mask="url(#mask-4)" transform="translate(9.854157, 5.817411) rotate(62.000000) translate(-9.854157, -5.817411) "></path>
+                <path d="M11.0915696,5.70510482 C11.7987941,6.7784978 12.649092,7.31519428 13.6424632,7.31519428" id="Path-76" stroke="#EA1A1A" stroke-width="0.625" mask="url(#mask-4)" transform="translate(12.367016, 6.510150) rotate(132.000000) translate(-12.367016, -6.510150) "></path>
+                <path d="M10.548779,7.56133307 C11.2560035,8.63472604 12.1063014,9.17142253 13.0996726,9.17142253" id="Path-76" stroke="#EA1A1A" stroke-width="0.625" mask="url(#mask-4)" transform="translate(11.824226, 8.366378) rotate(202.000000) translate(-11.824226, -8.366378) "></path>
+                <path d="M8.28190191,8.56503853 C8.98912648,9.6384315 9.83942437,10.175128 10.8327956,10.175128" id="Path-76" stroke="#EA1A1A" stroke-width="0.625" mask="url(#mask-4)" transform="translate(9.557349, 9.370083) rotate(272.000000) translate(-9.557349, -9.370083) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

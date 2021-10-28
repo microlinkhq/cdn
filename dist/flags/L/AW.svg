@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/AW - Aruba</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#5BA3DA" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(-2.000000, 1.000000)">
+                        <polygon id="star" stroke="#F7FCFF" stroke-width="0.35" fill="#FF0000" points="7.77329117 6.95969727 3.392297 6.03498107 7.82728917 5.15740727 9.1101418 0.567567818 10.1217894 5.12015327 14.0811395 6.03942863 10.1683394 6.95969727 9.03932304 10.703203"></polygon>
+                        <path d="M34.000234,17.000076 L34.000234,19.00013 L2.00013,19.00013 L2.00013,17.000076 L34.000234,17.000076 Z M34.000234,12.999996 L34.000234,15.00012 L2.00013,15.00012 L2.00013,12.999996 L34.000234,12.999996 Z" id="Combined-shape-1524" stroke="none" fill="#FAD615"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

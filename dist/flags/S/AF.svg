@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/AF - Afghanistan</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#67BD38" points="11 0 16 0 16 12 11 12"></polygon>
+                <polygon id="middle" fill="#D51700" points="5 0 11 0 11 12 5 12"></polygon>
+                <polygon id="middle" fill="#272727" points="0 0 5 0 5 12 0 12"></polygon>
+                <g id="mark" transform="translate(5.000000, 4.000000)" fill="#F7FCFF" fill-rule="nonzero">
+                    <path d="M0.62930952,0.194278902 L1,1.65559725 L1.03802966,1.65495619 C1.01307526,1.78278616 1,1.91486613 1,2.05 C1,2.66461403 1.27047483,3.21605528 1.6988891,3.59178834 L1.7,1.3 L2,1.3 C2,0.74771525 2.44771525,0.3 3,0.3 C3.55228475,0.3 4,0.74771525 4,1.3 L4,1.3 L4.3,1.3 L4.30116122,3.67404042 C4.78702944,3.29917373 5.1,2.71113596 5.1,2.05 C5.1,1.87617777 5.07836621,1.70740838 5.03764428,1.54623747 L5.48070357,0.207393856 C5.86935006,0.719289129 6.1,1.35770897 6.1,2.05 C6.1,3.73446849 4.73446849,5.1 3.05,5.1 C1.36553151,5.1 0,3.73446849 0,2.05 C0,1.35178417 0.234614761,0.708365546 0.62930952,0.194278902 Z M3.30084591,2.25395367 C3.20589605,2.28386897 3.10483183,2.3 3,2.3 C2.89516817,2.3 2.79410395,2.28386897 2.69915409,2.25395367 L2.69883396,4.07003914 C2.81293734,4.08973573 2.93026999,4.1 3.05,4.1 C3.13508532,4.1 3.21895995,4.0948164 3.30132532,4.08474778 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

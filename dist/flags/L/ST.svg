@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/ST - Sao Tome and Principe</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="background" fill="#FBCD17" x="0" y="0" width="32" height="24"></rect>
+                <rect id="top" fill="#73BE4A" x="0" y="0" width="32" height="8"></rect>
+                <rect id="bottom" fill="#73BE4A" x="0" y="16" width="32" height="8"></rect>
+                <polygon id="triangle" fill="#C51918" points="0 0 0 24 10 12"></polygon>
+                <polygon id="Star-5" fill="#272727" points="17.0017944 13.8706784 15.131123 15 15.5578113 12.7962417 14 11.1469453 16.1093638 11.0577666 17.0017944 9 17.894225 11.0577666 20 11.0577666 18.4457775 12.7962417 18.9136906 15"></polygon>
+                <polygon id="Star-5" fill="#272727" points="25.0017944 13.8706784 23.131123 15 23.5578113 12.7962417 22 11.1469453 24.1093638 11.0577666 25.0017944 9 25.894225 11.0577666 28 11.0577666 26.4457775 12.7962417 26.9136906 15"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

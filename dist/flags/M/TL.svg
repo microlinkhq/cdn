@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/TL - Timor-Leste</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <path d="M20.625,-0.625 L20.625,15.625 L-0.625,15.625 L-0.625,-0.625 L20.625,-0.625 Z" id="middle" stroke="#F7FCFF" stroke-width="1.25" fill="#E31D1C" fill-rule="nonzero"></path>
+                <polygon id="triangle-wide" fill="#FECA00" points="0 0 15 7.5 0 15"></polygon>
+                <polygon id="triangle" fill="#272727" points="0 0 10 7.5 0 15"></polygon>
+                <polygon id="Star-5" fill="#F7FCFF" transform="translate(3.750000, 7.500000) rotate(-15.000000) translate(-3.750000, -7.500000) " points="3.75149533 9.05889866 2.19260252 10 2.54817611 8.16353473 1.25 6.78912107 3.00780315 6.71480546 3.75149533 5 4.49518752 6.71480546 6.25 6.71480546 4.95481456 8.16353473 5.34474213 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

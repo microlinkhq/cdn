@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/CU - Cuba</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <polygon id="path-5" points="0 0 0 12 9 6"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#3D58DB" xlink:href="#path-3"></use>
+                <rect id="bottom" stroke="#F7FCFF" stroke-width="2" fill="#3D58DB" mask="url(#mask-4)" x="-1" y="4" width="18" height="4"></rect>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="triangle" fill="#E31D1C" xlink:href="#path-5"></use>
+                <g id="mark" mask="url(#mask-6)" fill="#F7FCFF">
+                    <g transform="translate(1.000000, 3.000000)" id="Star-5">
+                        <polygon points="2.3438933 4.10842247 0.507928504 5.07742093 1.40176003 3.13045267 0.262766527 2.09038513 1.66900905 2.03848738 2.3438933 0.278145374 2.85891654 2.03848738 4.26276653 2.03848738 3.32707079 3.13045267 4.07134312 5.07742093"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

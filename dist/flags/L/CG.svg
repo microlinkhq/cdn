@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/CG - Republic of the Congo</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <polygon id="path-3" points="31.4917518 0.199996948 1 29.5760775 7.05163172 32.5879679 36.6406546 5.78800996"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(-2.000000, -6.000000)" id="yellow">
+                    <polygon id="base---red" fill="#FA1111" points="34 6 34 30 2 30"></polygon>
+                    <polygon id="base---green" fill="#07A907" transform="translate(18.000000, 18.000000) scale(-1, -1) translate(-18.000000, -18.000000) " points="34 6 34 30 2 30"></polygon>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="red-with-yellow-strokes" fill="#FBCD17" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

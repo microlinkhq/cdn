@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/TN - Tunisia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#E31D1C" xlink:href="#path-3"></use>
+                <circle id="Oval-59" fill="#F7FCFF" mask="url(#mask-4)" cx="16" cy="12" r="8"></circle>
+                <path d="M17.5027323,6.22671815 C17.5027323,6.22671815 13.2651961,7.4018801 13.1861894,11.9281681 C13.1071828,16.4544561 17.3028456,17.6782162 17.3028456,17.6782162 C15.6894688,18.3634544 10.4625894,17.2967874 10.5571,11.8822772 C10.6516107,6.46776688 15.771268,5.5215978 17.5027323,6.22671815 Z M17.196128,8.93909531 L18.491822,10.6178764 L20.415004,10.0077063 L19.4027898,11.9054272 L21.0048719,13.2597451 L18.7519323,13.0602545 L17.3553297,14.6714037 L17.3163764,12.5654691 L15.0821435,11.7404577 L17.1870186,11.0127628 L17.196128,8.93909531 Z" id="Combined-shape-1695" fill="#E31D1C" mask="url(#mask-4)" transform="translate(15.780353, 11.942937) rotate(-1.000000) translate(-15.780353, -11.942937) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

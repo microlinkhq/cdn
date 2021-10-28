@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/KR - Korea (South)</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <ellipse id="path-5" cx="3.09282297" cy="3.16724739" rx="3.09282297" ry="3.16724739"></ellipse>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(1.000000, 1.000000)">
+                        <g id="center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(3.800478, 1.951220)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Oval-58" fill="#3D58DB" xlink:href="#path-5"></use>
+                            <path d="M6.29384186,3.40986726 C6.17810384,2.41422723 5.69167236,1.88938245 4.83454741,1.83533293 C3.54886,1.75425864 3.20219426,2.93054848 3.12800214,3.24218992 C3.05381002,3.55383135 2.86603099,4.38517753 1.51235171,4.38517753 C0.609898853,4.38517753 0.117970097,3.68053242 0.0365654413,2.27124219 L0.0365654413,-0.221416377 L6.29384186,-0.221416377 L6.29384186,3.40986726 Z" id="Path-331" fill="#E31D1C" mask="url(#mask-6)"></path>
+                        </g>
+                        <path d="M4.15521128,1.37349348 L4.61269233,1.78725649 L2.5628806,4.24585689 L2.10539955,3.83209388 L4.15521128,1.37349348 Z M3.40417156,0.695664807 L3.86165261,1.10942782 L1.81752239,3.54951119 L1.36004134,3.13574819 L3.40417156,0.695664807 Z M2.64967644,0.0260859079 L3.10715749,0.439848917 L0.987029514,2.91580114 L0.529548463,2.50203813 L2.64967644,0.0260859079 Z" id="Combined-Shape" stroke="#272727" stroke-width="0.15" fill="#272727" fill-rule="nonzero"></path>
+                        <path d="M12.9552108,1.37349348 L13.4126919,1.78725649 L11.3628801,4.24585689 L10.9053991,3.83209388 L12.9552108,1.37349348 Z M12.2041711,0.695664807 L12.6616521,1.10942782 L10.6175219,3.54951119 L10.1600409,3.13574819 L12.2041711,0.695664807 Z M11.449676,0.0260859079 L11.907157,0.439848917 L9.78702905,2.91580114 L9.329548,2.50203813 L11.449676,0.0260859079 Z" id="Combined-Shape" stroke="#272727" stroke-width="0.15" fill="#272727" fill-rule="nonzero" transform="translate(11.371120, 2.135971) scale(-1, 1) translate(-11.371120, -2.135971) "></path>
+                        <path d="M4.15521128,7.37349348 L4.61269233,7.78725649 L2.5628806,10.2458569 L2.10539955,9.83209388 L4.15521128,7.37349348 Z M3.40417156,6.69566481 L3.86165261,7.10942782 L1.81752239,9.54951119 L1.36004134,9.13574819 L3.40417156,6.69566481 Z M2.64967644,6.02608591 L3.10715749,6.43984892 L0.987029514,8.91580114 L0.529548463,8.50203813 L2.64967644,6.02608591 Z" id="Combined-Shape" stroke="#272727" stroke-width="0.15" fill="#272727" fill-rule="nonzero" transform="translate(2.571120, 8.135971) scale(1, -1) translate(-2.571120, -8.135971) "></path>
+                        <path d="M12.9552108,7.37349348 L13.4126919,7.78725649 L11.3628801,10.2458569 L10.9053991,9.83209388 L12.9552108,7.37349348 Z M12.2041711,6.69566481 L12.6616521,7.10942782 L10.6175219,9.54951119 L10.1600409,9.13574819 L12.2041711,6.69566481 Z M11.449676,6.02608591 L11.907157,6.43984892 L9.78702905,8.91580114 L9.329548,8.50203813 L11.449676,6.02608591 Z" id="Combined-Shape" stroke="#272727" stroke-width="0.15" fill="#272727" fill-rule="nonzero" transform="translate(11.371120, 8.135971) scale(-1, -1) translate(-11.371120, -8.135971) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

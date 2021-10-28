@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/VC - Saint Vincent and the Grenadines</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="middle" fill="#FFDC17" x="5" y="0" width="10" height="15"></rect>
+                <rect id="right" fill="#5FBF2B" x="15" y="0" width="5" height="15"></rect>
+                <rect id="left" fill="#2E42A5" x="0" y="0" width="5" height="15"></rect>
+                <g id="mark" transform="translate(5.625000, 3.125000)" fill="#5FBF2B">
+                    <path d="M4.45022936,3.12798216 L4.46239516,3.14701007 C4.551611,3.28654806 5.13151398,4.19354502 6.20210411,5.86800095 L6.20210411,5.86800095 L4.45022936,8.68820845 L2.40196078,5.86800095 C3.76747317,4.04132175 4.45022936,3.12798216 4.45022936,3.12798216 L4.45022936,3.12798216 Z M6.70399323,0 C6.70399323,0 6.70509281,0.00161417665 6.70729197,0.00484252994 L6.73368185,0.0435827694 C6.87222874,0.246969027 7.49568976,1.16220718 8.60406489,2.78929724 L8.60406489,2.78929724 L6.70399323,5.47993668 L4.80392157,2.78929724 C5.9122967,1.16220718 6.53575772,0.246969027 6.67430461,0.0435827694 L6.7006945,0.00484252994 L6.7006945,0.00484252994 Z M2.04826857,0.0492784546 C2.04826857,0.0492784546 2.63222682,0.962618051 3.80014332,2.78929724 L3.80014332,2.78929724 L1.90007166,5.43076606 L0,2.78929724 C1.36551238,0.962618051 2.04826857,0.0492784546 2.04826857,0.0492784546 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

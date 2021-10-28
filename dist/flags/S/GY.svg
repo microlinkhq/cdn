@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/GY - Guyana</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(-1.000000, -1.000000)">
+                    <rect id="background" stroke="none" fill="#5EAA22" x="1" y="1" width="16" height="12"></rect>
+                    <path d="M1.5,1.70669872 L16.497687,7 L1.5,12.2933013 L1.5,1.70669872 Z" id="left" stroke="#F7FCFF" stroke-width="1" fill="#FECA00"></path>
+                    <path d="M0.5,1.02231968 L8.18558898,7 L0.5,12.9776803 L0.5,1.02231968 Z" id="left" stroke="#272727" stroke-width="1" fill="#E11C1B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

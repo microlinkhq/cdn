@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/SO - Somalia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="base" fill="#56C6F5" points="0 0 16 0 16 12 0 12"></polygon>
+                <g id="mark" transform="translate(5.000000, 2.000000)" fill="#F7FCFF">
+                    <polygon id="Star-5" transform="translate(3.015229, 3.785689) rotate(1.000000) translate(-3.015229, -3.785689) " points="3.01680266 5.35891435 1.15600342 6.58813903 1.75059732 4.48276956 0.384577829 3.13785793 2.23424472 3.06513752 3.01680266 0.983239813 3.7993606 3.06513752 5.64588053 3.06513752 4.283008 4.48276956 4.96555624 6.46387492"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

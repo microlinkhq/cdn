@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/BR - Brazil</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#FFC600" offset="0%"></stop>
+            <stop stop-color="#FFDE42" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="15.926784 3.70404 28.12864 12.207504 15.7608 20.17128 3.808928 12.042672"></polygon>
+        <filter x="11.9%" y="15.4%" width="76.0%" height="68.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.03137255   0 0 0 0 0.36862746   0 0 0 0 0  0 0 0 0.28 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-8" cx="16" cy="12.2000122" r="5"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#009933" xlink:href="#path-3"></use>
+                <g id="flag-contents" mask="url(#mask-4)">
+                    <g id="yellow-diamond">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <use fill="#FFD221" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    </g>
+                    <mask id="mask-9" fill="white">
+                        <use xlink:href="#path-8"></use>
+                    </mask>
+                    <use id="Oval-10" fill="#2E42A5" xlink:href="#path-8"></use>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="14.38 14.57 14.1566416 14.6874264 14.1992993 14.4387132 14.0185985 14.2625735 14.2683208 14.2262868 14.38 14 14.4916792 14.2262868 14.7414015 14.2625735 14.5607007 14.4387132 14.6033584 14.6874264"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="16.38 14.57 16.1566416 14.6874264 16.1992993 14.4387132 16.0185985 14.2625735 16.2683208 14.2262868 16.38 14 16.4916792 14.2262868 16.7414015 14.2625735 16.5607007 14.4387132 16.6033584 14.6874264"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="16.38 15.7700122 16.1566416 15.8874387 16.1992993 15.6387254 16.0185985 15.4625857 16.2683208 15.426299 16.38 15.2000122 16.4916792 15.426299 16.7414015 15.4625857 16.5607007 15.6387254 16.6033584 15.8874387"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="15.38 11.57 15.1566416 11.6874264 15.1992993 11.4387132 15.0185985 11.2625735 15.2683208 11.2262868 15.38 11 15.4916792 11.2262868 15.7414015 11.2625735 15.5607007 11.4387132 15.6033584 11.6874264"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="15.38 13.57 15.1566416 13.6874264 15.1992993 13.4387132 15.0185985 13.2625735 15.2683208 13.2262868 15.38 13 15.4916792 13.2262868 15.7414015 13.2625735 15.5607007 13.4387132 15.6033584 13.6874264"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="13.9799756 12.57 13.7566172 12.6874264 13.7992748 12.4387132 13.6185741 12.2625735 13.8682964 12.2262868 13.9799756 12 14.0916548 12.2262868 14.3413771 12.2625735 14.1606763 12.4387132 14.203334 12.6874264"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="12.5799512 13.3699878 12.3565928 13.4874142 12.3992504 13.238701 12.2185497 13.0625613 12.468272 13.0262746 12.5799512 12.7999878 12.6916304 13.0262746 12.9413526 13.0625613 12.7606519 13.238701 12.8033096 13.4874142"></polygon>
+                    <polygon id="Star-4" fill="#F7FCFF" mask="url(#mask-9)" points="17.1800488 9.96999389 16.9566904 10.0874203 16.9993481 9.83870712 16.8186474 9.66256744 17.0683696 9.62628066 17.1800488 9.3999939 17.291728 9.62628066 17.5414503 9.66256744 17.3607496 9.83870712 17.4034072 10.0874203"></polygon>
+                    <path d="M9.92480906,10.9971692 L10.0751909,9.00283085 C14.8731319,9.36461672 18.6600319,10.9421863 21.388218,13.7484108 L19.9542057,15.1425446 C17.5896223,12.7103234 14.262381,11.3242412 9.92480906,10.9971692 Z" id="Path-9" fill="#F7FCFF" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                    <path d="M12.2894323,10.6027767 L12.3409493,10.1054378 C15.433916,10.425824 18.0868298,11.6105172 20.2917082,13.6569398 L19.9515688,14.0234165 C17.8269075,12.0514462 15.2755229,10.9120921 12.2894323,10.6027767 Z" id="Path-2" fill="#009933" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

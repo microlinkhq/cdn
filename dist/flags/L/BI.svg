@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/BI - Burundi</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="background" fill="#5EAA22" x="0" y="0" width="32" height="24" rx="2"></rect>
+                <path d="M35.75,-1.25 L18.0833333,12 L35.75,25.25 L-3.749625,25.25 L13.9148333,12 L-3.749625,-1.25 L35.75,-1.25 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2.5" fill="#DD2C2B" fill-rule="nonzero"></path>
+                <circle id="Oval-12" fill="#FFFFFF" cx="16" cy="12" r="6"></circle>
+                <polygon id="Star" stroke="#5EAA22" stroke-width="0.25" fill="#DD2C2B" transform="translate(16.000000, 9.400000) rotate(-330.000000) translate(-16.000000, -9.400000) " points="16 10.5399998 15 11.1320506 15.012731 9.96999981 14 9.39999981 15.012731 8.82999981 15 7.667949 16 8.25999981 17 7.667949 16.987269 8.82999981 18 9.39999981 16.987269 9.96999981 17 11.1320506"></polygon>
+                <polygon id="Star" stroke="#5EAA22" stroke-width="0.25" fill="#DD2C2B" transform="translate(13.500000, 13.500000) rotate(-330.000000) translate(-13.500000, -13.500000) " points="13.4999998 14.6399998 12.4999998 15.2320506 12.5127308 14.0699998 11.4999998 13.4999998 12.5127308 12.9299998 12.4999998 11.767949 13.4999998 12.3599998 14.4999998 11.767949 14.4872688 12.9299998 15.4999998 13.4999998 14.4872688 14.0699998 14.4999998 15.2320506"></polygon>
+                <polygon id="Star" stroke="#5EAA22" stroke-width="0.25" fill="#DD2C2B" transform="translate(18.500000, 13.500000) rotate(-330.000000) translate(-18.500000, -13.500000) " points="18.4999998 14.6399998 17.4999998 15.2320506 17.5127308 14.0699998 16.4999998 13.4999998 17.5127308 12.9299998 17.4999998 11.767949 18.4999998 12.3599998 19.4999998 11.767949 19.4872688 12.9299998 20.4999998 13.4999998 19.4872688 14.0699998 19.4999998 15.2320506"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/VN - Vietnam</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="base" fill="#F7FCFF" points="0 0 32 0 32 24 0 24"></polygon>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#E31D1C" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)" fill="#FFD221">
+                    <g transform="translate(8.000000, 2.000000)" id="Star-5">
+                        <polygon transform="translate(8.132767, 9.674695) rotate(1.000000) translate(-8.132767, -9.674695) " points="8.13707332 13.9805557 3.04413154 17.3449003 4.67151404 11.5825784 0.93276695 7.90160279 5.99523989 7.70256958 8.13707332 2.00448911 10.2789067 7.70256958 15.3327666 7.70256958 11.6026326 11.5825784 13.470743 17.0047938"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

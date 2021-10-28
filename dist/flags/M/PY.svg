@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/PY - Paraguay</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)" stroke="#272727" stroke-width="0.625">
+                    <g transform="translate(7.500000, 5.000000)" id="Oval-23">
+                        <circle cx="2.5" cy="2.5" r="2.1875"></circle>
+                    </g>
+                </g>
+                <rect id="top" fill="#F05234" mask="url(#mask-4)" x="0" y="0" width="20" height="5"></rect>
+                <rect id="bottom" fill="#3D58DB" mask="url(#mask-4)" x="0" y="10" width="20" height="5"></rect>
+                <path d="M9.50777134,6.3636287 C8.97043109,6.55596823 8.70176096,6.97821045 8.70176096,7.63035538 C8.70176096,8.28250031 9.01653205,8.70474254 9.64607423,8.89708206" id="Path-198" stroke="#73BE4A" stroke-width="0.625" mask="url(#mask-4)" transform="translate(9.326761, 7.630355) rotate(-15.000000) translate(-9.326761, -7.630355) "></path>
+                <path d="M10.7577713,6.3636287 C10.2204311,6.55596823 9.95176096,6.97821045 9.95176096,7.63035538 C9.95176096,8.28250031 10.2665321,8.70474254 10.8960742,8.89708206" id="Path-198" stroke="#73BE4A" stroke-width="0.625" mask="url(#mask-4)" transform="translate(10.576761, 7.630355) scale(-1, 1) rotate(-15.000000) translate(-10.576761, -7.630355) "></path>
+                <path d="M10.0015117,7.96702472 C10.3466897,7.96702472 10.6265117,7.68720269 10.6265117,7.34202472 C10.6265117,6.99684675 10.3466897,6.71702472 10.0015117,6.71702472 C9.65633378,6.71702472 9.37651174,6.99684675 9.37651174,7.34202472 C9.37651174,7.68720269 9.65633378,7.96702472 10.0015117,7.96702472 Z" id="Oval-41" fill="#FBCD17" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

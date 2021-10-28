@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/AG - Antigua and Barbuda</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="middle" fill="#1B1B1B" points="0 0 20 0 20 15 0 15"></polygon>
+                <g id="mark" transform="translate(0.000000, 1.250000)">
+                    <polygon id="Star-25" fill="#F9D313" points="10 7.5 8.60924416 9.87463956 8.64411332 7.25242217 6.10318874 8.90915741 7.55677662 6.5587245 4.36894458 7.1694187 6.95335027 5.55630233 3.75 5 6.95335027 4.44369767 4.36894458 2.8305813 7.55677662 3.4412755 6.10318874 1.09084259 8.64411332 2.74757783 8.60924416 0.125360439 10 2.5 11.3907558 0.125360439 11.3558867 2.74757783 13.8968113 1.09084259 12.4432234 3.4412755 15.6310554 2.8305813 13.0466497 4.44369767 16.25 5 13.0466497 5.55630233 15.6310554 7.1694187 12.4432234 6.5587245 13.8968113 8.90915741 11.3558867 7.25242217 11.3907558 9.87463956"></polygon>
+                    <rect id="Rectangle-10" fill="#F1F9FF" x="3.75" y="7.5" width="12.5" height="6.25"></rect>
+                    <rect id="Rectangle-10" fill="#4A80E8" x="1.25" y="5" width="17.5" height="2.5"></rect>
+                    <polygon id="blue" fill="#E31D1C" points="0 2.5 10 13.75 20 2.5 20 13.75 0 13.75"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

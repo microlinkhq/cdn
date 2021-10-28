@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/IN - India</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="top" fill="#FF8C1A" mask="url(#mask-4)" x="0" y="0" width="20" height="5"></rect>
+                <rect id="bottom" fill="#5EAA22" mask="url(#mask-4)" x="0" y="10" width="20" height="5"></rect>
+                <g id="mark" mask="url(#mask-4)" fill="#3D58DB">
+                    <g transform="translate(7.500000, 5.000000)">
+                        <path d="M2.5,4.375 C3.53553391,4.375 4.375,3.53553391 4.375,2.5 C4.375,1.46446609 3.53553391,0.625 2.5,0.625 C1.46446609,0.625 0.625,1.46446609 0.625,2.5 C0.625,3.53553391 1.46446609,4.375 2.5,4.375 Z M2.5,5 C1.11928813,5 0,3.88071187 0,2.5 C0,1.11928813 1.11928813,0 2.5,0 C3.88071187,0 5,1.11928813 5,2.5 C5,3.88071187 3.88071187,5 2.5,5 Z" id="Oval-23" fill-rule="nonzero"></path>
+                        <polygon id="Star-12" fill-rule="evenodd" points="2.49655733 3.03794275 1.97534261 4.95902675 2.28056453 2.99203206 1.02303594 4.5350325 2.10191886 2.86223838 0.325514506 3.76035647 1.99150976 2.67100421 0.00338609673 2.76894717 1.96842797 2.45139568 0.112349643 1.73222828 2.03666455 2.24138509 0.633564357 0.82945791 2.18442076 2.07728519 1.47690748 0.216733265 2.38614823 1.98747034 2.49655733 0 2.60696642 1.98747034 3.51620717 0.216733265 2.80869389 2.07728519 4.35955029 0.82945791 2.9564501 2.24138509 4.88076501 1.73222828 3.02468668 2.45139568 4.98972855 2.76894717 3.00160489 2.67100421 4.66760014 3.76035647 2.89119579 2.86223838 3.97007871 4.5350325 2.71255012 2.99203206 3.01777204 4.95902675"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/ET - Ethiopia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#FECA00" xlink:href="#path-3"></use>
+                <rect id="top" fill="#5EAA22" mask="url(#mask-4)" x="0" y="0" width="32" height="8"></rect>
+                <rect id="bottom" fill="#E31D1C" mask="url(#mask-4)" x="0" y="16" width="32" height="8"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(10.000000, 6.000000)">
+                        <circle id="Oval-20" stroke="none" fill="#2B77B8" fill-rule="evenodd" cx="6" cy="6" r="6"></circle>
+                        <polygon id="Star-9" stroke="#FECA00" stroke-width="1.5" fill="none" points="6 8 3.23796434 8.92652847 4.09788697 6.61803399 2.22443106 4.38196601 4.8244295 4.38196601 6 2 7.1755705 4.38196601 9.83288319 4.38196601 7.90211303 6.61803399 8.58743622 8.92652847"></polygon>
+                        <line x1="5.69610744" y1="6.03448771" x2="3.61144586" y2="10.3946201" id="Path-42" stroke="#2B77B8" stroke-width="1" fill="none"></line>
+                        <line x1="5.36809058" y1="5.47945267" x2="1.36809058" y2="5.47945267" id="Path-42" stroke="#2B77B8" stroke-width="1" fill="none"></line>
+                        <line x1="6.1214614" y1="6.83759504" x2="10.030507" y2="8.64173864" id="Path-42" stroke="#2B77B8" stroke-width="1" fill="none"></line>
+                        <line x1="6.96667694" y1="5.87368317" x2="9.79626735" y2="2.77649203" id="Path-42" stroke="#2B77B8" stroke-width="1" fill="none"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

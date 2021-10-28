@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/KM - Comoros</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="background" stroke="none" fill="#5196ED" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect id="3" stroke="none" fill="#AF0100" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="7.5" width="20" height="3.75"></rect>
+                    <rect id="2" stroke="none" fill="#F7FCFF" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="3.75" width="20" height="3.75"></rect>
+                    <rect id="1" stroke="none" fill="#FECA00" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="20" height="3.75"></rect>
+                    <polygon id="triangle" stroke="none" fill="#5EAA22" fill-rule="evenodd" mask="url(#mask-4)" points="0 0 12.5 7.5 0 15"></polygon>
+                    <path d="M5.13964173,4.55374483 C5.13964173,4.55374483 2.85921487,5.03117364 2.78000142,7.46768223 C2.70078797,9.90419082 4.9403877,10.6825544 4.9403877,10.6825544 C4.08882708,10.905672 1.30038504,10.280712 1.39183959,7.46768223 C1.48329414,4.6546525 4.34100928,3.96652003 5.13964173,4.55374483 Z M5.375,9.09090909 L5.55868289,9.46985823 L5.96941032,9.53062555 L5.67220516,9.82559632 L5.74236578,10.2421017 L5.375,10.0454545 L5.00763422,10.2421017 L5.07779484,9.82559632 L4.78058968,9.53062555 L5.19131711,9.46985823 L5.375,9.09090909 Z M5.375,7.81818182 L5.55868289,8.19713096 L5.96941032,8.25789828 L5.67220516,8.55286904 L5.74236578,8.96937445 L5.375,8.77272727 L5.00763422,8.96937445 L5.07779484,8.55286904 L4.78058968,8.25789828 L5.19131711,8.19713096 L5.375,7.81818182 Z M5.375,6.54545455 L5.55868289,6.92440368 L5.96941032,6.985171 L5.67220516,7.28014177 L5.74236578,7.69664718 L5.375,7.5 L5.00763422,7.69664718 L5.07779484,7.28014177 L4.78058968,6.985171 L5.19131711,6.92440368 L5.375,6.54545455 Z M5.375,5.27272727 L5.55868289,5.65167641 L5.96941032,5.71244373 L5.67220516,6.0074145 L5.74236578,6.42391991 L5.375,6.22727273 L5.00763422,6.42391991 L5.07779484,6.0074145 L4.78058968,5.71244373 L5.19131711,5.65167641 L5.375,5.27272727 Z" id="Combined-Shape" stroke="none" fill="#F7FCFF" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

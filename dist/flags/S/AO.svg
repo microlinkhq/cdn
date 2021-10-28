@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/AO - Angola</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <path d="M2.71503,0.01345 C4.48123,0.01345 6.44837,1.44527 6.44837,3.21145 C6.44837,3.95926408 6.19169907,4.65312577 5.76165434,5.20467047 C6.27716977,5.46191904 6.74079409,5.68207206 6.99936624,5.80338328 L7.13408227,5.86632849 C7.18634797,5.89063835 7.2149,5.90377 7.2149,5.90377 C7.46202,6.06583 7.53109,6.49801 7.36908,6.74527 C7.20695,6.99239 6.87506,7.0614 6.62801,6.89945 C6.62801,6.89945 5.99596,6.52566 5.61083,6.27314 C5.43412617,6.15730736 5.22977122,6.03174451 5.01228073,5.90311108 C4.50724804,6.24381865 3.90149841,6.44301 3.2503,6.44301 C3.2503,6.44301 0.90175,6.15534 0.96896,4.95102 C0.96896,4.95102 1.53752,5.38594 3.21008,5.38594 C3.47628106,5.38594 3.71028022,5.34865556 3.91558479,5.28312256 C3.19087354,4.88773561 2.57669,4.57449 2.57669,4.57449 C2.32939,4.41246 1.68631,3.59092 1.84838,3.34365 C2.01051,3.0965 2.99068,3.37588 3.23779,3.53786 C3.23779,3.53786 3.58149,4.00988 4.06654,4.29847 C4.28044159,4.42571574 4.52186469,4.56032142 4.77350433,4.69530037 C5.16272979,4.21635355 5.284,3.59762846 5.284,3.21145 C5.284,1.15245 2.71503,0.01345 2.71503,0.01345 Z M3.59018703,2.90123178 L3.08527074,3.2376662 L3.24661009,2.66143406 L2.8759492,2.29333653 L3.37784481,2.27343321 L3.59018703,1.7036252 L3.80252926,2.27343321 L4.30357096,2.27343321 L3.93376397,2.66143406 L4.11896919,3.20365556 L3.59018703,2.90123178 Z" id="path-5"></path>
+        <filter x="0.0%" y="-0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#1D1D1D" xlink:href="#path-3"></use>
+                <rect id="top" fill="#F50100" mask="url(#mask-4)" x="0" y="0" width="16" height="6"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(3.000000, 2.000000)" id="Combined-shape-1566">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FCFF01" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="#FFEA42" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

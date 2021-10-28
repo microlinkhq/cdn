@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/MR - Mauritania</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#1C7B4D" xlink:href="#path-3"></use>
+                <rect id="top" fill="#E31D1C" mask="url(#mask-4)" x="0" y="0" width="32" height="6"></rect>
+                <rect id="bottom" fill="#E31D1C" mask="url(#mask-4)" x="0" y="18" width="32" height="6"></rect>
+                <g id="mark" mask="url(#mask-4)" fill="#FECA00">
+                    <g transform="translate(16.000000, 11.000000) rotate(-90.000000) translate(-16.000000, -11.000000) translate(10.000000, 4.000000)">
+                        <path d="M2.62145813,7.24199656 C2.59271433,12.4272817 6.93491105,13.8876426 6.93491105,13.8876426 C3.22007723,13.5939282 0.70088991,11.5392909 0.70088991,7.24199656 C0.70088991,2.94470218 3.9640647,1.36673422 7.21924001,0.596350555 C7.21924001,0.596350555 2.65020193,2.05671146 2.62145813,7.24199656 Z" id="Shape-sp-1695-0"></path>
+                        <polygon id="Star-17" transform="translate(7.745210, 6.917035) rotate(18.000000) translate(-7.745210, -6.917035) " points="7.74520961 8.72564082 5.98185385 9.6526918 6.31862483 7.68916631 4.89204006 6.29858983 6.86353173 6.01211532 7.88143633 4.18137807 8.49066076 6.05637807 10.5983792 6.29858983 9.03556766 7.73342905 9.64479209 9.60842905"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

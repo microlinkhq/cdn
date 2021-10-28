@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/NC - New Caledonia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#F50100" points="22 0 32 0 32 24 22 24"></polygon>
+                <polygon id="left" fill="#2E42A5" points="0 0 12 0 12 24 0 24"></polygon>
+                <polygon id="middle" fill="#F7FCFF" points="10 0 22 0 22 24 10 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/SS - South Sudan</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="middle" fill="#F7FCFF" points="0 0 32 0 32 24 0 24"></polygon>
+                <rect id="top" fill="#272727" x="0" y="0" width="32" height="8"></rect>
+                <rect id="bottom" fill="#4E8B1D" x="0" y="16" width="32" height="8"></rect>
+                <rect id="bottom" stroke="#F7FCFF" stroke-width="2" fill="#E31D1C" fill-rule="nonzero" x="-1" y="7" width="34" height="10"></rect>
+                <polygon id="triangle" fill="#3D58DB" points="0 0 20 12 0 24"></polygon>
+                <polygon id="Star-5" fill="#FECA00" transform="translate(6.000000, 12.000000) rotate(-15.000000) translate(-6.000000, -12.000000) " points="6.00239253 14.4942379 3.50816403 16 4.07708177 13.0616556 2 10.8625937 4.81248504 10.7436887 6.00239253 8 7.19230002 10.7436887 10 10.7436887 7.9277033 13.0616556 8.5515874 16"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

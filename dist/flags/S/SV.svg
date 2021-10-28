@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/SV - El Salvador</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="top" fill="#3D58DB" mask="url(#mask-4)" x="0" y="0" width="16" height="4"></rect>
+                <rect id="bottom" fill="#3D58DB" mask="url(#mask-4)" x="0" y="8" width="16" height="4"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(5.000000, 3.000000)">
+                        <circle id="Oval-19" stroke="#E8AA00" stroke-width="0.5" fill="none" cx="2.89179104" cy="2.92910448" r="1.82089552"></circle>
+                        <path d="" id="Path-29" stroke="#979797" stroke-width="0.5" fill="none"></path>
+                        <path d="M1.90533619,1.83112965 C1.58781906,2.35368399 1.4290605,2.79432808 1.4290605,3.15306191 C1.4290605,3.69116267 1.9991537,4.36750948 2.89608953,4.36750948 C3.77099324,4.36750948 4.39983562,3.84489874 4.41885257,3.15306191 C4.43153054,2.69183737 4.27464484,2.29705586 3.94819546,1.9687174 C4.13295069,2.63275184 4.1791395,3.09930831 4.08676188,3.36838681 C3.94819546,3.77200456 3.49967507,4.26033563 2.89608953,4.19816551 C2.29250398,4.13599538 1.71969228,3.39307274 1.71969228,3.15306191 C1.71969228,2.9930547 1.78157358,2.55241061 1.90533619,1.83112965 Z" id="Path-33" stroke="none" fill="#1E601B" fill-rule="evenodd"></path>
+                        <line x1="2.08024748" y1="3.1641791" x2="3.68389839" y2="3.1641791" id="Path-35" stroke="#188396" stroke-width="0.5" fill="none"></line>
+                        <line x1="2.22950121" y1="2.90298507" x2="3.60927153" y2="2.90298507" id="Path-35" stroke="#E8AA00" stroke-width="0.5" fill="none"></line>
+                        <path d="M2.91633423,2.17743552 L3.52477317,3.20558984 L2.29667484,3.20558984 L2.91633423,2.17743552 Z" id="Path-34" stroke="#E8AA00" stroke-width="0.5" fill="none"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

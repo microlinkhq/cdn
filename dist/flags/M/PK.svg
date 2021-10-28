@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/PK - Pakistan</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#2F8D00" points="5 0 20 0 20 15 5 15"></polygon>
+                <polygon id="middle" fill="#F7FCFF" points="0 0 5 0 5 15 0 15"></polygon>
+                <g id="mark" transform="translate(3.750000, 1.250000)" fill="#F1F9FF">
+                    <path d="M7.27991446,1.92814659 C7.27991446,1.92814659 4.07376255,3.55936466 4.59070621,6.17548972 C5.10764986,8.79161478 7.59582321,10.2506799 7.59582321,10.2506799 C6.64464164,10.5996873 3.22572473,10.0554709 2.65254438,6.49171264 C2.07936403,2.92795434 6.34388354,1.22992539 7.27991446,1.92814659 Z M9.15093606,4.19392701 L9.19360709,5.57893284 L10.5946653,6.09977053 L9.11897809,6.54773224 L9.36433745,8.23284948 L8.21508316,6.91740634 L6.66833902,7.21160607 L7.59987271,5.98158461 L6.69113715,4.6790025 L8.25169493,5.21457507 L9.15093606,4.19392701 Z" id="Combined-shape-1695" transform="translate(6.597218, 6.057410) rotate(-45.000000) translate(-6.597218, -6.057410) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

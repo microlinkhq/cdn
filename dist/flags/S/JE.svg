@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/JE - Jersey</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(-2.000000, 0.000000)">
+                    <polygon id="background" stroke="none" fill="#F7FCFF" points="2 0 18 0 18 12 2 12"></polygon>
+                    <path d="M-0.375012207,0.0030334267 L9.8733883,6.19999695 L-0.375012207,12.3969605 L-0.375012207,0.0030334267 Z" id="triangles" stroke="#E31D1C" stroke-width="1.35" fill="#F7FCFF"></path>
+                    <path d="M10.5150024,0.0274085894 L21.1434843,6.19999695 L10.5150024,12.3725853 L10.5150024,0.0274085894 Z" id="triangles" stroke="#E31D1C" stroke-width="1.35" fill="#F7FCFF" transform="translate(15.494713, 6.199997) scale(-1, 1) translate(-15.494713, -6.199997) "></path>
+                    <g id="mark" stroke="none" stroke-width="1" fill="none" transform="translate(7.400024, 1.000000)">
+                        <path d="M1.43732364,1.35150419 C1.1511111,2.61760668 1.50212827,3.49379326 2.49037517,3.98006393 C3.43910576,3.46295462 3.80692532,2.58676804 3.59383385,1.35150419 C3.18638147,1.21520728 2.82066486,1.14705882 2.49668403,1.14705882 C2.1727032,1.14705882 1.81958307,1.21520728 1.43732364,1.35150419 Z" id="Path-90" fill="#E31D1C"></path>
+                        <path d="M1.31059046,1.54760888 L0.986010712,0.601750542 C1.5911928,0.394076896 2.11387064,0.287937 2.56034323,0.287937 C3.01799916,0.287937 3.49517778,0.3992276 3.99083061,0.616871301 L3.58877856,1.53248812 C3.2137433,1.36780821 2.87128102,1.287937 2.56034323,1.287937 C2.23822211,1.287937 1.81953819,1.37295891 1.31059046,1.54760888 Z" id="Path-2" fill="#FECA00" fill-rule="nonzero"></path>
+                        <circle id="Oval-76" fill="#FECA00" fill-rule="nonzero" cx="2.52497559" cy="2.325" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/TR - Turkey</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#E31D1C" xlink:href="#path-3"></use>
+                <path d="M7.93631511,2.03280348 C8.8626987,2.04742148 9.98321534,2.60653927 10.2950378,3.38000388 C10.2950378,3.38000388 9.26940568,2.76470361 8.08769922,3.02550201 C6.90599277,3.28630042 6.14343877,4.31257617 6.11286809,5.54193279 C6.08020992,6.85523488 6.90300683,7.76589762 7.96889981,8.04830041 C9.03479279,8.33070321 10.1740741,7.72332019 10.1740741,7.72332019 C10.0294729,8.12820695 9.34898035,9.07404525 7.94952074,9.05196228 C6.20382841,9.02441587 4.24104569,7.72709095 4.29617305,5.51022226 C4.34934676,3.37191653 6.21191533,2.00559306 7.93631511,2.03280348 Z M10.4375383,4.0732412 L11.2152062,4.96874497 L12.3312954,4.61468167 L11.6332398,5.55454213 L12.6556547,6.46489829 L11.3474712,6.34685625 L10.5378999,7.28467497 L10.5805604,6.0165333 L9.38455572,5.57099528 L10.4579684,5.19783794 L10.4375383,4.0732412 Z" id="Combined-shape-1695" fill="#F7FCFF" mask="url(#mask-4)" transform="translate(8.475346, 5.542373) rotate(-1.000000) translate(-8.475346, -5.542373) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

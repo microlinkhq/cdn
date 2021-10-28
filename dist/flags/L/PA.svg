@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/PA - Panama</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="bottom" fill="#E31D1C" mask="url(#mask-4)" x="16" y="0" width="16" height="12"></rect>
+                <polygon id="Star-5" fill="#E31D1C" mask="url(#mask-4)" points="23.0208671 19.1496901 20.7184301 20.5744007 21.6123021 18.1826683 19.6552289 16.3719838 22.0290184 16.3719838 23.0208671 13.784884 23.7777749 16.3719838 26.1552289 16.3719838 24.4418495 18.1826683 25.2807283 20.5744007"></polygon>
+                <polygon id="Star-5" fill="#2E42A5" mask="url(#mask-4)" points="9.02086711 8.3648061 6.71843009 9.7895167 7.6123021 7.39778429 5.65522887 5.58709982 8.02901841 5.58709982 9.02086711 3 9.77777487 5.58709982 12.1552289 5.58709982 10.4418495 7.39778429 11.2807283 9.7895167"></polygon>
+                <rect id="bottom" fill="#2E42A5" mask="url(#mask-4)" x="0" y="12" width="16" height="12"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

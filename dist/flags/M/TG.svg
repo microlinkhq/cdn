@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/TG - Togo</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <path d="M20.625,-0.625 L20.625,15.625 L-0.625,15.625 L-0.625,-0.625 L20.625,-0.625 Z" id="middle" stroke="#F7FCFF" stroke-width="1.25" fill="#5EAA22" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            <rect id="stripe" fill="#FECA00" mask="url(#mask-2)" x="0" y="3.75" width="20" height="2.5"></rect>
+            <rect id="stripe" fill="#FECA00" mask="url(#mask-2)" x="0" y="8.75" width="20" height="2.5"></rect>
+            <rect id="Rectangle-82" fill="#F50101" mask="url(#mask-2)" x="0" y="0" width="10" height="8.75"></rect>
+            <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-2)" points="5.15625 6.34009899 2.83167416 7.77850873 3.7341411 5.3637789 1.875 3.73697578 4.15486429 3.73697578 5.15625 1.33112781 5.92043572 3.73697578 8.17286938 3.73697578 6.59089568 5.3637789 7.36942805 7.66005101"></polygon>
+        </g>
+    </g>
+</svg>

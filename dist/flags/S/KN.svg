@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/KN - Kenia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <path d="M3,9.47368421 C3.59803072,9.47368421 6,7.58856737 6,5.26315789 C6,2.93774842 3.59803072,1.05263158 3,1.05263158 C2.40196928,1.05263158 0,2.93774842 0,5.26315789 C0,7.58856737 2.40196928,9.47368421 3,9.47368421 Z" id="path-3"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags/S/KN---Kenia">
+            <g id="flag">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="mask"></g>
+                <g id="contents" mask="url(#mask-2)">
+                    <polygon id="middle" fill="#0067C3" points="0 0 16 0 16 12 0 12"></polygon>
+                    <rect id="top" fill="#272727" x="0" y="0" width="16" height="4"></rect>
+                    <rect id="bottom" fill="#4E8B1D" x="0" y="8" width="16" height="4"></rect>
+                    <rect id="bottom" stroke="#F7FCFF" fill="#E31D1C" fill-rule="nonzero" x="-0.5" y="3.5" width="17" height="5"></rect>
+                </g>
+            </g>
+            <g id="Oval" transform="translate(5.000000, 1.000000)">
+                <path d="M4.81173646,1.01524869 C4.92592305,0.809882737 5.23290973,0.585624184 5.73269652,0.342473036 C5.74987103,0.334117468 5.77061305,0.333638849 5.7882646,0.34119081 C5.81813655,0.353971096 5.83054162,0.385573674 5.81581178,0.411708555 L0.637038943,9.72579438 L0.367400729,9.61043355 L4.93244972,1.40013752 C4.72572856,1.37059931 4.68549081,1.24230304 4.81173646,1.01524869 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M1.18276207,1.01524869 C1.30900773,1.24230304 1.26876998,1.37059931 1.06204882,1.40013752 L5.62709781,9.61043355 L5.35745959,9.72579438 L0.178686757,0.411708555 C0.163956913,0.385573674 0.176361983,0.353971096 0.206233938,0.34119081 C0.223885486,0.333638849 0.244627503,0.334117468 0.261802014,0.342473036 C0.761588801,0.585624184 1.06857549,0.809882737 1.18276207,1.01524869 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#E31D1C" xlink:href="#path-3"></use>
+                <ellipse fill="#272727" fill-rule="nonzero" mask="url(#mask-4)" cx="-2.5" cy="5.26315789" rx="4.2" ry="3.68421053"></ellipse>
+                <ellipse fill="#272727" fill-rule="nonzero" mask="url(#mask-4)" cx="8.5" cy="5.26315789" rx="4.2" ry="3.68421053"></ellipse>
+                <path d="M3.6,7.63157895 C3.6,8.52260594 3.39394656,9.26587657 3.1201549,9.43673883 L3.1201549,5.82641906 C3.39394656,5.99728132 3.6,6.74055195 3.6,7.63157895 Z M2.81995174,5.87385223 L2.81995174,9.38930567 C2.57655025,9.15452715 2.4,8.45635319 2.4,7.63157895 C2.4,6.80680471 2.57655025,6.10863074 2.81995174,5.87385223 Z M3.6,2.89473684 C3.6,3.78576384 3.39394656,4.52903447 3.1201549,4.69989673 L3.1201549,1.08957696 C3.39394656,1.26043922 3.6,2.00370985 3.6,2.89473684 Z M2.81995174,1.13701012 L2.81995174,4.65246356 C2.57655025,4.41768505 2.4,3.71951108 2.4,2.89473684 C2.4,2.0699626 2.57655025,1.37178864 2.81995174,1.13701012 Z" id="Combined-Shape" fill="#F7FCFF" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                <ellipse fill="#F7FCFF" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(3.000000, 5.263158) scale(1, -1) translate(-3.000000, -5.263158) " cx="3" cy="5.26315789" rx="1" ry="1"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

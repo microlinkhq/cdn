@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/CL - Chile</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -1.000000)">
+                    <polygon id="4" fill="#3D58DB" points="0 1 7 1 7 8 0 8"></polygon>
+                    <polygon id="3" fill="#F7FCFF" points="7 0 16 0 16 8 7 8"></polygon>
+                    <polygon id="1" fill="#E31D1C" points="0 8 16 8 16 13 0 13"></polygon>
+                    <g id="mark" stroke-width="1" fill="none" transform="translate(0.000000, 2.000000)">
+                        <polygon id="Star-5" fill="#F7FCFF" points="3.50717434 3.89165975 1.60534146 5.02740206 2.54392318 3.09497448 0.881873521 1.83987456 2.8006164 1.81932784 3.52446138 0.10571379 3.99052389 1.81932784 5.80663938 1.82788872 4.42532762 3.05547269 5.14261429 5.02740206"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/NI - Nicaragua</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+        <polygon id="path-5" points="2.73846203 0.00427551892 0.00157222827 4.73505068 5.51830435 4.73505068"></polygon>
+        <circle id="path-7" cx="2.76363636" cy="3.78181818" r="1.89090909"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="top" fill="#0080EC" mask="url(#mask-4)" x="0" y="0" width="32" height="8"></rect>
+                <rect id="bottom" fill="#0080EC" mask="url(#mask-4)" x="0" y="16" width="32" height="8"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(12.000000, 8.000000)">
+                        <path d="M3.77148191,6.69958904 L3.77117942,7.99356475 C2.41568484,7.91711853 1.2406173,7.16574898 0.576666092,6.07014537 L1.83660539,5.63086768 C2.28804117,6.22876894 2.98160828,6.63361766 3.77148191,6.69958904 Z M6.12596357,5.67930011 L7.51352876,5.91341976 C6.87978064,7.07468121 5.68709474,7.88710517 4.29702373,7.98913898 L4.29658163,6.69304266 C5.03681262,6.61244294 5.68748851,6.23364684 6.12596357,5.67930011 Z M8,4 L7.995,4.198 L6.7076461,4.08932403 C6.70860684,4.05966735 6.70909091,4.02989021 6.70909091,4 C6.70909091,2.78385782 5.90774337,1.75488039 4.80427219,1.4122916 L5.15228678,0.16846409 C6.79971868,0.663214852 8,2.19143707 8,4 Z M2.55121992,0.270437491 L2.8853464,1.53011449 C1.95085699,1.95251009 1.29886966,2.88966684 1.29098146,3.97998769 L0.00361861623,4.17169815 C0.00121428343,4.1147652 0,4.05752441 0,4 C0,2.30182604 1.05823019,0.850814983 2.55121992,0.270437491 Z M4,0 C4.1881287,0 4.373224,0.01298751 4.55443822,0.0381148446 L4.35777353,1.31432413 C4.24070731,1.29887916 4.12128441,1.29090909 4,1.29090909 C3.82352093,1.29090909 3.65098317,1.30778389 3.48391227,1.34000796 L3.39276186,0.0457957348 C3.59077527,0.0156385994 3.79356134,0 4,0 Z" id="Oval-36" fill="#D0AB00" fill-rule="nonzero"></path>
+                        <g id="triangle" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.236364, 0.945455)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Path-180" fill="#7CDFFF" xlink:href="#path-5"></use>
+                            <g id="Oval-35" mask="url(#mask-6)">
+                                <circle stroke="#E31D1C" cx="2.76363636" cy="3.78181818" r="2.39090909"></circle>
+                                <circle stroke="#FFD018" cx="2.76363636" cy="3.78181818" r="2.39090909"></circle>
+                                <circle stroke="#4EDD00" cx="2.76363636" cy="3.78181818" r="2.39090909"></circle>
+                                <use stroke="#3D58DB" xlink:href="#path-7"></use>
+                            </g>
+                            <rect id="Rectangle-47" fill="#3D58DB" mask="url(#mask-6)" x="-0.218181818" y="3.27272727" width="6.25454545" height="1.81818182"></rect>
+                            <polygon id="Path-181" fill="#97C923" mask="url(#mask-6)" points="0.200560861 4.04546697 1.44714652 2.80581659 1.82972012 3.42564178 2.09698844 2.66975839 2.39380513 3.23635579 2.70558114 2.80581659 3.1089645 3.23635579 3.47880046 2.66975839 3.79494578 3.23635579 4.15767236 2.80581659 5.00524397 3.7065007 5.15779945 4.04546697 0.200560861 4.29692659"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

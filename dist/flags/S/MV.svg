@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/MV - Maldives</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <polygon id="path-3" points="3 3 13 3 13 9 3 9"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <path d="M0,0 L16,0 L16,11 C16,11.5522847 15.5522847,12 15,12 L1,12 C0.44771525,12 6.76353751e-17,11.5522847 0,11 L0,0 L0,0 Z" id="background" fill="#C51918"></path>
+                <polygon id="background" fill="#C51918" points="0 0 16 0 16 12 0 12"></polygon>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <path stroke-opacity="0.238111413" stroke="#B6EB9A" d="M12.5,3.5 L12.5,8.5 L3.5,8.5 L3.5,3.5 L12.5,3.5 Z"></path>
+                <path d="M8.01649555,6.23124373 C8.00799846,7.76409025 9.21473191,8.58135652 9.21473191,8.58135652 C7.83776673,8.7430342 6.92163866,7.49474825 6.92163866,6.24618365 C6.92163866,4.99761905 8.17043516,3.96624969 9.21473191,3.50052759 C9.21473191,3.50052759 8.02499264,4.69839721 8.01649555,6.23124373 Z" id="Shape-sp-1695-0" fill="#F9FAFA" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

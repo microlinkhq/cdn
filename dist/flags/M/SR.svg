@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/SR - Suriname</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#4E8B1D" points="0 10 20 10 20 15 0 15"></polygon>
+                <polygon id="top" fill="#4E8B1D" points="0 0 20 0 20 3.75 0 3.75"></polygon>
+                <path d="M20.9375,4.0625 L20.9375,10.9375 L-0.9375,10.9375 L-0.9375,4.0625 L20.9375,4.0625 Z" id="middle" stroke="#FFFFFF" stroke-width="1.875" fill="#AF0100"></path>
+                <polygon id="Star-5" fill="#FECA00" points="10.0014953 9.05889866 8.44260252 10 8.79817611 8.16353473 7.5 6.78912107 9.25780315 6.71480546 10.0014953 5 10.7451875 6.71480546 12.5 6.71480546 11.2048146 8.16353473 11.5947421 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

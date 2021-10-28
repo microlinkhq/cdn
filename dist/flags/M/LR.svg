@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/LR - Liberia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(-1.250000, 0.000000)">
+                    <polygon id="background" fill="#F7FCFF" points="1.25 0 21.25 0 21.25 15 1.25 15"></polygon>
+                    <g id="mark" stroke-width="1" fill="none">
+                        <rect id="lines" fill="#E31D1C" x="1.26697402" y="3.4375" width="20" height="1.875"></rect>
+                        <rect id="lines" fill="#E31D1C" x="1.25" y="0" width="20" height="1.875"></rect>
+                        <rect id="lines" fill="#E31D1C" x="1.21320543" y="6.875" width="20" height="1.875"></rect>
+                        <rect id="lines" fill="#E31D1C" x="1.31979014" y="10.2499962" width="20" height="1.875"></rect>
+                        <rect id="lines" fill="#E31D1C" x="1.31342034" y="13.4375" width="20" height="1.875"></rect>
+                        <polygon id="square" fill="#3D58DB" points="1.25 0 11.25 0 11.25 8.75 1.25 8.75"></polygon>
+                        <polygon id="Star-5" fill="#F7FCFF" points="6.332794 5.75817845 4.50693891 7.02462644 5.09036687 4.8555023 3.75 3.46986414 5.56493181 3.3949416 6.332794 1.25 7.1006562 3.3949416 8.91250014 3.3949416 7.57522114 4.8555023 8.24495174 6.89659937"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

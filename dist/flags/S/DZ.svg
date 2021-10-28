@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/DZ - Algeria</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#F7FCFF" points="8 0 16 0 16 12 8 12"></polygon>
+                <polygon id="middle" fill="#36A400" points="0 0 8 0 8 12 0 12"></polygon>
+                <g id="mark" transform="translate(5.000000, 3.000000)" fill="#FF0000">
+                    <path d="M2.761344,0.00885705589 C4.1630336,0.00885705589 5.502104,1.5031 5.502104,1.5031 L5.46418403,1.48449374 C5.2290993,1.37118631 3.94968152,0.784252421 3,0.950785184 C1.950352,1.13484771 1.4939357,2.1093645 1.4939357,2.90434 C1.4939357,3.6993155 1.76989322,4.76773911 3,4.99894767 C4.23010678,5.23015623 5.42052,4.08025 5.42052,4.08025 C5.42052,4.08025 4.54152526,5.9591828 2.761344,5.9591828 C0.981162736,5.9591828 0.020584,4.74805283 0.020584,2.90434 C0.020584,1.06062717 1.3596544,0.00885705589 2.761344,0.00885705589 Z M4.01456,1.38557 L4.516736,2.27087 L5.367992,2.27186 L4.536808,2.90434 L5.080544,3.92896 L4.049648,3.35293 L3.138032,3.90329 L3.444408,2.89584 L2.568776,2.27186 L3.467816,2.27837 L4.01456,1.38557 Z" id="Combined-shape-1695"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

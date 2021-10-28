@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/MM - Myanmar</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#E31D1C" points="0 8 16 8 16 12 0 12"></polygon>
+                <polygon id="middle" fill="#5EAA22" points="0 4 16 4 16 8 0 8"></polygon>
+                <polygon id="top" fill="#FFD018" points="0 0 16 0 16 4 0 4"></polygon>
+                <g id="mark" transform="translate(4.000000, 1.000000)" fill="#F7FCFF">
+                    <polygon id="Star-5" transform="translate(4.066408, 4.835103) rotate(1.000000) translate(-4.066408, -4.835103) " points="4.06856107 6.98803332 1.52209018 8.67020557 2.33578143 5.78904465 0.466407889 3.94855684 2.99764436 3.84904023 4.06856107 1 5.13947779 3.84904023 7.6664077 3.84904023 5.80134072 5.78904465 6.73539593 8.50015234"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

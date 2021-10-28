@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/MK - Former Yugoslav Republic of Macedonia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F50100" xlink:href="#path-3"></use>
+                <path d="M11.25,8.76523545 L20,12.4847645 L20,15.0372147 L17.9654793,15.0372147 L11.25,8.76523545 Z M8.75,8.75 L2.03452067,15.0219793 L-1.24789068e-13,15.0219793 L-4.95159469e-14,12.4695291 L8.75,8.75 Z M10,7.5 L11.875,15 L8.125,15 L10,7.5 Z M20,5.625 L20,9.375 L12.5,7.5 L20,5.625 Z M2.33374135e-14,5.625 L7.5,7.5 L2.26485497e-14,9.375 L2.33374135e-14,5.625 Z M11.875,1.2490009e-15 L10,7.5 L8.125,1.2490009e-15 L11.875,1.2490009e-15 Z M20,-0.0109896471 L20,2.54146056 L11.25,6.26098965 L17.9654793,-0.0109896471 L20,-0.0109896471 Z M2.03452067,-0.0262251017 L8.75,6.24575419 L-4.95159469e-14,2.5262251 L-1.24789068e-13,-0.0262251017 L2.03452067,-0.0262251017 Z" id="Combined-Shape" fill="#FFD018" mask="url(#mask-4)"></path>
+                <circle id="Oval-2" stroke="#F50100" stroke-width="1.25" fill="#FFD018" mask="url(#mask-4)" cx="10" cy="7.5" r="3.125"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

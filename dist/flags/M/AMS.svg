@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/AMS</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#E31D1C" xlink:href="#path-3"></use>
+                <rect id="bottom" fill="#272727" mask="url(#mask-4)" x="0" y="5" width="20" height="5"></rect>
+                <g id="marks" mask="url(#mask-4)" fill="#F7FCFF">
+                    <g transform="translate(1.250000, 5.000000)" id="Combined-Shape">
+                        <path d="M4.73748083,0.237503052 L5.62136431,1.12138653 L4.29950153,2.44150305 L5.62136431,3.76248235 L4.73748083,4.64636583 L3.41650153,3.32450305 L2.096385,4.64636583 L1.21250153,3.76248235 L2.53250153,2.44150305 L1.21250153,1.12138653 L2.096385,0.237503052 L3.41650153,1.55750305 L4.73748083,0.237503052 Z"></path>
+                        <path d="M10.1124656,0.237503052 L10.996349,1.12138653 L9.67448627,2.44150305 L10.996349,3.76248235 L10.1124656,4.64636583 L8.79148627,3.32450305 L7.47136974,4.64636583 L6.58748627,3.76248235 L7.90748627,2.44150305 L6.58748627,1.12138653 L7.47136974,0.237503052 L8.79148627,1.55750305 L10.1124656,0.237503052 Z"></path>
+                        <path d="M15.4874885,0.237503052 L16.3713719,1.12138653 L15.0495092,2.44150305 L16.3713719,3.76248235 L15.4874885,4.64636583 L14.1665092,3.32450305 L12.8463926,4.64636583 L11.9625092,3.76248235 L13.2825092,2.44150305 L11.9625092,1.12138653 L12.8463926,0.237503052 L14.1665092,1.55750305 L15.4874885,0.237503052 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

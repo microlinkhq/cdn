@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/JM - Jamaica</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(-1.250000, 0.000000)">
+                    <polygon id="background" stroke="none" fill="#009933" points="1.25 0 21.25 0 21.25 15 1.25 15"></polygon>
+                    <path d="M-0.21875,-1.79052369 L11.0365473,7.5 L-0.21875,16.7905237 L-0.21875,-1.79052369 Z" id="triangle" stroke="#FECA00" stroke-width="1.6875" fill="#272727"></path>
+                    <path d="M11.5194743,-1.73978427 L23.2377084,7.5 L11.5194743,16.7397843 L11.5194743,-1.73978427 Z" id="triangle" stroke="#FECA00" stroke-width="1.6875" fill="#272727" transform="translate(17.119112, 7.500000) scale(-1, 1) translate(-17.119112, -7.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

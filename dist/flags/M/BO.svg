@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/BO - Bolivia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#FECA00" xlink:href="#path-3"></use>
+                <rect id="top" fill="#DB501C" mask="url(#mask-4)" x="0" y="0" width="20" height="5"></rect>
+                <rect id="bottom" fill="#5EAA22" mask="url(#mask-4)" x="0" y="10" width="20" height="5"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(7.249985, 4.750004)">
+                        <path d="M0.0296251342,2.28750229 C-0.125325015,3.87463382 0.502514274,4.66819958 1.913143,4.66819958 C3.32377173,4.66819958 3.849547,4.66819958 3.49046882,4.66819958 C4.97441639,4.57138685 5.63022933,3.77782109 5.45790764,2.28750229" id="Path-8" stroke="#DB501C" stroke-width="0.9375" fill="none"></path>
+                        <circle id="Oval-8" stroke="#68B9E8" stroke-width="0.9375" fill="#FECA00" fill-rule="evenodd" cx="2.75001526" cy="2.62500763" r="1.40625"></circle>
+                        <circle id="Oval-9" stroke="none" fill="#DB501C" fill-rule="evenodd" cx="2.75001526" cy="2.12499619" r="1"></circle>
+                        <ellipse id="Oval-9" stroke="none" fill="#5EAA22" fill-rule="evenodd" cx="2.81253055" cy="3.24999619" rx="1.06250003" ry="1"></ellipse>
+                        <ellipse id="Oval-9" stroke="none" fill="#674F28" fill-rule="evenodd" cx="2.81253055" cy="0.999992378" rx="1.50000006" ry="1"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

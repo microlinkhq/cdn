@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/BE - Belgium</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="middle" fill="#FECA00" points="6 0 14 0 14 15 6 15"></polygon>
+                <polygon id="right" fill="#E31D1C" points="14 0 20 0 20 15 14 15"></polygon>
+                <polygon id="left" fill="#1D1D1D" points="0 0 6 0 6 15 0 15"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

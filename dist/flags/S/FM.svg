@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/FM - Federated States of Micronesia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#63B3E1" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)" fill="#F7FCFF">
+                    <g transform="translate(3.000000, 1.000000)" id="Star-10">
+                        <polygon points="5 2.6499939 4.11832212 3.11351939 4.28670761 2.13175664 3.57341523 1.4364684 4.55916106 1.29323115 5 0.399993896 5.44083894 1.29323115 6.42658477 1.4364684 5.71329239 2.13175664 5.88167788 3.11351939"></polygon>
+                        <polygon points="5 8.6499939 4.11832212 9.11351939 4.28670761 8.13175664 3.57341523 7.4364684 4.55916106 7.29323115 5 6.3999939 5.44083894 7.29323115 6.42658477 7.4364684 5.71329239 8.13175664 5.88167788 9.11351939"></polygon>
+                        <polygon points="1.90002441 5.75 1.01834654 6.21352549 1.18673203 5.23176275 0.47343964 4.53647451 1.45918547 4.39323725 1.90002441 3.5 2.34086335 4.39323725 3.32660919 4.53647451 2.6133168 5.23176275 2.78170229 6.21352549"></polygon>
+                        <polygon points="8 5.75 7.11832212 6.21352549 7.28670761 5.23176275 6.57341523 4.53647451 7.55916106 4.39323725 8 3.5 8.44083894 4.39323725 9.42658477 4.53647451 8.71329239 5.23176275 8.88167788 6.21352549"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

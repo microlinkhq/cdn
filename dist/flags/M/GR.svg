@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/GR - Greece</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(-1.250000, 0.000000)">
+                    <polygon id="bottom" fill="#F7FCFF" points="1.25 0 21.25 0 21.25 15 1.25 15"></polygon>
+                    <rect id="lines" fill="#4564F9" x="1.26697402" y="3.4375" width="20" height="1.875"></rect>
+                    <polygon id="lines" fill="#4564F9" points="1.25 0 21.25 0 21.25 1.875 1.25 1.875"></polygon>
+                    <rect id="lines" fill="#4564F9" x="1.21320543" y="6.875" width="20" height="1.875"></rect>
+                    <rect id="lines" fill="#4564F9" x="1.31979014" y="10.2499962" width="20" height="1.875"></rect>
+                    <rect id="lines" fill="#4564F9" x="1.31342034" y="13.4375" width="20" height="1.875"></rect>
+                    <polygon id="square" fill="#4564F9" points="1.25 0 11.25 0 11.25 8.75 1.25 8.75"></polygon>
+                    <polygon id="cross" fill="#F7FCFF" points="5.29442133 0 7.27211472 0 7.27211472 3.4375 11.25 3.4375 11.25 5.80399314 7.27211472 5.80399314 7.27211472 9.375 5.29442133 9.375 5.29442133 5.80399314 1.25 5.80399314 1.25 3.4375 5.29442133 3.4375"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

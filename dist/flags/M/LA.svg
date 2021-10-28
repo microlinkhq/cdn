@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/LA - Laos</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#E31D1C" points="0 10 20 10 20 15 0 15"></polygon>
+                <polygon id="middle" fill="#2E42A5" points="0 5 20 5 20 10 0 10"></polygon>
+                <polygon id="middle" fill="#E31D1C" points="0 0 20 0 20 5 0 5"></polygon>
+                <circle id="Oval-27" fill="#F7FCFF" cx="10" cy="7.4937439" r="2.34375"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

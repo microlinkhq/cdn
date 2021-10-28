@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/IL - Isreal</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="top" fill="#3D58DB" mask="url(#mask-4)" x="0" y="2.5" width="20" height="2.22843032"></rect>
+                <polygon id="bottom" fill="#3D58DB" mask="url(#mask-4)" points="0 10.2175071 0 12.5 20 12.5 20 10.2175071"></polygon>
+                <path d="M8.31746455,8.64922672 L11.7815943,8.64922672 L10.0666055,5.68623036 L8.31746455,8.64922672 Z M12.9738769,9.33672672 L7.11325851,9.33672672 L10.0724571,4.32392624 L12.9738769,9.33672672 Z" id="Rectangle-31" fill="#3D58DB" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                <path d="M8.17470489,9.91936702 L11.7475127,9.91936702 L10.0541454,6.92166833 L8.17470489,9.91936702 Z M12.9254819,10.606867 L6.93222098,10.606867 L10.0849171,5.57833167 L12.9254819,10.606867 Z" id="Rectangle-31" fill="#3D58DB" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(9.928851, 8.092599) scale(1, -1) translate(-9.928851, -8.092599) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

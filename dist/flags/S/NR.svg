@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/NR - Nauru</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <rect id="bottom" fill="#FECA00" mask="url(#mask-4)" x="0" y="4" width="16" height="2"></rect>
+                <g id="mark" mask="url(#mask-4)" fill="#F7FCFF">
+                    <g transform="translate(2.000000, 6.000000)" id="Star-19">
+                        <polygon points="2.41481457 3.7898146 1.64227208 4.79245586 1.60660983 3.52721296 0.39227208 3.8842777 1.10711183 2.83971294 -0.0851854343 2.41481457 1.10711183 1.98991619 0.39227208 0.945351435 1.60660983 1.30241617 1.64227208 0.037173275 2.41481457 1.03981454 3.18735705 0.037173275 3.22301931 1.30241617 4.43735705 0.945351435 3.7225173 1.98991619 4.91481457 2.41481457 3.7225173 2.83971294 4.43735705 3.8842777 3.22301931 3.52721296 3.18735705 4.79245586"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

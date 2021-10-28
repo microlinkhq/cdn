@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/KP - Korea (North)</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#3D58DB" xlink:href="#path-3"></use>
+                <rect id="bottom" stroke="#F7FCFF" stroke-width="1.25" fill="#C51918" mask="url(#mask-4)" x="-0.625" y="3.125" width="21.25" height="8.75"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(3.125000, 4.375000)">
+                        <circle id="Oval-39" fill="#F7FCFF" cx="3.125" cy="3.125" r="3.125"></circle>
+                        <polygon id="Star-10" fill="#C51918" points="3.12191434 4.29362859 1.424209 5.47499597 2.02313635 3.49531964 0.374969393 2.24576851 2.44283219 2.20362864 3.12191434 0.249996185 3.80099649 2.20362864 5.86885929 2.24576851 4.22069234 3.49531964 4.81961968 5.47499597"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

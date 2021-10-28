@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/BZ - Belize</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#0168B4" xlink:href="#path-3"></use>
+                <rect id="top" fill="#E93C43" mask="url(#mask-4)" x="0" y="0" width="16" height="2"></rect>
+                <rect id="bottom" fill="#E93C43" mask="url(#mask-4)" x="0" y="10" width="16" height="2"></rect>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(4.000000, 2.000000)">
+                        <path d="M4,7 C2.34314575,7 1,5.65685425 1,4 C1,2.34314575 2.34314575,1 4,1 C5.65685425,1 7,2.34314575 7,4 C7,5.65685425 5.65685425,7 4,7 Z" id="Oval-4" fill="#F7FCFF" fill-rule="nonzero"></path>
+                        <path d="M4,7 C5.65685425,7 7,5.65685425 7,4 C7,2.34314575 5.65685425,1 4,1 C2.34314575,1 1,2.34314575 1,4 C1,5.65685425 2.34314575,7 4,7 Z M4,7.5 C2.06700338,7.5 0.5,5.93299662 0.5,4 C0.5,2.06700338 2.06700338,0.5 4,0.5 C5.93299662,0.5 7.5,2.06700338 7.5,4 C7.5,5.93299662 5.93299662,7.5 4,7.5 Z" id="Oval-4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M4,1 C5.65685425,1 7,2.34314575 7,4 C7,5.65685425 5.65685425,7 4,7 C2.34314575,7 1,5.65685425 1,4 C1,2.34314575 2.34314575,1 4,1 Z M4,1.7 C2.72974508,1.7 1.7,2.72974508 1.7,4 C1.7,5.27025492 2.72974508,6.3 4,6.3 C5.27025492,6.3 6.3,5.27025492 6.3,4 C6.3,2.72974508 5.27025492,1.7 4,1.7 Z" id="Oval-4" fill="#5B8C39" fill-rule="nonzero"></path>
+                        <polygon id="Rectangle-14" fill="#5B8C39" fill-rule="evenodd" points="2.5 5 3.96954458 4.8123697 5.5 5 5.5 5.5 3.96954458 5.3123697 2.5 5.5"></polygon>
+                        <path d="M3,3 L5,3 C5.09427503,5 4.7609417,6 4,6 C3.2390583,6 2.90572497,5 3,3 Z" id="Rectangle-12" fill="#769DF1" fill-rule="evenodd"></path>
+                        <rect id="Rectangle-13" fill="#FECA00" fill-rule="evenodd" x="4" y="3" width="1" height="1"></rect>
+                        <rect id="Rectangle-13" fill="#F6F7F8" fill-rule="evenodd" opacity="0.600000024" x="3" y="3" width="1" height="1"></rect>
+                        <rect id="Rectangle-15" fill="#5B8C39" fill-rule="evenodd" opacity="0.659999967" x="3" y="2" width="2" height="1" rx="0.5"></rect>
+                        <ellipse id="Oval-5" fill="#E9AD35" fill-rule="evenodd" cx="2.90002441" cy="3.3999939" rx="1" ry="1"></ellipse>
+                        <ellipse id="Oval-5" fill="#5C2216" fill-rule="evenodd" cx="5.09997559" cy="3.3999939" rx="1" ry="1"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

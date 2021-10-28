@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/SH - Saint Helena</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-5" x="0" y="0" width="9" height="7"></rect>
+        <path d="M0.0227677669,0.0196145466 C0.0227677669,3.55168302 -0.193700003,5.97839309 2.37013578,5.97839309 C4.93397156,5.97839309 4.93397156,2.99900382 4.76402238,0.0196145466 L0.0227677669,0.0196145466 Z" id="path-7"></path>
+        <rect id="path-9" x="0" y="0" width="7.2" height="3.6"></rect>
+        <filter x="-1.7%" y="-3.5%" width="103.5%" height="113.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0.25" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <g id="gb---small" mask="url(#mask-4)">
+                    <g id="flag">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="mask"></g>
+                        <g id="contents" mask="url(#mask-6)">
+                            <g transform="translate(-2.000000, -1.000000)">
+                                <g id="stripe">
+                                    <polygon id="white" fill="#F7FCFF" fill-rule="nonzero" transform="translate(6.543731, 4.365902) scale(1, -1) translate(-6.543731, -4.365902) " points="0.997866872 1.23189449 2.97834209 0.363294267 11.0449402 6.78743314 12.0895956 8.07819892 9.9717623 8.36851072 6.68158973 5.60016547 4.033339 3.73494762"></polygon>
+                                    <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(6.491732, 4.573107) scale(1, -1) translate(-6.491732, -4.573107) " points="1.26899691 1.0377417 2.27795758 0.533678352 11.7144671 8.61253609 10.2977689 8.61253609"></polygon>
+                                </g>
+                                <g id="stripe" transform="translate(6.500000, 4.500000) scale(-1, 1) translate(-6.500000, -4.500000) ">
+                                    <polygon id="white" fill="#F7FCFF" fill-rule="nonzero" transform="translate(6.543731, 4.365902) scale(1, -1) translate(-6.543731, -4.365902) " points="0.997866872 1.23189449 2.97834209 0.363294267 11.0449402 6.78743314 12.0895956 8.07819892 9.9717623 8.36851072 6.68158973 5.60016547 4.033339 3.73494762"></polygon>
+                                    <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(6.627779, 4.549380) scale(1, -1) translate(-6.627779, -4.549380) " points="1.06544306 1.16208955 2.07440374 0.658026209 6.09256727 4.11700491 7.28386651 4.5034683 12.1901144 8.44073422 10.7734162 8.44073422 5.86992481 4.59692228 4.567449 4.13351128"></polygon>
+                                </g>
+                                <g id="cross" transform="translate(2.000000, 1.000000)">
+                                    <path d="M5.36728773,-0.375 L5.36703197,2.625 L9.375,2.625 L9.375,4.375 L5.36703197,4.375 L5.36728773,7.375 L3.61728773,7.375 L3.61703197,4.375 L-0.375,4.375 L-0.375,2.625 L3.61703197,2.625 L3.61728773,-0.375 L5.36728773,-0.375 Z" id="red" stroke="#F7FCFF" stroke-width="0.75" fill="#F50100"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="masked" mask="url(#mask-4)">
+                    <g transform="translate(10.000000, 5.000000)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <path stroke="#F7FCFF" stroke-width="0.25" d="M4.88200479,-0.105385453 C4.9851767,1.65710926 5.03478402,3.4315199 4.55811904,4.61801764 C4.36781465,5.09171666 4.0945614,5.47377084 3.71395077,5.73222194 C3.36508867,5.96911442 2.92493796,6.10339309 2.37013578,6.10339309 C1.87586728,6.10339309 1.48065942,6.01555837 1.16389958,5.85257155 C0.822647573,5.67698245 0.57031427,5.41421676 0.384955741,5.07312876 C-0.0329444424,4.30412861 -0.102324452,3.12137884 -0.106513138,1.65065208 C-0.105463078,1.27242868 -0.104632517,0.99316978 -0.10399347,0.779030275 L-0.103043977,0.456597579 C-0.102960117,0.426961487 -0.102883245,0.39911789 -0.102813138,0.372796025 L-0.102314842,-0.105385453 Z"></path>
+                        <rect id="Rectangle-58" stroke="none" fill="#2E42A5" fill-rule="evenodd" mask="url(#mask-8)" x="1.2" y="4.8" width="3.6" height="1.2"></rect>
+                        <g id="mark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-8)">
+                            <g transform="translate(-1.200000, -1.200000)">
+                                <g id="Rectangle-56" fill="none">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                    <use fill="#FDFF00" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                </g>
+                                <circle id="Oval-79" fill="#272727" fill-rule="evenodd" cx="3.6" cy="2.4" r="1"></circle>
+                                <g id="top" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(2.400000, 1.200000)"></g>
+                                <path d="M1.27059462,4.61183324 L1.80651807,4.11816624 C2.28919622,4.06963028 2.55899228,4.09863521 2.61590626,4.20518102 C2.70127723,4.36499974 2.65056033,4.13136888 2.78679693,4.4982454 C2.92303353,4.86512191 2.97697291,4.34062142 3.05188321,4.86512191 C3.12679351,5.3896224 3.19020203,5.57060368 3.19020203,5.69261353 C3.19020203,5.81462339 3.87252529,6.17814654 3.61081022,6.42850319 C3.34909515,6.67885984 3.33749422,7.25566378 3.33749422,7.42094457 C3.33749422,7.58622536 3.31696949,7.6602825 3.05188321,7.62325393 C2.78679693,7.58622536 2.46440005,7.71816624 2.4,7.71816624 C2.33559995,7.71816624 1.55843658,7.55978989 1.55843658,7.2338155 C1.55843658,7.01649925 1.46248926,6.14250516 1.27059462,4.61183324 Z" id="cliffs" fill="#CE6201" fill-rule="evenodd"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

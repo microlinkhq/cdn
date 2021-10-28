@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/SC - Seychelles</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <polygon id="1" fill="#FFD018" mask="url(#mask-4)" points="1.44328993e-14 14.9978493 10.0943847 -1.25 20.1887694 -1.25"></polygon>
+                <polygon id="2" fill="#E31D1C" fill-rule="nonzero" mask="url(#mask-4)" points="1.44328993e-14 14.9978493 21.5395253 6.87392467 21.5395253 -3.18957683"></polygon>
+                <polygon id="3" fill="#F7FCFF" fill-rule="nonzero" mask="url(#mask-4)" points="1.44328993e-14 14.9978493 21.5395253 11.8739247 21.5395253 6.81042317"></polygon>
+                <polygon id="4" fill="#5EAA22" mask="url(#mask-4)" points="1.44328993e-14 14.9978493 21.5395253 14.9978493 21.5395253 10.5604232"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

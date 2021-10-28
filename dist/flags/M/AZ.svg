@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/AZ - Azerbaijan</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#AF0100" xlink:href="#path-3"></use>
+                <rect id="top" fill="#3CA5D9" mask="url(#mask-4)" x="0" y="0" width="20" height="5"></rect>
+                <rect id="bottom" fill="#73BE4A" mask="url(#mask-4)" x="0" y="10" width="20" height="5"></rect>
+                <g id="mark" mask="url(#mask-4)" fill="#F7FCFF">
+                    <g transform="translate(7.500000, 3.750000)" id="Combined-Shape">
+                        <path d="M3.12286249,1.1206231 C3.851557,1.11871223 4.73994259,1.51661636 4.99513851,2.08406062 C4.99513851,2.08406062 4.18064502,1.64332544 3.25471872,1.85232155 C2.32879242,2.06131765 1.74236307,2.83038076 1.73418391,3.73950822 C1.72544625,4.71071458 2.38424149,5.37255811 3.2261009,5.56667166 C3.96891802,5.73794831 4.74772899,5.39638578 4.92069742,5.31364752 L4.9560518,5.2961853 L4.9560518,5.2961853 C4.84756172,5.59745174 4.32462751,6.3059312 3.22381081,6.3088179 C1.85064701,6.31241878 0.290380746,5.38041298 0.305130022,3.74100572 C0.319356602,2.15969692 1.76644744,1.12418007 3.12286249,1.1206231 Z M4.49584258,2.37667453 L4.78973521,3.22216603 L5.68466323,3.24040328 L4.97137084,3.78118302 L5.23057415,4.63794577 L4.49584258,4.12667453 L3.76111102,4.63794577 L4.02031432,3.78118302 L3.30702194,3.24040328 L4.20194996,3.22216603 L4.49584258,2.37667453 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

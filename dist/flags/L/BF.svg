@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/BF - Burkina Faso</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#5EAA22" xlink:href="#path-3"></use>
+                <rect id="top" fill="#C51918" mask="url(#mask-4)" x="0" y="0" width="32" height="12"></rect>
+                <polygon id="Star-5" fill="#FECA00" mask="url(#mask-4)" points="16.035416 15.7705972 11.3324973 19.3298552 12.8372537 13.5329577 8.42632718 10.0036172 13.6836383 10.0036172 16.0347793 4.8577192 18.3859203 10.0036172 23.6432314 10.0036172 19.185501 13.5375609 20.7370613 19.3298552"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

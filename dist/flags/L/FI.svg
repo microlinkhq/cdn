@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/FI - Finland</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)" fill="#2E42A5" stroke="#2E42A5" stroke-width="2">
+                    <g transform="translate(0.000000, 2.000000)" id="cross">
+                        <path d="M13.8184995,-1 L13.8184995,8.32301111 L33,8.32301111 L33,12.3230111 L13.8184995,12.3230111 L13.8184995,23 L9.81849947,23 L9.81849947,12.3230111 L-1,12.3230111 L-1,8.32301111 L9.81849947,8.32301111 L9.81849947,-1 L13.8184995,-1 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

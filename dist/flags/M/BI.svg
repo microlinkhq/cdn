@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/BI - Burundi</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="background" fill="#5EAA22" x="0" y="0" width="20" height="15" rx="1.25"></rect>
+                <path d="M22.344,-0.78125 L11.3020833,7.49908333 L22.3435,15.78125 L-2.34337501,15.78125 L8.69608333,7.5 L-2.34337501,-0.78125 L22.344,-0.78125 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.5625" fill="#DD2C2B" fill-rule="nonzero"></path>
+                <circle id="Oval-12" fill="#FFFFFF" cx="10" cy="7.5" r="3.75"></circle>
+                <polygon id="Star-6" fill="#DD2C2B" points="10.1044011 6.51792407 9.36966955 6.90419531 9.5099908 6.08605969 8.91558047 5.50665283 9.73703534 5.50665283 10.1044011 4.64292407 10.4717669 5.50665283 11.2932218 5.50665283 10.6988114 6.08605969 10.8391327 6.90419531"></polygon>
+                <polygon id="Star-6" fill="#DD2C2B" points="8.35129623 9.01792407 7.61656467 9.40419531 7.75688591 8.58605969 7.16247559 8.00665283 7.98393045 8.00665283 8.35129623 7.14292407 8.71866201 8.00665283 9.54011688 8.00665283 8.94570655 8.58605969 9.0860278 9.40419531"></polygon>
+                <polygon id="Star-6" fill="#DD2C2B" points="11.8513573 9.01792407 11.1166257 9.40419531 11.2569469 8.58605969 10.6625366 8.00665283 11.4839915 8.00665283 11.8513573 7.14292407 12.218723 8.00665283 13.0401779 8.00665283 12.4457676 8.58605969 12.5860888 9.40419531"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

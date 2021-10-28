@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/DE - Germany</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <path d="M0,16 L32,16 L32,22 C32,23.1045695 31.1045695,24 30,24 L2,24 C0.8954305,24 1.3527075e-16,23.1045695 0,22 L0,16 L0,16 Z" id="bottom" fill="#FFD018"></path>
+                <polygon id="middle" fill="#E31D1C" points="0 8 32 8 32 16 0 16"></polygon>
+                <path d="M2,0 L30,0 C31.1045695,-2.02906125e-16 32,0.8954305 32,2 L32,8 L32,8 L0,8 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="middle" fill="#272727"></path>
+            </g>
+        </g>
+    </g>
+</svg>

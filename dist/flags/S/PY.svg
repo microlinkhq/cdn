@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/PY - Paraguay</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)" fill="#272727" fill-rule="nonzero">
+                    <g transform="translate(6.000000, 4.000000)" id="Oval-23">
+                        <path d="M2,3.5 C2.82842712,3.5 3.5,2.82842712 3.5,2 C3.5,1.17157288 2.82842712,0.5 2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 C0.5,2.82842712 1.17157288,3.5 2,3.5 Z M2,4 C0.8954305,4 0,3.1045695 0,2 C0,0.8954305 0.8954305,0 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 Z"></path>
+                    </g>
+                </g>
+                <rect id="top" fill="#F05234" mask="url(#mask-4)" x="0" y="0" width="16" height="4"></rect>
+                <rect id="bottom" fill="#3D58DB" mask="url(#mask-4)" x="0" y="8" width="16" height="4"></rect>
+                <path d="M7.62196456,4.95552728 L7.7904686,5.42627816 C7.46471002,5.54288258 7.31140828,5.78381174 7.31140828,6.20428406 C7.31140828,6.61571297 7.49107558,6.8567234 7.88990638,6.97857533 L7.74381141,7.45675549 C7.13537473,7.27086417 6.81140828,6.83628705 6.81140828,6.20428406 C6.81140828,5.5813245 7.08797874,5.1466661 7.62196456,4.95552728 Z" id="Path-198" fill="#73BE4A" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(7.350657, 6.206141) rotate(-15.000000) translate(-7.350657, -6.206141) "></path>
+                <path d="M8.92196456,4.95552728 L9.0904686,5.42627816 C8.76471002,5.54288258 8.61140828,5.78381174 8.61140828,6.20428406 C8.61140828,6.61571297 8.79107558,6.8567234 9.18990638,6.97857533 L9.04381141,7.45675549 C8.43537473,7.27086417 8.11140828,6.83628705 8.11140828,6.20428406 C8.11140828,5.5813245 8.38797874,5.1466661 8.92196456,4.95552728 Z" id="Path-198" fill="#73BE4A" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(8.650657, 6.206141) scale(-1, 1) rotate(-15.000000) translate(-8.650657, -6.206141) "></path>
+                <path d="M8.0012094,6.37361978 C8.27735177,6.37361978 8.5012094,6.14976215 8.5012094,5.87361978 C8.5012094,5.5974774 8.27735177,5.37361978 8.0012094,5.37361978 C7.72506702,5.37361978 7.5012094,5.5974774 7.5012094,5.87361978 C7.5012094,6.14976215 7.72506702,6.37361978 8.0012094,6.37361978 Z" id="Oval-41" fill="#FBCD17" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

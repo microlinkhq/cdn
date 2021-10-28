@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/GH - Ghana</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="bottom" fill="#5EAA22" points="0 10 20 10 20 15 0 15"></polygon>
+                <polygon id="middle" fill="#FECA00" points="0 5 20 5 20 10 0 10"></polygon>
+                <polygon id="top" fill="#E11C1B" points="0 0 20 0 20 5 0 5"></polygon>
+                <polygon id="Star-5" fill="#1D1D1D" opacity="0.900000036" points="10.0471319 9.05650127 7.86861399 10.5675629 8.5647307 7.97947379 6.96547281 6.32620048 9.13095756 6.23680671 10.0471319 3.67757097 10.9633062 6.23680671 13.1251066 6.23680671 11.529533 7.97947379 12.3286217 10.4148075"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

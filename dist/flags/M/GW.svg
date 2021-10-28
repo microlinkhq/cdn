@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/GW - Guinea-Bissau</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="middle" fill="#FBCD17" x="10" y="0" width="10" height="7.5"></rect>
+                <rect id="right" fill="#0B9E7A" x="10" y="7.5" width="10" height="7.5"></rect>
+                <rect id="left" fill="#E11C1B" x="0" y="0" width="10" height="15"></rect>
+                <polygon id="Star-5" fill="#1D1D1D" points="5.58165905 9.1289303 3.40314118 10.6399919 4.09925789 8.05190282 2.5 6.39862951 4.66548475 6.30923574 5.58165905 3.75 6.49783335 6.30923574 8.65963382 6.30923574 7.06406021 8.05190282 7.86314886 10.4872365"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

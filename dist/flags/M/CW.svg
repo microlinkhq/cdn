@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/CW - Curaçao</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-4)" points="2.65901445 3.84326622 1.41598545 4.49932084 2.01615037 3.33157914 1.25 2.4769661 2.2020881 2.44182904 2.65901445 1.25 3.00770785 2.44182904 4.1218555 2.4769661 3.31967052 3.33157914 3.82857402 4.49932084"></polygon>
+                <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-4)" points="7.0951672 6.92283912 5.56102645 7.56548684 6.16288485 5.95509495 4.82902885 4.87454723 6.42733952 4.87454723 7.0951672 3.13261131 7.60480536 4.87454723 9.20558337 4.87454723 8.06806461 5.95509495 8.63289523 7.56548684"></polygon>
+                <rect id="bottom" fill="#F9E813" mask="url(#mask-4)" x="0" y="8.75" width="20" height="2.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

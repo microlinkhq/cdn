@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/EH - Western Sahara</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <polygon id="middle" fill="#F7FCFF" points="0 0 20 0 20 15 0 15"></polygon>
+                <rect id="top" fill="#272727" x="0" y="0" width="20" height="5"></rect>
+                <rect id="bottom" fill="#5EAA22" x="0" y="10" width="20" height="5"></rect>
+                <polygon id="triangle" fill="#E31D1C" points="0 0 10 7.5 0 15"></polygon>
+                <g id="mark" transform="translate(8.750000, 3.750000)" fill="#E31D1C">
+                    <path d="M3.82877401,1.58846426 C3.82877401,1.58846426 2.83379043,2.84912293 3.41130724,4.14624692 C3.98882405,5.44337091 5.63710969,5.65005271 5.63710969,5.65005271 C5.11200857,6.08613099 2.96175076,6.63078144 2.13175237,4.76657454 C1.30175399,2.90236764 3.08318294,1.47845063 3.82877401,1.58846426 Z M6.19324692,2.25164123 L6.27760264,3.05236843 L7.24098825,3.40913769 L6.26632959,3.60827198 L6.49908777,4.59027841 L5.67315581,3.78521762 L4.64452044,3.89279114 L5.22171588,3.22061999 L4.55809173,2.43264321 L5.6293609,2.80432203 L6.19324692,2.25164123 Z" transform="translate(4.578538, 3.829114) rotate(24.000000) translate(-4.578538, -3.829114) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

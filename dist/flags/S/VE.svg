@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/VE - Venezuela</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <rect id="top" fill="#FECA00" mask="url(#mask-4)" x="0" y="0" width="16" height="4"></rect>
+                <rect id="bottom" fill="#E31D1C" mask="url(#mask-4)" x="0" y="8" width="16" height="4"></rect>
+                <g id="mark" mask="url(#mask-4)" fill="#F7FCFF" fill-rule="nonzero">
+                    <g transform="translate(3.000000, 4.000000)" id="Path-2">
+                        <path d="M1.10743743,3.62021138 L0.195639246,3.20957277 C1.06359778,1.28232338 2.69481076,0.302263209 5,0.302263209 C7.30600825,0.302263209 8.93227306,1.28326971 9.78811888,3.2121025 L8.87405895,3.61768165 C8.18423252,2.06300929 6.92310472,1.30226321 5,1.30226321 C3.07607627,1.30226321 1.8083148,2.06395561 1.10743743,3.62021138 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

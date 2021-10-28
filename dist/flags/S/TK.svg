@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/TK - Tokelau</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-4)" points="1.64723812 5.03169348 1.20446177 5.30567629 1.37636024 4.84572775 1 4.4975192 1.45649799 4.4975192 1.64723812 4 1.79279731 4.4975192 2.25 4.4975192 1.92050397 4.84572775 2.08182682 5.30567629"></polygon>
+                <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-4)" points="3.64723812 3.03169348 3.20446177 3.30567629 3.37636024 2.84572775 3 2.4975192 3.45649799 2.4975192 3.64723812 2 3.79279731 2.4975192 4.25 2.4975192 3.92050397 2.84572775 4.08182682 3.30567629"></polygon>
+                <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-4)" points="5.64723812 5.03169348 5.20446177 5.30567629 5.37636024 4.84572775 5 4.4975192 5.45649799 4.4975192 5.64723812 4 5.79279731 4.4975192 6.25 4.4975192 5.92050397 4.84572775 6.08182682 5.30567629"></polygon>
+                <polygon id="Star-5" fill="#F7FCFF" mask="url(#mask-4)" points="3.64723812 7.03169348 3.20446177 7.30567629 3.37636024 6.84572775 3 6.4975192 3.45649799 6.4975192 3.64723812 6 3.79279731 6.4975192 4.25 6.4975192 3.92050397 6.84572775 4.08182682 7.30567629"></polygon>
+                <path d="M3.30784318,8.98254951 L14.6846796,9.00263082 L15,9.42012754 L14.6846796,10 L3.30784318,9.78001516 L3.15502713,9.36251844 L3.30784318,8.98254951 Z M12.4209869,2.73153686 C11.7596883,3.72549441 11.7596883,4.88115629 12.4209869,6.19852251 C13.4129349,8.17457183 13.8019096,8.03918423 14.8461792,8.2725911 L3.6706128,8.2725911 C8.14304207,5.25094271 11.0598334,3.40392464 12.4209869,2.73153686 Z" id="Combined-Shape" fill="#FECA00" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

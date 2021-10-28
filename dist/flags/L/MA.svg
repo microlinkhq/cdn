@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/MA - Morocco</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <path d="M0,0 L32,0 L32,22 C32,23.1045695 31.1045695,24 30,24 L2,24 C0.8954305,24 1.3527075e-16,23.1045695 0,22 L0,0 L0,0 Z" id="background" fill="#C51918"></path>
+                <polygon id="background" fill="#E31D1C" points="0 0 32 0 32 24 0 24"></polygon>
+                <g id="mark" transform="translate(6.000000, 2.500000)" fill="#579D20" fill-rule="nonzero">
+                    <path d="M10.1657986,0.200591316 L16.4819034,17.1261541 L10.126519,13.3209968 L3.79514346,17.1261541 L9.89172776,0.200591316 L10.1657986,0.200591316 Z M10.1437046,3.08365865 L9.46658763,5.72201387 L7.43672794,11.3979558 L6.28132229,14.1925996 L8.78066546,12.379797 L10.1250588,11.5718165 L11.4914772,12.3899318 L14.0502748,14.1925996 L12.8650205,11.4540597 L10.8463692,5.79758393 L10.1437046,3.08365865 Z" id="Rectangle-43"></path>
+                    <path d="M19.6164029,5.73643643 L13.4206452,10.9731262 L10.1584908,13.2970548 L6.66254335,10.9731262 L0.385264442,5.73643643 L19.6164029,5.73643643 Z M15.5806975,7.51913319 L4.35748514,7.51913319 L6.73509249,8.97409465 L10.1432872,11.388837 L13.5397274,8.81187429 L15.5806975,7.51913319 Z" id="Rectangle-43"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

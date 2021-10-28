@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/GQ - Equatorial Guinea</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="15.999999" height="11.9999993"></rect>
+        <rect id="path-3" x="0" y="0" width="16.3839987" height="12.287999"></rect>
+        <polygon id="path-5" points="0 0 0 12.287999 4.09599966 6.22179981"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#F7FCFF" xlink:href="#path-3"></use>
+                <rect id="top-n-bottom" fill="#009D00" mask="url(#mask-4)" x="0" y="0" width="16.3839987" height="4.09599966"></rect>
+                <rect id="top-n-bottom" fill="#FFFFFF" mask="url(#mask-4)" x="0" y="4.09599966" width="16.3839987" height="4.09599966"></rect>
+                <rect id="top-n-bottom" fill="#F80000" mask="url(#mask-4)" x="0" y="8.19199933" width="16.3839987" height="4.09599966"></rect>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="triangle" fill="#0075D5" xlink:href="#path-5"></use>
+            </g>
+            <g id="stars" mask="url(#mask-2)" fill="#FFD500" stroke="#000000" stroke-width="0.03">
+                <g transform="translate(6.655999, 3.891200)" id="Star">
+                    <path d="" transform="translate(0.768000, 0.768000) scale(1, -1) rotate(-15.000000) translate(-0.768000, -0.768000) "></path>
+                    <path d="" transform="translate(1.280000, 0.768000) scale(1, -1) rotate(-15.000000) translate(-1.280000, -0.768000) "></path>
+                    <path d="" transform="translate(1.792000, 0.768000) scale(1, -1) rotate(-15.000000) translate(-1.792000, -0.768000) "></path>
+                    <path d="" transform="translate(2.304000, 0.768000) scale(1, -1) rotate(-15.000000) translate(-2.304000, -0.768000) "></path>
+                    <path d="" transform="translate(2.816000, 0.768000) scale(1, -1) rotate(-15.000000) translate(-2.816000, -0.768000) "></path>
+                    <path d="" transform="translate(3.328000, 0.768000) scale(1, -1) rotate(-15.000000) translate(-3.328000, -0.768000) "></path>
+                </g>
+            </g>
+            <path d="M9.6979992,5.14999958 L9.6979992,6.65599945 C9.6979992,6.93048495 9.58674197,7.17898493 9.40686337,7.35886354 C9.22698476,7.53874214 8.97848478,7.64999937 8.70399929,7.64999937 C8.42951379,7.64999937 8.18101381,7.53874214 8.00113521,7.35886354 C7.8212566,7.17898493 7.70999937,6.93048495 7.70999937,6.65599945 L7.70999937,6.65599945 L7.70999937,5.14999958 L9.6979992,5.14999958 Z" id="Rectangle" stroke="#373737" stroke-width="0.06" mask="url(#mask-2)"></path>
+            <path d="M8.56390957,6.12343079 C8.49505593,6.93077838 8.42626403,7.35891632 8.35753389,7.4078446 C8.25443868,7.48123703 8.85158196,7.51788693 8.90864094,7.46286577 C8.96569993,7.4078446 8.64823213,6.42101439 8.75744081,6.12343079 C8.83024659,5.92504172 8.92528315,5.81780911 9.04255048,5.80173297 C8.8947213,5.77048638 8.79968475,5.78462762 8.75744081,5.84415669 C8.71519687,5.90368577 8.63108015,5.88954452 8.50509065,5.80173297 L8.56390957,6.12343079 Z" id="Path-456" fill="#6F3E1D" mask="url(#mask-2)"></path>
+            <path d="M8.54132581,6.05500046 L8.46186616,6.05500046 C8.42600037,6.19519949 8.36693686,6.23024925 8.28467562,6.16014973 C8.20241439,6.09005022 8.10325563,6.06735639 7.98719935,6.09206826 C7.99760719,6.00817032 8.06596197,5.94954521 8.19226369,5.91619293 C8.31856541,5.88284066 8.4084329,5.73075196 8.46186616,5.45992683 C8.64059961,5.39339714 8.78433345,5.42830119 8.8930677,5.56463899 C9.00180195,5.70097679 9.13275945,5.74006262 9.28594021,5.68189649 C9.39789562,5.74555577 9.42588447,5.82365458 9.36990677,5.91619293 C9.28594021,6.05500046 9.1426936,6.15654349 9.01788065,6.05500046 C8.93467202,5.98730511 8.7758204,5.98730511 8.54132581,6.05500046 Z" id="Path-457" fill="#009D29" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

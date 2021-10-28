@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/CK - Cook Islands</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-5" x="0" y="0" width="9" height="7"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <g id="gb---small" mask="url(#mask-4)">
+                    <g id="flag">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="mask"></g>
+                        <g id="contents" mask="url(#mask-6)">
+                            <g transform="translate(-2.000000, -1.000000)">
+                                <g id="stripe">
+                                    <polygon id="white" fill="#F7FCFF" fill-rule="nonzero" transform="translate(6.543731, 4.365902) scale(1, -1) translate(-6.543731, -4.365902) " points="0.997866872 1.23189449 2.97834209 0.363294267 11.0449402 6.78743314 12.0895956 8.07819892 9.9717623 8.36851072 6.68158973 5.60016547 4.033339 3.73494762"></polygon>
+                                    <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(6.491732, 4.573107) scale(1, -1) translate(-6.491732, -4.573107) " points="1.26899691 1.0377417 2.27795758 0.533678352 11.7144671 8.61253609 10.2977689 8.61253609"></polygon>
+                                </g>
+                                <g id="stripe" transform="translate(6.500000, 4.500000) scale(-1, 1) translate(-6.500000, -4.500000) ">
+                                    <polygon id="white" fill="#F7FCFF" fill-rule="nonzero" transform="translate(6.543731, 4.365902) scale(1, -1) translate(-6.543731, -4.365902) " points="0.997866872 1.23189449 2.97834209 0.363294267 11.0449402 6.78743314 12.0895956 8.07819892 9.9717623 8.36851072 6.68158973 5.60016547 4.033339 3.73494762"></polygon>
+                                    <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(6.627779, 4.549380) scale(1, -1) translate(-6.627779, -4.549380) " points="1.06544306 1.16208955 2.07440374 0.658026209 6.09256727 4.11700491 7.28386651 4.5034683 12.1901144 8.44073422 10.7734162 8.44073422 5.86992481 4.59692228 4.567449 4.13351128"></polygon>
+                                </g>
+                                <g id="cross" transform="translate(2.000000, 1.000000)">
+                                    <path d="M5.36728773,-0.375 L5.36703197,2.625 L9.375,2.625 L9.375,4.375 L5.36703197,4.375 L5.36728773,7.375 L3.61728773,7.375 L3.61703197,4.375 L-0.375,4.375 L-0.375,2.625 L3.61703197,2.625 L3.61728773,-0.375 L5.36728773,-0.375 Z" id="red" stroke="#F7FCFF" stroke-width="0.75" fill="#F50100"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="mark-2" mask="url(#mask-4)" stroke="#FFFFFF">
+                    <g transform="translate(10.000000, 6.000000)" id="Oval">
+                        <circle cx="2.2" cy="2.2" r="2.2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

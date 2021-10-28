@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/WS - Samoa</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#C51918" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)">
+                    <rect id="top" fill="#2E42A5" x="0" y="0" width="8" height="7"></rect>
+                    <polygon id="Star-5" fill="#FEFFFF" points="1.78282972 3.88600699 1.25280616 4.20598145 1.37370118 3.58158325 0.932321308 3.11428261 1.52997438 3.0890153 1.78282972 2.50598145 2.03568506 3.0890153 2.63232131 3.0890153 2.19195826 3.58158325 2.32453363 4.20598145"></polygon>
+                    <polygon id="Star-5" fill="#FEFFFF" points="5.78282972 3.88600699 5.25280616 4.20598145 5.37370118 3.58158325 4.93232131 3.11428261 5.52997438 3.0890153 5.78282972 2.50598145 6.03568506 3.0890153 6.63232131 3.0890153 6.19195826 3.58158325 6.32453363 4.20598145"></polygon>
+                    <polygon id="Star-5" fill="#FEFFFF" points="3.73279981 2.06897625 3.23395411 2.37012868 3.34773766 1.7824598 2.93232131 1.34264743 3.49481832 1.31886643 3.73279981 0.770128684 3.97078131 1.31886643 4.53232131 1.31886643 4.11786197 1.7824598 4.24263879 2.37012868"></polygon>
+                    <polygon id="Star-5" fill="#FEFFFF" points="4.27312375 4.21262348 3.96134518 4.40084374 4.0324599 4.03355069 3.77282468 3.75866796 4.12438531 3.74380484 4.27312375 3.40084374 4.42186218 3.74380484 4.77282468 3.74380484 4.51378759 4.03355069 4.59177311 4.40084374"></polygon>
+                    <polygon id="Star-5" fill="#FEFFFF" points="3.70438468 6.41414179 2.95611613 6.86587043 3.12679145 5.9843671 2.50366692 5.32464855 3.34741243 5.28897705 3.70438468 4.46587043 4.06135692 5.28897705 4.90366692 5.28897705 4.28197791 5.9843671 4.46914314 6.86587043"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

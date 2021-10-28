@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/ZA - South Africa</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -72.000000)">
+                    <polygon id="middle" stroke="none" fill="#F7FCFF" points="0 72 32 72 32 96 0 96"></polygon>
+                    <rect id="top" stroke="none" fill="#E31D1C" x="0" y="72" width="32" height="8"></rect>
+                    <rect id="bottom" stroke="none" fill="#3D58DB" x="0" y="88" width="32" height="8"></rect>
+                    <path d="M-1,67.9553955 L15.7721002,81 L33,81 L33,87 L15.7721002,87 L-1,100.044604 L-1,67.9553955 Z" id="Combined-Shape" stroke="#F7FCFF" stroke-width="2" fill="#5EAA22"></path>
+                    <path d="M-1,76 L9.66666667,84 L-1,92 L-1,76 Z" id="triangle" stroke="#FECA00" stroke-width="2" fill="#272727"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

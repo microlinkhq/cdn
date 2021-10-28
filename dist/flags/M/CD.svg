@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/CD - Democratic Republic of the Congo</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#3195F9" xlink:href="#path-3"></use>
+                <path d="M21.0024839,-2.82424705 L23.2578576,0.554687053 L-0.704816248,16.5493122 L-2.96018995,13.1703781 L21.0024839,-2.82424705 Z" id="Path-14" stroke="#FECA00" stroke-width="1.5625" fill="#E31D1C" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                <g id="mark" mask="url(#mask-4)" fill="#FECA00">
+                    <polygon id="Star-5" points="3.08165905 5.3789303 0.903141185 6.88999193 1.59925789 4.30190282 0 2.64862951 2.16548475 2.55923574 3.08165905 0 3.99783335 2.55923574 6.15963382 2.55923574 4.56406021 4.30190282 5.36314886 6.73723652"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

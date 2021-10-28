@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/CF - Central African Republic</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -1.000000)">
+                    <polygon id="4" fill="#3D58DB" points="0 1 16 1 16 4 0 4"></polygon>
+                    <polygon id="3" fill="#F7FCFF" points="0 4 16 4 16 7 0 7"></polygon>
+                    <polygon id="2" fill="#73BE4A" points="0 7 16 7 16 10 0 10"></polygon>
+                    <polygon id="1" fill="#FFD018" points="0 10 16 10 16 13 0 13"></polygon>
+                    <g id="mark" stroke-width="1" fill="none">
+                        <polygon id="Star-5" fill="#FECA00" points="2.26472509 3.70805383 1.05245575 4.54890701 1.43982046 3.10872554 0.549889127 2.1887365 1.75490599 2.13899198 2.26472509 0.714866403 2.77454419 2.13899198 3.97751088 2.13899198 3.08962972 3.10872554 3.53429473 4.46390395"></polygon>
+                    </g>
+                    <rect id="middle" fill="#E11C1B" x="6" y="1" width="4" height="12"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/M/NZ - New Zealand (Aotearoa)</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-3" x="0" y="0" width="20" height="15"></rect>
+        <rect id="path-5" x="0" y="0" width="11" height="9"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <g id="gb---medium" mask="url(#mask-4)">
+                    <g id="flag">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="mask" fill="#2E42A5" xlink:href="#path-5"></use>
+                        <g id="contents" mask="url(#mask-6)">
+                            <g transform="translate(-2.500000, -1.250000)">
+                                <g id="stripe" transform="translate(1.000000, 0.000000)">
+                                    <polygon id="white" fill="#F7FCFF" fill-rule="nonzero" transform="translate(7.179664, 5.457378) scale(1, -1) translate(-7.179664, -5.457378) " points="0.247333589 1.53986811 2.72292762 0.454117833 12.8061752 8.48429142 14.1119945 10.0977486 11.4647029 10.4606384 7.35198716 7.00020684 4.04167375 4.66868453"></polygon>
+                                    <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(7.114665, 5.716384) scale(1, -1) translate(-7.114665, -5.716384) " points="0.586246133 1.29717712 1.84744698 0.66709794 13.6430838 10.7656701 11.8722111 10.7656701"></polygon>
+                                </g>
+                                <g id="stripe" transform="translate(7.750000, 5.500000) scale(-1, 1) translate(-7.750000, -5.500000) translate(0.250000, 0.000000)">
+                                    <polygon id="white" fill="#F7FCFF" fill-rule="nonzero" transform="translate(7.179664, 5.612355) scale(1, -1) translate(-7.179664, -5.612355) " points="0.247333589 1.84982105 2.4444201 0.454117833 12.8061752 8.79424437 14.1119945 10.4077016 11.4647029 10.7705913 7.35198716 7.31015978 4.04167375 4.97863747"></polygon>
+                                    <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(7.284723, 5.686725) scale(1, -1) translate(-7.284723, -5.686725) " points="0.331803828 1.45261194 1.59300468 0.822532761 6.61570908 5.14625614 8.10483314 5.62933537 14.237643 10.5509178 12.4667702 10.5509178 6.33740601 5.74615285 4.70931125 5.16688909"></polygon>
+                                </g>
+                                <g id="cross" transform="translate(2.500000, 1.250000)">
+                                    <path d="M6.46875,-0.46875 L6.46875,3.53125 L11.46875,3.53125 L11.46875,5.46875 L6.46875,5.46875 L6.46875,9.46875 L4.53125,9.46875 L4.53125,5.46875 L-0.46875,5.46875 L-0.46875,3.53125 L4.53125,3.53125 L4.53125,-0.46875 L6.46875,-0.46875 Z" id="red" stroke="#F7FCFF" stroke-width="0.9375" fill="#F50100"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="mark-2" mask="url(#mask-4)" fill="#F50100" stroke="#F7FCFF" stroke-width="0.5">
+                    <g transform="translate(11.250000, 2.500000)" id="Star-10">
+                        <polygon points="4.28323097 10.3125 3.18113362 10.8919069 3.39161548 9.66470343 2.5 8.79559314 3.73218229 8.61654657 4.28323097 7.5 4.83427964 8.61654657 6.06646194 8.79559314 5.17484645 9.66470343 5.38532832 10.8919069"></polygon>
+                        <polygon points="2.00000003 6.16863707 1.15020328 6.61540166 1.31250001 5.66913907 0.625 4.99899218 1.57510165 4.86093433 2.00000003 3.99999619 2.42489841 4.86093433 3.37500006 4.99899218 2.68750004 5.66913907 2.84979678 6.61540166"></polygon>
+                        <polygon points="6.37347247 6.16622782 5.5246198 6.61249608 5.68673624 5.66728474 5 4.99788235 5.94904614 4.85997787 6.37347247 3.99999619 6.79789881 4.85997787 7.74694495 4.99788235 7.06020871 5.66728474 7.22232515 6.61249608"></polygon>
+                        <polygon points="4.50000003 2.66863326 3.65020328 3.11539785 3.81250001 2.16913526 3.125 1.49898837 4.07510165 1.36093052 4.50000003 0.499992371 4.92489841 1.36093052 5.87500006 1.49898837 5.18750004 2.16913526 5.34979678 3.11539785"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

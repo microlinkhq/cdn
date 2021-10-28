@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/GF - French Guiana</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <rect id="background" fill="#5EAA22" x="0" y="0" width="32" height="24" rx="2"></rect>
+                <polygon id="left" fill="#FECA00" points="0 0 32 24 0 24"></polygon>
+                <polygon id="mark" fill="#E21835" points="15.9306545 14.4062885 12.4450259 16.8239871 13.5588126 12.6830445 11 10.0378072 14.4647756 9.89477718 15.9306545 5.8 17.3965334 9.89477718 20.8554141 9.89477718 18.3024963 12.6830445 19.5810382 16.5795784"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

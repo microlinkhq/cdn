@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/FM - Federated States of Micronesia</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#63B3E1" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)" fill="#F7FCFF">
+                    <g transform="translate(6.000000, 2.000000)" id="Star-10">
+                        <polygon points="10 5.29998779 8.23664424 6.22703878 8.57341523 4.26351328 7.14683045 2.87293681 9.11832212 2.5864623 10 0.799987793 10.8816779 2.5864623 12.8531695 2.87293681 11.4265848 4.26351328 11.7633558 6.22703878"></polygon>
+                        <polygon points="10 17.2999878 8.23664424 18.2270388 8.57341523 16.2635133 7.14683045 14.8729368 9.11832212 14.5864623 10 12.7999878 10.8816779 14.5864623 12.8531695 14.8729368 11.4265848 16.2635133 11.7633558 18.2270388"></polygon>
+                        <polygon points="3.80004883 11.5 2.03669307 12.427051 2.37346405 10.4635255 0.946879279 9.07294902 2.91837095 8.78647451 3.80004883 7 4.68172671 8.78647451 6.65321838 9.07294902 5.2266336 10.4635255 5.56340459 12.427051"></polygon>
+                        <polygon points="16 11.5 14.2366442 12.427051 14.5734152 10.4635255 13.1468305 9.07294902 15.1183221 8.78647451 16 7 16.8816779 8.78647451 18.8531695 9.07294902 17.4265848 10.4635255 17.7633558 12.427051"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

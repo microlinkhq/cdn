@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/TT - Trinidad and Tobago</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#E31D1C" xlink:href="#path-3"></use>
+                <path d="M16.9123227,-1.12252114 L18.4299618,1.15116064 L-1.45153169,12.5722407 L-2.96916943,10.2985592 L16.9123227,-1.12252114 Z" id="Path-14" stroke="#F7FCFF" stroke-width="0.731999974" fill="#272727" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(7.730396, 5.724860) scale(-1, 1) rotate(-17.000000) translate(-7.730396, -5.724860) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

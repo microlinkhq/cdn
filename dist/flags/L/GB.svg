@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/L/GB-NIR	 - Northern Ireland</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-3" x="0" y="0" width="32" height="24"></rect>
+        <rect id="path-5" x="0" y="0" width="32" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#2E42A5" xlink:href="#path-3"></use>
+                <g id="mark-1" mask="url(#mask-4)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="mask"></g>
+                    <g id="contents" mask="url(#mask-6)">
+                        <g transform="translate(-5.111111, -3.428571)">
+                            <g id="stripe">
+                                <polygon id="white" fill="#FFFFFF" fill-rule="nonzero" transform="translate(21.266600, 14.968809) scale(1, -1) translate(-21.266600, -14.968809) " points="1.5479711 4.22363824 8.58966077 1.24558034 37.2708984 23.2711993 40.9852288 27.696682 33.4551548 28.6920367 21.7567635 19.2005673 12.3407609 12.8055347"></polygon>
+                                <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(21.081714, 15.679225) scale(1, -1) translate(-21.081714, -15.679225) " points="2.511989 3.55797153 6.09940474 1.82975435 39.6514385 29.5286952 34.6142893 29.5286952"></polygon>
+                            </g>
+                            <g id="stripe" transform="translate(21.222222, 15.000000) scale(-1, 1) translate(-21.222222, -15.000000) translate(0.222222, 0.000000)">
+                                <polygon id="white" fill="#FFFFFF" fill-rule="nonzero" transform="translate(21.266600, 14.968809) scale(1, -1) translate(-21.266600, -14.968809) " points="1.5479711 4.22363824 8.58966077 1.24558034 37.2708984 23.2711993 40.9852288 27.696682 33.4551548 28.6920367 21.7567635 19.2005673 12.3407609 12.8055347"></polygon>
+                                <polygon id="red" fill="#F50100" fill-rule="nonzero" transform="translate(21.565435, 15.597875) scale(1, -1) translate(-21.565435, -15.597875) " points="1.788242 3.98430704 5.37565774 2.25608986 19.6624614 14.1154454 23.898192 15.4404627 41.342629 28.9396602 36.3054797 28.9396602 18.8708438 15.7608764 14.2398187 14.1720387"></polygon>
+                            </g>
+                            <g id="cross" transform="translate(3.111111, 1.428571)">
+                                <path d="M20.7777535,1 L20.7775108,11 L35.0275351,11 L35.0275351,17 L20.7775108,17 L20.7777535,27 L15.2221535,27 L15.2214664,17 L1.02753508,17 L1.02753508,11 L15.2214664,11 L15.2221535,1 L20.7777535,1 Z" id="red" stroke="#FFFFFF" stroke-width="2" fill="#F50100"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

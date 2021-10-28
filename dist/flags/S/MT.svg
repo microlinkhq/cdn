@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/MT - Malta</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="8" height="12"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="mask" fill="#F7FCFF" xlink:href="#path-1"></use>
+            <path d="M4.75014034,3.25 L4.75094572,4.68423368 L6.75,5.19422795 L6.75,6.7501674 L5.15734009,6.75123421 L4.79159533,8.75 L3.250025,8.75 L3.25019495,7.05073144 L1.25,6.78140624 L1.25,5.25 L2.82366776,5.25 L3.20666776,3.25 L4.75014034,3.25 Z" id="Combined-Shape" stroke="#FECA00" stroke-width="0.5" fill="#A0A0A0" mask="url(#mask-2)"></path>
+            <g id="contents" mask="url(#mask-2)">
+                <g transform="translate(8.000000, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="background" stroke="none" fill="#E31D1C" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect id="right" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)" x="-8" y="0" width="6" height="12"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

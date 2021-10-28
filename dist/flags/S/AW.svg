@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flags/S/AW - Aruba</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="12"></rect>
+        <polygon id="path-5" points="3.78028735 4.28984879 1.24223117 3.5356219 3.8366457 2.79649392 4.47001002 0.436440637 5.20122904 2.86859896 7.60051897 3.51045703 5.19414179 4.23356167 4.47596742 6.55787058"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="mask"></g>
+            <g id="contents" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#5BA3DA" xlink:href="#path-3"></use>
+                <g id="mark" mask="url(#mask-4)">
+                    <g transform="translate(-1.000000, 0.000000)">
+                        <g id="star" fill="none">
+                            <use fill="#EF2929" xlink:href="#path-5"></use>
+                            <use fill="#FF0000" xlink:href="#path-5"></use>
+                        </g>
+                        <path d="M17.000117,9.000038 L17.000117,10.000065 L1.000065,10.000065 L1.000065,9.000038 L17.000117,9.000038 Z M17.000117,6.999998 L17.000117,8.00006 L1.000065,8.00006 L1.000065,6.999998 L17.000117,6.999998 Z" id="Combined-shape-1524" fill="#FAD615"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
