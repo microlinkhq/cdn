@@ -1,5 +1,4 @@
-![GitHub-Mark-Light](https://cdn.microlink.io/banner/cdn.png?t=1#gh-light-mode-only)![GitHub-Mark-Dark](https://cdn.microlink.io/banner/cdn-dark.png?t=1#gh-dark-mode-only)
-
+![GitHub-Mark-Light](https://cdn.microlink.io/banner/cdn.png#gh-light-mode-only)![GitHub-Mark-Dark](https://cdn.microlink.io/banner/cdn-dark.png#gh-dark-mode-only)
 
 > Automation tool for generating all the assets involved in [microlink.io](https://microlink.io).
 
