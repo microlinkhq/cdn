@@ -26,6 +26,7 @@
   "dependencies": {
     "@microlink/demo-links": "~1.0.17",
     "@microlink/mql": "~0.10.1",
+    "@microlink/recipes": "~1.2.0",
     "beauty-error": "~1.2.8",
     "browserless": "9.2.22",
     "calc-percent": "~1.0.1",
@@ -49,9 +50,9 @@
     "finepack": "latest",
     "git-authors-cli": "latest",
     "git-dirty": "latest",
-    "husky": "latest",
-    "lint-staged": "latest",
+    "nano-staged": "latest",
     "prettier-standard": "latest",
+    "simple-git-hooks": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
     "standard-version": "latest"
@@ -82,21 +83,19 @@
       "@commitlint/config-conventional"
     ]
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "package.json": [
-      "finepack"
-    ],
+  "nano-staged": {
     "*.js": [
       "prettier-standard"
     ],
     "*.md": [
       "standard-markdown"
+    ],
+    "package.json": [
+      "finepack"
     ]
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx commitlint --edit",
+    "pre-commit": "npx nano-staged"
   }
 }
