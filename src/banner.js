@@ -1,5 +1,6 @@
 'use strict'
 
+const { URLSearchParams } = require('url')
 const { reduce } = require('lodash')
 const pAll = require('p-all')
 
@@ -7,7 +8,6 @@ const { downloadFile } = require('./util')
 const { CARDS_URL } = require('./env')
 
 const TEXT = {
-  'mql-cli': 'MQL CLI',
   api: 'Microlink API',
   blog: 'Microlink Blog',
   cards: 'Microlink Cards',
@@ -33,6 +33,7 @@ const TEXT = {
 }
 
 const FILE_TYPES = ['png', 'jpeg']
+const THEMES = ['light', 'dark']
 
 module.exports = async ({ task, concurrency }) => {
   const total = Object.keys(TEXT).length * FILE_TYPES.length
@@ -40,19 +41,30 @@ module.exports = async ({ task, concurrency }) => {
   const downloadFiles = reduce(
     TEXT,
     (acc, text, name) => {
-      const files = FILE_TYPES.map(fileType => {
-        const query = encodeURIComponent(
-          `title=${encodeURIComponent(text)}&screenshot.type=${fileType}`
-        )
-        const url = `${CARDS_URL}${query}`
+      const files = []
 
-        const dist = `dist/banner/${name}.${fileType}`
+      for (const fileType of FILE_TYPES) {
+        for (const theme of THEMES) {
+          const query = new URLSearchParams({
+            preset: 'microlink',
+            title: text,
+            'screenshot.type': fileType,
+            ...(theme === 'dark' ? { bg: '#0E1117' } : {})
+          }).toString()
 
-        return () => {
-          task.setProgress(name, index++, total)
-          return downloadFile(url, dist)
+          const url = `${CARDS_URL}/${encodeURIComponent(
+            `https://cards.microlink.io/?${query}`
+          )}`
+
+          const variation = theme === 'dark' ? '-dark' : ''
+          const dist = `dist/banner/${name}${variation}.${fileType}`
+
+          files.push(() => {
+            task.setProgress(name, index++, total)
+            return downloadFile(url, dist)
+          })
         }
-      })
+      }
 
       return [...acc, ...files]
     },
