@@ -34,7 +34,7 @@
     "debug-logfmt": "~1.0.4",
     "download": "~8.0.0",
     "filenamify-url": "~2.1.2",
-    "fs-extra": "~10.0.0",
+    "fs-extra": "~10.1.0",
     "listr": "~0.14.3",
     "lodash": "~4.17.21",
     "meow": "~9.0.0",
