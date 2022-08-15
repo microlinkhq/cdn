@@ -1,5 +1,7 @@
 <div align="center">
   <img src="https://cdn.microlink.io/banner/cdn.png" alt="microlink cdn">
+  <br>
+  <br>
 </div>
 
 > Automation tool for generating all the assets involved in [microlink.io](https://microlink.io).
