@@ -13,12 +13,14 @@ const TEXT = {
   cards: 'Microlink Cards',
   cdn: 'Microlink CDN',
   changelog: 'Microlink Changelog',
-  community: 'Microlink Community',
   cli: 'Microlink CLI',
+  community: 'Microlink Community',
   design: 'Microlink Design',
   docs: 'Microlink Docs',
+  enterprise: 'Microlink Enterprise',
   html: 'Microlink HTML',
   insights: 'Microlink Insights',
+  logo: 'Microlink Logo',
   meta: 'Microlink Meta',
   mql: 'Microlink Query Language',
   oss: 'Microlink OSS',
@@ -28,8 +30,7 @@ const TEXT = {
   screenshot: 'Microlink Screenshot',
   sdk: 'Microlink SDK',
   stats: 'Microlink Stats',
-  status: 'Microlink Status',
-  enterprise: 'Microlink Enterprise'
+  status: 'Microlink Status'
 }
 
 const FILE_TYPES = ['png', 'jpeg']

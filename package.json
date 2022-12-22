@@ -36,7 +36,7 @@
     "conventional-github-releaser": "latest",
     "debug-logfmt": "latest",
     "download": "latest",
-    "filenamify-url": "Latest",
+    "filenamify-url": "2",
     "finepack": "latest",
     "fs-extra": "latest",
     "git-authors-cli": "latest",
@@ -53,7 +53,7 @@
     "standard": "latest",
     "standard-markdown": "latest",
     "standard-version": "latest",
-    "unique-random-array": "latest"
+    "unique-random-array": "2"
   },
   "engines": {
     "node": ">= 12"
