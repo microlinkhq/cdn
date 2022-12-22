@@ -36,3 +36,4 @@ coverage
 .envrc
 media/illustrations.sketch
 dist/fonts
+.vercel
