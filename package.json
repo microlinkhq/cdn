@@ -45,7 +45,7 @@
     "lodash": "latest",
     "meow": "9",
     "nano-staged": "latest",
-    "p-all": "3",
+    "p-all": "5",
     "picocolors": "latest",
     "prettier-standard": "latest",
     "puppeteer": "latest",
