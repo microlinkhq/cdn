@@ -26,6 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@ksmithut/prettier-standard": "latest",
     "@microlink/demo-links": "latest",
     "@microlink/mql": "latest",
     "@microlink/recipes": "latest",
@@ -47,7 +48,6 @@
     "nano-staged": "latest",
     "p-all": "3",
     "picocolors": "latest",
-    "prettier-standard": "latest",
     "puppeteer": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
@@ -82,8 +82,9 @@
     ]
   },
   "nano-staged": {
-    "*.js": [
-      "prettier-standard"
+    "*.js,!*.min.js,": [
+      "prettier-standard",
+      "standard --fix"
     ],
     "*.md": [
       "standard-markdown"
