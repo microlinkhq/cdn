@@ -37,7 +37,7 @@
     "conventional-github-releaser": "latest",
     "debug-logfmt": "latest",
     "download": "latest",
-    "filenamify-url": "2",
+    "filenamify-url": "3",
     "finepack": "latest",
     "fs-extra": "latest",
     "git-authors-cli": "latest",
