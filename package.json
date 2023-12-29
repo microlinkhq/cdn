@@ -1,7 +1,7 @@
 {
   "name": "microlink-cdn",
   "description": "Static Content Delivery Network for Microlink folks assets",
-  "homepage": "https://nicedoc.io/microlinkhq/microlink-cdn",
+  "homepage": "https://github.com/microlinkhq/microlink-cdn",
   "version": "0.0.0",
   "bin": {
     "microlink-cdn": "bin/index.js"
@@ -82,7 +82,7 @@
     ]
   },
   "nano-staged": {
-    "*.js,!*.min.js,": [
+    "*.js": [
       "prettier-standard",
       "standard --fix"
     ],
