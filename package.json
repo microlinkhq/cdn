@@ -44,7 +44,7 @@
     "git-dirty": "latest",
     "listr": "latest",
     "lodash": "latest",
-    "meow": "9",
+    "meow": "13",
     "nano-staged": "latest",
     "p-all": "3",
     "picocolors": "latest",
