@@ -3,7 +3,7 @@
 const {
   WWW_URL = 'https://microlink.io',
   CDN_URL = 'https://cdn.microlink.io',
-  CARDS_URL = 'https://i.microlink.io',
+  CARDS_URL = 'https://screenshot.microlink.io',
   ...env
 } = process.env
 
