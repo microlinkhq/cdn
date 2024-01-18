@@ -1,0 +1,244 @@
+'use strict'
+
+const { statSync, readdirSync } = require('fs')
+const { writeFile } = require('fs/promises')
+const prettier = require('prettier')
+const path = require('path')
+
+const formatNumber = n => Number(n).toLocaleString('en-US')
+
+const stats = directoryPath => {
+  let dirs = 0
+  let files = 0
+
+  const countItems = itemPath => {
+    const items = readdirSync(itemPath)
+    items.forEach(item => {
+      const fullPath = path.join(itemPath, item)
+      if (statSync(fullPath).isDirectory()) {
+        dirs++
+        countItems(fullPath)
+      } else {
+        files++
+      }
+    })
+  }
+
+  countItems(directoryPath)
+  return { dirs, files }
+}
+
+const rootPath = process.argv[2]
+const baseUrl = process.argv[3]
+
+if (!rootPath || !baseUrl) {
+  console.error(
+    'Please provide both a directory path and a base URL as command-line arguments.'
+  )
+  process.exit(1)
+}
+
+const generateTreeView = (directoryPath, baseUrl, prefix = '') => {
+  const items = readdirSync(directoryPath).filter(
+    item => item !== '.DS_Store' && item !== 'data'
+  )
+
+  let html = '<ul class="tree-view">'
+
+  items.forEach((item, index) => {
+    const itemPath = path.join(directoryPath, item)
+    const isDirectory = statSync(itemPath).isDirectory()
+    const isLastItem = index === items.length - 1
+    const { href } = new URL(itemPath.replace(`${rootPath}/`, ''), baseUrl)
+
+    html += `<li>${prefix}${isLastItem ? '└' : '├'}─ `
+
+    if (isDirectory) {
+      html += `<span class="directory"><p style="margin:0;display:inline;">${item}/</p>`
+      html += generateTreeView(itemPath, href, `${prefix}│  `)
+      html += '</span>'
+    } else {
+      html += `<span class="file"><a target="_blank" href="${href}">${item}</a></span>`
+    }
+  })
+
+  html += '</ul>'
+  return html
+}
+
+const generateHTML = async (directoryPath, baseUrl) => {
+  const treeView = generateTreeView(directoryPath, baseUrl)
+  const { files, dirs } = stats(directoryPath)
+
+  const style = `
+  :root {
+    --gray0: #f8f9fa;
+    --gray1: #f1f3f5;
+    --gray2: #e9ecef;
+    --gray3: #dee2e6;
+    --gray4: #ced4da;
+    --gray5: #adb5bd;
+    --gray6: #868e96;
+    --gray7: #495057;
+    --gray8: #343a40;
+    --gray9: #212529;
+    --black: #000;
+    --black95: rgba(0,0,0,0.95);
+    --black90: rgba(0,0,0,0.9);
+    --black80: rgba(0,0,0,0.8);
+    --black70: rgba(0,0,0,0.7);
+    --black60: rgba(0,0,0,0.6);
+    --black50: rgba(0,0,0,0.5);
+    --black40: rgba(0,0,0,0.4);
+    --black30: rgba(0,0,0,0.3);
+    --black20: rgba(0,0,0,0.2);
+    --black10: rgba(0,0,0,0.1);
+    --black05: rgba(0,0,0,0.05);
+    --black025: rgba(0,0,0,0.025);
+    --black0125: rgba(0,0,0,0.0125);
+    --white: #fff;
+    --white95: rgba(255,255,255,0.95);
+    --white90: rgba(255,255,255,0.9);
+    --white80: rgba(255,255,255,0.8);
+    --white70: rgba(255,255,255,0.7);
+    --white60: rgba(255,255,255,0.6);
+    --white50: rgba(255,255,255,0.5);
+    --white40: rgba(255,255,255,0.4);
+    --white30: rgba(255,255,255,0.3);
+    --white20: rgba(255,255,255,0.2);
+    --white10: rgba(255,255,255,0.1);
+    --white05: rgba(255,255,255,0.05);
+    --white025: rgba(255,255,255,0.025);
+    --white0125: rgba(255,255,255,0.0125);
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font: 18px/1.5 monospace;
+    line-height: normal;
+  }
+
+  main {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+
+  #background {
+    position: relative;
+    overflow: hidden;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-25%, 0, 0);
+    }
+  }
+
+  #background::before {
+    content: "";
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    z-index: -1;
+    background-position: 0px 0px, 25px 25px;
+    background: radial-gradient(var(--dots-color) 1px, transparent 0px) 0px 0px / 50px 50px, radial-gradient(var(--dots-color) 1px, transparent 0px) 25px 25px var(--white);
+    animation: slide 100s linear infinite;
+    animation-direction: reverse;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--gray9);
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  li {
+    margin-top: 2px;
+  }
+
+  body { color: var(--black30); background: var(--white); }
+  :root { --dots-color: var(--black20); }
+  h1, h2, h3, p { color: var(--black); }
+  a { color: rgb(6, 125, 247); }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --white: #000;
+      --black: #fff;
+      --dots-color: var(--gray7);
+    }
+
+    .directory span {
+      color: var(--gray3);
+    }
+
+    body {
+      color: var(--gray5);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: var(--gray0);
+    }
+  }`
+
+  const html = `
+<html>
+  <head>
+    <title>Microlink CDN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.microlink.io/logo/favicon.ico" type="image/x-icon">
+    <meta property="og:image" content="https://cdn.microlink.io/banner/cdn.png">
+    <meta property="og:site_name" content="Microlink CDN">
+    <meta property="og:type" content="website">
+    <style>${style}</style>
+  </head>
+  <body>
+    <div id="background">
+      <main>
+        <header>
+          <h1 style="margin-bottom:0;">Microlink CDN</h1>
+          <p style="margin-top:9px;">${formatNumber(
+            dirs
+          )} directories, ${formatNumber(files)} files.</p>
+        </header>
+        <section>${treeView}</section>
+      </main>
+    </div>
+  </body>
+</html>`.trim()
+
+  return prettier.format(html, { parser: 'html' })
+}
+
+generateHTML(rootPath, baseUrl)
+  .then(html => writeFile('dist/index.html', html))
+  .then(() => {
+    console.log('\ndist/index.html generated successfully ✨')
+    process.exit()
+  })

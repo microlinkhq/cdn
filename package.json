@@ -34,7 +34,6 @@
     "browserless": "latest",
     "calc-percent": "latest",
     "cartesian": "latest",
-    "conventional-github-releaser": "latest",
     "debug-logfmt": "latest",
     "download": "latest",
     "filenamify-url": "2",
@@ -42,12 +41,14 @@
     "fs-extra": "latest",
     "git-authors-cli": "latest",
     "git-dirty": "latest",
+    "github-generate-release": "latest",
     "listr": "latest",
     "lodash": "latest",
     "meow": "9",
     "nano-staged": "latest",
     "p-all": "3",
     "picocolors": "latest",
+    "prettier": "latest",
     "puppeteer": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
@@ -56,21 +57,21 @@
     "unique-random-array": "2"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 18"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "node scripts/build",
     "clean": "rm -rf node_modules",
     "lint": "standard-markdown README.md && standard",
+    "postinstall": "node scripts/postinstall.js dist https://cdn.microlink.io/",
     "postrelease": "npm run release:tags && npm run release:github",
     "prerelease": "git-dirty && npm run update:check && npm test && git-authors-cli",
     "pretest": "npm run lint",
     "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
     "release": "git-authors-cli && git add package.json && standard-version -a",
-    "release:github": "conventional-github-releaser -p angular",
+    "release:github": "github-generate-release",
     "release:tags": "git push --follow-tags origin master",
     "test": "exit 0"
   },
