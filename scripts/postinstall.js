@@ -2,12 +2,33 @@
 
 const { statSync, readdirSync } = require('fs')
 const { writeFile } = require('fs/promises')
+const prettyBytes = require('pretty-bytes')
 const prettier = require('prettier')
 const path = require('path')
 
 const formatNumber = n => Number(n).toLocaleString('en-US')
 
-const stats = directoryPath => {
+const directorySize = dirPath => {
+  let size = 0
+
+  const getSize = currentPath => {
+    const items = readdirSync(currentPath)
+    items.forEach(item => {
+      const fullPath = path.join(currentPath, item)
+      const stats = statSync(fullPath)
+      if (stats.isDirectory()) {
+        getSize(fullPath)
+      } else {
+        size += stats.size
+      }
+    })
+  }
+
+  getSize(dirPath)
+  return size
+}
+
+const rootStats = directoryPath => {
   let dirs = 0
   let files = 0
 
@@ -25,7 +46,8 @@ const stats = directoryPath => {
   }
 
   countItems(directoryPath)
-  return { dirs, files }
+  const size = prettyBytes(directorySize(directoryPath))
+  return { dirs, files, size }
 }
 
 const rootPath = process.argv[2]
@@ -38,28 +60,36 @@ if (!rootPath || !baseUrl) {
   process.exit(1)
 }
 
-const generateTreeView = (directoryPath, baseUrl, prefix = '') => {
+const generateTreeView = (directoryPath, baseUrl, prefix = '', level = 0) => {
   const items = readdirSync(directoryPath).filter(
     item => item !== '.DS_Store' && item !== 'data'
   )
 
-  let html = '<ul class="tree-view">'
+  let html = `<ul class="tree-view ${level > 0 ? 'nested' : ''}">`
 
   items.forEach((item, index) => {
+    const itemId = `directory-${Math.random().toString(36).slice(2, 11)}`
     const itemPath = path.join(directoryPath, item)
-    const isDirectory = statSync(itemPath).isDirectory()
+    const stats = statSync(itemPath)
+    const isDirectory = stats.isDirectory()
+    const size = prettyBytes(isDirectory ? directorySize(itemPath) : stats.size)
     const isLastItem = index === items.length - 1
     const { href } = new URL(itemPath.replace(`${rootPath}/`, ''), baseUrl)
 
-    html += `<li>${prefix}${isLastItem ? '└' : '├'}─ `
+    html += `<li>${prefix}${isLastItem ? '└' : '├'}─`
 
     if (isDirectory) {
-      html += `<span class="directory"><p style="margin:0;display:inline;">${item}/</p>`
-      html += generateTreeView(itemPath, href, `${prefix}│  `)
-      html += '</span>'
+      html += `<span class="directory" onclick="toggleDirectory('${itemId}')" style="cursor: pointer;"><p class="name">${item}/</p></span>`
+      html += `<span class="size">${size}</span>`
+      html += `<div id="${itemId}" style="display: none;">`
+      html += generateTreeView(itemPath, href, `${prefix}│  `, level + 1)
+      html += '</div>'
     } else {
-      html += `<span class="file"><a target="_blank" href="${href}">${item}</a></span>`
+      html += `<span class="file"><a class="name" target="_blank" href="${href}">${item}</a></span>`
+      html += `<span class="size">${size}</span>`
     }
+
+    html += '</li>'
   })
 
   html += '</ul>'
@@ -68,7 +98,7 @@ const generateTreeView = (directoryPath, baseUrl, prefix = '') => {
 
 const generateHTML = async (directoryPath, baseUrl) => {
   const treeView = generateTreeView(directoryPath, baseUrl)
-  const { files, dirs } = stats(directoryPath)
+  const { files, dirs, size } = rootStats(directoryPath)
 
   const style = `
   :root {
@@ -118,20 +148,39 @@ const generateHTML = async (directoryPath, baseUrl) => {
     text-rendering: optimizeLegibility;
   }
 
-  body {
-    font: 18px/1.5 monospace;
+  html, body {
+    font: 20px/1.5 monospace;
     line-height: normal;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   main {
     max-width: 650px;
     margin: 40px auto;
     padding: 0 10px;
+    position: relative; /* Ensure it's above the background */
+    z-index: 1;
+  }
+
+
+  #background-wrapper {
+    position: relative; /* Relative position for the wrapper */
+    min-height: 100vh; /* Minimum height of the viewport */
   }
 
   #background {
-    position: relative;
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    z-index: -1;
+
   }
 
   @keyframes slide {
@@ -161,12 +210,18 @@ const generateHTML = async (directoryPath, baseUrl) => {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: var(--gray9);
+    color: var(--black);
   }
 
   p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+  }
+
+  .name {
+    margin:0;
+    display:inline;
+    margin: 0 8px;
   }
 
   ul {
@@ -175,11 +230,17 @@ const generateHTML = async (directoryPath, baseUrl) => {
   }
 
   li {
-    margin-top: 2px;
+    margin-top: 4px;
   }
 
-  body { color: var(--black30); background: var(--white); }
-  :root { --dots-color: var(--black20); }
+  .stats {
+    margin-top: 8px;
+    color: color: var(--gray6);
+  }
+
+  body { color: var(--gray6); background: var(--white); }
+  .size { font-size: 0.75em; }
+  :root { --dots-color: var(--black30); }
   h1, h2, h3, p { color: var(--black); }
   a { color: rgb(6, 125, 247); }
 
@@ -188,20 +249,6 @@ const generateHTML = async (directoryPath, baseUrl) => {
       --white: #000;
       --black: #fff;
       --dots-color: var(--gray7);
-    }
-
-    .directory span {
-      color: var(--gray3);
-    }
-
-    body {
-      color: var(--gray5);
-    }
-
-    h1,
-    h2,
-    h3 {
-      color: var(--gray0);
     }
   }`
 
@@ -220,17 +267,28 @@ const generateHTML = async (directoryPath, baseUrl) => {
     <style>${style}</style>
   </head>
   <body>
-    <div id="background">
-      <main>
-        <header>
-          <h1 style="margin-bottom:0;">Microlink CDN</h1>
-          <p style="margin-top:9px;">${formatNumber(
-            dirs
-          )} directories, ${formatNumber(files)} files.</p>
-        </header>
-        <section>${treeView}</section>
-      </main>
-    </div>
+    <div id="background"></div>
+    <main>
+      <header>
+        <h1 style="margin-bottom:0;">Microlink CDN</h1>
+        <p class="stats">${formatNumber(dirs)} directories, ${formatNumber(
+    files
+  )} files, ${size}.</p>
+      </header>
+      <section>${treeView}</section>
+    </main>
+    <script>
+    function toggleDirectory(id) {
+      var element = document.getElementById(id);
+      if (element) {
+        if (element.style.display === 'none') {
+          element.style.display = 'block';
+        } else {
+          element.style.display = 'none';
+        }
+      }
+    }
+  </script>
   </body>
 </html>`.trim()
 
