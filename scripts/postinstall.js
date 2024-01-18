@@ -122,7 +122,11 @@ const generateHTML = async (directoryPath, baseUrl) => {
     text-rendering: optimizeLegibility;
   }
 
-  body {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     font: 18px/1.5 monospace;
     line-height: normal;
   }
@@ -134,8 +138,12 @@ const generateHTML = async (directoryPath, baseUrl) => {
   }
 
   #background {
-    position: relative;
-    overflow: hidden;
+    position: fixed; /* Use fixed positioning */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto; /* Allows content to scroll if it exceeds the viewport height */
   }
 
   @keyframes slide {
