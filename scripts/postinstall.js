@@ -213,6 +213,7 @@ const generateHTML = async (directoryPath, baseUrl) => {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://cdn.microlink.io/logo/favicon.ico" type="image/x-icon">
+    <meta property="og:description" content="Content Delivery Network for Microlink assets">
     <meta property="og:image" content="https://cdn.microlink.io/banner/cdn.png">
     <meta property="og:site_name" content="Microlink CDN">
     <meta property="og:type" content="website">
