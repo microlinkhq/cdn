@@ -38,14 +38,15 @@ if (!rootPath || !baseUrl) {
   process.exit(1)
 }
 
-const generateTreeView = (directoryPath, baseUrl, prefix = '') => {
+const generateTreeView = (directoryPath, baseUrl, prefix = '', level = 0) => {
   const items = readdirSync(directoryPath).filter(
     item => item !== '.DS_Store' && item !== 'data'
   )
 
-  let html = '<ul class="tree-view">'
+  let html = `<ul class="tree-view ${level > 0 ? 'nested' : ''}">`
 
   items.forEach((item, index) => {
+    const itemId = `folder-${Math.random().toString(36).slice(2, 11)}`
     const itemPath = path.join(directoryPath, item)
     const isDirectory = statSync(itemPath).isDirectory()
     const isLastItem = index === items.length - 1
@@ -54,12 +55,15 @@ const generateTreeView = (directoryPath, baseUrl, prefix = '') => {
     html += `<li>${prefix}${isLastItem ? '└' : '├'}─ `
 
     if (isDirectory) {
-      html += `<span class="directory"><p style="margin:0;display:inline;">${item}/</p>`
-      html += generateTreeView(itemPath, href, `${prefix}│  `)
-      html += '</span>'
+      html += `<span class="directory" onclick="toggleDirectory('${itemId}')" style="cursor: pointer;"><p style="margin:0;display:inline;">${item}/</p></span>`
+      html += `<div id="${itemId}" style="display: none;">`
+      html += generateTreeView(itemPath, href, `${prefix}│  `, level + 1)
+      html += '</div>'
     } else {
       html += `<span class="file"><a target="_blank" href="${href}">${item}</a></span>`
     }
+
+    html += '</li>'
   })
 
   html += '</ul>'
@@ -213,6 +217,7 @@ const generateHTML = async (directoryPath, baseUrl) => {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://cdn.microlink.io/logo/favicon.ico" type="image/x-icon">
+    <meta property="og:description" content="Content Delivery Network for Microlink assets">
     <meta property="og:image" content="https://cdn.microlink.io/banner/cdn.png">
     <meta property="og:site_name" content="Microlink CDN">
     <meta property="og:type" content="website">
@@ -230,6 +235,18 @@ const generateHTML = async (directoryPath, baseUrl) => {
         <section>${treeView}</section>
       </main>
     </div>
+    <script>
+    function toggleDirectory(id) {
+      var element = document.getElementById(id);
+      if (element) {
+        if (element.style.display === 'none') {
+          element.style.display = 'block';
+        } else {
+          element.style.display = 'none';
+        }
+      }
+    }
+  </script>
   </body>
 </html>`.trim()
 
