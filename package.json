@@ -49,6 +49,7 @@
     "p-all": "3",
     "picocolors": "latest",
     "prettier": "latest",
+    "pretty-bytes": "5",
     "puppeteer": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
