@@ -6,6 +6,9 @@ const prettyBytes = require('pretty-bytes')
 const prettier = require('prettier')
 const path = require('path')
 
+const IGNORE_FILES = ['.DS_Store', 'data', 'index.html']
+const URLS = []
+
 const formatNumber = n => Number(n).toLocaleString('en-US')
 
 const directorySize = dirPath => {
@@ -60,9 +63,29 @@ if (!rootPath || !baseUrl) {
   process.exit(1)
 }
 
+const getRelativeUrl = (baseUrl, itemPath) => {
+  const baseUrlParts = baseUrl.split('/')
+  const itemPathParts = itemPath.replace(`${rootPath}/`, '').split('/')
+
+  let commonPartIndex = 0
+
+  while (
+    commonPartIndex < baseUrlParts.length &&
+    commonPartIndex < itemPathParts.length &&
+    baseUrlParts[commonPartIndex] === itemPathParts[commonPartIndex]
+  ) {
+    commonPartIndex++
+  }
+
+  const resultPathParts = itemPathParts.slice(commonPartIndex)
+  const resultPath = resultPathParts.join('/')
+
+  return '/' + resultPath
+}
+
 const generateTreeView = (directoryPath, baseUrl, prefix = '', level = 0) => {
   const items = readdirSync(directoryPath).filter(
-    item => item !== '.DS_Store' && item !== 'data'
+    item => !IGNORE_FILES.includes(item)
   )
 
   let html = `<ul class="tree-view ${level > 0 ? 'nested' : ''}">`
@@ -74,12 +97,14 @@ const generateTreeView = (directoryPath, baseUrl, prefix = '', level = 0) => {
     const isDirectory = stats.isDirectory()
     const size = prettyBytes(isDirectory ? directorySize(itemPath) : stats.size)
     const isLastItem = index === items.length - 1
-    const { href } = new URL(itemPath.replace(`${rootPath}/`, ''), baseUrl)
+
+    const { href } = new URL(getRelativeUrl(baseUrl, itemPath), baseUrl)
+    URLS.push(href)
 
     html += `<li>${prefix}${isLastItem ? '└' : '├'}─`
 
     if (isDirectory) {
-      html += `<span class="directory" onclick="toggleDirectory('${itemId}')" style="cursor: pointer;"><p class="name">${item}/</p></span>`
+      html += `<span class="directory" onclick="toggleDirectory('${itemId}')" style="cursor: pointer;"><span class="name">${item}/</span></span>`
       html += `<span class="size">${size}</span>`
       html += `<div id="${itemId}" style="display: none;">`
       html += generateTreeView(itemPath, href, `${prefix}│  `, level + 1)
@@ -150,6 +175,7 @@ const generateHTML = async (directoryPath, baseUrl) => {
 
   html, body {
     font: 20px/1.5 monospace;
+    font-weight: 400;
     line-height: normal;
     margin: 0;
     padding: 0;
@@ -160,8 +186,8 @@ const generateHTML = async (directoryPath, baseUrl) => {
 
   main {
     max-width: 650px;
-    margin: 40px auto;
-    padding: 0 10px;
+    margin: 32px auto 0;
+    padding: 2rem;
     position: relative; /* Ensure it's above the background */
     z-index: 1;
   }
@@ -207,20 +233,14 @@ const generateHTML = async (directoryPath, baseUrl) => {
   h1,
   h2,
   h3 {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 1.2;
     color: var(--black);
-  }
-
-  p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    margin: 0;
   }
 
   .name {
-    margin:0;
-    display:inline;
+    margin: 0;
     margin: 0 8px;
   }
 
@@ -231,18 +251,28 @@ const generateHTML = async (directoryPath, baseUrl) => {
 
   li {
     margin-top: 4px;
+    white-space: nowrap;
   }
 
   .stats {
+    font-family: 'Inter', sans-serif;
     margin-top: 8px;
-    color: color: var(--gray6);
+    color: var(--gray6);
+  }
+
+  h1,
+  h2,
+  h3
+  .stats,
+  .name {
+    font-family: 'Inter', sans-serif;
   }
 
   body { color: var(--gray6); background: var(--white); }
   .size { font-size: 0.75em; }
   :root { --dots-color: var(--black30); }
-  h1, h2, h3, p { color: var(--black); }
-  a { color: rgb(6, 125, 247); }
+  h1, h2, h3, .name { color: var(--black); }
+  a { color: rgb(6, 125, 247) !important; }
 
   @media (prefers-color-scheme: dark) {
     :root {
@@ -250,11 +280,19 @@ const generateHTML = async (directoryPath, baseUrl) => {
       --black: #fff;
       --dots-color: var(--gray7);
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    html, body {
+      font-size: 18px;
+    }
   }`
 
-  const html = `
-<html>
+  const html = `<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
     <title>Microlink CDN</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -275,7 +313,7 @@ const generateHTML = async (directoryPath, baseUrl) => {
     files
   )} files, ${size}.</p>
       </header>
-      <section>${treeView}</section>
+      ${treeView}
     </main>
     <script>
     function toggleDirectory(id) {
@@ -296,8 +334,13 @@ const generateHTML = async (directoryPath, baseUrl) => {
 }
 
 generateHTML(rootPath, baseUrl)
-  .then(html => writeFile('dist/index.html', html))
+  .then(html => {
+    return Promise.all([
+      writeFile('dist/index.html', html),
+      writeFile('urls.json', JSON.stringify(URLS, null, 2))
+    ])
+  })
   .then(() => {
-    console.log('\ndist/index.html generated successfully ✨')
+    console.log('dist/index.html generated successfully ✨')
     process.exit()
   })

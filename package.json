@@ -26,6 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@kikobeats/time-span": "latest",
     "@ksmithut/prettier-standard": "latest",
     "@microlink/demo-links": "latest",
     "@microlink/mql": "latest",
@@ -42,6 +43,7 @@
     "git-authors-cli": "latest",
     "git-dirty": "latest",
     "github-generate-release": "latest",
+    "got": "11",
     "listr": "latest",
     "lodash": "latest",
     "meow": "9",
@@ -50,6 +52,7 @@
     "picocolors": "latest",
     "prettier": "latest",
     "pretty-bytes": "5",
+    "pretty-ms": "7",
     "puppeteer": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
@@ -64,9 +67,11 @@
     "dist"
   ],
   "scripts": {
+    "build": "node scripts/build.js dist https://cdn.microlink.io/",
     "clean": "rm -rf node_modules",
+    "dev": "watchexec --exts js -- node scripts/build.js dist https://cdn.microlink.io/",
     "lint": "standard-markdown README.md && standard",
-    "postinstall": "node scripts/postinstall.js dist https://cdn.microlink.io/",
+    "postbuild": "node scripts/postbuild.js",
     "postrelease": "npm run release:tags && npm run release:github",
     "prerelease": "git-dirty && npm run update:check && npm test && git-authors-cli",
     "pretest": "npm run lint",
