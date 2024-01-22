@@ -43,7 +43,7 @@
     "git-authors-cli": "latest",
     "git-dirty": "latest",
     "github-generate-release": "latest",
-    "got": "11",
+    "got": "latest",
     "listr": "latest",
     "lodash": "latest",
     "meow": "9",
@@ -51,14 +51,14 @@
     "p-all": "3",
     "picocolors": "latest",
     "prettier": "latest",
-    "pretty-bytes": "5",
-    "pretty-ms": "7",
+    "pretty-bytes": "latest",
+    "pretty-ms": "latest",
     "puppeteer": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
     "standard-version": "latest",
-    "unique-random-array": "2"
+    "unique-random-array": "latest"
   },
   "engines": {
     "node": ">= 18"
@@ -67,11 +67,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "node scripts/build.js dist https://cdn.microlink.io/",
+    "build": "node scripts/build.mjs dist https://cdn.microlink.io/",
     "clean": "rm -rf node_modules",
-    "dev": "watchexec --exts js -- node scripts/build.js dist https://cdn.microlink.io/",
+    "dev": "watchexec --exts js -- node scripts/build.mjs dist https://cdn.microlink.io/",
     "lint": "standard-markdown README.md && standard",
-    "postbuild": "node scripts/postbuild.js",
+    "postbuild": "node scripts/postbuild.mjs",
     "postrelease": "npm run release:tags && npm run release:github",
     "prerelease": "git-dirty && npm run update:check && npm test && git-authors-cli",
     "pretest": "npm run lint",

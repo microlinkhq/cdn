@@ -1,10 +1,13 @@
 'use strict'
 
-const prettyMs = require('pretty-ms')
+import createTimeSpan from '@kikobeats/time-span'
+import { readFile } from 'fs/promises'
+import prettyMs from 'pretty-ms'
+import got from 'got'
 
-const timeSpan = require('@kikobeats/time-span')({ format: prettyMs })
+const URLS = await readFile(new URL('../urls.json', import.meta.url), 'utf8').then(JSON.parse)
 
-const URLS = require('../urls.json')
+const timeSpan = createTimeSpan({ format: prettyMs })
 
 const {
   CLOUDFLARE_MAX_FILES = 30,
@@ -21,7 +24,7 @@ const chunks = (array, size) =>
     return result
   }, [])
 
-const cloudflare = require('got').extend({
+const cloudflare = got.extend({
   prefixUrl: `https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/`,
   throwHttpErrors: false,
   responseType: 'json',
@@ -35,13 +38,12 @@ const cloudflare = require('got').extend({
 
 const total = timeSpan()
 
-;(async () => {
-  for (const files of chunks(URLS, CLOUDFLARE_MAX_FILES)) {
-    await cloudflare('purge_cache', {
-      method: 'POST',
-      body: JSON.stringify({ files })
-    })
-    process.stdout.write(' ' + total() + ' ')
-  }
-  process.stdout.write('✨\n')
-})()
+for (const files of chunks(URLS, CLOUDFLARE_MAX_FILES)) {
+  await cloudflare('purge_cache', {
+    method: 'POST',
+    body: JSON.stringify({ files })
+  })
+  process.stdout.write(' ' + total() + ' ')
+}
+
+process.stdout.write('✨\n')

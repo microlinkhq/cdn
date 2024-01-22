@@ -1,10 +1,10 @@
 'use strict'
 
-const { statSync, readdirSync } = require('fs')
-const { writeFile } = require('fs/promises')
-const prettyBytes = require('pretty-bytes')
-const prettier = require('prettier')
-const path = require('path')
+import { statSync, readdirSync } from 'fs'
+import { writeFile } from 'fs/promises'
+import prettyBytes from 'pretty-bytes'
+import prettier from 'prettier'
+import path from 'path'
 
 const IGNORE_FILES = ['.DS_Store', 'data', 'index.html']
 const URLS = []
