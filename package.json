@@ -43,7 +43,7 @@
     "git-authors-cli": "latest",
     "git-dirty": "latest",
     "github-generate-release": "latest",
-    "got": "11",
+    "got": "13",
     "listr": "latest",
     "lodash": "latest",
     "meow": "9",
