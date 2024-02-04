@@ -192,12 +192,6 @@ const generateHTML = async (directoryPath, baseUrl) => {
     z-index: 1;
   }
 
-
-  #background-wrapper {
-    position: relative; /* Relative position for the wrapper */
-    min-height: 100vh; /* Minimum height of the viewport */
-  }
-
   #background {
     position: fixed;
     top: 0;
@@ -206,7 +200,6 @@ const generateHTML = async (directoryPath, baseUrl) => {
     bottom: 0;
     min-height: 100vh;
     z-index: -1;
-
   }
 
   @keyframes slide {
@@ -224,8 +217,10 @@ const generateHTML = async (directoryPath, baseUrl) => {
     width: 400%;
     height: 100%;
     z-index: -1;
-    background-position: 0px 0px, 25px 25px;
-    background: radial-gradient(var(--dots-color) 1px, transparent 0px) 0px 0px / 50px 50px, radial-gradient(var(--dots-color) 1px, transparent 0px) 25px 25px var(--white);
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+    background-image: radial-gradient(var(--dots-color) 1px,transparent 0), radial-gradient(var(--dots-color) 1px, transparent 0);
+
     animation: slide 100s linear infinite;
     animation-direction: reverse;
   }
