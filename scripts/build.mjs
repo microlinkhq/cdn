@@ -138,33 +138,34 @@ const generateHTML = async (directoryPath, baseUrl) => {
     --gray8: #343a40;
     --gray9: #212529;
     --black: #000;
-    --black95: rgba(0,0,0,0.95);
-    --black90: rgba(0,0,0,0.9);
-    --black80: rgba(0,0,0,0.8);
-    --black70: rgba(0,0,0,0.7);
-    --black60: rgba(0,0,0,0.6);
-    --black50: rgba(0,0,0,0.5);
-    --black40: rgba(0,0,0,0.4);
-    --black30: rgba(0,0,0,0.3);
-    --black20: rgba(0,0,0,0.2);
-    --black10: rgba(0,0,0,0.1);
-    --black05: rgba(0,0,0,0.05);
-    --black025: rgba(0,0,0,0.025);
-    --black0125: rgba(0,0,0,0.0125);
+    --black95: rgba(0, 0, 0, 0.95);
+    --black90: rgba(0, 0, 0, 0.9);
+    --black80: rgba(0, 0, 0, 0.8);
+    --black70: rgba(0, 0, 0, 0.7);
+    --black60: rgba(0, 0, 0, 0.6);
+    --black50: rgba(0, 0, 0, 0.5);
+    --black40: rgba(0, 0, 0, 0.4);
+    --black30: rgba(0, 0, 0, 0.3);
+    --black20: rgba(0, 0, 0, 0.2);
+    --black10: rgba(0, 0, 0, 0.1);
+    --black05: rgba(0, 0, 0, 0.05);
+    --black025: rgba(0, 0, 0, 0.025);
+    --black0125: rgba(0, 0, 0, 0.0125);
     --white: #fff;
-    --white95: rgba(255,255,255,0.95);
-    --white90: rgba(255,255,255,0.9);
-    --white80: rgba(255,255,255,0.8);
-    --white70: rgba(255,255,255,0.7);
-    --white60: rgba(255,255,255,0.6);
-    --white50: rgba(255,255,255,0.5);
-    --white40: rgba(255,255,255,0.4);
-    --white30: rgba(255,255,255,0.3);
-    --white20: rgba(255,255,255,0.2);
-    --white10: rgba(255,255,255,0.1);
-    --white05: rgba(255,255,255,0.05);
-    --white025: rgba(255,255,255,0.025);
-    --white0125: rgba(255,255,255,0.0125);
+    --white95: rgba(255, 255, 255, 0.95);
+    --white90: rgba(255, 255, 255, 0.9);
+    --white80: rgba(255, 255, 255, 0.8);
+    --white70: rgba(255, 255, 255, 0.7);
+    --white60: rgba(255, 255, 255, 0.6);
+    --white50: rgba(255, 255, 255, 0.5);
+    --white40: rgba(255, 255, 255, 0.4);
+    --white30: rgba(255, 255, 255, 0.3);
+    --white20: rgba(255, 255, 255, 0.2);
+    --white10: rgba(255, 255, 255, 0.1);
+    --white05: rgba(255, 255, 255, 0.05);
+    --white025: rgba(255, 255, 255, 0.025);
+    --white0125: rgba(255, 255, 255, 0.0125);
+    --dots-color: var(--black30);
   }
 
   * {
@@ -173,7 +174,8 @@ const generateHTML = async (directoryPath, baseUrl) => {
     text-rendering: optimizeLegibility;
   }
 
-  html, body {
+  html,
+  body {
     font: 20px/1.5 monospace;
     font-weight: 400;
     line-height: normal;
@@ -202,32 +204,24 @@ const generateHTML = async (directoryPath, baseUrl) => {
     z-index: -1;
   }
 
-  @keyframes slide {
-    from {
-      transform: translate3d(0, 0, 0);
-    }
-    to {
-      transform: translate3d(-25%, 0, 0);
-    }
-  }
-
   #background::before {
     content: "";
     position: absolute;
     width: 400%;
     height: 100%;
     z-index: -1;
-    background-position: 0 0, 25px 25px;
+    background-position:
+      0 0,
+      25px 25px;
     background-size: 50px 50px;
-    background-image: radial-gradient(var(--dots-color) 1px,transparent 0), radial-gradient(var(--dots-color) 1px, transparent 0);
+    background-image: radial-gradient(var(--dots-color) 1px, transparent 0),
+      radial-gradient(var(--dots-color) 1px, transparent 0);
 
     animation: slide 100s linear infinite;
     animation-direction: reverse;
   }
 
-  h1,
-  h2,
-  h3 {
+  h1 {
     font-weight: 700;
     line-height: 1.2;
     color: var(--black);
@@ -250,24 +244,38 @@ const generateHTML = async (directoryPath, baseUrl) => {
   }
 
   .stats {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin-top: 8px;
     color: var(--gray6);
   }
 
   h1,
-  h2,
-  h3
-  .stats,
   .name {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
+    color: var(--black);
   }
 
-  body { color: var(--gray6); background: var(--white); }
-  .size { font-size: 0.75em; }
-  :root { --dots-color: var(--black30); }
-  h1, h2, h3, .name { color: var(--black); }
-  a { color: rgb(6, 125, 247) !important; }
+  body {
+    color: var(--gray6);
+    background: var(--white);
+  }
+
+  .size {
+    font-size: 0.75em;
+  }
+
+  a {
+    color: rgb(6, 125, 247) !important;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-25%, 0, 0);
+    }
+  }
 
   @media (prefers-color-scheme: dark) {
     :root {
@@ -278,7 +286,8 @@ const generateHTML = async (directoryPath, baseUrl) => {
   }
 
   @media only screen and (max-width: 768px) {
-    html, body {
+    html,
+    body {
       font-size: 18px;
     }
   }`
