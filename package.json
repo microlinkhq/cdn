@@ -58,7 +58,7 @@
     "standard": "latest",
     "standard-markdown": "latest",
     "standard-version": "latest",
-    "unique-random-array": "2"
+    "unique-random-array": "4"
   },
   "engines": {
     "node": ">= 18"
