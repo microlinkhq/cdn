@@ -312,7 +312,10 @@ const generateHTML = async (directoryPath, baseUrl) => {
     <div id="background"></div>
     <main>
       <header>
-        <h1 style="margin-bottom:0;">Microlink CDN</h1>
+        <div style="display: flex; align-items: center;">
+          <img style="margin-right: 8px;" alt="microlink logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NCIgaGVpZ2h0PSIzMSI+PHBhdGggZmlsbD0iI2VhNDA3YiIgZD0iTTM4LjQ2Mi4yMDlIMTguNTg3Yy0yLjg3OSAwLTUuMjIxIDIuMjE0LTUuMjIxIDQuOTM1VjcuNjZoMy4zVjUuMTQ0YzAtLjg5NS44NjItMS42MjIgMS45MjEtMS42MjJoMTkuODc1YzEuMDYgMCAxLjkyMS43MjggMS45MjEgMS42MjJWMTcuMjJjMCAuODk0LS44NjIgMS42MjEtMS45MiAxLjYyMUgxOC41ODZjLTEuMDYgMC0xLjkyMi0uNzI3LTEuOTIyLTEuNjIxdi0zLjg1OGgtMy4zdjMuODU4YzAgMi43MiAyLjM0MyA0LjkzNCA1LjIyMiA0LjkzNGgxOS44NzVjMi44NzkgMCA1LjIyLTIuMjE0IDUuMjItNC45MzRWNS4xNDRjMC0yLjcyMi0yLjM0MS00LjkzNS01LjIyLTQuOTM1eiIvPjxwYXRoIGZpbGw9IiM2NTRlYTMiIGQ9Ik0zMC4zMTcgMjUuNzM3VjIzLjIyaC0zLjN2Mi41MTdjMCAuODk1LS44NjIgMS42MjItMS45MjIgMS42MjJINS4yMjFjLTEuMDU5IDAtMS45MjEtLjcyOC0xLjkyMS0xLjYyMlYxMy42NmMwLS44OTQuODYyLTEuNjIxIDEuOTIxLTEuNjIxaDE5Ljg3NGMxLjA2IDAgMS45MjIuNzI3IDEuOTIyIDEuNjIxdjMuODU4aDMuM1YxMy42NmMwLTIuNzItMi4zNDMtNC45MzUtNS4yMjItNC45MzVINS4yMkMyLjM0MyA4LjcyNSAwIDEwLjk0IDAgMTMuNjZ2MTIuMDc3YzAgMi43MjEgMi4zNDMgNC45MzUgNS4yMjEgNC45MzVoMTkuODc0YzIuODggMCA1LjIyMi0yLjIxMyA1LjIyMi00LjkzNXoiLz48L3N2Zz4K" class="Image__StyledImage-kJeZZu kwDEid Microlink___StyledImageComponent-TYqFH khPVbw">
+          <h1 style="margin-bottom: 0">Microlink CDN</h1>
+        </div>
         <p class="stats">${formatNumber(dirs)} directories, ${formatNumber(
     files
   )} files, ${size}.</p>
