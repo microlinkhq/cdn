@@ -210,13 +210,9 @@ const generateHTML = async (directoryPath, baseUrl) => {
     width: 400%;
     height: 100%;
     z-index: -1;
-    background-position:
-      0 0,
-      25px 25px;
+    background-position: 0 0, 25px 25px;
     background-size: 50px 50px;
-    background-image: radial-gradient(var(--dots-color) 1px, transparent 0),
-      radial-gradient(var(--dots-color) 1px, transparent 0);
-
+    background-image: radial-gradient(var(--dots-color) 1px, transparent 0), radial-gradient(var(--dots-color) 1px, transparent 0);
     animation: slide 100s linear infinite;
     animation-direction: reverse;
   }
