@@ -277,7 +277,7 @@ const generateHTML = async (directoryPath, baseUrl) => {
     :root {
       --white: #000;
       --black: #fff;
-      --dots-color: var(--gray7);
+      --dots-color: var(--gray8);
     }
   }
 
