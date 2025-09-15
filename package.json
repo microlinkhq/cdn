@@ -37,7 +37,7 @@
     "cartesian": "latest",
     "debug-logfmt": "latest",
     "download": "latest",
-    "filenamify-url": "2",
+    "filenamify-url": "4",
     "finepack": "latest",
     "fs-extra": "latest",
     "git-authors-cli": "latest",
