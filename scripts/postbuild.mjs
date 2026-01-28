@@ -5,14 +5,16 @@ import { readFile } from 'fs/promises'
 import prettyMs from 'pretty-ms'
 import got from 'got'
 
-const URLS = await readFile(new URL('../urls.json', import.meta.url), 'utf8').then(JSON.parse)
+const URLS = await readFile(
+  new URL('../urls.json', import.meta.url),
+  'utf8'
+).then(JSON.parse)
 
 const timeSpan = createTimeSpan({ format: prettyMs })
 
 const {
   CLOUDFLARE_MAX_FILES = 30,
-  CLOUDFLARE_AUTH_EMAIL,
-  CLOUDFLARE_AUTH_KEY,
+  CLOUDFLARE_TOKEN,
   CLOUDFLARE_ZONE_ID
 } = process.env
 
@@ -30,9 +32,8 @@ const cloudflare = got.extend({
   responseType: 'json',
   resolveBodyOnly: true,
   headers: {
-    'user-agent': undefined,
-    'x-auth-email': CLOUDFLARE_AUTH_EMAIL,
-    'x-auth-key': CLOUDFLARE_AUTH_KEY
+    Authorization: `Bearer ${CLOUDFLARE_TOKEN}`,
+    'user-agent': undefined
   }
 })
 
