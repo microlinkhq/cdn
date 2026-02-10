@@ -1,7 +1,10 @@
 'use strict'
 
-const { gray } = require('picocolors')
+const { styleText } = require('node:util')
+
 const { description } = require('../package')
+
+const gray = str => styleText('gray', str)
 
 module.exports = `${description}.
 
