@@ -27,7 +27,6 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@kikobeats/time-span": "latest",
-    "@ksmithut/prettier-standard": "latest",
     "@microlink/demo-links": "latest",
     "@microlink/mql": "latest",
     "@microlink/recipes": "latest",
@@ -94,7 +93,6 @@
   },
   "nano-staged": {
     "*.js": [
-      "prettier-standard",
       "standard --fix"
     ],
     "*.md": [
